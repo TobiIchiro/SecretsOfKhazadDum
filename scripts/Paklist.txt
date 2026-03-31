@@ -1,0 +1,3 @@
+"F:/RtoM/SecretsOfKhazadDum/json/Moria/Content/Localization/Game/es/Game.locres" "../../../Moria/Content/Localization/Game/es/Game.locres"
+"F:/RtoM/SecretsOfKhazadDum/json/Moria/Content/Localization/Game/fr/Game.locres" "../../../Moria/Content/Localization/Game/fr/Game.locres"
+"F:/RtoM/SecretsOfKhazadDum/json/Moria/Config/DefaultGameplayTags.ini" "../../../Moria/Config/DefaultGameplayTags.ini"
