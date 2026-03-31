@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Items/Effects/TintEffects/IE_TintEffect_MoonStone",
+    "/Game/Mods/MoreTintsPack/IE_TintEffect_MoonStone",
     "/Script/CoreUObject",
     "/Script/Moria",
     "Class",
@@ -259,7 +259,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Effects/TintEffects/IE_TintEffect_MoonStone",
+  "FolderName": "/Game/Mods/MoreTintsPack/IE_TintEffect_MoonStone",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

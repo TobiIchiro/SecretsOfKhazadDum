@@ -2,18 +2,18 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/MoreTintsPack/IE_TintEffect_MoonStone",
+    "/Game/Mods/MoreTintsPack/IE_TintEffect_Ironwood",
     "/Script/CoreUObject",
     "/Script/Moria",
     "Class",
     "Default__MorItemTintEffect",
-    "IE_TintEffect_MoonStone",
+    "IE_TintEffect_Ironwood",
     "MorItemTintEffect",
     "MorItemTintRowHandle",
     "NameProperty",
     "None",
     "Package",
-    "Cyan",
+    "Brown",
     "RowHandle",
     "RowName",
     "StructProperty"
@@ -148,7 +148,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Cyan"
+              "Value": "Brown"
             }
           ]
         }
@@ -156,7 +156,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "IE_TintEffect_MoonStone",
+      "ObjectName": "IE_TintEffect_Ironwood",
       "OuterIndex": 0,
       "ClassIndex": -1,
       "SuperIndex": 0,
@@ -259,7 +259,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/MoreTintsPack/IE_TintEffect_MoonStone",
+  "FolderName": "/Game/Mods/MoreTintsPack/IE_TintEffect_Ironwood",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
