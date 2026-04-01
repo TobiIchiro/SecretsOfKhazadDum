@@ -110,7 +110,7 @@
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
-    "Ballin_Sword",
+    "Balin_Sword",
     "T_UI_Icon_Balin_Sword",
     "Texture2D",
     "TransformLocatorComponent",
@@ -334,7 +334,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Ballin_Sword"
+              "Value": "Balin_Sword"
             }
           ]
         },
