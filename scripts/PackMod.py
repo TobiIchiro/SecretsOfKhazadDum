@@ -10,11 +10,19 @@ RETOC_PATH = "F:/RtoM/retoc-x86_64-pc-windows-msvc/retoc.exe"
 UE_VERSION = "UE4_27"
 
 # Create SecratsOfKhazadDum_LocTags.pak
-locTagPath = os.path.join(DESTINATION_PATH,"SecratsOfKhazadDum_LocTags.pak")
+locTagPath = os.path.join(DESTINATION_PATH,"SecratsOfKhazadDum_LocTags_P.pak")
 cmd = [UNREALPAK_PATH, locTagPath, f"-create{PACK_LIST_PATH}"]
 result = subprocess.run(cmd, capture_output=True, text=True)
 
+if result.returncode != 0:
+            print("Error converting")
+            print(result.stderr)
+
 # Create SecratsOfKhazadDum.pak, SecratsOfKhazadDum.ucas, SecratsOfKhazadDum.utoc
-modPath = os.path.join(DESTINATION_PATH, "SecratsOfKhazadDum.utoc")
+modPath = os.path.join(DESTINATION_PATH, "SecratsOfKhazadDum_P.utoc")
 cmd = [RETOC_PATH, "to-zen", "--version", UE_VERSION, INPUT_PATH, modPath]
 result = subprocess.run(cmd, capture_output=True, text=True)
+
+if result.returncode != 0:
+            print("Error converting")
+            print(result.stderr)
