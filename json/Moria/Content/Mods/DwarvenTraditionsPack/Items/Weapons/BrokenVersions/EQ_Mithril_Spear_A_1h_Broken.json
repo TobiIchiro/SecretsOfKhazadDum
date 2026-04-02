@@ -29,7 +29,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_Category_Weapon_C",
-    "Mithril_Spear",
+    "Broken_Mithril_Spear",
     "ByteProperty",
     "Callout Data",
     "CalloutData",
@@ -330,7 +330,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Mithril_Spear"
+              "Value": "Broken_Mithril_Spear"
             }
           ]
         },

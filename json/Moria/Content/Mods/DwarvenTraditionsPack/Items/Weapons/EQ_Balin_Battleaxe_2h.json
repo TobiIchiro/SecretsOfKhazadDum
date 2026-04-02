@@ -26,7 +26,7 @@
     "AttachParent",
     "Attacker",
     "AutoAttachSocketName",
-    "Ballin_Battleaxe",
+    "Balin_Battleaxe",
     "bAutoActivate",
     "bHasValidCookedData",
     "bloodtrail",
@@ -1264,7 +1264,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Ballin_Battleaxe"
+              "Value": "Balin_Battleaxe"
             }
           ]
         },

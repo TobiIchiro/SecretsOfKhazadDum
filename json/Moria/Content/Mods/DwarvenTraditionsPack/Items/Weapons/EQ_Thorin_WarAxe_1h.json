@@ -116,7 +116,7 @@
     "TransformLocatorComponent",
     "VariableGuid",
     "Vector",
-    "Thorin_Axe",
+    "Thorin_WarAxe",
     "WeaponParticleEffectArea",
     "WeaponVFX",
     "WeaponVFX_GEN_VARIABLE",
@@ -361,7 +361,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Thorin_Axe"
+              "Value": "Thorin_WarAxe"
             }
           ]
         },
