@@ -2,11 +2,11 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Art/Assets/GPI/OrganicMaterials/Materials/MI_GPI_Ingredients_A",
+    "/Game/Mods/DwarvenTraditionsPack/Items/Consumables/Materials/MI_Coffee_Sack",
     "/Game/Art/Assets/GPI/Resources/GPI_Fertiliser",
     "/Game/Items/BP_Category_Resource",
-    "/Game/Items/BP_Droppings",
-    "/Game/UI/Textures/_Icons/ItemRenders/Items/T_UI_Icon_Items_Fertiliser",
+    "/Game/Mods/DwarvenTraditionsPack/Items/Consumables/BP_Coffee",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Coffee",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
@@ -19,7 +19,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_Category_Resource_C",
-    "BP_Droppings_C",
+    "BP_Coffee_C",
     "Callout Data",
     "CalloutData",
     "CalloutDataComponent",
@@ -28,7 +28,7 @@
     "ComponentTemplate",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Category_Resource_C",
-    "Default__BP_Droppings_C",
+    "Default__BP_Coffee_C",
     "Default__SceneComponent",
     "Default__SCS_Node",
     "Default__SimpleConstructionScript",
@@ -36,7 +36,7 @@
     "DefaultSceneRoot",
     "DefaultSceneRoot_GEN_VARIABLE",
     "DefaultSceneRootNode",
-    "Droppings",
+    "Tobi_Coffee",
     "Engine",
     "GPI_Fertiliser",
     "Guid",
@@ -45,8 +45,8 @@
     "IconTextureReference",
     "InternalVariableName",
     "MaterialInstanceConstant",
-    "MI_GPI_Ingredients_A",
-    "MorItemRowHandle",
+    "MI_Coffee_Sack",
+    "MorConsumableRowHandle",
     "NameProperty",
     "NiagaraComponent",
     "NiagaraUserRedirectionParameterStore",
@@ -71,10 +71,12 @@
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_Items_Fertiliser",
+    "T_UI_Icon_Coffee",
     "Texture2D",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Mods/DwarvenTraditionsPack/Items/Consumables/Materials/MI_Coffee_Tag",
+    "MI_Coffee_Tag"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -240,7 +242,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Droppings_C",
+      "ObjectName": "BP_Coffee_C",
       "OuterIndex": 0,
       "ClassIndex": -6,
       "SuperIndex": -1,
@@ -270,7 +272,8 @@
         -28,
         -30,
         -6,
-        -2
+        -2,
+        -32
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -280,7 +283,7 @@
       "Data": [
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-          "StructType": "MorItemRowHandle",
+          "StructType": "MorConsumableRowHandle",
           "SerializeNone": true,
           "StructGUID": "{00000000-0000-0000-0000-000000000000}",
           "SerializationControl": "NoExtension",
@@ -298,7 +301,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Droppings"
+              "Value": "Tobi_Coffee"
             }
           ]
         },
@@ -351,7 +354,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Droppings_C",
+      "ObjectName": "Default__BP_Coffee_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -874,6 +877,15 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": -13
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -32
             }
           ]
         },
@@ -1094,7 +1106,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_GPI_Ingredients_A",
+      "ObjectName": "MI_Coffee_Sack",
       "OuterIndex": -16,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1121,7 +1133,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/GPI/OrganicMaterials/Materials/MI_GPI_Ingredients_A",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Items/Consumables/Materials/MI_Coffee_Sack",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1139,7 +1151,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/UI/Textures/_Icons/ItemRenders/Items/T_UI_Icon_Items_Fertiliser",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Coffee",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1247,10 +1259,28 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_Items_Fertiliser",
+      "ObjectName": "T_UI_Icon_Coffee",
       "OuterIndex": -18,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Items/Consumables/Materials/MI_Coffee_Tag",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Coffee_Tag",
+      "OuterIndex": -31,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }
@@ -1299,7 +1329,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/BP_Droppings",
+  "FolderName": "/Game/Mods/DwarvenTraditionsPack/Items/Consumables/BP_Coffee",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
