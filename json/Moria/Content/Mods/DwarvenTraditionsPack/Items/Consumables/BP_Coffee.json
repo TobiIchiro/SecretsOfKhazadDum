@@ -4,31 +4,49 @@
   "NameMap": [
     "/Game/Mods/DwarvenTraditionsPack/Items/Consumables/Materials/MI_Coffee_Sack",
     "/Game/Art/Assets/GPI/Resources/GPI_Fertiliser",
-    "/Game/Items/BP_Category_Resource",
+    "/Game/Character/Dwarf/Abilities/GA_UseFoodItem",
+    "/Game/Items/BP_Category_Food",
     "/Game/Mods/DwarvenTraditionsPack/Items/Consumables/BP_Coffee",
+    "/Game/Items/GE_Mushroom",
     "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Coffee",
+    "/Game/WwiseAudio/Events/Default_Work_Unit/VX_Temp/Dwarf_1/Player_Callouts/vx_plr_calloutmushroom_01_play",
+    "/Script/AkAudio",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
     "/Script/Niagara",
+    "Abilities",
+    "AkAudioEvent",
+    "AkEvent",
     "AllNodes",
     "ArrayProperty",
     "AttachParent",
-    "bAutopickup",
+    "bDropOnDeath",
     "bIsParentComponentNative",
     "BlueprintGeneratedClass",
+    "BodyInstance",
     "BoolProperty",
-    "BP_Category_Resource_C",
+    "BP_Category_Food_C",
     "BP_Coffee_C",
+    "ByteProperty",
     "Callout Data",
     "CalloutData",
     "CalloutDataComponent",
+    "Camera",
+    "Channel",
     "Class",
+    "CollisionEnabled",
+    "CollisionProfileName",
+    "CollisionResponse",
+    "CollisionResponses",
     "ComponentClass",
     "ComponentTemplate",
+    "CustomVoiceLine",
     "Default__BlueprintGeneratedClass",
-    "Default__BP_Category_Resource_C",
+    "Default__BP_Category_Food_C",
     "Default__BP_Coffee_C",
+    "Default__GA_UseFoodItem_C",
+    "Default__GE_Mushroom_C",
     "Default__SceneComponent",
     "Default__SCS_Node",
     "Default__SimpleConstructionScript",
@@ -36,17 +54,31 @@
     "DefaultSceneRoot",
     "DefaultSceneRoot_GEN_VARIABLE",
     "DefaultSceneRootNode",
-    "Tobi_Coffee",
+    "Destructible",
+    "ECollisionEnabled",
+    "ECollisionEnabled::QueryOnly",
+    "ECollisionResponse",
+    "ECR_Ignore",
+    "ECR_Overlap",
     "Engine",
+    "EngineTraceChannel2",
+    "EngineTraceChannel3",
+    "EngineTraceChannel4",
+    "EngineTraceChannel5",
+    "EngineTraceChannel6",
+    "GA_UseFoodItem_C",
+    "GE_Mushroom_C",
     "GPI_Fertiliser",
+    "Tobi_Coffee",
     "Guid",
-    "Hide_Mesh",
-    "Hide_Mesh_GEN_VARIABLE",
     "IconTextureReference",
+    "IgnoreOnlyPawn",
     "InternalVariableName",
     "MaterialInstanceConstant",
     "MI_Coffee_Sack",
     "MorConsumableRowHandle",
+    "MorGameplayEffectUIData",
+    "MoriaGameplayEffectUIData",
     "NameProperty",
     "NiagaraComponent",
     "NiagaraUserRedirectionParameterStore",
@@ -57,9 +89,16 @@
     "OverrideParameters",
     "Package",
     "ParentComponentOrVariableName",
+    "Pawn",
+    "PhysicsBody",
+    "Pickup",
     "RelativeLocation",
     "RelativeScale3D",
+    "Response",
+    "ResponseArray",
+    "ResponseChannel",
     "RibbonTrails",
+    "ROOT",
     "Root",
     "RootComponent",
     "RootNodes",
@@ -68,13 +107,23 @@
     "SceneComponent",
     "SCS_Node",
     "SimpleConstructionScript",
+    "SM_bell_middle",
+    "SM_bell_middle_GEN_VARIABLE",
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
     "T_UI_Icon_Coffee",
     "Texture2D",
+    "UseEffects",
     "VariableGuid",
     "Vector",
+    "Vehicle",
+    "Visibility",
+    "VoiceLine",
+    "Voxel",
+    "vx_plr_calloutmushroom_01_play",
+    "WorldDynamic",
+    "WorldStatic",
     "/Game/Mods/DwarvenTraditionsPack/Items/Consumables/Materials/MI_Coffee_Tag",
     "MI_Coffee_Tag"
   ],
@@ -189,19 +238,19 @@
       "$type": "UAssetAPI.ExportTypes.ClassExport, UAssetAPI",
       "FuncMap": [],
       "ClassFlags": "CLASS_Config, CLASS_Parsed, CLASS_ReplicationDataIsSetUp, CLASS_CompiledFromBlueprint, CLASS_HasInstancedReference",
-      "ClassWithin": -5,
+      "ClassWithin": -8,
       "ClassConfigName": "Engine",
       "Interfaces": [],
       "ClassGeneratedBy": 0,
       "bDeprecatedForceScriptOrder": false,
       "bCooked": true,
       "ClassDefaultObject": 2,
-      "SuperStruct": -1,
+      "SuperStruct": -3,
       "Children": [],
       "LoadedProperties": [
         {
           "$type": "UAssetAPI.FieldTypes.FObjectProperty, UAssetAPI",
-          "PropertyClass": -10,
+          "PropertyClass": -13,
           "ArrayDim": "TArray",
           "ElementSize": 8,
           "PropertyFlags": "CPF_BlueprintVisible, CPF_InstancedReference, CPF_NonTransactional",
@@ -216,7 +265,7 @@
             "SoftClassProperty": "SoftObjectProperty"
           },
           "SerializedType": "ObjectProperty",
-          "Name": "Hide_Mesh",
+          "Name": "SM_bell_middle",
           "Flags": "RF_Public, RF_LoadCompleted",
           "MetaDataMap": null
         }
@@ -244,12 +293,12 @@
       "Operation": "None",
       "ObjectName": "BP_Coffee_C",
       "OuterIndex": 0,
-      "ClassIndex": -6,
-      "SuperIndex": -1,
-      "TemplateIndex": -2,
+      "ClassIndex": -9,
+      "SuperIndex": -3,
+      "TemplateIndex": -5,
       "ObjectFlags": "RF_Public, RF_Transactional",
       "SerialSize": 160,
-      "SerialOffset": 4369,
+      "SerialOffset": 5694,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -263,17 +312,20 @@
       "GeneratePublicHash": false,
       "SerializationBeforeSerializationDependencies": [
         9,
-        -1
+        -3
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -24,
-        -13,
-        -28,
-        -30,
-        -6,
-        -2,
-        -32
+        -31,
+        -1,
+        -16,
+        -37,
+        -35,
+        -39,
+        -41,
+        -18,
+        -9,
+        -5
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -312,7 +364,27 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -30
+          "Value": -37
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "UseEffects",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -4
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -334,12 +406,32 @@
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
-          "Name": "bAutopickup",
+          "Name": "bDropOnDeath",
           "ArrayIndex": 0,
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": false
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "Abilities",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -2
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -358,10 +450,10 @@
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
-      "TemplateIndex": -3,
+      "TemplateIndex": -6,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ClassDefaultObject, RF_ArchetypeObject",
-      "SerialSize": 240,
-      "SerialOffset": 4529,
+      "SerialSize": 322,
+      "SerialOffset": 5854,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -379,25 +471,50 @@
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
         1,
-        -3
+        -6
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
     },
     {
       "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
-      "Data": [],
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "VoiceLine",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "CustomVoiceLine",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "AkEvent",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -1
+            }
+          ]
+        }
+      ],
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
       "ObjectName": "Callout Data",
       "OuterIndex": 2,
-      "ClassIndex": -11,
+      "ClassIndex": -14,
       "SuperIndex": 0,
-      "TemplateIndex": -4,
+      "TemplateIndex": -7,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
-      "SerialSize": 12,
-      "SerialOffset": 4769,
+      "SerialSize": 98,
+      "SerialOffset": 6176,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -414,8 +531,8 @@
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -11,
-        -4
+        -14,
+        -7
       ],
       "CreateBeforeCreateDependencies": [
         2
@@ -454,12 +571,12 @@
       "Operation": "None",
       "ObjectName": "RibbonTrails",
       "OuterIndex": 2,
-      "ClassIndex": -12,
+      "ClassIndex": -15,
       "SuperIndex": 0,
-      "TemplateIndex": -14,
+      "TemplateIndex": -19,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
       "SerialSize": 98,
-      "SerialOffset": 4781,
+      "SerialOffset": 6274,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -476,8 +593,8 @@
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -12,
-        -14
+        -15,
+        -19
       ],
       "CreateBeforeCreateDependencies": [
         3,
@@ -493,12 +610,12 @@
       "Operation": "None",
       "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
       "OuterIndex": 1,
-      "ClassIndex": -7,
+      "ClassIndex": -10,
       "SuperIndex": 0,
-      "TemplateIndex": -25,
+      "TemplateIndex": -32,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
       "SerialSize": 12,
-      "SerialOffset": 4879,
+      "SerialOffset": 6372,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -515,8 +632,8 @@
         4
       ],
       "SerializationBeforeCreateDependencies": [
-        -7,
-        -25
+        -10,
+        -32
       ],
       "CreateBeforeCreateDependencies": [
         1
@@ -531,12 +648,12 @@
       "Operation": "None",
       "ObjectName": "Root",
       "OuterIndex": 2,
-      "ClassIndex": -7,
+      "ClassIndex": -10,
       "SuperIndex": 0,
-      "TemplateIndex": -24,
+      "TemplateIndex": -31,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
       "SerialSize": 12,
-      "SerialOffset": 4891,
+      "SerialOffset": 6384,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -554,8 +671,8 @@
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
         5,
-        -7,
-        -24
+        -10,
+        -31
       ],
       "CreateBeforeCreateDependencies": [
         2
@@ -572,7 +689,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -7
+          "Value": -10
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -622,12 +739,12 @@
       "Operation": "None",
       "ObjectName": "SCS_Node_0",
       "OuterIndex": 9,
-      "ClassIndex": -8,
+      "ClassIndex": -11,
       "SuperIndex": 0,
-      "TemplateIndex": -26,
+      "TemplateIndex": -33,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 168,
-      "SerialOffset": 4903,
+      "SerialOffset": 6396,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -642,8 +759,8 @@
       "SerializationBeforeSerializationDependencies": [],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -8,
-        -26
+        -11,
+        -33
       ],
       "CreateBeforeCreateDependencies": [
         9
@@ -660,7 +777,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -10
+          "Value": -13
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -678,7 +795,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Root"
+          "Value": "ROOT"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
@@ -709,7 +826,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "{26D67C78-47EE-B3F3-74DB-31B68AF47F0F}"
+              "Value": "{829015DD-42D2-8723-E25F-3CB0FF80E023}"
             }
           ]
         },
@@ -720,20 +837,20 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Hide_Mesh"
+          "Value": "SM_bell_middle"
         }
       ],
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "SCS_Node_3",
+      "ObjectName": "SCS_Node_2",
       "OuterIndex": 9,
-      "ClassIndex": -8,
+      "ClassIndex": -11,
       "SuperIndex": 0,
-      "TemplateIndex": -26,
+      "TemplateIndex": -33,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 227,
-      "SerialOffset": 5071,
+      "SerialOffset": 6564,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -751,8 +868,8 @@
       ],
       "SerializationBeforeCreateDependencies": [
         7,
-        -8,
-        -26
+        -11,
+        -33
       ],
       "CreateBeforeCreateDependencies": [
         9
@@ -817,12 +934,12 @@
       "Operation": "None",
       "ObjectName": "SimpleConstructionScript_0",
       "OuterIndex": 1,
-      "ClassIndex": -9,
+      "ClassIndex": -12,
       "SuperIndex": 0,
-      "TemplateIndex": -27,
+      "TemplateIndex": -34,
       "ObjectFlags": "RF_Transactional",
       "SerialSize": 123,
-      "SerialOffset": 5298,
+      "SerialOffset": 6791,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -839,8 +956,8 @@
         8
       ],
       "SerializationBeforeCreateDependencies": [
-        -9,
-        -27
+        -12,
+        -34
       ],
       "CreateBeforeCreateDependencies": [
         5,
@@ -858,7 +975,593 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -28
+          "Value": -35
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "BodyInstance",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "BodyInstance",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+              "ByteType": "FName",
+              "EnumType": "ECollisionEnabled",
+              "EnumValue": "ECollisionEnabled::QueryOnly",
+              "Name": "CollisionEnabled",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension"
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+              "Name": "CollisionProfileName",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "IgnoreOnlyPawn"
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "CollisionResponse",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "CollisionResponses",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                  "ArrayType": "StructProperty",
+                  "Name": "ResponseArray",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "WorldStatic"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Overlap",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "WorldDynamic"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Overlap",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "Pawn"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Ignore",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "Visibility"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Ignore",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "Camera"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Ignore",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "PhysicsBody"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Overlap",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "Vehicle"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Ignore",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "Destructible"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Overlap",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "EngineTraceChannel2"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Ignore",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "EngineTraceChannel3"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Ignore",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "EngineTraceChannel4"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Ignore",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "EngineTraceChannel5"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Ignore",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "EngineTraceChannel6"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Ignore",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "Pickup"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Overlap",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "ResponseChannel",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "ResponseArray",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "Channel",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "Voxel"
+                        },
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
+                          "ByteType": "FName",
+                          "EnumType": "ECollisionResponse",
+                          "EnumValue": "ECR_Overlap",
+                          "Name": "Response",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
@@ -876,7 +1579,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -13
+              "Value": -39
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -885,7 +1588,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -32
+              "Value": -41
             }
           ]
         },
@@ -951,14 +1654,14 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Hide_Mesh_GEN_VARIABLE",
+      "ObjectName": "SM_bell_middle_GEN_VARIABLE",
       "OuterIndex": 1,
-      "ClassIndex": -10,
+      "ClassIndex": -13,
       "SuperIndex": 0,
-      "TemplateIndex": -29,
+      "TemplateIndex": -36,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
-      "SerialSize": 208,
-      "SerialOffset": 5421,
+      "SerialSize": 1671,
+      "SerialOffset": 6914,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -975,8 +1678,8 @@
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -10,
-        -29
+        -13,
+        -36
       ],
       "CreateBeforeCreateDependencies": [
         6,
@@ -988,7 +1691,7 @@
   "SearchableNames": null,
   "Thumbnails": null,
   "WorldTileInfo": null,
-  "AppendedNullBytes": 68,
+  "AppendedNullBytes": 56,
   "OtherAssetsFailedToAccess": [],
   "LegacyFileVersion": -7,
   "DataResourceVersion": "Invalid",
@@ -998,8 +1701,35 @@
   "Imports": [
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "BP_Category_Resource_C",
-      "OuterIndex": -15,
+      "ObjectName": "vx_plr_calloutmushroom_01_play",
+      "OuterIndex": -20,
+      "ClassPackage": "/Script/AkAudio",
+      "ClassName": "AkAudioEvent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GA_UseFoodItem_C",
+      "OuterIndex": -21,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_Category_Food_C",
+      "OuterIndex": -22,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_Mushroom_C",
+      "OuterIndex": -23,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
       "PackageName": null,
@@ -1008,7 +1738,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__BlueprintGeneratedClass",
-      "OuterIndex": -20,
+      "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
       "PackageName": null,
@@ -1016,17 +1746,17 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__BP_Category_Resource_C",
-      "OuterIndex": -15,
-      "ClassPackage": "/Game/Items/BP_Category_Resource",
-      "ClassName": "BP_Category_Resource_C",
+      "ObjectName": "Default__BP_Category_Food_C",
+      "OuterIndex": -22,
+      "ClassPackage": "/Game/Items/BP_Category_Food",
+      "ClassName": "BP_Category_Food_C",
       "PackageName": null,
       "bImportOptional": false
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Callout Data",
-      "OuterIndex": -3,
+      "OuterIndex": -6,
       "ClassPackage": "/Script/Moria",
       "ClassName": "CalloutDataComponent",
       "PackageName": null,
@@ -1035,7 +1765,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Object",
-      "OuterIndex": -19,
+      "OuterIndex": -26,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1044,7 +1774,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "BlueprintGeneratedClass",
-      "OuterIndex": -20,
+      "OuterIndex": -27,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1053,7 +1783,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "SceneComponent",
-      "OuterIndex": -20,
+      "OuterIndex": -27,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1062,7 +1792,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "SCS_Node",
-      "OuterIndex": -20,
+      "OuterIndex": -27,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1071,7 +1801,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "SimpleConstructionScript",
-      "OuterIndex": -20,
+      "OuterIndex": -27,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1080,7 +1810,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "StaticMeshComponent",
-      "OuterIndex": -20,
+      "OuterIndex": -27,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1089,7 +1819,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "CalloutDataComponent",
-      "OuterIndex": -21,
+      "OuterIndex": -28,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1098,7 +1828,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "NiagaraComponent",
-      "OuterIndex": -22,
+      "OuterIndex": -29,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -1106,17 +1836,35 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_Coffee_Sack",
-      "OuterIndex": -16,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "MaterialInstanceConstant",
+      "ObjectName": "Default__GA_UseFoodItem_C",
+      "OuterIndex": -21,
+      "ClassPackage": "/Game/Character/Dwarf/Abilities/GA_UseFoodItem",
+      "ClassName": "GA_UseFoodItem_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_Mushroom_C",
+      "OuterIndex": -23,
+      "ClassPackage": "/Game/Items/GE_Mushroom",
+      "ClassName": "GE_Mushroom_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MoriaGameplayEffectUIData_0",
+      "OuterIndex": -17,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorGameplayEffectUIData",
       "PackageName": null,
       "bImportOptional": false
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "RibbonTrails",
-      "OuterIndex": -3,
+      "OuterIndex": -6,
       "ClassPackage": "/Script/Niagara",
       "ClassName": "NiagaraComponent",
       "PackageName": null,
@@ -1124,7 +1872,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/BP_Category_Resource",
+      "ObjectName": "/Game/WwiseAudio/Events/Default_Work_Unit/VX_Temp/Dwarf_1/Player_Callouts/vx_plr_calloutmushroom_01_play",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1133,7 +1881,25 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Items/Consumables/Materials/MI_Coffee_Sack",
+      "ObjectName": "/Game/Character/Dwarf/Abilities/GA_UseFoodItem",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/BP_Category_Food",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/GE_Mushroom",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1197,15 +1963,6 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
-      "OuterIndex": -1,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "SceneComponent",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Root",
       "OuterIndex": -3,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SceneComponent",
@@ -1214,8 +1971,17 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Root",
+      "OuterIndex": -6,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__SceneComponent",
-      "OuterIndex": -20,
+      "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SceneComponent",
       "PackageName": null,
@@ -1224,7 +1990,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__SCS_Node",
-      "OuterIndex": -20,
+      "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SCS_Node",
       "PackageName": null,
@@ -1233,7 +1999,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__SimpleConstructionScript",
-      "OuterIndex": -20,
+      "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SimpleConstructionScript",
       "PackageName": null,
@@ -1242,7 +2008,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "GPI_Fertiliser",
-      "OuterIndex": -17,
+      "OuterIndex": -24,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
       "PackageName": null,
@@ -1251,7 +2017,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__StaticMeshComponent",
-      "OuterIndex": -20,
+      "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMeshComponent",
       "PackageName": null,
@@ -1260,9 +2026,27 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_Icon_Coffee",
-      "OuterIndex": -18,
+      "OuterIndex": -25,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Items/Consumables/Materials/MI_Coffee_Sack",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Coffee_Sack",
+      "OuterIndex": -38,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -1278,7 +2062,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "MI_Coffee_Tag",
-      "OuterIndex": -31,
+      "OuterIndex": -40,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
@@ -1306,7 +2090,7 @@
     {
       "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
       "ExportCount": 10,
-      "NameCount": 73
+      "NameCount": 118
     }
   ],
   "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
@@ -1337,7 +2121,7 @@
   "ThumbnailTableOffset": 0,
   "CompressionFlags": 0,
   "AdditionalPackagesToCook": [],
-  "NamesReferencedFromExportDataCount": 73,
+  "NamesReferencedFromExportDataCount": 118,
   "PayloadTocOffset": -1,
   "DataResourceOffset": -1,
   "doWeHaveAssetRegistryData": true,
