@@ -3,8 +3,8 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Character/Dwarf/Abilities/GA_UseFoodItem_Drink",
-    "/Game/Mods/Dwarven_Traditions/Brewed_Niphredil_Tea_Brew/BP_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
-    "/Game/Mods/Dwarven_Traditions/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/BP_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
     "/Game/Items/BP_Category_Brew",
     "/Game/Unshippable/ThirdParty/MedievalVOL6/Meshes/SM_Tankard_01a",
     "/Script/CoreUObject",
@@ -1261,7 +1261,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/Dwarven_Traditions/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1422,7 +1422,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/Dwarven_Traditions/Brewed_Niphredil_Tea_Brew/BP_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
+  "FolderName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/BP_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

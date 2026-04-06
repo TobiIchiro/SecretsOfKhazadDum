@@ -3,7 +3,7 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Character/Shared/Effects/Survival/MMC_ThresholdUIProgress_Base",
-    "/Game/Mods/Dwarven_Traditions/Ember_Ale_Brew/MMC_Dwarven_Traditions_Ember_Ale_UIProgress",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/MMC_Dwarven_Traditions_Ember_Ale_UIProgress",
     "/Script/CoreUObject",
     "/Script/Engine",
     "BlueprintGeneratedClass",
@@ -367,7 +367,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/Dwarven_Traditions/Ember_Ale_Brew/MMC_Dwarven_Traditions_Ember_Ale_UIProgress",
+  "FolderName": "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/MMC_Dwarven_Traditions_Ember_Ale_UIProgress",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

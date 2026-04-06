@@ -2,8 +2,8 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/Dwarven_Traditions/Anvil_Cocoa_Brew/GE_Dwarven_Traditions_Anvil_Cocoa_Effects",
-    "/Game/Mods/Dwarven_Traditions/Icons/T_UI_Icon_Dwarven_Traditions_Anvil_Cocoa",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/GE_Dwarven_Traditions_Anvil_Cocoa_Effects",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Anvil_Cocoa",
     "/Game/Tech/Data/StringTables/ST_Effects",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects",
     "/Script/CoreUObject",
@@ -3277,7 +3277,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/Dwarven_Traditions/Icons/T_UI_Icon_Dwarven_Traditions_Anvil_Cocoa",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Anvil_Cocoa",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3394,7 +3394,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/Dwarven_Traditions/Anvil_Cocoa_Brew/GE_Dwarven_Traditions_Anvil_Cocoa_Effects",
+  "FolderName": "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/GE_Dwarven_Traditions_Anvil_Cocoa_Effects",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

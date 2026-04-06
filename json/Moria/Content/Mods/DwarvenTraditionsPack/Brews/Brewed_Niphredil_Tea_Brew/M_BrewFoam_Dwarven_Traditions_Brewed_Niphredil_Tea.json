@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/Dwarven_Traditions/Brewed_Niphredil_Tea_Brew/M_BrewFoam_Dwarven_Traditions_Brewed_Niphredil_Tea",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/M_BrewFoam_Dwarven_Traditions_Brewed_Niphredil_Tea",
     "/Game/FX/BrewFX/Materials/M_BrewFoam",
     "/Game/Unshippable/Cinematics/Cine001/FX/Mats/Foam_Ambient_Occlusion",
     "/Game/Unshippable/Cinematics/Cine001/FX/Mats/Foam_Base_Color",
@@ -870,7 +870,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/Dwarven_Traditions/Brewed_Niphredil_Tea_Brew/M_BrewFoam_Dwarven_Traditions_Brewed_Niphredil_Tea",
+  "FolderName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/M_BrewFoam_Dwarven_Traditions_Brewed_Niphredil_Tea",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

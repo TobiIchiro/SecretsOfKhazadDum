@@ -2,8 +2,8 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/Dwarven_Traditions/Brewed_Niphredil_Tea_Brew/GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects",
-    "/Game/Mods/Dwarven_Traditions/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea",
     "/Game/Tech/Data/StringTables/ST_Effects",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects",
     "/Script/CoreUObject",
@@ -4482,7 +4482,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/Dwarven_Traditions/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -4599,7 +4599,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/Dwarven_Traditions/Brewed_Niphredil_Tea_Brew/GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects",
+  "FolderName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

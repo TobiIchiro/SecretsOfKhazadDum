@@ -2,8 +2,8 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/Dwarven_Traditions/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewSip",
-    "/Game/Mods/Dwarven_Traditions/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewTracker",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewSip",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewTracker",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/GameplayAbilities",
@@ -1770,7 +1770,7 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__GE_Dwarven_Traditions_Ember_Ale_BrewTracker_C",
       "OuterIndex": -10,
-      "ClassPackage": "/Game/Mods/Dwarven_Traditions/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewTracker",
+      "ClassPackage": "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewTracker",
       "ClassName": "GE_Dwarven_Traditions_Ember_Ale_BrewTracker_C",
       "PackageName": null,
       "bImportOptional": false
@@ -1786,7 +1786,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/Dwarven_Traditions/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewTracker",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewTracker",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1884,7 +1884,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/Dwarven_Traditions/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewSip",
+  "FolderName": "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewSip",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

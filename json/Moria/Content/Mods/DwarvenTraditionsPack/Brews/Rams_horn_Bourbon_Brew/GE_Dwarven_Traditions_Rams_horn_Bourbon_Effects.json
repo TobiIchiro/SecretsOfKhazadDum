@@ -2,8 +2,8 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/Dwarven_Traditions/Rams_horn_Bourbon_Brew/GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects",
-    "/Game/Mods/Dwarven_Traditions/Icons/T_UI_Icon_Dwarven_Traditions_Rams_horn_Bourbon",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Rams_horn_Bourbon",
     "/Game/Tech/Data/StringTables/ST_Effects",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects",
     "/Script/CoreUObject",
@@ -5686,7 +5686,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/Dwarven_Traditions/Icons/T_UI_Icon_Dwarven_Traditions_Rams_horn_Bourbon",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Rams_horn_Bourbon",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -5803,7 +5803,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/Dwarven_Traditions/Rams_horn_Bourbon_Brew/GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects",
+  "FolderName": "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
