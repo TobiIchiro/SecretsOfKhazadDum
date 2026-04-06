@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/GC_Dwarven_Traditions_Brewed_Niphredil_Tea",
     "/Game/Character/Shared/Cues/BrewEffects/GC_BrewEffectBase",
-    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/NS_BrewBuff_Dwarven_Traditions_Brewed_Niphredil_Tea",
+    "/Game/FX/BrewFX/Niagara/NS_BrewBuff_HealthBrew",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/GameplayTags",
@@ -36,7 +36,7 @@
     "NameProperty",
     "NiagaraSystem",
     "None",
-    "NS_BrewBuff_Dwarven_Traditions_Brewed_Niphredil_Tea",
+    "NS_BrewBuff_HealthBrew",
     "Object",
     "ObjectProperty",
     "Package",
@@ -626,7 +626,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "NS_BrewBuff_Dwarven_Traditions_Brewed_Niphredil_Tea",
+      "ObjectName": "NS_BrewBuff_HealthBrew",
       "OuterIndex": -13,
       "ClassPackage": "/Script/Niagara",
       "ClassName": "NiagaraSystem",
@@ -644,7 +644,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/NS_BrewBuff_Dwarven_Traditions_Brewed_Niphredil_Tea",
+      "ObjectName": "/Game/FX/BrewFX/Niagara/NS_BrewBuff_HealthBrew",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",

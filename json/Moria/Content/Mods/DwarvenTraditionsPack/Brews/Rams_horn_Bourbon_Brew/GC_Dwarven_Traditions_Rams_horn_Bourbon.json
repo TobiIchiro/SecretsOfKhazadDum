@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/GC_Dwarven_Traditions_Rams_horn_Bourbon",
     "/Game/Character/Shared/Cues/BrewEffects/GC_BrewEffectBase",
-    "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/NS_BrewBuff_Dwarven_Traditions_Rams_horn_Bourbon",
+    "/Game/FX/BrewFX/Niagara/NS_BrewBuff_HealthBrew",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/GameplayTags",
@@ -36,7 +36,7 @@
     "NameProperty",
     "NiagaraSystem",
     "None",
-    "NS_BrewBuff_Dwarven_Traditions_Rams_horn_Bourbon",
+    "NS_BrewBuff_HealthBrew",
     "Object",
     "ObjectProperty",
     "Package",
@@ -626,7 +626,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "NS_BrewBuff_Dwarven_Traditions_Rams_horn_Bourbon",
+      "ObjectName": "NS_BrewBuff_HealthBrew",
       "OuterIndex": -13,
       "ClassPackage": "/Script/Niagara",
       "ClassName": "NiagaraSystem",
@@ -644,7 +644,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/NS_BrewBuff_Dwarven_Traditions_Rams_horn_Bourbon",
+      "ObjectName": "/Game/FX/BrewFX/Niagara/NS_BrewBuff_HealthBrew",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",

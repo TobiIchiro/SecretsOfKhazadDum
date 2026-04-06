@@ -297,7 +297,69 @@
     "UseEffectTagMagnitudes",
     "VisibleEffects",
     "VisibleEffectTagMagnitudes",
-    "Object"
+    "Object",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
+    "Dwarven_Traditions_Rams_horn_Bourbon_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/BP_Dwarven_Traditions_Rams_horn_Bourbon_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/BP_Dwarven_Traditions_Rams_horn_Bourbon_Brew.BP_Dwarven_Traditions_Rams_horn_Bourbon_Brew_C",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Rams_horn_Bourbon_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Rams_horn_Bourbon_Brew.T_UI_Icon_Dwarven_Traditions_Rams_horn_Bourbon_Brew",
+    "GE_Dwarven_Traditions_Rams_horn_Bourbon_BrewSip_C",
+    "Default__GE_Dwarven_Traditions_Rams_horn_Bourbon_BrewSip_C",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/GE_Dwarven_Traditions_Rams_horn_Bourbon_BrewSip",
+    "M_BrewFoam_Dwarven_Traditions_Rams_horn_Bourbon",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/M_BrewFoam_Dwarven_Traditions_Rams_horn_Bourbon",
+    "M_CamsBrewPour_Dwarven_Traditions_Rams_horn_Bourbon",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/M_CamsBrewPour_Dwarven_Traditions_Rams_horn_Bourbon",
+    "Dwarven_Traditions_Anvil_Cocoa_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/BP_Dwarven_Traditions_Anvil_Cocoa_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/BP_Dwarven_Traditions_Anvil_Cocoa_Brew.BP_Dwarven_Traditions_Anvil_Cocoa_Brew_C",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Anvil_Cocoa_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Anvil_Cocoa_Brew.T_UI_Icon_Dwarven_Traditions_Anvil_Cocoa_Brew",
+    "GE_Dwarven_Traditions_Anvil_Cocoa_BrewSip_C",
+    "Default__GE_Dwarven_Traditions_Anvil_Cocoa_BrewSip_C",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/GE_Dwarven_Traditions_Anvil_Cocoa_BrewSip",
+    "M_BrewFoam_Dwarven_Traditions_Anvil_Cocoa",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/M_BrewFoam_Dwarven_Traditions_Anvil_Cocoa",
+    "M_CamsBrewPour_Dwarven_Traditions_Anvil_Cocoa",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/M_CamsBrewPour_Dwarven_Traditions_Anvil_Cocoa",
+    "Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/BP_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/BP_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew.BP_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew_C",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew.T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
+    "GE_Dwarven_Traditions_Brewed_Niphredil_Tea_BrewSip_C",
+    "Default__GE_Dwarven_Traditions_Brewed_Niphredil_Tea_BrewSip_C",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/GE_Dwarven_Traditions_Brewed_Niphredil_Tea_BrewSip",
+    "M_BrewFoam_Dwarven_Traditions_Brewed_Niphredil_Tea",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/M_BrewFoam_Dwarven_Traditions_Brewed_Niphredil_Tea",
+    "M_CamsBrewPour_Dwarven_Traditions_Brewed_Niphredil_Tea",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/M_CamsBrewPour_Dwarven_Traditions_Brewed_Niphredil_Tea",
+    "Dwarven_Traditions_Brewed_Elanor_Tea_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Elanor_Tea_Brew/BP_Dwarven_Traditions_Brewed_Elanor_Tea_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Elanor_Tea_Brew/BP_Dwarven_Traditions_Brewed_Elanor_Tea_Brew.BP_Dwarven_Traditions_Brewed_Elanor_Tea_Brew_C",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Elanor_Tea_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Elanor_Tea_Brew.T_UI_Icon_Dwarven_Traditions_Brewed_Elanor_Tea_Brew",
+    "GE_Dwarven_Traditions_Brewed_Elanor_Tea_BrewSip_C",
+    "Default__GE_Dwarven_Traditions_Brewed_Elanor_Tea_BrewSip_C",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Elanor_Tea_Brew/GE_Dwarven_Traditions_Brewed_Elanor_Tea_BrewSip",
+    "M_BrewFoam_Dwarven_Traditions_Brewed_Elanor_Tea",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Elanor_Tea_Brew/M_BrewFoam_Dwarven_Traditions_Brewed_Elanor_Tea",
+    "M_CamsBrewPour_Dwarven_Traditions_Brewed_Elanor_Tea",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Elanor_Tea_Brew/M_CamsBrewPour_Dwarven_Traditions_Brewed_Elanor_Tea",
+    "Dwarven_Traditions_Ember_Ale_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/BP_Dwarven_Traditions_Ember_Ale_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/BP_Dwarven_Traditions_Ember_Ale_Brew.BP_Dwarven_Traditions_Ember_Ale_Brew_C",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Ember_Ale_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Ember_Ale_Brew.T_UI_Icon_Dwarven_Traditions_Ember_Ale_Brew",
+    "GE_Dwarven_Traditions_Ember_Ale_BrewSip_C",
+    "Default__GE_Dwarven_Traditions_Ember_Ale_BrewSip_C",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewSip",
+    "M_BrewFoam_Dwarven_Traditions_Ember_Ale",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/M_BrewFoam_Dwarven_Traditions_Ember_Ale",
+    "M_CamsBrewPour_Dwarven_Traditions_Ember_Ale",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/M_CamsBrewPour_Dwarven_Traditions_Ember_Ale"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -7535,6 +7597,2741 @@
                 "Value": "ERowEnabledState::Live"
               }
             ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorBrewDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Dwarven_Traditions_Rams_horn_Bourbon_Brew",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "SongCompleteEffectOverride",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "LinearColor",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "BrewVfxPourColor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                    "Name": "BrewVfxPourColor",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                      "R": 0.24313725490196078,
+                      "G": 0.6196078431372549,
+                      "B": 1.0,
+                      "A": 1.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "LinearColor",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "BrewInProgressFizzVfxColor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                    "Name": "BrewInProgressFizzVfxColor",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                      "R": 5.0,
+                      "G": 1.748231053352356,
+                      "B": 3.4775290489196777,
+                      "A": "+0"
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewMaterialPour",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -157
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewMaterialFoam",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -155
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewFizz",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -77
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewBuff",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -71
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "SpoilageSeconds",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "HungerRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "HealthRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "EnergyRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "Name": "UseEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -152
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMealTime",
+                "InnerType": "EMealTime",
+                "Name": "MealTime",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMealTime::None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "MealTimeUseEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "UseEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMorItemHotbarBehavior",
+                "InnerType": "EMorItemHotbarBehavior",
+                "Name": "ItemHotbarBehavior",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMorItemHotbarBehavior::Use"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Dwarven_Traditions.Consumables.Brew.Rams_horn_Bourbon.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Dwarven_Traditions.Consumables.Brew.Rams_horn_Bourbon.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Rams_horn_Bourbon_Brew.T_UI_Icon_Dwarven_Traditions_Rams_horn_Bourbon_Brew"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/BP_Dwarven_Traditions_Rams_horn_Bourbon_Brew.BP_Dwarven_Traditions_Rams_horn_Bourbon_Brew_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "DroppedItemMeshOverride",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Brew",
+                      "Item.Brew"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SkillsRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SkillsRequired",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SkillsGranted",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SkillsGranted",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "VisibleEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "VisibleEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "EquipEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "EquipEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "HolsterEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "HolsterEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorCosmeticConvertRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "CosmeticConvertCost",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorItemSetRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemSetRowHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EItemPortability",
+                "InnerType": "EItemPortability",
+                "Name": "Portability",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EItemPortability::Storable"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxStackSize",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "SlotSize",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "BaseTradeValue",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorBrewDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Dwarven_Traditions_Anvil_Cocoa_Brew",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "SongCompleteEffectOverride",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "LinearColor",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "BrewVfxPourColor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                    "Name": "BrewVfxPourColor",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                      "R": 0.5215686274509804,
+                      "G": 0.34901960784313724,
+                      "B": 0.24313725490196078,
+                      "A": 1.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "LinearColor",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "BrewInProgressFizzVfxColor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                    "Name": "BrewInProgressFizzVfxColor",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                      "R": 5.0,
+                      "G": 1.748231053352356,
+                      "B": 3.4775290489196777,
+                      "A": "+0"
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewMaterialPour",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -164
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewMaterialFoam",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -162
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewFizz",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -77
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewBuff",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -71
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "SpoilageSeconds",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "HungerRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "HealthRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "EnergyRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "Name": "UseEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -159
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMealTime",
+                "InnerType": "EMealTime",
+                "Name": "MealTime",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMealTime::None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "MealTimeUseEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "UseEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMorItemHotbarBehavior",
+                "InnerType": "EMorItemHotbarBehavior",
+                "Name": "ItemHotbarBehavior",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMorItemHotbarBehavior::Use"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Dwarven_Traditions.Consumables.Brew.Anvil_Cocoa.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Dwarven_Traditions.Consumables.Brew.Anvil_Cocoa.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Anvil_Cocoa_Brew.T_UI_Icon_Dwarven_Traditions_Anvil_Cocoa_Brew"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/BP_Dwarven_Traditions_Anvil_Cocoa_Brew.BP_Dwarven_Traditions_Anvil_Cocoa_Brew_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "DroppedItemMeshOverride",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Brew",
+                      "Item.Brew"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SkillsRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SkillsRequired",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SkillsGranted",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SkillsGranted",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "VisibleEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "VisibleEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "EquipEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "EquipEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "HolsterEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "HolsterEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorCosmeticConvertRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "CosmeticConvertCost",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorItemSetRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemSetRowHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EItemPortability",
+                "InnerType": "EItemPortability",
+                "Name": "Portability",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EItemPortability::Storable"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxStackSize",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "SlotSize",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "BaseTradeValue",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorBrewDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Dwarven_Traditions_Brewed_Niphredil_Tea_Brew",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "SongCompleteEffectOverride",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "LinearColor",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "BrewVfxPourColor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                    "Name": "BrewVfxPourColor",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                      "R": 0.6313725490196078,
+                      "G": 0.5490196078431373,
+                      "B": 0.8509803921568627,
+                      "A": 1.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "LinearColor",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "BrewInProgressFizzVfxColor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                    "Name": "BrewInProgressFizzVfxColor",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                      "R": 5.0,
+                      "G": 1.748231053352356,
+                      "B": 3.4775290489196777,
+                      "A": "+0"
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewMaterialPour",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -171
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewMaterialFoam",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -169
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewFizz",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -77
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewBuff",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -71
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "SpoilageSeconds",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "HungerRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "HealthRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "EnergyRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "Name": "UseEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -166
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMealTime",
+                "InnerType": "EMealTime",
+                "Name": "MealTime",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMealTime::None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "MealTimeUseEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "UseEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMorItemHotbarBehavior",
+                "InnerType": "EMorItemHotbarBehavior",
+                "Name": "ItemHotbarBehavior",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMorItemHotbarBehavior::Use"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Dwarven_Traditions.Consumables.Brew.Brewed_Niphredil_Tea.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Dwarven_Traditions.Consumables.Brew.Brewed_Niphredil_Tea.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew.T_UI_Icon_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/BP_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew.BP_Dwarven_Traditions_Brewed_Niphredil_Tea_Brew_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "DroppedItemMeshOverride",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Brew",
+                      "Item.Brew"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SkillsRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SkillsRequired",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SkillsGranted",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SkillsGranted",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "VisibleEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "VisibleEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "EquipEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "EquipEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "HolsterEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "HolsterEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorCosmeticConvertRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "CosmeticConvertCost",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorItemSetRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemSetRowHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EItemPortability",
+                "InnerType": "EItemPortability",
+                "Name": "Portability",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EItemPortability::Storable"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxStackSize",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "SlotSize",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "BaseTradeValue",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorBrewDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Dwarven_Traditions_Brewed_Elanor_Tea_Brew",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "SongCompleteEffectOverride",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "LinearColor",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "BrewVfxPourColor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                    "Name": "BrewVfxPourColor",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                      "R": 1.0,
+                      "G": 1.0,
+                      "B": 0.34901960784313724,
+                      "A": 1.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "LinearColor",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "BrewInProgressFizzVfxColor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                    "Name": "BrewInProgressFizzVfxColor",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                      "R": 5.0,
+                      "G": 1.748231053352356,
+                      "B": 3.4775290489196777,
+                      "A": "+0"
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewMaterialPour",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -178
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewMaterialFoam",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -176
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewFizz",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -77
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewBuff",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -71
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "SpoilageSeconds",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "HungerRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "HealthRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "EnergyRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "Name": "UseEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -173
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMealTime",
+                "InnerType": "EMealTime",
+                "Name": "MealTime",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMealTime::None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "MealTimeUseEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "UseEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMorItemHotbarBehavior",
+                "InnerType": "EMorItemHotbarBehavior",
+                "Name": "ItemHotbarBehavior",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMorItemHotbarBehavior::Use"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Dwarven_Traditions.Consumables.Brew.Brewed_Elanor_Tea.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Dwarven_Traditions.Consumables.Brew.Brewed_Elanor_Tea.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Brewed_Elanor_Tea_Brew.T_UI_Icon_Dwarven_Traditions_Brewed_Elanor_Tea_Brew"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Elanor_Tea_Brew/BP_Dwarven_Traditions_Brewed_Elanor_Tea_Brew.BP_Dwarven_Traditions_Brewed_Elanor_Tea_Brew_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "DroppedItemMeshOverride",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Brew",
+                      "Item.Brew"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SkillsRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SkillsRequired",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SkillsGranted",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SkillsGranted",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "VisibleEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "VisibleEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "EquipEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "EquipEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "HolsterEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "HolsterEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorCosmeticConvertRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "CosmeticConvertCost",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorItemSetRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemSetRowHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EItemPortability",
+                "InnerType": "EItemPortability",
+                "Name": "Portability",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EItemPortability::Storable"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxStackSize",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "SlotSize",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "BaseTradeValue",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorBrewDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Dwarven_Traditions_Ember_Ale_Brew",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "SongCompleteEffectOverride",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "LinearColor",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "BrewVfxPourColor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                    "Name": "BrewVfxPourColor",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                      "R": 0.9490196078431372,
+                      "G": 0.24705882352941178,
+                      "B": 0.050980392156862744,
+                      "A": 1.0
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "LinearColor",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "BrewInProgressFizzVfxColor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.LinearColorPropertyData, UAssetAPI",
+                    "Name": "BrewInProgressFizzVfxColor",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": {
+                      "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
+                      "R": 5.0,
+                      "G": 1.748231053352356,
+                      "B": 3.4775290489196777,
+                      "A": "+0"
+                    }
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewMaterialPour",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -185
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewMaterialFoam",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -183
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewFizz",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -77
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "BrewBuff",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -71
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "SpoilageSeconds",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "HungerRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "HealthRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "EnergyRestore",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "Name": "UseEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                    "Name": "0",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": -180
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMealTime",
+                "InnerType": "EMealTime",
+                "Name": "MealTime",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMealTime::None"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "MealTimeUseEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "UseEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EMorItemHotbarBehavior",
+                "InnerType": "EMorItemHotbarBehavior",
+                "Name": "ItemHotbarBehavior",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EMorItemHotbarBehavior::Use"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Dwarven_Traditions.Consumables.Brew.Ember_Ale.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Dwarven_Traditions.Consumables.Brew.Ember_Ale.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_Dwarven_Traditions_Ember_Ale_Brew.T_UI_Icon_Dwarven_Traditions_Ember_Ale_Brew"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/BP_Dwarven_Traditions_Ember_Ale_Brew.BP_Dwarven_Traditions_Ember_Ale_Brew_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "DroppedItemMeshOverride",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 0
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Brew",
+                      "Item.Brew"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SkillsRequired",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SkillsRequired",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "SkillsGranted",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "SkillsGranted",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": []
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "VisibleEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "VisibleEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "EquipEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "EquipEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "ObjectProperty",
+                "DummyStruct": null,
+                "Name": "HolsterEffects",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": []
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                "Value": [],
+                "KeyType": "StructProperty",
+                "ValueType": "FloatProperty",
+                "KeysToRemove": [],
+                "Name": "HolsterEffectTagMagnitudes",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorCosmeticConvertRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "CosmeticConvertCost",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorItemSetRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemSetRowHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "EItemPortability",
+                "InnerType": "EItemPortability",
+                "Name": "Portability",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "EItemPortability::Storable"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxStackSize",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "SlotSize",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "BaseTradeValue",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
           }
         ]
       },
@@ -7639,7 +10436,22 @@
         -44,
         -151,
         -16,
-        -17
+        -17,
+        -153,
+        -155,
+        -157,
+        -160,
+        -162,
+        -164,
+        -167,
+        -169,
+        -171,
+        -174,
+        -176,
+        -178,
+        -181,
+        -183,
+        -185
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -9012,6 +11824,321 @@
       "OuterIndex": -145,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_Dwarven_Traditions_Rams_horn_Bourbon_BrewSip_C",
+      "OuterIndex": -154,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_Dwarven_Traditions_Rams_horn_Bourbon_BrewSip_C",
+      "OuterIndex": -154,
+      "ClassPackage": "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/GE_Dwarven_Traditions_Rams_horn_Bourbon_BrewSip",
+      "ClassName": "GE_Dwarven_Traditions_Rams_horn_Bourbon_BrewSip_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/GE_Dwarven_Traditions_Rams_horn_Bourbon_BrewSip",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "M_BrewFoam_Dwarven_Traditions_Rams_horn_Bourbon",
+      "OuterIndex": -156,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/M_BrewFoam_Dwarven_Traditions_Rams_horn_Bourbon",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "M_CamsBrewPour_Dwarven_Traditions_Rams_horn_Bourbon",
+      "OuterIndex": -158,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Rams_horn_Bourbon_Brew/M_CamsBrewPour_Dwarven_Traditions_Rams_horn_Bourbon",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_Dwarven_Traditions_Anvil_Cocoa_BrewSip_C",
+      "OuterIndex": -161,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_Dwarven_Traditions_Anvil_Cocoa_BrewSip_C",
+      "OuterIndex": -161,
+      "ClassPackage": "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/GE_Dwarven_Traditions_Anvil_Cocoa_BrewSip",
+      "ClassName": "GE_Dwarven_Traditions_Anvil_Cocoa_BrewSip_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/GE_Dwarven_Traditions_Anvil_Cocoa_BrewSip",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "M_BrewFoam_Dwarven_Traditions_Anvil_Cocoa",
+      "OuterIndex": -163,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/M_BrewFoam_Dwarven_Traditions_Anvil_Cocoa",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "M_CamsBrewPour_Dwarven_Traditions_Anvil_Cocoa",
+      "OuterIndex": -165,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Anvil_Cocoa_Brew/M_CamsBrewPour_Dwarven_Traditions_Anvil_Cocoa",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_Dwarven_Traditions_Brewed_Niphredil_Tea_BrewSip_C",
+      "OuterIndex": -168,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_Dwarven_Traditions_Brewed_Niphredil_Tea_BrewSip_C",
+      "OuterIndex": -168,
+      "ClassPackage": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/GE_Dwarven_Traditions_Brewed_Niphredil_Tea_BrewSip",
+      "ClassName": "GE_Dwarven_Traditions_Brewed_Niphredil_Tea_BrewSip_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/GE_Dwarven_Traditions_Brewed_Niphredil_Tea_BrewSip",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "M_BrewFoam_Dwarven_Traditions_Brewed_Niphredil_Tea",
+      "OuterIndex": -170,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/M_BrewFoam_Dwarven_Traditions_Brewed_Niphredil_Tea",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "M_CamsBrewPour_Dwarven_Traditions_Brewed_Niphredil_Tea",
+      "OuterIndex": -172,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Niphredil_Tea_Brew/M_CamsBrewPour_Dwarven_Traditions_Brewed_Niphredil_Tea",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_Dwarven_Traditions_Brewed_Elanor_Tea_BrewSip_C",
+      "OuterIndex": -175,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_Dwarven_Traditions_Brewed_Elanor_Tea_BrewSip_C",
+      "OuterIndex": -175,
+      "ClassPackage": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Elanor_Tea_Brew/GE_Dwarven_Traditions_Brewed_Elanor_Tea_BrewSip",
+      "ClassName": "GE_Dwarven_Traditions_Brewed_Elanor_Tea_BrewSip_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Elanor_Tea_Brew/GE_Dwarven_Traditions_Brewed_Elanor_Tea_BrewSip",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "M_BrewFoam_Dwarven_Traditions_Brewed_Elanor_Tea",
+      "OuterIndex": -177,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Elanor_Tea_Brew/M_BrewFoam_Dwarven_Traditions_Brewed_Elanor_Tea",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "M_CamsBrewPour_Dwarven_Traditions_Brewed_Elanor_Tea",
+      "OuterIndex": -179,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Brewed_Elanor_Tea_Brew/M_CamsBrewPour_Dwarven_Traditions_Brewed_Elanor_Tea",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GE_Dwarven_Traditions_Ember_Ale_BrewSip_C",
+      "OuterIndex": -182,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__GE_Dwarven_Traditions_Ember_Ale_BrewSip_C",
+      "OuterIndex": -182,
+      "ClassPackage": "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewSip",
+      "ClassName": "GE_Dwarven_Traditions_Ember_Ale_BrewSip_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_BrewSip",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "M_BrewFoam_Dwarven_Traditions_Ember_Ale",
+      "OuterIndex": -184,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/M_BrewFoam_Dwarven_Traditions_Ember_Ale",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "M_CamsBrewPour_Dwarven_Traditions_Ember_Ale",
+      "OuterIndex": -186,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/Ember_Ale_Brew/M_CamsBrewPour_Dwarven_Traditions_Ember_Ale",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
       "PackageName": null,
       "bImportOptional": false
     }
