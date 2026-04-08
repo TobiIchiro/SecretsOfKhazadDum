@@ -161,31 +161,31 @@
     "ThresholdAttributeValue_UpperBound",
     "ThresholdTime",
     "Object",
-    "Brew_Dwarven_Traditions_Rams_horn_Bourbon",
-    "Buff.Brew.Dwarven Traditions.Rams_horn_Bourbon",
-    "/Game/Mods/Dwarven Traditions/Rams_horn_Bourbon_Brew/GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects",
-    "GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects_C",
-    "Default__GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects_C",
-    "Brew_Dwarven_Traditions_Anvil_Cocoa",
-    "Buff.Brew.Dwarven Traditions.Anvil_Cocoa",
-    "/Game/Mods/Dwarven Traditions/Anvil_Cocoa_Brew/GE_Dwarven_Traditions_Anvil_Cocoa_Effects",
-    "GE_Dwarven_Traditions_Anvil_Cocoa_Effects_C",
-    "Default__GE_Dwarven_Traditions_Anvil_Cocoa_Effects_C",
-    "Brew_Dwarven_Traditions_Brewed_Niphredil_Tea",
-    "Buff.Brew.Dwarven Traditions.Brewed_Niphredil_Tea",
-    "/Game/Mods/Dwarven Traditions/Brewed_Niphredil_Tea_Brew/GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects",
-    "GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects_C",
-    "Default__GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects_C",
-    "Brew_Dwarven_Traditions_Brewed_Elanor_Tea",
-    "Buff.Brew.Dwarven Traditions.Brewed_Elanor_Tea",
-    "/Game/Mods/Dwarven Traditions/Brewed_Elanor_Tea_Brew/GE_Dwarven_Traditions_Brewed_Elanor_Tea_Effects",
-    "GE_Dwarven_Traditions_Brewed_Elanor_Tea_Effects_C",
-    "Default__GE_Dwarven_Traditions_Brewed_Elanor_Tea_Effects_C",
-    "Brew_Dwarven_Traditions_Ember_Ale",
-    "Buff.Brew.Dwarven Traditions.Ember_Ale",
-    "/Game/Mods/Dwarven Traditions/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_Effects",
-    "GE_Dwarven_Traditions_Ember_Ale_Effects_C",
-    "Default__GE_Dwarven_Traditions_Ember_Ale_Effects_C"
+    "Brew_DwarvenTraditions_RamsHornBourbon",
+    "Buff.Brew.DwarvenTraditions.RamsHornBourbon",
+    "/Game/Mods/DwarvenTraditions/RamsHornBourbon_Brew/GE_DwarvenTraditions_RamsHornBourbon_Effects",
+    "GE_DwarvenTraditions_RamsHornBourbon_Effects_C",
+    "Default__GE_DwarvenTraditions_RamsHornBourbon_Effects_C",
+    "Brew_DwarvenTraditions_AnvilCocoa",
+    "Buff.Brew.DwarvenTraditions.AnvilCocoa",
+    "/Game/Mods/DwarvenTraditions/AnvilCocoa_Brew/GE_DwarvenTraditions_AnvilCocoa_Effects",
+    "GE_DwarvenTraditions_AnvilCocoa_Effects_C",
+    "Default__GE_DwarvenTraditions_AnvilCocoa_Effects_C",
+    "Brew_DwarvenTraditions_BrewedNiphredilTea",
+    "Buff.Brew.DwarvenTraditions.BrewedNiphredilTea",
+    "/Game/Mods/DwarvenTraditions/BrewedNiphredilTea_Brew/GE_DwarvenTraditions_BrewedNiphredilTea_Effects",
+    "GE_DwarvenTraditions_BrewedNiphredilTea_Effects_C",
+    "Default__GE_DwarvenTraditions_BrewedNiphredilTea_Effects_C",
+    "Brew_DwarvenTraditions_BrewedElanorTea",
+    "Buff.Brew.DwarvenTraditions.BrewedElanorTea",
+    "/Game/Mods/DwarvenTraditions/BrewedElanorTea_Brew/GE_DwarvenTraditions_BrewedElanorTea_Effects",
+    "GE_DwarvenTraditions_BrewedElanorTea_Effects_C",
+    "Default__GE_DwarvenTraditions_BrewedElanorTea_Effects_C",
+    "Brew_DwarvenTraditions_EmberAle",
+    "Buff.Brew.DwarvenTraditions.EmberAle",
+    "/Game/Mods/DwarvenTraditions/EmberAle_Brew/GE_DwarvenTraditions_EmberAle_Effects",
+    "GE_DwarvenTraditions_EmberAle_Effects_C",
+    "Default__GE_DwarvenTraditions_EmberAle_Effects_C"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -8674,7 +8674,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Brew_Dwarven_Traditions_Rams_horn_Bourbon",
+            "Name": "Brew_DwarvenTraditions_RamsHornBourbon",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -9068,7 +9068,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Buff.Brew.Dwarven Traditions.Rams_horn_Bourbon"
+                    "Value": "Buff.Brew.DwarvenTraditions.RamsHornBourbon"
                   }
                 ]
               },
@@ -9092,7 +9092,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Brew_Dwarven_Traditions_Anvil_Cocoa",
+            "Name": "Brew_DwarvenTraditions_AnvilCocoa",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -9486,7 +9486,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Buff.Brew.Dwarven Traditions.Anvil_Cocoa"
+                    "Value": "Buff.Brew.DwarvenTraditions.AnvilCocoa"
                   }
                 ]
               },
@@ -9510,7 +9510,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Brew_Dwarven_Traditions_Brewed_Niphredil_Tea",
+            "Name": "Brew_DwarvenTraditions_BrewedNiphredilTea",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -9904,7 +9904,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Buff.Brew.Dwarven Traditions.Brewed_Niphredil_Tea"
+                    "Value": "Buff.Brew.DwarvenTraditions.BrewedNiphredilTea"
                   }
                 ]
               },
@@ -9928,7 +9928,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Brew_Dwarven_Traditions_Brewed_Elanor_Tea",
+            "Name": "Brew_DwarvenTraditions_BrewedElanorTea",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -10322,7 +10322,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Buff.Brew.Dwarven Traditions.Brewed_Elanor_Tea"
+                    "Value": "Buff.Brew.DwarvenTraditions.BrewedElanorTea"
                   }
                 ]
               },
@@ -10346,7 +10346,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Brew_Dwarven_Traditions_Ember_Ale",
+            "Name": "Brew_DwarvenTraditions_EmberAle",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -10740,7 +10740,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Buff.Brew.Dwarven Traditions.Ember_Ale"
+                    "Value": "Buff.Brew.DwarvenTraditions.EmberAle"
                   }
                 ]
               },
@@ -11558,7 +11558,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects_C",
+      "ObjectName": "GE_DwarvenTraditions_RamsHornBourbon_Effects_C",
       "OuterIndex": -84,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -11567,10 +11567,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects_C",
+      "ObjectName": "Default__GE_DwarvenTraditions_RamsHornBourbon_Effects_C",
       "OuterIndex": -84,
-      "ClassPackage": "/Game/Mods/Dwarven Traditions/Rams_horn_Bourbon_Brew/GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects",
-      "ClassName": "GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects_C",
+      "ClassPackage": "/Game/Mods/DwarvenTraditions/RamsHornBourbon_Brew/GE_DwarvenTraditions_RamsHornBourbon_Effects",
+      "ClassName": "GE_DwarvenTraditions_RamsHornBourbon_Effects_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -11585,7 +11585,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/Dwarven Traditions/Rams_horn_Bourbon_Brew/GE_Dwarven_Traditions_Rams_horn_Bourbon_Effects",
+      "ObjectName": "/Game/Mods/DwarvenTraditions/RamsHornBourbon_Brew/GE_DwarvenTraditions_RamsHornBourbon_Effects",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -11594,7 +11594,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GE_Dwarven_Traditions_Anvil_Cocoa_Effects_C",
+      "ObjectName": "GE_DwarvenTraditions_AnvilCocoa_Effects_C",
       "OuterIndex": -88,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -11603,10 +11603,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__GE_Dwarven_Traditions_Anvil_Cocoa_Effects_C",
+      "ObjectName": "Default__GE_DwarvenTraditions_AnvilCocoa_Effects_C",
       "OuterIndex": -88,
-      "ClassPackage": "/Game/Mods/Dwarven Traditions/Anvil_Cocoa_Brew/GE_Dwarven_Traditions_Anvil_Cocoa_Effects",
-      "ClassName": "GE_Dwarven_Traditions_Anvil_Cocoa_Effects_C",
+      "ClassPackage": "/Game/Mods/DwarvenTraditions/AnvilCocoa_Brew/GE_DwarvenTraditions_AnvilCocoa_Effects",
+      "ClassName": "GE_DwarvenTraditions_AnvilCocoa_Effects_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -11621,7 +11621,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/Dwarven Traditions/Anvil_Cocoa_Brew/GE_Dwarven_Traditions_Anvil_Cocoa_Effects",
+      "ObjectName": "/Game/Mods/DwarvenTraditions/AnvilCocoa_Brew/GE_DwarvenTraditions_AnvilCocoa_Effects",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -11630,7 +11630,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects_C",
+      "ObjectName": "GE_DwarvenTraditions_BrewedNiphredilTea_Effects_C",
       "OuterIndex": -92,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -11639,10 +11639,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects_C",
+      "ObjectName": "Default__GE_DwarvenTraditions_BrewedNiphredilTea_Effects_C",
       "OuterIndex": -92,
-      "ClassPackage": "/Game/Mods/Dwarven Traditions/Brewed_Niphredil_Tea_Brew/GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects",
-      "ClassName": "GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects_C",
+      "ClassPackage": "/Game/Mods/DwarvenTraditions/BrewedNiphredilTea_Brew/GE_DwarvenTraditions_BrewedNiphredilTea_Effects",
+      "ClassName": "GE_DwarvenTraditions_BrewedNiphredilTea_Effects_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -11657,7 +11657,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/Dwarven Traditions/Brewed_Niphredil_Tea_Brew/GE_Dwarven_Traditions_Brewed_Niphredil_Tea_Effects",
+      "ObjectName": "/Game/Mods/DwarvenTraditions/BrewedNiphredilTea_Brew/GE_DwarvenTraditions_BrewedNiphredilTea_Effects",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -11666,7 +11666,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GE_Dwarven_Traditions_Brewed_Elanor_Tea_Effects_C",
+      "ObjectName": "GE_DwarvenTraditions_BrewedElanorTea_Effects_C",
       "OuterIndex": -96,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -11675,10 +11675,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__GE_Dwarven_Traditions_Brewed_Elanor_Tea_Effects_C",
+      "ObjectName": "Default__GE_DwarvenTraditions_BrewedElanorTea_Effects_C",
       "OuterIndex": -96,
-      "ClassPackage": "/Game/Mods/Dwarven Traditions/Brewed_Elanor_Tea_Brew/GE_Dwarven_Traditions_Brewed_Elanor_Tea_Effects",
-      "ClassName": "GE_Dwarven_Traditions_Brewed_Elanor_Tea_Effects_C",
+      "ClassPackage": "/Game/Mods/DwarvenTraditions/BrewedElanorTea_Brew/GE_DwarvenTraditions_BrewedElanorTea_Effects",
+      "ClassName": "GE_DwarvenTraditions_BrewedElanorTea_Effects_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -11693,7 +11693,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/Dwarven Traditions/Brewed_Elanor_Tea_Brew/GE_Dwarven_Traditions_Brewed_Elanor_Tea_Effects",
+      "ObjectName": "/Game/Mods/DwarvenTraditions/BrewedElanorTea_Brew/GE_DwarvenTraditions_BrewedElanorTea_Effects",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -11702,7 +11702,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GE_Dwarven_Traditions_Ember_Ale_Effects_C",
+      "ObjectName": "GE_DwarvenTraditions_EmberAle_Effects_C",
       "OuterIndex": -100,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -11711,10 +11711,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__GE_Dwarven_Traditions_Ember_Ale_Effects_C",
+      "ObjectName": "Default__GE_DwarvenTraditions_EmberAle_Effects_C",
       "OuterIndex": -100,
-      "ClassPackage": "/Game/Mods/Dwarven Traditions/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_Effects",
-      "ClassName": "GE_Dwarven_Traditions_Ember_Ale_Effects_C",
+      "ClassPackage": "/Game/Mods/DwarvenTraditions/EmberAle_Brew/GE_DwarvenTraditions_EmberAle_Effects",
+      "ClassName": "GE_DwarvenTraditions_EmberAle_Effects_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -11729,7 +11729,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/Dwarven Traditions/Ember_Ale_Brew/GE_Dwarven_Traditions_Ember_Ale_Effects",
+      "ObjectName": "/Game/Mods/DwarvenTraditions/EmberAle_Brew/GE_DwarvenTraditions_EmberAle_Effects",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
