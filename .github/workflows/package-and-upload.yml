@@ -1,8 +1,11 @@
-name: Package and Upload Assets on Release
+on:
+
+name: Package and Upload Assets on Tag
 
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - '*'
 
 jobs:
   package-and-upload:
@@ -30,23 +33,16 @@ jobs:
         run: |
           zip -j pack_files.zip Pack/*.pak Pack/*.ucas Pack/*.utoc
 
-      - name: Upload json zip to release
-        uses: softprops/action-gh-release@v2
+      - name: Create GitHub Release
+        uses: ncipollo/release-action@v1
         with:
-          files: json_files.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-
-      - name: Upload uasset zip to release
-        uses: softprops/action-gh-release@v2
-        with:
-          files: uasset_files.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-
-      - name: Upload pack zip to release
-        uses: softprops/action-gh-release@v2
-        with:
-          files: pack_files.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          tag: ${{ github.ref_name }}
+          token: ${{ secrets.GH_PAT }}
+          name: Release ${{ github.ref_name }}
+          body: 'Release generado automáticamente por workflow.'
+          draft: false
+          prerelease: false
+          artifacts: |
+            json_files.zip
+            uasset_files.zip
+            pack_files.zip
