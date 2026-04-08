@@ -73,4 +73,4 @@ if errors:
 
     print(f"\nSe encontraron {len(errors)} errores. Revisa: {ERROR_LOG}")
 else:
-    print("\nTodos los archivos se convirtieron correctamente 🎉")
+    print("\nAll files have been converted successfully")
