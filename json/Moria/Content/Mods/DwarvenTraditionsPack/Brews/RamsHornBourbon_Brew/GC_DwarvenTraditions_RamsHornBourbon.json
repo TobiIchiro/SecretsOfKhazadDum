@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/DwarvenTraditions/RamsHornBourbon_Brew/GC_DwarvenTraditions_RamsHornBourbon",
+    "/Game/Mods/DwarvenTraditions/Brews/RamsHornBourbon_Brew/GC_DwarvenTraditions_RamsHornBourbon",
     "/Game/Character/Shared/Cues/BrewEffects/GC_BrewEffectBase",
     "/Game/FX/BrewFX/Niagara/NS_BrewBuff_HealthBrew",
     "/Script/CoreUObject",
@@ -764,7 +764,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/DwarvenTraditions/RamsHornBourbon_Brew/GC_DwarvenTraditions_RamsHornBourbon",
+  "FolderName": "/Game/Mods/DwarvenTraditions/Brews/RamsHornBourbon_Brew/GC_DwarvenTraditions_RamsHornBourbon",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

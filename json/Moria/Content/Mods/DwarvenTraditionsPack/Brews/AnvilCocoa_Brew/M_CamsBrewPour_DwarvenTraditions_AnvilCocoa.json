@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/DwarvenTraditions/AnvilCocoa_Brew/M_CamsBrewPour_DwarvenTraditions_AnvilCocoa",
+    "/Game/Mods/DwarvenTraditions/Brews/AnvilCocoa_Brew/M_CamsBrewPour_DwarvenTraditions_AnvilCocoa",
     "/Game/FluidNinjaLive/Presets/T_NoiseSlice1",
     "/Game/FX/Waterfall/Materials/M_CamsWaterfall2",
     "/Game/Unshippable/ThirdParty/CaveRiver/EpicContent/WaterPlane/Lake/Textures/T_SmallWaves_N",
@@ -4317,7 +4317,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/DwarvenTraditions/AnvilCocoa_Brew/M_CamsBrewPour_DwarvenTraditions_AnvilCocoa",
+  "FolderName": "/Game/Mods/DwarvenTraditions/Brews/AnvilCocoa_Brew/M_CamsBrewPour_DwarvenTraditions_AnvilCocoa",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
