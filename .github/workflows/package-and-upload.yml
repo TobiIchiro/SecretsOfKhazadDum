@@ -1,0 +1,50 @@
+name: Package and Upload Assets on Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  package-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Create json zip
+        run: |
+          zip -r json_files.zip json/**/*.json
+
+      - name: Create uasset zip
+        run: |
+          zip -r uasset_files.zip uasset/**/*.uasset
+
+      - name: Create pack zip
+        run: |
+          zip -j pack_files.zip Pack/*.pak Pack/*.ucas Pack/*.utoc
+
+      - name: Upload json zip to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: json_files.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload uasset zip to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: uasset_files.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload pack zip to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: pack_files.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
