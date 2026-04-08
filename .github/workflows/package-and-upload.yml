@@ -1,5 +1,3 @@
-on:
-
 name: Package and Upload Assets on Tag
 on:
   push:
