@@ -24,30 +24,29 @@ jobs:
       - name: Create uasset zip
         run: |
           shopt -s globstar
-          zip -r json_files.zip json/**/*.json
+          zip -r uasset_files.zip uasset/**/*.uasset
 
       - name: Create pack zip
         run: |
-          shopt -s globstar
-          zip -r json_files.zip json/**/*.json
+          zip -j pack_files.zip Pack/*.pak Pack/*.ucas Pack/*.utoc
 
       - name: Upload json zip to release
         uses: softprops/action-gh-release@v2
         with:
           files: json_files.zip
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Upload uasset zip to release
         uses: softprops/action-gh-release@v2
         with:
           files: uasset_files.zip
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       - name: Upload pack zip to release
         uses: softprops/action-gh-release@v2
         with:
           files: pack_files.zip
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
