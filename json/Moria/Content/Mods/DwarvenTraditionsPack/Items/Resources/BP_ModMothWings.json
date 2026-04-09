@@ -2,9 +2,9 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/DLC/OrcHunterPack/Icons/T_UI_Icon_OrcHunter_DrakeBone",
-    "/Game/DLC/OrcHunterPack/Resources/BP_DrakeBones",
-    "/Game/DLC/OrcHunterPack/Resources/Meshes/GPI_OrcHunter_DrakeBones",
+    "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_ModMothWings",
+    "/Game/Mods/DwarvenTraditionsPack/Items/Resources/BP_ModMothWings",
+    "/Game/Mods/DwarvenTraditionsPack/Items/Resources/Meshes/GPI_OrcHunter_DrakeBones",
     "/Game/Items/BP_Category_Resource",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -18,7 +18,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_Category_Resource_C",
-    "BP_DrakeBones_C",
+    "BP_ModMothWings_C",
     "Callout Data",
     "CalloutData",
     "CalloutDataComponent",
@@ -27,7 +27,7 @@
     "ComponentTemplate",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Category_Resource_C",
-    "Default__BP_DrakeBones_C",
+    "Default__BP_ModMothWings_C",
     "Default__SceneComponent",
     "Default__SCS_Node",
     "Default__SimpleConstructionScript",
@@ -66,7 +66,7 @@
     "StaticMesh_GEN_VARIABLE",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_OrcHunter_DrakeBone",
+    "T_UI_Icon_ModMothWings",
     "Texture2D",
     "VariableGuid"
   ],
@@ -234,7 +234,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_DrakeBones_C",
+      "ObjectName": "BP_ModMothWings_C",
       "OuterIndex": 0,
       "ClassIndex": -6,
       "SuperIndex": -1,
@@ -291,7 +291,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "DrakeBones"
+              "Value": "ModMothWings"
             }
           ]
         },
@@ -344,7 +344,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_DrakeBones_C",
+      "ObjectName": "Default__BP_ModMothWings_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -1056,7 +1056,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/DLC/OrcHunterPack/Resources/Meshes/GPI_OrcHunter_DrakeBones",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Items/Resources/Meshes/GPI_OrcHunter_DrakeBones",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1065,7 +1065,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/DLC/OrcHunterPack/Icons/T_UI_Icon_OrcHunter_DrakeBone",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Items/Icons/T_UI_Icon_ModMothWings",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1173,7 +1173,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_OrcHunter_DrakeBone",
+      "ObjectName": "T_UI_Icon_ModMothWings",
       "OuterIndex": -16,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
@@ -1225,7 +1225,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/DLC/OrcHunterPack/Resources/BP_DrakeBones",
+  "FolderName": "/Game/Mods/DwarvenTraditionsPack/Items/Resources/BP_ModMothWings",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
