@@ -36,7 +36,7 @@
     "DefaultSceneRoot",
     "DefaultSceneRoot_GEN_VARIABLE",
     "DefaultSceneRootNode",
-    "DrakeBones",
+    "ModDeerAntlers",
     "Engine",
     "ShadowCaster_Antler",
     "Guid",
@@ -72,7 +72,8 @@
     "StructProperty",
     "T_UI_Icon_ModDeerAntlers",
     "Texture2D",
-    "VariableGuid"
+    "VariableGuid",
+    "Vector"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,

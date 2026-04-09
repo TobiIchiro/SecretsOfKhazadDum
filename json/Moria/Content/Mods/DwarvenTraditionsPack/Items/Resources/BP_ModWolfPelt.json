@@ -42,7 +42,7 @@
     "IconTextureReference",
     "InternalVariableName",
     "MaterialInstanceConstant",
-    "MI_GPI_Ingredients_OrcHunter",
+    "MI_GPI_Ingredients_DwarvenTraditions",
     "MorItemRowHandle",
     "NameProperty",
     "NiagaraComponent",
@@ -74,7 +74,7 @@
     "Texture2D",
     "VariableGuid",
     "Vector",
-    "WargPelt"
+    "ModWolfPelt"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -1094,7 +1094,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_GPI_Ingredients_OrcHunter",
+      "ObjectName": "MI_GPI_Ingredients_DwarvenTraditions",
       "OuterIndex": -16,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1121,7 +1121,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Items/Resources/Materials/MI_GPI_Ingredients_OrcHunter",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Items/Resources/Materials/MI_GPI_Ingredients_DwarvenTraditions",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
