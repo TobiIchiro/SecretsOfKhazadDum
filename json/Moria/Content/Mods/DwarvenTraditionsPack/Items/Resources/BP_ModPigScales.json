@@ -2,6 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
+    "/Game/CharacterArt/Creatures/BadgerBoar/MI_BadgerBoar_Plates",
     "/Game/Mods/DwarvenTraditionsPack/Icons/T_UI_Icon_ModPigScales",
     "/Game/Mods/DwarvenTraditionsPack/Items/Resources/BP_ModPigScales",
     "/Game/Mods/DwarvenTraditionsPack/Items/Resources/Meshes/GPI_OrcHunter_DrakeBones",
@@ -41,6 +42,8 @@
     "Guid",
     "IconTextureReference",
     "InternalVariableName",
+    "MaterialInstanceConstant",
+    "MI_BadgerBoar_Plates",
     "MorItemRowHandle",
     "NameProperty",
     "NiagaraComponent",
@@ -48,6 +51,7 @@
     "None",
     "Object",
     "ObjectProperty",
+    "OverrideMaterials",
     "OverrideParameters",
     "Package",
     "ParentComponentOrVariableName",
@@ -262,6 +266,7 @@
         -28,
         -22,
         -26,
+        -30,
         -6,
         -2
       ],
@@ -851,31 +856,22 @@
           "Value": -26
         },
         {
-          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-          "StructType": "Rotator",
-          "SerializeNone": true,
-          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-          "SerializationControl": "NoExtension",
-          "Operation": "None",
-          "Name": "RelativeRotation",
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
           "ArrayIndex": 0,
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": [
             {
-              "$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
-              "Name": "RelativeRotation",
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
               "ArrayIndex": 0,
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": {
-                "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
-                "Pitch": -20.0,
-                "Yaw": "+0",
-                "Roll": "+0"
-              }
+              "Value": -30
             }
           ]
         }
@@ -1177,6 +1173,24 @@
       "OuterIndex": -16,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/CharacterArt/Creatures/BadgerBoar/MI_BadgerBoar_Plates",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_BadgerBoar_Plates",
+      "OuterIndex": -29,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }
