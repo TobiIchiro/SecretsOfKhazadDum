@@ -47725,6 +47725,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
+                                            "UI.Materials",
                                             "Item.BasicGather"
                                         ]
                                     }
@@ -48067,6 +48068,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
+                                            "UI.Materials",
                                             "Item.BasicGather"
                                         ]
                                     }
@@ -48409,6 +48411,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
+                                            "UI.Materials",
                                             "Item.BasicGather"
                                         ]
                                     }
@@ -48751,6 +48754,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
+                                            "UI.Materials",
                                             "Item.BasicGather"
                                         ]
                                     }
@@ -49093,6 +49097,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
+                                            "UI.Materials",
                                             "Item.BasicGather"
                                         ]
                                     }
