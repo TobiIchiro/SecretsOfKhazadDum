@@ -746,7 +746,7 @@
     "Flora.Tree.CeibaSmall",
     "AI.Loot.Mod.Hunter",
     "Mod_Pig_Shell",
-    "Item.ModPigScale",
+    "Item.ModPigScales",
     "Mod_Deer_Antlers",
     "Item.ModDeerAntlers",
     "Mod_Bear_Hide",
@@ -56204,7 +56204,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Item.ModPigScale"
+                    "Value": "Item.ModPigScales"
                   }
                 ]
               },
