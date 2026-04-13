@@ -2,8 +2,9 @@
   {
     "Type": "StringTable",
     "Name": "ST_Mod_Items",
-    "Class": "UScriptClass'StringTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items",
     "StringTable": {
       "TableNamespace": "",
       "KeysToEntries": {
@@ -101,7 +102,17 @@
         "DwarvenTraditions.Consumables.Brew.BrewedElanorTea.Name": "Brewed Elanor Tea",
         "DwarvenTraditions.Consumables.Brew.BrewedElanorTea.Description": "Golden Elanor steeped with Elbereth's blessing, restoring vigor like the halls of Imladris.",
         "DwarvenTraditions.Consumables.Brew.EmberAle.Name": "Ember Ale",
-        "DwarvenTraditions.Consumables.Brew.EmberAle.Description": "A rich amber-hued ale made from the finest mountain berries, slow-fermented over open flames, and egad in sealed stone-cast barrels nestled beside lava vets deep within the mountain. The recipe is safeguarded by the ancient Clan Firebeard."
+        "DwarvenTraditions.Consumables.Brew.EmberAle.Description": "A rich amber-hued ale made from the finest mountain berries, slow-fermented over open flames, and egad in sealed stone-cast barrels nestled beside lava vets deep within the mountain. The recipe is safeguarded by the ancient Clan Firebeard.",
+        "Items.ModBearHide.Name": "Cave Bear Hide",
+        "Items.ModBearHide.Description": "* Placeholder *",
+        "Items.ModDeerAntlers.Name": "Hiriwara’s Antlers",
+        "Items.ModDeerAntlers.Description": "* Placeholder *",
+        "Items.ModMothWings.Name": "Deep Moth Wings",
+        "Items.ModMothWings.Description": "* Placeholder *",
+        "Items.ModPigScales.Name": "Dâ'imûn’s Scale",
+        "Items.ModPigScales.Description": "* Placeholder *",
+        "Items.ModWolfPelt.Name": "Wolf Pelt",
+        "Items.ModWolfPelt.Description": "* Placeholder *"
       },
       "KeysToMetaData": {}
     }
