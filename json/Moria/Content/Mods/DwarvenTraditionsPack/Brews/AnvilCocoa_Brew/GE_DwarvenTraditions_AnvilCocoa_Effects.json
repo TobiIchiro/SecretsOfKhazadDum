@@ -3,7 +3,7 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Mods/DwarvenTraditions/Brews/AnvilCocoa_Brew/GE_DwarvenTraditions_AnvilCocoa_Effects",
-    "/Game/Mods/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_AnvilCocoa",
+    "/Game/Mods/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_AnvilCocoa_Brew",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects",
     "/Script/CoreUObject",
@@ -130,7 +130,7 @@
     "StringTable",
     "StrProperty",
     "StructProperty",
-    "T_UI_Icon_DwarvenTraditions_AnvilCocoa",
+    "T_UI_Icon_DwarvenTraditions_AnvilCocoa_Brew",
     "TagName",
     "TargetTagFilter",
     "TargetTags",
@@ -3277,7 +3277,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_AnvilCocoa",
+      "ObjectName": "/Game/Mods/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_AnvilCocoa_Brew",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3349,7 +3349,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_DwarvenTraditions_AnvilCocoa",
+      "ObjectName": "T_UI_Icon_DwarvenTraditions_AnvilCocoa_Brew",
       "OuterIndex": -10,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",

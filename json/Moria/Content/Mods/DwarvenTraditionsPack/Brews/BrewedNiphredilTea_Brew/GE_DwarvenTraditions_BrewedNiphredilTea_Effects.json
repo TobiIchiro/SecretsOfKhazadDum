@@ -3,7 +3,7 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Mods/DwarvenTraditions/Brews/BrewedNiphredilTea_Brew/GE_DwarvenTraditions_BrewedNiphredilTea_Effects",
-    "/Game/Mods/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_BrewedNiphredilTea",
+    "/Game/Mods/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_BrewedNiphredilTea_Brew",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects",
     "/Script/CoreUObject",
@@ -130,7 +130,7 @@
     "StringTable",
     "StrProperty",
     "StructProperty",
-    "T_UI_Icon_DwarvenTraditions_BrewedNiphredilTea",
+    "T_UI_Icon_DwarvenTraditions_BrewedNiphredilTea_Brew",
     "TagName",
     "TargetTagFilter",
     "TargetTags",
@@ -4482,7 +4482,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_BrewedNiphredilTea",
+      "ObjectName": "/Game/Mods/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_BrewedNiphredilTea_Brew",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -4554,7 +4554,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_DwarvenTraditions_BrewedNiphredilTea",
+      "ObjectName": "T_UI_Icon_DwarvenTraditions_BrewedNiphredilTea_Brew",
       "OuterIndex": -10,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",

@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Mods/DwarvenTraditions/Brews/BrewedElanorTea_Brew/GE_DwarvenTraditions_BrewedElanorTea_BrewTracker",
     "/Game/Mods/DwarvenTraditions/Brews/BrewedElanorTea_Brew/MMC_DwarvenTraditions_BrewedElanorTea_UIProgress",
-    "/Game/DLC/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_BrewedElanorTea",
+    "/Game/DLC/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_BrewedElanorTea_Brew",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects",
     "/Script/CoreUObject",
@@ -63,7 +63,7 @@
     "StackLimitCount",
     "StringTable",
     "StructProperty",
-    "T_UI_Icon_DwarvenTraditions_BrewedElanorTea",
+    "T_UI_Icon_DwarvenTraditions_BrewedElanorTea_Brew",
     "TextProperty",
     "Texture2D",
     "UIData",
@@ -731,7 +731,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/DLC/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_BrewedElanorTea",
+      "ObjectName": "/Game/DLC/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_BrewedElanorTea_Brew",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -803,7 +803,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_DwarvenTraditions_BrewedElanorTea",
+      "ObjectName": "T_UI_Icon_DwarvenTraditions_BrewedElanorTea_Brew",
       "OuterIndex": -12,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
