@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/KingdomBannersPack/Materials/MI_Mereak_Banner_A",
+    "/Game/Mods/MereakBannerPack/Materials/MI_Mereak_Banner_A",
     "/Game/Environments/Models/NaturalDeco/Meshes/Destructible/DM_BannerPole_B_Destructible",
     "/Game/Environments/Models/NaturalDeco/Meshes/Destructible/DM_BannerPole_B_Destructible.DM_BannerPole_B_Destructible",
     "/Game/Mods/BannersPack/Meshes/SM_ModBanner_Lord",
