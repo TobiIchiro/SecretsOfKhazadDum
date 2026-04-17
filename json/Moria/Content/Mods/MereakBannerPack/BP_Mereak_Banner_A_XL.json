@@ -1284,7 +1284,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/KingdomBannersPack/Materials/MI_Mereak_Banner_A",
+      "ObjectName": "/Game/Mods/MereakBannerPack/Materials/MI_Mereak_Banner_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
