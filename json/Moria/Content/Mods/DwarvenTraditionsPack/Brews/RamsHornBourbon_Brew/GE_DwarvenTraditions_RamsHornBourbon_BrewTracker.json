@@ -2,9 +2,9 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/DwarvenTraditions/Brews/RamsHornBourbon_Brew/GE_DwarvenTraditions_RamsHornBourbon_BrewTracker",
-    "/Game/Mods/DwarvenTraditions/Brews/RamsHornBourbon_Brew/MMC_DwarvenTraditions_RamsHornBourbon_UIProgress",
-    "/Game/DLC/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_RamsHornBourbon_Brew",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/RamsHornBourbon_Brew/GE_DwarvenTraditions_RamsHornBourbon_BrewTracker",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/RamsHornBourbon_Brew/MMC_DwarvenTraditions_RamsHornBourbon_UIProgress",
+    "/Game/DLC/DwarvenTraditionsPack/Icons/T_UI_Icon_DwarvenTraditions_RamsHornBourbon_Brew",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects",
     "/Script/CoreUObject",
@@ -697,7 +697,7 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__MMC_DwarvenTraditions_RamsHornBourbon_UIProgress_C",
       "OuterIndex": -10,
-      "ClassPackage": "/Game/Mods/DwarvenTraditions/Brews/RamsHornBourbon_Brew/MMC_DwarvenTraditions_RamsHornBourbon_UIProgress",
+      "ClassPackage": "/Game/Mods/DwarvenTraditionsPack/Brews/RamsHornBourbon_Brew/MMC_DwarvenTraditions_RamsHornBourbon_UIProgress",
       "ClassName": "MMC_DwarvenTraditions_RamsHornBourbon_UIProgress_C",
       "PackageName": null,
       "bImportOptional": false
@@ -713,7 +713,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/DwarvenTraditions/Brews/RamsHornBourbon_Brew/MMC_DwarvenTraditions_RamsHornBourbon_UIProgress",
+      "ObjectName": "/Game/Mods/DwarvenTraditionsPack/Brews/RamsHornBourbon_Brew/MMC_DwarvenTraditions_RamsHornBourbon_UIProgress",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -731,7 +731,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/DLC/DwarvenTraditions/Icons/T_UI_Icon_DwarvenTraditions_RamsHornBourbon_Brew",
+      "ObjectName": "/Game/DLC/DwarvenTraditionsPack/Icons/T_UI_Icon_DwarvenTraditions_RamsHornBourbon_Brew",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -848,7 +848,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/DwarvenTraditions/Brews/RamsHornBourbon_Brew/GE_DwarvenTraditions_RamsHornBourbon_BrewTracker",
+  "FolderName": "/Game/Mods/DwarvenTraditionsPack/Brews/RamsHornBourbon_Brew/GE_DwarvenTraditions_RamsHornBourbon_BrewTracker",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/DwarvenTraditions/Brews/EmberAle_Brew/GC_DwarvenTraditions_EmberAle",
+    "/Game/Mods/DwarvenTraditionsPack/Brews/EmberAle_Brew/GC_DwarvenTraditions_EmberAle",
     "/Game/Character/Shared/Cues/BrewEffects/GC_BrewEffectBase",
     "/Game/FX/BrewFX/Niagara/NS_BrewBuff_HealthBrew",
     "/Script/CoreUObject",
@@ -764,7 +764,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/DwarvenTraditions/Brews/EmberAle_Brew/GC_DwarvenTraditions_EmberAle",
+  "FolderName": "/Game/Mods/DwarvenTraditionsPack/Brews/EmberAle_Brew/GC_DwarvenTraditions_EmberAle",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
