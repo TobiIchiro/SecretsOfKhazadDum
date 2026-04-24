@@ -139,7 +139,7 @@
     "UIData",
     "Value",
     "Stamina",
-    "EGameplayModOp::Override",
+    "EGameplayModOp::Multiplicative",
     "MoveSpeedScale",
     "MaxFood"
   ],
@@ -1638,7 +1638,7 @@
                   "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                   "ByteType": "FName",
                   "EnumType": "EGameplayModOp",
-                  "EnumValue": "EGameplayModOp::Override",
+                  "EnumValue": "EGameplayModOp::Multiplicative",
                   "Name": "ModifierOp",
                   "ArrayIndex": 0,
                   "IsZero": false,
@@ -1765,7 +1765,7 @@
                       "Value": [
                         {
                           "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                          "Value": 110,
+                          "Value": 1.10,
                           "Name": "Value",
                           "ArrayIndex": 0,
                           "IsZero": false,
