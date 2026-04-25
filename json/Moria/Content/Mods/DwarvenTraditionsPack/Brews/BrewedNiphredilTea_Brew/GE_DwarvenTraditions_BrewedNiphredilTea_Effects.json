@@ -1638,7 +1638,7 @@
                   "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                   "ByteType": "FName",
                   "EnumType": "EGameplayModOp",
-                  "EnumValue": "EGameplayModOp::Multiplicative",
+                  "EnumValue": "EGameplayModOp::Multiplicitive",
                   "Name": "ModifierOp",
                   "ArrayIndex": 0,
                   "IsZero": false,
@@ -1765,7 +1765,7 @@
                       "Value": [
                         {
                           "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                          "Value": 1.10,
+                          "Value": 1.5,
                           "Name": "Value",
                           "ArrayIndex": 0,
                           "IsZero": false,
