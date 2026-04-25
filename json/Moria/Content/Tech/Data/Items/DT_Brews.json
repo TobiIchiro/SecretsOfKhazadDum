@@ -7742,7 +7742,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 100
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -7751,7 +7751,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 0
+                "Value": 100
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
