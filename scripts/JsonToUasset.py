@@ -41,10 +41,6 @@ for dirpath, _, filenames in os.walk(ROOT_JSON):
         os.makedirs(dest_dir, exist_ok=True)
         dest = os.path.join(dest_dir, os.path.splitext(file)[0] + ".uasset")
 
-        # Opcional: saltar si ya existe
-        # if os.path.exists(dest):
-        #     continue
-
         tasks.append((source, dest))
 
 errors = []
