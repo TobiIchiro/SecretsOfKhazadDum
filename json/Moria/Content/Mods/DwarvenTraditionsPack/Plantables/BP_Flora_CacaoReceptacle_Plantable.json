@@ -86,7 +86,7 @@
     "FGKTargetable_GEN_VARIABLE",
     "FGKTargetableComponent",
     "FSM_GEN_VARIABLE",
-    "Grabapple_Planted",
+    "Cacao_Planted",
     "GreenCurve",
     "Growth Stage Changed VFX",
     "Growth Stage Changed VFX_GEN_VARIABLE",
@@ -399,7 +399,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Grabapple_Planted"
+              "Value": "Cacao_Planted"
             }
           ]
         },
