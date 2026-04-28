@@ -541,6 +541,9 @@
     "Mint_Plantable_Ready_Extra",
     "Monster.Bat",
     "Monster.Dragon.Drake",
+    "Monster.Dragon.Drake.Fire",
+    "Monster.Dragon.Drake.Poison",
+    "Monster.Dragon.Drake.Shadow",
     "Monster.Dragon.FellBeast",
     "Monster.Dragon.Shadow",
     "Monster.Grendel.Gulrun",
@@ -12849,7 +12852,10 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "Monster.Dragon.Drake"
+                      "Monster.Dragon.Drake",
+                      "Monster.Dragon.Drake.Fire",
+                      "Monster.Dragon.Drake.Poison",
+                      "Monster.Dragon.Drake.Shadow"
                     ]
                   }
                 ]
@@ -39487,7 +39493,10 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
                       "AI.Loot.Trophy",
-                      "Monster.Dragon.Drake"
+                      "Monster.Dragon.Drake",
+                      "Monster.Dragon.Drake.Fire",
+                      "Monster.Dragon.Drake.Poison",
+                      "Monster.Dragon.Drake.Shadow"
                     ]
                   }
                 ]

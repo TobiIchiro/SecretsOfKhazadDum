@@ -1,1 +1,1 @@
-"F:\Programas\UE_4.27\Engine\Binaries\Win64\UnrealPak.exe" "F:\RtoM\SecretsOfKhazadDum\Pack\SecretsOfKhazadDum_LocTags_P.pak" -create="F:\RtoM\SecretsOfKhazadDum\scripts\Paklist.txt" -compress
+"C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UnrealPak.exe" "F:\RtoM\SecretsOfKhazadDum\Pack\SecretsOfKhazadDum_LocTags_P.pak" -create="F:\RtoM\SecretsOfKhazadDum\scripts\Paklist.txt" -compress
