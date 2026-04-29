@@ -2,62 +2,33 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Animations/Drake/Drk_G_Combat_Atk_Breath_Montage",
-    "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Drake_Attack_Ranged",
-    "/Game/Character/Shared/Abilities/GA_RangedAttack_Base",
-    "/Game/Items/Weapons/BP_Projectile_Drake",
-    "/Script/AkAudio",
+    "/Game/Items/GE_Poison_Default",
+    "/Game/Mods/HuntersLodgePack/Weapons/GE_Poison_Drake",
     "/Script/CoreUObject",
     "/Script/Engine",
-    "/Script/Moria",
-    "AkComponent",
-    "Anim",
-    "AnimMontage",
-    "bDisplayAsHold",
+    "Added",
     "BlueprintGeneratedClass",
-    "BoolProperty",
-    "BP_Projectile_Drake_C",
     "Class",
     "Default__BlueprintGeneratedClass",
-    "Default__BP_Projectile_Drake_C",
-    "Default__GA_Drake_Attack_Ranged_C",
-    "Default__GA_RangedAttack_Base_C",
-    "DefaultSceneRoot_GEN_VARIABLE",
-    "Drk_G_Combat_Atk_Breath_Montage",
-    "EHitsTeam",
-    "EHitsTeam::Enemy",
+    "Default__GE_Poison_Default_C",
+    "Default__GE_Poison_Drake_C",
+    "DurationMagnitude",
     "Engine",
-    "EnumProperty",
     "FloatProperty",
-    "GA_Drake_Attack_Ranged_C",
-    "GA_RangedAttack_Base_C",
-    "headSocket",
-    "HitsTeam",
-    "MaxSpeed",
-    "Mesh",
-    "MGATAReticle",
-    "MinSpeed",
-    "MorProjectileMovementComponent",
-    "NameProperty",
+    "GameplayEffectModifierMagnitude",
+    "GameplayTagContainer",
+    "GE_Poison_Default_C",
+    "GE_Poison_Drake_C",
+    "InheritableGameplayEffectTags",
+    "InheritableOwnedTagsContainer",
+    "InheritedTagContainer",
     "None",
     "Object",
-    "ObjectProperty",
     "Package",
-    "ProjectileClass",
-    "ProjectileMovement",
-    "RelativeSpawnTransform",
-    "RootComponent",
-    "Scale3D",
-    "SceneComponent",
-    "SpawnAtBone",
-    "SphereComponent",
-    "SpreadPitchScale",
-    "StaticMeshComponent",
+    "ScalableFloat",
+    "ScalableFloatMagnitude",
     "StructProperty",
-    "TargetUsingActor",
-    "Transform",
-    "Vector",
-    "MorAnimNotify_Projectile"
+    "Value"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -169,15 +140,15 @@
     {
       "$type": "UAssetAPI.ExportTypes.ClassExport, UAssetAPI",
       "FuncMap": [],
-      "ClassFlags": "CLASS_Parsed, CLASS_ReplicationDataIsSetUp, CLASS_CompiledFromBlueprint",
-      "ClassWithin": -7,
+      "ClassFlags": "CLASS_Parsed, CLASS_ReplicationDataIsSetUp, CLASS_CompiledFromBlueprint, CLASS_HasInstancedReference",
+      "ClassWithin": -3,
       "ClassConfigName": "Engine",
       "Interfaces": [],
       "ClassGeneratedBy": 0,
       "bDeprecatedForceScriptOrder": false,
       "bCooked": true,
       "ClassDefaultObject": 2,
-      "SuperStruct": -3,
+      "SuperStruct": -1,
       "Children": [],
       "LoadedProperties": [],
       "ScriptBytecode": [],
@@ -191,14 +162,14 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "GA_Drake_Attack_Ranged_C",
+      "ObjectName": "GE_Poison_Drake_C",
       "OuterIndex": 0,
-      "ClassIndex": -8,
-      "SuperIndex": -3,
-      "TemplateIndex": -5,
+      "ClassIndex": -4,
+      "SuperIndex": -1,
+      "TemplateIndex": -2,
       "ObjectFlags": "RF_Public, RF_Transactional",
       "SerialSize": 80,
-      "SerialOffset": 2599,
+      "SerialOffset": 1412,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -211,15 +182,13 @@
       "bIsAsset": false,
       "GeneratePublicHash": false,
       "SerializationBeforeSerializationDependencies": [
-        -3
+        -1
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -21,
-        -10,
-        -20,
-        -8,
-        -5
+        -5,
+        -4,
+        -2
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -228,49 +197,13 @@
       "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
       "Data": [
         {
-          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-          "Value": 3000.0,
-          "Name": "MinSpeed",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension"
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-          "Value": 3000.0,
-          "Name": "MaxSpeed",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension"
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-          "Name": "ProjectileClass",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": -4
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-          "Name": "SpawnAtBone",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": "headSocket"
-        },
-        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-          "StructType": "Transform",
+          "StructType": "GameplayEffectModifierMagnitude",
           "SerializeNone": true,
           "StructGUID": "{00000000-0000-0000-0000-000000000000}",
           "SerializationControl": "NoExtension",
           "Operation": "None",
-          "Name": "RelativeSpawnTransform",
+          "Name": "DurationMagnitude",
           "ArrayIndex": 0,
           "IsZero": false,
           "PropertyTagFlags": "None",
@@ -278,94 +211,120 @@
           "Value": [
             {
               "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-              "StructType": "Vector",
+              "StructType": "ScalableFloat",
               "SerializeNone": true,
               "StructGUID": "{00000000-0000-0000-0000-000000000000}",
               "SerializationControl": "NoExtension",
               "Operation": "None",
-              "Name": "Scale3D",
+              "Name": "ScalableFloatMagnitude",
               "ArrayIndex": 0,
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": [
                 {
-                  "$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
-                  "Name": "Scale3D",
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                  "Value": 0.65,
+                  "Name": "Value",
                   "ArrayIndex": 0,
                   "IsZero": false,
                   "PropertyTagFlags": "None",
-                  "PropertyTagExtensions": "NoExtension",
-                  "Value": {
-                    "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                    "X": 0.3499999940395355,
-                    "Y": 0.3499999940395355,
-                    "Z": 0.3499999940395355
-                  }
+                  "PropertyTagExtensions": "NoExtension"
                 }
               ]
             }
           ]
         },
         {
-          "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-          "Value": 0.05000000074505806,
-          "Name": "SpreadPitchScale",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension"
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-          "Name": "Anim",
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "InheritedTagContainer",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "InheritableGameplayEffectTags",
           "ArrayIndex": 0,
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -2
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "GameplayTagContainer",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Added",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                  "Name": "Added",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": []
+                }
+              ]
+            }
+          ]
         },
         {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-          "Name": "TargetUsingActor",
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "InheritedTagContainer",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "InheritableOwnedTagsContainer",
           "ArrayIndex": 0,
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -9
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
-          "EnumType": "EHitsTeam",
-          "InnerType": "EHitsTeam",
-          "Name": "HitsTeam",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": "EHitsTeam::Enemy"
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
-          "Name": "bDisplayAsHold",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": false
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+              "StructType": "GameplayTagContainer",
+              "SerializeNone": true,
+              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+              "SerializationControl": "NoExtension",
+              "Operation": "None",
+              "Name": "Added",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": [
+                {
+                  "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                  "Name": "Added",
+                  "ArrayIndex": 0,
+                  "IsZero": false,
+                  "PropertyTagFlags": "None",
+                  "PropertyTagExtensions": "NoExtension",
+                  "Value": []
+                }
+              ]
+            }
+          ]
         }
       ],
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__GA_Drake_Attack_Ranged_C",
+      "ObjectName": "Default__GE_Poison_Drake_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
-      "TemplateIndex": -10,
-      "ObjectFlags": "RF_Public, RF_ClassDefaultObject, RF_ArchetypeObject",
-      "SerialSize": 400,
-      "SerialOffset": 2679,
+      "TemplateIndex": -5,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ClassDefaultObject, RF_ArchetypeObject",
+      "SerialSize": 371,
+      "SerialOffset": 1492,
       "ScriptSerializationStartOffset": 0,
       "ScriptSerializationEndOffset": 0,
       "bForcedExport": false,
@@ -381,7 +340,7 @@
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
         1,
-        -10
+        -5
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -400,35 +359,8 @@
   "Imports": [
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "AkComponent",
+      "ObjectName": "GE_Poison_Default_C",
       "OuterIndex": -6,
-      "ClassPackage": "/Script/AkAudio",
-      "ClassName": "AkComponent",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Drk_G_Combat_Atk_Breath_Montage",
-      "OuterIndex": -13,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "AnimMontage",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GA_RangedAttack_Base_C",
-      "OuterIndex": -14,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "BlueprintGeneratedClass",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "BP_Projectile_Drake_C",
-      "OuterIndex": -12,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
       "PackageName": null,
@@ -437,7 +369,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__BlueprintGeneratedClass",
-      "OuterIndex": -16,
+      "OuterIndex": -8,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
       "PackageName": null,
@@ -445,17 +377,8 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__BP_Projectile_Drake_C",
-      "OuterIndex": -12,
-      "ClassPackage": "/Game/Items/Weapons/BP_Projectile_Drake",
-      "ClassName": "BP_Projectile_Drake_C",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Object",
-      "OuterIndex": -15,
+      "OuterIndex": -7,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -464,7 +387,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "BlueprintGeneratedClass",
-      "OuterIndex": -16,
+      "OuterIndex": -8,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -472,52 +395,16 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MGATAReticle",
-      "OuterIndex": -17,
-      "ClassPackage": "/Script/CoreUObject",
-      "ClassName": "Class",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__GA_RangedAttack_Base_C",
-      "OuterIndex": -14,
-      "ClassPackage": "/Game/Character/Shared/Abilities/GA_RangedAttack_Base",
-      "ClassName": "GA_RangedAttack_Base_C",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "ProjectileMovement",
+      "ObjectName": "Default__GE_Poison_Default_C",
       "OuterIndex": -6,
-      "ClassPackage": "/Script/Moria",
-      "ClassName": "MorProjectileMovementComponent",
+      "ClassPackage": "/Game/Items/GE_Poison_Default",
+      "ClassName": "GE_Poison_Default_C",
       "PackageName": null,
       "bImportOptional": false
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/Weapons/BP_Projectile_Drake",
-      "OuterIndex": 0,
-      "ClassPackage": "/Script/CoreUObject",
-      "ClassName": "Package",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Animations/Drake/Drk_G_Combat_Atk_Breath_Montage",
-      "OuterIndex": 0,
-      "ClassPackage": "/Script/CoreUObject",
-      "ClassName": "Package",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Character/Shared/Abilities/GA_RangedAttack_Base",
+      "ObjectName": "/Game/Items/GE_Poison_Default",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -541,51 +428,6 @@
       "ClassName": "Package",
       "PackageName": null,
       "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Script/Moria",
-      "OuterIndex": 0,
-      "ClassPackage": "/Script/CoreUObject",
-      "ClassName": "Package",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "DefaultSceneRoot_GEN_VARIABLE",
-      "OuterIndex": -4,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "SceneComponent",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "RootComponent",
-      "OuterIndex": -6,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "SphereComponent",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Mesh",
-      "OuterIndex": -6,
-      "ClassPackage": "/Script/Engine",
-      "ClassName": "StaticMeshComponent",
-      "PackageName": null,
-      "bImportOptional": false
-    },
-    {
-      "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MorAnimNotify_Projectile_1",
-      "OuterIndex": -2,
-      "ClassPackage": "/Script/Moria",
-      "ClassName": "MorAnimNotify_Projectile",
-      "PackageName": null,
-      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -601,7 +443,7 @@
     {
       "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
       "ExportCount": 2,
-      "NameCount": 56
+      "NameCount": 27
     }
   ],
   "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
@@ -624,7 +466,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Drake_Attack_Ranged",
+  "FolderName": "/Game/Mods/HuntersLodgePack/Weapons/GE_Poison_Drake",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
@@ -632,7 +474,7 @@
   "ThumbnailTableOffset": 0,
   "CompressionFlags": 0,
   "AdditionalPackagesToCook": [],
-  "NamesReferencedFromExportDataCount": 56,
+  "NamesReferencedFromExportDataCount": 27,
   "PayloadTocOffset": -1,
   "DataResourceOffset": -1,
   "doWeHaveAssetRegistryData": true,
