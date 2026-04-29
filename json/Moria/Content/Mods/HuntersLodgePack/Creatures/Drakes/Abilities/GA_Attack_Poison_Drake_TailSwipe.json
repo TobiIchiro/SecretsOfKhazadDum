@@ -3,7 +3,7 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Animations/Drake/Drk_G_Combat_Atk_Tail_Montage",
-    "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_TailSwipe",
+    "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_TailSwipe",
     "/Game/Character/Shared/Abilities/GA_MeleeAttack_Base",
     "/Game/Mods/HuntersLodgePack/Weapons/GE_PoisonAttack100",
     "/Script/CoreUObject",
@@ -660,7 +660,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_TailSwipe",
+  "FolderName": "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_TailSwipe",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

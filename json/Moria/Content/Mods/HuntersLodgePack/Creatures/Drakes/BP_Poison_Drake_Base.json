@@ -10,9 +10,9 @@
     "/Game/Animations/Drake/Drk_G_TurnIP_R45_Montage",
     "/Game/Animations/Drake/Drk_G_TurnIP_R90_Montage",
     "/Game/Character/Creatures/BP_Fauna_Base",
-    "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_Bite",
-    "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_TailSwipe",
-    "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Poison_Drake_Attack_Ranged",
+    "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_Bite",
+    "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_TailSwipe",
+    "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Poison_Drake_Attack_Ranged",
     "/Game/Character/Creatures/Drake/Abilities/GA_Reaction_Drake_Hit_Light_B",
     "/Game/Character/Creatures/Drake/Abilities/GA_Reaction_Drake_Hit_Light_F_VarA",
     "/Game/Character/Creatures/Drake/Abilities/GA_Reaction_Drake_Hit_Light_L",
@@ -28605,7 +28605,7 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__GA_Attack_Poison_Drake_Bite_C",
       "OuterIndex": -133,
-      "ClassPackage": "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_Bite",
+      "ClassPackage": "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_Bite",
       "ClassName": "GA_Attack_Poison_Drake_Bite_C",
       "PackageName": null,
       "bImportOptional": false
@@ -28614,7 +28614,7 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__GA_Attack_Poison_Drake_TailSwipe_C",
       "OuterIndex": -134,
-      "ClassPackage": "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_TailSwipe",
+      "ClassPackage": "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_TailSwipe",
       "ClassName": "GA_Attack_Poison_Drake_TailSwipe_C",
       "PackageName": null,
       "bImportOptional": false
@@ -28623,7 +28623,7 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__GA_Poison_Drake_Attack_Ranged_C",
       "OuterIndex": -135,
-      "ClassPackage": "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Poison_Drake_Attack_Ranged",
+      "ClassPackage": "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Poison_Drake_Attack_Ranged",
       "ClassName": "GA_Poison_Drake_Attack_Ranged_C",
       "PackageName": null,
       "bImportOptional": false
@@ -28954,7 +28954,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_Bite",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_Bite",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -28963,7 +28963,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_TailSwipe",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Attack_Poison_Drake_TailSwipe",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -28972,7 +28972,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Poison_Drake_Attack_Ranged",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Poison_Drake_Attack_Ranged",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",

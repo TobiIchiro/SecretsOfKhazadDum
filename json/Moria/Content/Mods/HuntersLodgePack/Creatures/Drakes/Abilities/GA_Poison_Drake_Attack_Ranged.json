@@ -3,7 +3,7 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Animations/Drake/Drk_G_Combat_Atk_Breath_Montage",
-    "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Poison_Drake_Attack_Ranged",
+    "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Poison_Drake_Attack_Ranged",
     "/Game/Character/Shared/Abilities/GA_RangedAttack_Base",
     "/Game/Mods/HuntersLodgePack/Weapons/BP_Projectile_Poison_Drake",
     "/Script/AkAudio",
@@ -624,7 +624,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/HuntersLodgePack/Character/Creatures/Drakes/Abilities/GA_Poison_Drake_Attack_Ranged",
+  "FolderName": "/Game/Mods/HuntersLodgePack/Creatures/Drakes/Abilities/GA_Poison_Drake_Attack_Ranged",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
