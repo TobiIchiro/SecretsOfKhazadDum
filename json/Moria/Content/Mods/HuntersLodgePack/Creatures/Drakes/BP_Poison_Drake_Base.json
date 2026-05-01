@@ -23,7 +23,7 @@
     "/Game/Mods/HuntersLodgePack/Creatures/Drakes/BP_Poison_Drake_Base",
     "/Game/Character/Creatures/Drake/DA_Drake_AI",
     "/Game/Character/Creatures/Drake/DA_Drake_CharacterData",
-    "/Game/Mods/HuntersLodgePack/Creatures/Drakes//GE_Starting_Drake_Poison",
+    "/Game/Mods/HuntersLodgePack/Creatures/Drakes/GE_Starting_Drake_Poison",
     "/Game/CharacterArt/Creatures/Drake/Drake",
     "/Game/FX/CharacterDespawn/Niagara/NS_EnemyDespawnFX",
     "/Game/FX/EnemyFX/Niagara/Drake/NS_IceBreath_Drake",
@@ -28677,7 +28677,7 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__GE_Starting_Drake_Poison_C",
       "OuterIndex": -141,
-      "ClassPackage": "/Game/Mods/HuntersLodgePack/Creatures/Drakes//GE_Starting_Drake_Poison",
+      "ClassPackage": "/Game/Mods/HuntersLodgePack/Creatures/Drakes/GE_Starting_Drake_Poison",
       "ClassName": "GE_Starting_Drake_Poison_C",
       "PackageName": null,
       "bImportOptional": false
@@ -29026,7 +29026,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/HuntersLodgePack/Creatures/Drakes//GE_Starting_Drake_Poison",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Creatures/Drakes/GE_Starting_Drake_Poison",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
