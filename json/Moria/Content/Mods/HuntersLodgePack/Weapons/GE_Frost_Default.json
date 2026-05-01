@@ -3,6 +3,7 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Mods/HuntersLodgePack/Weapons/GE_Frost_Default",
+    "/Game/Mods/HuntersLodgePack/Weapons/GE_RuneOnHit_FireBurning",
     "/Game/Mods/HuntersLodgePack/Weapons/GE_RuneOnHit_Freezing",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -40,12 +41,15 @@
     "CurveTableRowHandle",
     "CustomCalculationBasedFloat",
     "CustomMagnitude",
-    "Damage.Fire",
+    "Damage",
+    "Damage.Cold",
+    "Damage.DirectHealth",
     "DataName",
     "DataRegistryType",
     "DataTag",
     "Default__BlueprintGeneratedClass",
     "Default__GE_Frost_Default_C",
+    "Default__GE_RuneOnHit_FireBurning_C",
     "Default__GE_RuneOnHit_Freezing_C",
     "Default__GameplayEffect",
     "Default__GameplayEffect_RuneOnHit",
@@ -68,6 +72,7 @@
     "EGameplayModEvaluationChannel",
     "EGameplayModEvaluationChannel::Channel0",
     "EGameplayModOp",
+    "EGameplayModOp::Additive",
     "EGameplayModOp::Multiplicitive",
     "Element.Fire.Burning",
     "Element.Ice.Frozen",
@@ -79,9 +84,11 @@
     "FinalLookupCurve",
     "FloatProperty",
     "GE_Frost_Default_C",
+    "GE_RuneOnHit_FireBurning_C",
     "GE_RuneOnHit_Freezing_C",
     "GameplayAttribute",
     "GameplayCue.Element.Cold.Freezing",
+    "GameplayCue.Element.Fire.Burning",
     "GameplayCueTags",
     "GameplayCues",
     "GameplayEffect",
@@ -95,6 +102,7 @@
     "GameplayTagContainer",
     "GameplayTagRequirements",
     "IgnoreTags",
+    "InheritableGameplayEffectTags",
     "InheritableOwnedTagsContainer",
     "InheritedTagContainer",
     "IntProperty",
@@ -106,6 +114,7 @@
     "ModifierMagnitude",
     "ModifierOp",
     "Modifiers",
+    "MoriaAttributeSet",
     "MoveSpeedScale",
     "Name",
     "NameProperty",
@@ -113,6 +122,7 @@
     "Object",
     "ObjectProperty",
     "Package",
+    "Period",
     "PostMultiplyAdditiveValue",
     "PreMultiplyAdditiveValue",
     "RegistryType",
@@ -2877,7 +2887,7 @@
                   "PropertyTagFlags": "None",
                   "PropertyTagExtensions": "NoExtension",
                   "Value": [
-                    "Damage.Fire"
+                    "Damage.Cold"
                   ]
                 }
               ]
