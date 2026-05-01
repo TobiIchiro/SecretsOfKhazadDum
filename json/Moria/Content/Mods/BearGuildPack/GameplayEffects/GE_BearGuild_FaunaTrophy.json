@@ -3,8 +3,8 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_FaunaTrophy",
-    "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects",
-    "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
     "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_Rune_Fauna_Hunter",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -49,7 +49,7 @@
     "ScalableFloat",
     "ScalableFloatMagnitude",
     "ScriptStruct",
-    "ST_Mod_Effects",
+    "ST_Mod_Items",
     "StackingType",
     "StackLimitCount",
     "StringTable",
@@ -58,7 +58,11 @@
     "TextProperty",
     "Texture2D",
     "UIData",
-    "Value"
+    "Value",
+    "LootDropTag",
+    "NameProperty",
+    "TagName",
+    "AI.Loot.Mod.Hunter"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -226,7 +230,72 @@
     },
     {
       "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
-      "Data": [],
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+          "EnumType": "EGameplayEffectDurationType",
+          "InnerType": "EGameplayEffectDurationType",
+          "Name": "DurationPolicy",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "EGameplayEffectDurationType::Infinite"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "UIData",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 3
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "GameplayTag",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "LootDropTag",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+              "Name": "TagName",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "AI.Loot.Mod.Hunter"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+          "EnumType": "EGameplayEffectStackingType",
+          "InnerType": "EGameplayEffectStackingType",
+          "Name": "StackingType",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "EGameplayEffectStackingType::AggregateByTarget"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+          "Name": "StackLimitCount",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 1
+        }
+      ],
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
@@ -291,7 +360,7 @@
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
           "Flags": 0,
           "HistoryType": "StringTableEntry",
-          "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects",
+          "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
           "Namespace": null,
           "CultureInvariantString": null,
           "SourceFmt": null,
@@ -312,7 +381,7 @@
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
           "Flags": 0,
           "HistoryType": "StringTableEntry",
-          "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects",
+          "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
           "Namespace": null,
           "CultureInvariantString": null,
           "SourceFmt": null,
@@ -327,7 +396,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Runes.BearGuild.Prefix.Description"
+          "Value": "Runes.BearGuild.Description"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -451,7 +520,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects",
+      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -523,7 +592,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "ST_Mod_Effects",
+      "ObjectName": "ST_Mod_Items",
       "OuterIndex": -8,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
