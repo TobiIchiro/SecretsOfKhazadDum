@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Items/GE_Poison_Default",
+    "/Game/Mods/HuntersLodgePack/Weapons/GE_Shadow_Default",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/GameplayAbilities",
@@ -11,15 +11,14 @@
     "ApplicationTagRequirements",
     "BlueprintGeneratedClass",
     "Character.Condition.Blocking.Left",
-    "Character.Condition.FoodBuffActive",
-    "Character.Condition.Poison",
-    "Character.Condition.PoisonImunity",
+    "Character.Condition.Shadow",
+    "Character.Condition.Radiance",
     "Class",
     "CombinedTags",
-    "Debuff.Poison",
+    "Damage.Shadow",
     "Default__BlueprintGeneratedClass",
     "Default__GameplayEffect",
-    "Default__GE_Poison_Default_C",
+    "Default__GE_Shadow_Default_C",
     "DurationMagnitude",
     "DurationPolicy",
     "EGameplayEffectDurationType",
@@ -32,7 +31,7 @@
     "GameplayTag",
     "GameplayTagContainer",
     "GameplayTagRequirements",
-    "GE_Poison_Default_C",
+    "GE_Shadow_Default_C",
     "IgnoreTags",
     "InheritableGameplayEffectTags",
     "InheritableOwnedTagsContainer",
@@ -179,7 +178,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "GE_Poison_Default_C",
+      "ObjectName": "GE_Shadow_Default_C",
       "OuterIndex": 0,
       "ClassIndex": -3,
       "SuperIndex": -4,
@@ -251,7 +250,7 @@
               "Value": [
                 {
                   "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                  "Value": 0.5,
+                  "Value": 3.0,
                   "Name": "Value",
                   "ArrayIndex": 0,
                   "IsZero": false,
@@ -320,7 +319,7 @@
                   "PropertyTagFlags": "None",
                   "PropertyTagExtensions": "NoExtension",
                   "Value": [
-                    "Debuff.Poison"
+                    "Damage.Shadow"
                   ]
                 }
               ]
@@ -346,7 +345,7 @@
                   "PropertyTagFlags": "None",
                   "PropertyTagExtensions": "NoExtension",
                   "Value": [
-                    "Debuff.Poison"
+                    "Damage.Shadow"
                   ]
                 }
               ]
@@ -387,8 +386,7 @@
                   "PropertyTagFlags": "None",
                   "PropertyTagExtensions": "NoExtension",
                   "Value": [
-                    "Character.Condition.FoodBuffActive",
-                    "Character.Condition.Poison"
+                    "Character.Condition.Shadow"
                   ]
                 }
               ]
@@ -414,8 +412,7 @@
                   "PropertyTagFlags": "None",
                   "PropertyTagExtensions": "NoExtension",
                   "Value": [
-                    "Character.Condition.FoodBuffActive",
-                    "Character.Condition.Poison"
+                    "Character.Condition.Shadow"
                   ]
                 }
               ]
@@ -456,7 +453,7 @@
                   "PropertyTagFlags": "None",
                   "PropertyTagExtensions": "NoExtension",
                   "Value": [
-                    "Character.Condition.PoisonImunity",
+                    "Character.Condition.Radiance",
                     "Character.Condition.Blocking.Left"
                   ]
                 }
@@ -468,7 +465,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__GE_Poison_Default_C",
+      "ObjectName": "Default__GE_Shadow_Default_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -635,7 +632,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/GE_Poison_Default",
+  "FolderName": "/Game/Mods/HuntersLodgePack/Weapons/GE_Shadow_Default",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
