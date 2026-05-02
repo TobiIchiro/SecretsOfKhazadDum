@@ -5,10 +5,11 @@
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Wall_Thin_3x3m_A_Destructible",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Wall_Thin_3x3m_A_Destructible.DM_Suburbs_Wall_Thin_3x3m_A_Destructible",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Wall_Thin_3x3m_A",
+    "/Game/DLC/BeornPack/Construction/Materials/MI_Beorn_Beams_SmallColumn",
+    "/Game/Mods/HuntersLodgePack/Constructions/Meshes/SM_Round_Window_A",
     "/Game/Items/Breakables/BP_BaseArchitectureBreakable",
     "/Game/Items/Breakables/BP_BaseBreakable",
-    "/Game/LevelDesign/Architecture/Suburbs/BP_Suburbs_Wall_Thin_3x3m_A",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_Granite_A",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/GameplayTags",
@@ -28,7 +29,7 @@
     "BoxExtent",
     "BP_BaseArchitectureBreakable_C",
     "BP_BaseBreakable_C",
-    "BP_Suburbs_Wall_Thin_3x3m_A_C",
+    "BP_Round_Window_Granite_A_C",
     "Breakable",
     "Breakable Effects_GEN_VARIABLE",
     "Breakable.Small.Stone",
@@ -46,7 +47,7 @@
     "Default__BlueprintGeneratedClass",
     "Default__BP_BaseArchitectureBreakable_C",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_Suburbs_Wall_Thin_3x3m_A_C",
+    "Default__BP_Round_Window_Granite_A_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
     "Default__MorConstructionSnapComponent",
@@ -73,6 +74,7 @@
     "LootDropMasterTag",
     "MaterialInstanceConstant",
     "MaxHealth",
+    "MI_Beorn_Beams_SmallColumn",
     "MI_Suburbs_Wall_Base_Dest",
     "Mobility",
     "MorBreakableComponent",
@@ -111,12 +113,9 @@
     "SoftObjectProperty",
     "StaticMesh",
     "StructProperty",
-    "Suburbs_Wall_Thin_3x3m_A",
+    "SM_Round_Window_A",
     "VariableGuid",
-    "Vector",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_Cavern",
-    "MI_Suburbs_Wall_Base_Dest_Cavern",
-    "/Game/Mods/ZetaPack/BP_Suburbs_Wall_Thin_3x3m_A"
+    "Vector"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -333,7 +332,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Suburbs_Wall_Thin_3x3m_A_C",
+      "ObjectName": "BP_Round_Window_Granite_A_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -1,
@@ -394,7 +393,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Suburbs_Wall_Thin_3x3m_A_C",
+      "ObjectName": "Default__BP_Round_Window_Granite_A_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -903,6 +902,15 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
+              "Value": -18
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
               "Value": -42
             }
           ]
@@ -991,9 +999,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 150.0,
+                "X": 200.0,
                 "Y": "+0",
-                "Z": 150.0
+                "Z": 200.0
               }
             }
           ]
@@ -1022,7 +1030,7 @@
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
                 "X": "+0",
                 "Y": "+0",
-                "Z": 150.0
+                "Z": 200.0
               }
             }
           ]
@@ -1935,7 +1943,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Suburbs_Wall_Thin_3x3m_A",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Constructions/Meshes/SM_Round_Window_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2052,7 +2060,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Suburbs_Wall_Thin_3x3m_A",
+      "ObjectName": "SM_Round_Window_A",
       "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -2061,7 +2069,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_Cavern",
+      "ObjectName": "/Game/DLC/BeornPack/Construction/Materials/MI_Beorn_Beams_SmallColumn",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -2070,7 +2078,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_Suburbs_Wall_Base_Dest_Cavern",
+      "ObjectName": "MI_Beorn_Beams_SmallColumn",
       "OuterIndex": -41,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -2125,7 +2133,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/ZetaPack/BP_Suburbs_Wall_Thin_3x3m_A",
+  "FolderName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_Granite_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

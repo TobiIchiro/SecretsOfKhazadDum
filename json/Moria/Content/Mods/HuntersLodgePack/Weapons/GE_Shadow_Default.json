@@ -250,7 +250,7 @@
               "Value": [
                 {
                   "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                  "Value": 3.0,
+                  "Value": 0.5,
                   "Name": "Value",
                   "ArrayIndex": 0,
                   "IsZero": false,
