@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Mods/HuntersLodgePack/Weapons/GE_Frost_Drake",
+    "/Game/Mods/HuntersLodgePack/Weapons/GE_Freezing",
     "/Game/Mods/HuntersLodgePack/Weapons/GE_FrostAttack125",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -47,7 +47,7 @@
     "DataTag",
     "Default__BlueprintGeneratedClass",
     "Default__GameplayEffect",
-    "Default__GE_Frost_Drake_C",
+    "Default__GE_Freezing_C",
     "Default__GE_FrostAttack125_C",
     "EAttributeBasedFloatCalculationType",
     "EAttributeBasedFloatCalculationType::AttributeMagnitude",
@@ -76,7 +76,7 @@
     "GameplayTag",
     "GameplayTagContainer",
     "GameplayTagRequirements",
-    "GE_Frost_Drake_C",
+    "GE_Freezing_C",
     "GE_FrostAttack125_C",
     "IgnoreTags",
     "InheritableGameplayEffectTags",
@@ -1677,7 +1677,7 @@
   "Imports": [
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GE_Frost_Drake_C",
+      "ObjectName": "GE_Freezing_C",
       "OuterIndex": -10,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -1749,16 +1749,16 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__GE_Frost_Drake_C",
+      "ObjectName": "Default__GE_Freezing_C",
       "OuterIndex": -10,
-      "ClassPackage": "/Game/Mods/HuntersLodgePack/Weapons/GE_Frost_Drake",
-      "ClassName": "GE_Frost_Drake_C",
+      "ClassPackage": "/Game/Mods/HuntersLodgePack/Weapons/GE_Freezing",
+      "ClassName": "GE_Freezing_C",
       "PackageName": null,
       "bImportOptional": false
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/HuntersLodgePack/Weapons/GE_Frost_Drake",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Weapons/GE_Freezing",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
