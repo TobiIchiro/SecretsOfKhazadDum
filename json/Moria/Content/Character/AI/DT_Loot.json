@@ -57606,7 +57606,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Loot.Trophy",
+                      "AI.Loot.Mod.Hunter",
                       "Monster.Dragon.Drake.Fire"
                     ]
                   }
@@ -57734,7 +57734,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Loot.Trophy",
+                      "AI.Loot.Mod.Hunter",
                       "Monster.Dragon.Drake.Poison"
                     ]
                   }
@@ -57862,7 +57862,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Loot.Trophy",
+                      "AI.Loot.Mod.Hunter",
                       "Monster.Dragon.Drake.Shadow"
                     ]
                   }
@@ -57990,7 +57990,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Loot.Trophy",
+                      "AI.Loot.Mod.Hunter",
                       "Monster.Dragon.Drake"
                     ]
                   }
@@ -58118,7 +58118,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Loot.Trophy",
+                      "AI.Loot.Mod.Hunter",
                       "Fauna.LargeAnimal.Bear.Nameless"
                     ]
                   }
@@ -58246,7 +58246,7 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": [
-                      "AI.Loot.Trophy",
+                      "AI.Loot.Mod.Hunter",
                       "Monster.Dragon.FellBeast"
                     ]
                   }
