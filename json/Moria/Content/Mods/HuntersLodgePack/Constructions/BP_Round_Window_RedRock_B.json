@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Wall_Thin_3x3m_A_Destructible",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Wall_Thin_3x3m_A_Destructible.DM_Suburbs_Wall_Thin_3x3m_A_Destructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_ArchitectureBase_Destructible_RedRock",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_RedRock",
     "/Game/Mods/CeibaPack/Constructions/Materials/MI_Ceiba_Beams_SmallColumn",
     "/Game/Mods/HuntersLodgePack/Constructions/Meshes/SM_Round_Window_A",
     "/Game/Items/Breakables/BP_BaseArchitectureBreakable",
@@ -76,7 +76,7 @@
     "MaterialInstanceConstant",
     "MaxHealth",
     "MI_Ceiba_Beams_SmallColumn",
-    "MI_ArchitectureBase_Destructible_RedRock",
+    "MI_Suburbs_Wall_Base_Dest_RedRock",
     "Mobility",
     "MorBreakableComponent",
     "MorBreakableFXComponent",
@@ -1889,7 +1889,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_ArchitectureBase_Destructible_RedRock",
+      "ObjectName": "MI_Suburbs_Wall_Base_Dest_RedRock",
       "OuterIndex": -26,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1961,7 +1961,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_ArchitectureBase_Destructible_RedRock",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_RedRock",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
