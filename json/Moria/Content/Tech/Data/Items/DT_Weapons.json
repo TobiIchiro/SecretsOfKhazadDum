@@ -86577,13 +86577,13 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 700
+                "Value": 1300
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                 "ByteType": "Byte",
                 "EnumType": "None",
-                "Value": 4,
+                "Value": 7,
                 "Name": "Tier",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -86597,7 +86597,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 32
+                "Value": 44
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
@@ -87139,7 +87139,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                 "ByteType": "Byte",
                 "EnumType": "None",
-                "Value": 4,
+                "Value": 7,
                 "Name": "Tier",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -87688,13 +87688,13 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 900
+                "Value": 1300
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                 "ByteType": "Byte",
                 "EnumType": "None",
-                "Value": 5,
+                "Value": 7,
                 "Name": "Tier",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -87708,7 +87708,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 36
+                "Value": 44
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
@@ -88250,7 +88250,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                 "ByteType": "Byte",
                 "EnumType": "None",
-                "Value": 5,
+                "Value": 7,
                 "Name": "Tier",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -88799,13 +88799,13 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 700
+                "Value": 1300
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                 "ByteType": "Byte",
                 "EnumType": "None",
-                "Value": 5,
+                "Value": 7,
                 "Name": "Tier",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -88819,7 +88819,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 32
+                "Value": 55
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
@@ -89361,7 +89361,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                 "ByteType": "Byte",
                 "EnumType": "None",
-                "Value": 5,
+                "Value": 7,
                 "Name": "Tier",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -98249,13 +98249,13 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 900
+                "Value": 1275
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                 "ByteType": "Byte",
                 "EnumType": "None",
-                "Value": 5,
+                "Value": 7,
                 "Name": "Tier",
                 "ArrayIndex": 0,
                 "IsZero": false,
@@ -98269,7 +98269,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": 39
+                "Value": 49
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
@@ -98811,7 +98811,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                 "ByteType": "Byte",
                 "EnumType": "None",
-                "Value": 5,
+                "Value": 7,
                 "Name": "Tier",
                 "ArrayIndex": 0,
                 "IsZero": false,
