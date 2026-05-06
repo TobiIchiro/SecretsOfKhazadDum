@@ -16,7 +16,7 @@
     "RowHandle",
     "RowName",
     "StructProperty",
-    "TrophyBearGuild"
+    "AxbeardAshen"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -148,7 +148,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "TrophyBearGuild"
+              "Value": "AxbeardAshen"
             }
           ]
         }
