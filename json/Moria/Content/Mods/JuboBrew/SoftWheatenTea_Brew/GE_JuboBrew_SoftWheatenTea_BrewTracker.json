@@ -4,8 +4,8 @@
   "NameMap": [
     "/Game/Mods/JuboBrew/SoftWheatenTea_Brew/GE_JuboBrew_SoftWheatenTea_BrewTracker",
     "/Game/Mods/JuboBrew/SoftWheatenTea_Brew/MMC_JuboBrew_SoftWheatenTea_UIProgress",
-    "/Game/DLC/JuboBrew/Icons/T_UI_Icon_JuboBrew_SoftWheatenTea_Brew",
-    "/Game/Tech/Data/StringTables/ST_Effects",
+    "/Game/Mods/JuboBrew/Icons/T_UI_Icon_JuboBrew_SoftWheatenTea_Brew",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects.ST_Mod_Effects",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -58,7 +58,7 @@
     "ScalableFloat",
     "ScalableFloatMagnitude",
     "ScriptStruct",
-    "ST_Effects",
+    "ST_Mod_Effects",
     "StackingType",
     "StackLimitCount",
     "StringTable",
@@ -722,7 +722,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Tech/Data/StringTables/ST_Effects",
+      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Effects",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -731,7 +731,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/DLC/JuboBrew/Icons/T_UI_Icon_JuboBrew_SoftWheatenTea_Brew",
+      "ObjectName": "/Game/Mods/JuboBrew/Icons/T_UI_Icon_JuboBrew_SoftWheatenTea_Brew",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -794,7 +794,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "ST_Effects",
+      "ObjectName": "ST_Mod_Effects",
       "OuterIndex": -11,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
