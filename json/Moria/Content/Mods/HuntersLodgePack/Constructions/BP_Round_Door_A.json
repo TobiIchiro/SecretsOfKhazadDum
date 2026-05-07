@@ -4,9 +4,10 @@
   "NameMap": [
     "/Game/Art/Assets/GPI/Destructible/DM_Crude_Doors_Destructible",
     "/Game/Art/Assets/GPI/Destructible/DM_Crude_Doors_Destructible.DM_Crude_Doors_Destructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Crude_Doors",
+    "/Game/Mods/HuntersLodgePack/Constructions/Meshes/SM_Round_Door",
     "/Game/LevelDesign/Placeables/Interactables/Doors/BP_Door__Base",
-    "/Game/LevelDesign/Placeables/Interactables/Doors/BP_Door_Crude",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Door_A",
+    "/Game/DLC/BeornPack/Construction/Materials/MI_Beorn_Wall",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/FGK",
@@ -25,7 +26,7 @@
     "BoolProperty",
     "BoxComponent",
     "BP_Door__Base_C",
-    "BP_Door_Crude_C",
+    "BP_Round_Door_A_C",
     "ChangedPropertyList",
     "Class",
     "ComponentClass",
@@ -33,12 +34,12 @@
     "ComponentOverrideRecord",
     "ComponentTemplate",
     "CookedComponentInstancingData",
-    "Crude_Doors",
+    "SM_Round_Door",
     "Crude_Doors1",
     "Crude_Doors1_GEN_VARIABLE",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Door__Base_C",
-    "Default__BP_Door_Crude_C",
+    "Default__BP_Round_Door_A_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
     "Default__SceneComponent",
@@ -61,6 +62,8 @@
     "InteractCollider",
     "InteractCollision_GEN_VARIABLE",
     "InternalVariableName",
+    "MaterialInstanceConstant",
+    "MI_Beorn_Wall",
     "MorBreakable",
     "MorBreakable_GEN_VARIABLE",
     "MorBreakableComponent",
@@ -70,6 +73,7 @@
     "None",
     "Object",
     "ObjectProperty",
+    "OverrideMaterials",
     "OwnerClass",
     "Package",
     "ParentComponentOrVariableName",
@@ -270,7 +274,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Door_Crude_C",
+      "ObjectName": "BP_Round_Door_A_C",
       "OuterIndex": 0,
       "ClassIndex": -9,
       "SuperIndex": -1,
@@ -297,6 +301,7 @@
       "SerializationBeforeCreateDependencies": [
         -34,
         -35,
+        -37,
         -9,
         -2
       ],
@@ -337,7 +342,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Door_Crude_C",
+      "ObjectName": "Default__BP_Round_Door_A_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -864,6 +869,26 @@
           ]
         },
         {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -37
+            }
+          ]
+        },
+        {
           "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
           "Name": "bCanEverAffectNavigation",
           "ArrayIndex": 0,
@@ -973,7 +998,7 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": -69.0,
+                "X": -99.0,
                 "Y": "+0",
                 "Z": "+0"
               }
@@ -1552,7 +1577,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Crude_Doors",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Constructions/Meshes/SM_Round_Door",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1651,7 +1676,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Crude_Doors",
+      "ObjectName": "SM_Round_Door",
       "OuterIndex": -23,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -1664,6 +1689,24 @@
       "OuterIndex": -1,
       "ClassPackage": "/Script/Engine",
       "ClassName": "TimelineTemplate",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/DLC/BeornPack/Construction/Materials/MI_Beorn_Wall",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Beorn_Wall",
+      "OuterIndex": -36,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }
@@ -1714,7 +1757,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Placeables/Interactables/Doors/BP_Door_Crude",
+  "FolderName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Door_A",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
