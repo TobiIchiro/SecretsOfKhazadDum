@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Mods/KingsWeaponsPack/Meshes/RedSunIngot",
     "/Game/Items/BP_Category_Mineral",
-    "/Game/Mods/BearGuildPack/Items/AshenIngot/BP_AshenIngot",
+    "/Game/Mods/BearGuildPack/Items/AshenSteelIngot/BP_AshenIngot",
     "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_AshenSteel_Ingot",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -86,7 +86,7 @@
     "Vector",
     "OverrideMaterials",
     "MaterialInstanceConstant",
-    "/Game/Mods/BearGuildPack/Items/AshenIngot/Materials/MI_AshenIngot",
+    "/Game/Mods/BearGuildPack/Items/AshenSteelIngot/Materials/MI_AshenIngot",
     "MI_AshenIngot"
   ],
   "CustomSerializationFlags": "None",
@@ -1331,7 +1331,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/BearGuildPack/Items/AshenIngot/Materials/MI_AshenIngot",
+      "ObjectName": "/Game/Mods/BearGuildPack/Items/AshenSteelIngot/Materials/MI_AshenIngot",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1392,7 +1392,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/BearGuildPack/Items/AshenIngot/BP_AshenIngot",
+  "FolderName": "/Game/Mods/BearGuildPack/Items/AshenSteelIngot/BP_AshenIngot",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
