@@ -101571,7 +101571,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Damage.Slashing.Halberd"
+                    "Value": "Damage.Slashing.Axe.2h"
                   },
                   {
                     "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
@@ -102136,7 +102136,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Damage.Slashing.Halberd"
+                    "Value": "Damage.Slashing.Axe.2h"
                   }
                 ]
               },
