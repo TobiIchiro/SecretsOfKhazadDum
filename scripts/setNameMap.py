@@ -31,5 +31,7 @@ data_b["NameMap"] = sorted(data_b["NameMap"], key=custom_sort_key)
 
 with open(archivo_a, "w", encoding="utf-8") as f:
             json.dump(data_a, f, indent=2, ensure_ascii=False)
+print("saved")
 with open(archivo_b, "w", encoding="utf-8") as f:
             json.dump(data_b, f, indent=2, ensure_ascii=False)
+print("saved")

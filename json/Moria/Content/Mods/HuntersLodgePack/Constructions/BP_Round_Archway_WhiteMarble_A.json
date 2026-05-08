@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Wall_Thin_3x3m_A_Destructible",
     "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/DM_Suburbs_Wall_Thin_3x3m_A_Destructible.DM_Suburbs_Wall_Thin_3x3m_A_Destructible",
-    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest",
+    "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_WhiteMarble",
     "/Game/Mods/HuntersLodgePack/Constructions/Materials/MI_Brick_WhiteMarble",
     "/Game/Mods/HuntersLodgePack/Constructions/Meshes/SM_Round_Archway",
     "/Game/Items/Breakables/BP_BaseArchitectureBreakable",
@@ -76,7 +76,7 @@
     "MaterialInstanceConstant",
     "MaxHealth",
     "MI_Brick_WhiteMarble",
-    "MI_Suburbs_Wall_Base_Dest",
+    "MI_Suburbs_Wall_Base_Dest_WhiteMarble",
     "Mobility",
     "MorBreakableComponent",
     "MorBreakableFXComponent",
@@ -1920,7 +1920,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_Suburbs_Wall_Base_Dest",
+      "ObjectName": "MI_Suburbs_Wall_Base_Dest_WhiteMarble",
       "OuterIndex": -26,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -1992,7 +1992,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/Suburbs/Destructable/Materials/MI_Suburbs_Wall_Base_Dest_WhiteMarble",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
