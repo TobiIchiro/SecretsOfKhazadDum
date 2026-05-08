@@ -262,7 +262,9 @@
     "AxbeardAshen",
     "/Game/Mods/BearGuildPack/Rune/GE_Rune_Axbeard",
     "Default__GE_Rune_Axbeard_C",
-    "GE_Rune_Axbeard_C"
+    "GE_Rune_Axbeard_C",
+    "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_Rune_Ashen",
+    "T_UI_Icon_Rune_Ashen"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
