@@ -218125,7 +218125,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIconTobiPack_Ceiling_Center",
+            "ObjectName": "/Game/Mods/TobiPack/Constructions/Icons/T_UI_BuildIcon_TobiPack_Ceiling_Center",
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
@@ -218134,7 +218134,7 @@
         },
         {
             "$type": "UAssetAPI.Import, UAssetAPI",
-            "ObjectName": "T_UI_BuildIconTobiPack_Ceiling_Center",
+            "ObjectName": "T_UI_BuildIcon_TobiPack_Ceiling_Center",
             "OuterIndex": -2232,
             "ClassPackage": "/Script/Engine",
             "ClassName": "Texture2D",
