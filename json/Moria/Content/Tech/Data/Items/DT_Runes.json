@@ -12864,7 +12864,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -105
+                "Value": -110
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -13579,7 +13579,8 @@
         -102,
         -105,
         -107,
-        -109
+        -110,
+        -112
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -14570,6 +14571,24 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_Rune_Ashen",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_Icon_Rune_Ashen",
+      "OuterIndex": -109,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
@@ -14580,7 +14599,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "ST_Mod_Items",
-      "OuterIndex": -109,
+      "OuterIndex": -111,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
       "PackageName": null,

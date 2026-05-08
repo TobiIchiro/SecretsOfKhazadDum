@@ -92675,15 +92675,6 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": "Damage.Bludgeon"
-                  },
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "TagName",
-                    "ArrayIndex": 1,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "Damage.Piercing"
                   }
                 ]
               },
@@ -101572,15 +101563,6 @@
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
                     "Value": "Damage.Slashing.Axe.2h"
-                  },
-                  {
-                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-                    "Name": "TagName",
-                    "ArrayIndex": 0,
-                    "IsZero": false,
-                    "PropertyTagFlags": "None",
-                    "PropertyTagExtensions": "NoExtension",
-                    "Value": "Damage.Piercing"
                   }
                 ]
               },
