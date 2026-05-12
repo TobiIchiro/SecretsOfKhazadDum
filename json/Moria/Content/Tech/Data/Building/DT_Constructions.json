@@ -2813,6 +2813,24 @@
     "/Game/Mods/HuntersLodgePack/Constructions/BP_Deco_ShadowDragon_A.BP_Deco_ShadowDragon_A_C",
     "/Game/Mods/HuntersLodgePack/Constructions/BP_Deco_ShadowDragon_B",
     "/Game/Mods/HuntersLodgePack/Constructions/BP_Deco_ShadowDragon_B.BP_Deco_ShadowDragon_B_C",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_Granite_A",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_Granite_A.BP_Round_Window_Granite_A_C",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_Granite_B",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_Granite_B.BP_Round_Window_Granite_B_C",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_RedRock_A",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_RedRock_A.BP_Round_Window_RedRock_A_C",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_RedRock_B",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_RedRock_B.BP_Round_Window_RedRock_B_C",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_WhiteMarble_A",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_WhiteMarble_A.BP_Round_Window_WhiteMarble_A_C",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_WhiteMarble_B",
+    "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_WhiteMarble_B.BP_Round_Window_WhiteMarble_B_C",
+    "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowGranite_A",
+    "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowGranite_B",
+    "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowRedRock_A",
+    "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowRedRock_B",
+    "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowWhiteMarble_A",
+    "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowWhiteMarble_B",
     "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodgePack_DecoDrake_Fire_A",
     "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodgePack_DecoDrake_Fire_B",
     "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodgePack_DecoDrake_Fire_C",
@@ -4841,6 +4859,12 @@
     "HollyDecoration_A",
     "HollyDecoration_B",
     "HollyDecoration_C",
+    "HuntersLodge_RoundWindowGranite_A",
+    "HuntersLodge_RoundWindowGranite_B",
+    "HuntersLodge_RoundWindowRedRock_A",
+    "HuntersLodge_RoundWindowRedRock_B",
+    "HuntersLodge_RoundWindowWhiteMarble_A",
+    "HuntersLodge_RoundWindowWhiteMarble_B",
     "HuntersLodgePack_DecoDrake_Fire_A",
     "HuntersLodgePack_DecoDrake_Fire_B",
     "HuntersLodgePack_DecoDrake_Fire_C",
@@ -5532,6 +5556,12 @@
     "T_UI_BuildIcon_HollyDeco_A",
     "T_UI_BuildIcon_HollyDeco_B",
     "T_UI_BuildIcon_HollyDeco_C",
+    "T_UI_BuildIcon_HuntersLodge_RoundWindowGranite_A",
+    "T_UI_BuildIcon_HuntersLodge_RoundWindowGranite_B",
+    "T_UI_BuildIcon_HuntersLodge_RoundWindowRedRock_A",
+    "T_UI_BuildIcon_HuntersLodge_RoundWindowRedRock_B",
+    "T_UI_BuildIcon_HuntersLodge_RoundWindowWhiteMarble_A",
+    "T_UI_BuildIcon_HuntersLodge_RoundWindowWhiteMarble_B",
     "T_UI_BuildIcon_HuntersLodgePack_DecoDrake_Fire_A",
     "T_UI_BuildIcon_HuntersLodgePack_DecoDrake_Fire_B",
     "T_UI_BuildIcon_HuntersLodgePack_DecoDrake_Fire_C",
@@ -145300,7 +145330,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -145321,7 +145351,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -166774,6 +166804,990 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
+            "Name": "HuntersLodge_RoundWindowGranite_A",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowGranite_A.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowGranite_A.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -1919
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_Granite_A.BP_Round_Window_Granite_A_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "BackwardCompatibilityActors",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "SoftObjectPath",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "BackwardCompatibilityActors",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                        "Path": null,
+                        "Name": "BackwardCompatibilityActors",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                          "AssetPath": {
+                            "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                            "PackageName": null,
+                            "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_Granite_A.BP_Round_Window_Granite_A_C"
+                          },
+                          "SubPathString": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Construction.Category.Hunter.Windows"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorConstructionDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "HuntersLodge_RoundWindowGranite_B",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowGranite_B.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowGranite_B.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -1921
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_Granite_B.BP_Round_Window_Granite_B_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "BackwardCompatibilityActors",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "SoftObjectPath",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "BackwardCompatibilityActors",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                        "Path": null,
+                        "Name": "BackwardCompatibilityActors",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                          "AssetPath": {
+                            "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                            "PackageName": null,
+                            "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_Granite_B.BP_Round_Window_Granite_B_C"
+                          },
+                          "SubPathString": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Construction.Category.Hunter.Windows"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorConstructionDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "HuntersLodge_RoundWindowRedRock_A",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowRedRock_A.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowRedRock_A.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -1923
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_RedRock_A.BP_Round_Window_RedRock_A_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "BackwardCompatibilityActors",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "SoftObjectPath",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "BackwardCompatibilityActors",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                        "Path": null,
+                        "Name": "BackwardCompatibilityActors",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                          "AssetPath": {
+                            "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                            "PackageName": null,
+                            "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_RedRock_A.BP_Round_Window_RedRock_A_C"
+                          },
+                          "SubPathString": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Construction.Category.Hunter.Windows"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorConstructionDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "HuntersLodge_RoundWindowRedRock_B",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowRedRock_B.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowRedRock_B.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -1925
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_RedRock_B.BP_Round_Window_RedRock_B_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "BackwardCompatibilityActors",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "SoftObjectPath",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "BackwardCompatibilityActors",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                        "Path": null,
+                        "Name": "BackwardCompatibilityActors",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                          "AssetPath": {
+                            "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                            "PackageName": null,
+                            "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_RedRock_B.BP_Round_Window_RedRock_B_C"
+                          },
+                          "SubPathString": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Construction.Category.Hunter.Windows"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorConstructionDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "HuntersLodge_RoundWindowWhiteMarble_A",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowWhiteMarble_A.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowWhiteMarble_A.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -1927
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_WhiteMarble_A.BP_Round_Window_WhiteMarble_A_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "BackwardCompatibilityActors",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "SoftObjectPath",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "BackwardCompatibilityActors",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                        "Path": null,
+                        "Name": "BackwardCompatibilityActors",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                          "AssetPath": {
+                            "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                            "PackageName": null,
+                            "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_WhiteMarble_A.BP_Round_Window_WhiteMarble_A_C"
+                          },
+                          "SubPathString": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Construction.Category.Hunter.Windows"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorConstructionDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "HuntersLodge_RoundWindowWhiteMarble_B",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowWhiteMarble_B.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "HuntersLodge_RoundWindowWhiteMarble_B.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -1929
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_WhiteMarble_B.BP_Round_Window_WhiteMarble_B_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "BackwardCompatibilityActors",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "SoftObjectPath",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "BackwardCompatibilityActors",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                        "Path": null,
+                        "Name": "BackwardCompatibilityActors",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                          "AssetPath": {
+                            "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                            "PackageName": null,
+                            "AssetName": "/Game/Mods/HuntersLodgePack/Constructions/BP_Round_Window_WhiteMarble_B.BP_Round_Window_WhiteMarble_B_C"
+                          },
+                          "SubPathString": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Construction.Category.Hunter.Windows"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorConstructionDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
             "Name": "IthildinDoorsPack_IthildinDoor_A",
             "ArrayIndex": 0,
             "IsZero": false,
@@ -166829,7 +167843,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1919
+                "Value": -1931
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -166993,7 +168007,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1921
+                "Value": -1933
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -167157,7 +168171,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1923
+                "Value": -1935
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -167321,7 +168335,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1925
+                "Value": -1937
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -167485,7 +168499,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1927
+                "Value": -1939
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -167649,7 +168663,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1929
+                "Value": -1941
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -167813,7 +168827,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1931
+                "Value": -1943
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -167977,7 +168991,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1933
+                "Value": -1945
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -168141,7 +169155,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1935
+                "Value": -1947
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -168305,7 +169319,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1937
+                "Value": -1949
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -168469,7 +169483,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1939
+                "Value": -1951
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -168633,7 +169647,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1941
+                "Value": -1953
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -168797,7 +169811,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1943
+                "Value": -1955
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -168961,7 +169975,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1945
+                "Value": -1957
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -169125,7 +170139,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1947
+                "Value": -1959
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -169289,7 +170303,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1949
+                "Value": -1961
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -169453,7 +170467,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1951
+                "Value": -1963
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -169617,7 +170631,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1953
+                "Value": -1965
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -169781,7 +170795,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1955
+                "Value": -1967
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -169945,7 +170959,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1957
+                "Value": -1969
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -170109,7 +171123,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1959
+                "Value": -1971
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -170273,7 +171287,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1961
+                "Value": -1973
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -170437,7 +171451,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1963
+                "Value": -1975
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -170601,7 +171615,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1965
+                "Value": -1977
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -170765,7 +171779,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1967
+                "Value": -1979
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -170929,7 +171943,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1969
+                "Value": -1981
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -171093,7 +172107,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1971
+                "Value": -1983
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -171257,7 +172271,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1973
+                "Value": -1985
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -171421,7 +172435,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1975
+                "Value": -1987
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -171585,7 +172599,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1977
+                "Value": -1989
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -171749,7 +172763,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1979
+                "Value": -1991
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -171913,7 +172927,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1981
+                "Value": -1993
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -172077,7 +173091,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1983
+                "Value": -1995
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -172241,7 +173255,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1985
+                "Value": -1997
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -172405,7 +173419,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1987
+                "Value": -1999
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -172569,7 +173583,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1989
+                "Value": -2001
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -172733,7 +173747,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1991
+                "Value": -2003
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -172897,7 +173911,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1993
+                "Value": -2005
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -173061,7 +174075,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1995
+                "Value": -2007
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -173225,7 +174239,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1997
+                "Value": -2009
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -173389,7 +174403,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1999
+                "Value": -2011
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -173553,7 +174567,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2001
+                "Value": -2013
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -173717,7 +174731,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2003
+                "Value": -2015
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -173881,7 +174895,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2005
+                "Value": -2017
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -174045,7 +175059,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2007
+                "Value": -2019
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -174209,7 +175223,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2009
+                "Value": -2021
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -174373,7 +175387,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2011
+                "Value": -2023
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -174537,7 +175551,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2013
+                "Value": -2025
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -174701,7 +175715,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2015
+                "Value": -2027
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -174865,7 +175879,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2017
+                "Value": -2029
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -175029,7 +176043,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2019
+                "Value": -2031
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -175193,7 +176207,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2021
+                "Value": -2033
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -175357,7 +176371,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2023
+                "Value": -2035
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -175521,7 +176535,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2025
+                "Value": -2037
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -175685,7 +176699,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2027
+                "Value": -2039
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -175849,7 +176863,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2029
+                "Value": -2041
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -176013,7 +177027,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2031
+                "Value": -2043
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -176177,7 +177191,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2033
+                "Value": -2045
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -176341,7 +177355,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2035
+                "Value": -2047
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -176505,7 +177519,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2037
+                "Value": -2049
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -176669,7 +177683,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2039
+                "Value": -2051
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -176833,7 +177847,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2041
+                "Value": -2053
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -176997,7 +178011,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2043
+                "Value": -2055
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -177161,7 +178175,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2045
+                "Value": -2057
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -177325,7 +178339,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2047
+                "Value": -2059
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -177489,7 +178503,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2049
+                "Value": -2061
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -177653,7 +178667,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2051
+                "Value": -2063
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -177817,7 +178831,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2053
+                "Value": -2065
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -177981,7 +178995,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2055
+                "Value": -2067
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -178145,7 +179159,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2057
+                "Value": -2069
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -178309,7 +179323,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2059
+                "Value": -2071
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -178473,7 +179487,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2061
+                "Value": -2073
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -178637,7 +179651,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2063
+                "Value": -2075
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -178801,7 +179815,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2065
+                "Value": -2077
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -178965,7 +179979,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2067
+                "Value": -2079
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -179129,7 +180143,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2069
+                "Value": -2081
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -179293,7 +180307,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2071
+                "Value": -2083
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -179457,7 +180471,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2073
+                "Value": -2085
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -179621,7 +180635,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2075
+                "Value": -2087
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -179785,7 +180799,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2077
+                "Value": -2089
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -179949,7 +180963,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2079
+                "Value": -2091
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -180113,7 +181127,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2081
+                "Value": -2093
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -180277,7 +181291,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2083
+                "Value": -2095
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -180441,7 +181455,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2085
+                "Value": -2097
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -180605,7 +181619,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2087
+                "Value": -2099
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -180769,7 +181783,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2089
+                "Value": -2101
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -180933,7 +181947,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2091
+                "Value": -2103
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -181097,7 +182111,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2093
+                "Value": -2105
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -181261,7 +182275,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2095
+                "Value": -2107
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -181425,7 +182439,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2097
+                "Value": -2109
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -181589,7 +182603,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2099
+                "Value": -2111
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -181753,7 +182767,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2101
+                "Value": -2113
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -181917,7 +182931,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2103
+                "Value": -2115
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -182081,7 +183095,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2105
+                "Value": -2117
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -182245,7 +183259,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2107
+                "Value": -2119
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -182409,7 +183423,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2109
+                "Value": -2121
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -182573,7 +183587,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2111
+                "Value": -2123
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -182737,7 +183751,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2113
+                "Value": -2125
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -182901,7 +183915,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2115
+                "Value": -2127
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -183065,7 +184079,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2117
+                "Value": -2129
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -183229,7 +184243,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2119
+                "Value": -2131
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -183393,7 +184407,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2121
+                "Value": -2133
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -183557,7 +184571,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2123
+                "Value": -2135
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -183721,7 +184735,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2125
+                "Value": -2137
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -183885,7 +184899,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2127
+                "Value": -2139
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184049,7 +185063,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2129
+                "Value": -2141
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184213,7 +185227,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2131
+                "Value": -2143
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184377,7 +185391,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2133
+                "Value": -2145
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184541,7 +185555,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2135
+                "Value": -2147
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184705,7 +185719,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2137
+                "Value": -2149
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184869,7 +185883,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2139
+                "Value": -2151
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185033,7 +186047,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2141
+                "Value": -2153
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185197,7 +186211,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2143
+                "Value": -2155
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185361,7 +186375,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2145
+                "Value": -2157
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185525,7 +186539,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2147
+                "Value": -2159
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185689,7 +186703,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2149
+                "Value": -2161
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185853,7 +186867,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2151
+                "Value": -2163
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186017,7 +187031,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2153
+                "Value": -2165
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186181,7 +187195,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2155
+                "Value": -2167
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186345,7 +187359,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2157
+                "Value": -2169
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186509,7 +187523,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2159
+                "Value": -2171
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186673,7 +187687,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2161
+                "Value": -2173
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186837,7 +187851,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2163
+                "Value": -2175
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187001,7 +188015,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2165
+                "Value": -2177
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187165,7 +188179,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2167
+                "Value": -2179
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187329,7 +188343,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2169
+                "Value": -2181
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187493,7 +188507,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2171
+                "Value": -2183
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187657,7 +188671,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2173
+                "Value": -2185
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187821,7 +188835,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2175
+                "Value": -2187
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187985,7 +188999,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2177
+                "Value": -2189
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188149,7 +189163,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2179
+                "Value": -2191
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188313,7 +189327,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2181
+                "Value": -2193
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188477,7 +189491,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2183
+                "Value": -2195
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188641,7 +189655,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2185
+                "Value": -2197
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188805,7 +189819,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2187
+                "Value": -2199
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188969,7 +189983,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2189
+                "Value": -2201
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189133,7 +190147,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2191
+                "Value": -2203
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189297,7 +190311,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2193
+                "Value": -2205
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189461,7 +190475,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2195
+                "Value": -2207
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189625,7 +190639,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2197
+                "Value": -2209
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189789,7 +190803,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2199
+                "Value": -2211
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189953,7 +190967,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2201
+                "Value": -2213
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190117,7 +191131,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2203
+                "Value": -2215
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190281,7 +191295,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2205
+                "Value": -2217
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190445,7 +191459,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2207
+                "Value": -2219
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190609,7 +191623,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2209
+                "Value": -2221
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190773,7 +191787,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2211
+                "Value": -2223
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190937,7 +191951,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2213
+                "Value": -2225
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191101,7 +192115,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2215
+                "Value": -2227
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191265,7 +192279,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2217
+                "Value": -2229
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191429,7 +192443,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2219
+                "Value": -2231
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191593,7 +192607,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2221
+                "Value": -2233
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191757,7 +192771,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2223
+                "Value": -2235
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191921,7 +192935,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2225
+                "Value": -2237
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192085,7 +193099,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2227
+                "Value": -2239
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192249,7 +193263,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2229
+                "Value": -2241
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192413,7 +193427,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2231
+                "Value": -2243
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192577,7 +193591,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2233
+                "Value": -2245
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192741,7 +193755,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2235
+                "Value": -2247
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192905,7 +193919,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2237
+                "Value": -2249
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193069,7 +194083,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2239
+                "Value": -2251
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193233,7 +194247,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2241
+                "Value": -2253
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193397,7 +194411,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2243
+                "Value": -2255
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193561,7 +194575,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2245
+                "Value": -2257
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193725,7 +194739,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2247
+                "Value": -2259
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193889,7 +194903,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2249
+                "Value": -2261
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194053,7 +195067,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2251
+                "Value": -2263
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194217,7 +195231,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2253
+                "Value": -2265
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194381,7 +195395,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2255
+                "Value": -2267
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194545,7 +195559,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2257
+                "Value": -2269
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194709,7 +195723,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2259
+                "Value": -2271
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194873,7 +195887,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2261
+                "Value": -2273
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -195037,7 +196051,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2263
+                "Value": -2275
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -195998,8 +197012,8 @@
         -1335,
         -1,
         -2,
-        -2265,
-        -2267
+        -2277,
+        -2279
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -213271,6 +214285,114 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowGranite_A",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_HuntersLodge_RoundWindowGranite_A",
+      "OuterIndex": -1918,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowGranite_B",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_HuntersLodge_RoundWindowGranite_B",
+      "OuterIndex": -1920,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowRedRock_A",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_HuntersLodge_RoundWindowRedRock_A",
+      "OuterIndex": -1922,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowRedRock_B",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_HuntersLodge_RoundWindowRedRock_B",
+      "OuterIndex": -1924,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowWhiteMarble_A",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_HuntersLodge_RoundWindowWhiteMarble_A",
+      "OuterIndex": -1926,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Constructions/Icons/T_UI_BuildIcon_HuntersLodge_RoundWindowWhiteMarble_B",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_HuntersLodge_RoundWindowWhiteMarble_B",
+      "OuterIndex": -1928,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "/Game/Mods/IthildinDoorsPack/Constructions/Icons/T_UI_BuildIcon_IthildinDoorsPack_IthildinDoor_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
@@ -213281,7 +214403,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_IthildinDoorsPack_IthildinDoor_A",
-      "OuterIndex": -1918,
+      "OuterIndex": -1930,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213299,7 +214421,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_IthildinDoorsPack_IthildinDoor_B",
-      "OuterIndex": -1920,
+      "OuterIndex": -1932,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213317,7 +214439,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_IthildinDoorsPack_IthildinDoor_C",
-      "OuterIndex": -1922,
+      "OuterIndex": -1934,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213335,7 +214457,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_JuboPack_JuboBanner_A",
-      "OuterIndex": -1924,
+      "OuterIndex": -1936,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213353,7 +214475,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_JuboPack_JuboBanner_B",
-      "OuterIndex": -1926,
+      "OuterIndex": -1938,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213371,7 +214493,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_JuboPack_JuboFlag_A",
-      "OuterIndex": -1928,
+      "OuterIndex": -1940,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213389,7 +214511,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_JuboPack_JuboGuardPoint_A",
-      "OuterIndex": -1930,
+      "OuterIndex": -1942,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213407,7 +214529,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KEGPack_Banner_A",
-      "OuterIndex": -1932,
+      "OuterIndex": -1944,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213425,7 +214547,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KEGPack_Banner_B",
-      "OuterIndex": -1934,
+      "OuterIndex": -1946,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213443,7 +214565,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KEGPack_Banner_C",
-      "OuterIndex": -1936,
+      "OuterIndex": -1948,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213461,7 +214583,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KEGPack_Flag_A",
-      "OuterIndex": -1938,
+      "OuterIndex": -1950,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213479,7 +214601,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KEGPack_Guardpoint_A",
-      "OuterIndex": -1940,
+      "OuterIndex": -1952,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213497,7 +214619,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KelaerielPack_KelaerielBanner_A",
-      "OuterIndex": -1942,
+      "OuterIndex": -1954,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213515,7 +214637,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KelaerielPack_KelaerielBanner_B",
-      "OuterIndex": -1944,
+      "OuterIndex": -1956,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213533,7 +214655,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KelaerielPack_KelaerielFlag_A",
-      "OuterIndex": -1946,
+      "OuterIndex": -1958,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213551,7 +214673,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KelaerielPack_KelaerielGuardPoint_A",
-      "OuterIndex": -1948,
+      "OuterIndex": -1960,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213569,7 +214691,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_EreborBanner_A",
-      "OuterIndex": -1950,
+      "OuterIndex": -1962,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213587,7 +214709,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_EreborFlag_A",
-      "OuterIndex": -1952,
+      "OuterIndex": -1964,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213605,7 +214727,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_EreborGuardPoint_A",
-      "OuterIndex": -1954,
+      "OuterIndex": -1966,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213623,7 +214745,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_GondorBanner_A",
-      "OuterIndex": -1956,
+      "OuterIndex": -1968,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213641,7 +214763,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_GondorFlag_A",
-      "OuterIndex": -1958,
+      "OuterIndex": -1970,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213659,7 +214781,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_GondorGuardPoint_A",
-      "OuterIndex": -1960,
+      "OuterIndex": -1972,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213677,7 +214799,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_LothlorienBanner_A",
-      "OuterIndex": -1962,
+      "OuterIndex": -1974,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213695,7 +214817,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_LothlorienFlag_A",
-      "OuterIndex": -1964,
+      "OuterIndex": -1976,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213713,7 +214835,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_LothlorienGuardPoint_A",
-      "OuterIndex": -1966,
+      "OuterIndex": -1978,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213731,7 +214853,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_RivendellBanner_A",
-      "OuterIndex": -1968,
+      "OuterIndex": -1980,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213749,7 +214871,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_RivendellFlag_A",
-      "OuterIndex": -1970,
+      "OuterIndex": -1982,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213767,7 +214889,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_KingdomBannersPack_RivendellGuardPoint_A",
-      "OuterIndex": -1972,
+      "OuterIndex": -1984,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213785,7 +214907,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakBannerPack_Banner_A",
-      "OuterIndex": -1974,
+      "OuterIndex": -1986,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213803,7 +214925,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakBannerPack_Banner_B",
-      "OuterIndex": -1976,
+      "OuterIndex": -1988,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213821,7 +214943,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakBannerPack_Flag_A",
-      "OuterIndex": -1978,
+      "OuterIndex": -1990,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213839,7 +214961,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakBannerPack_Guardpoint_A",
-      "OuterIndex": -1980,
+      "OuterIndex": -1992,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213857,7 +214979,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakHearthsPack_Hearth_A",
-      "OuterIndex": -1982,
+      "OuterIndex": -1994,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213875,7 +214997,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakHearthsPack_Hearth_B",
-      "OuterIndex": -1984,
+      "OuterIndex": -1996,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213893,7 +215015,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakHearthsPack_Hearth_C",
-      "OuterIndex": -1986,
+      "OuterIndex": -1998,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213911,7 +215033,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakHearthsPack_Hearth_D",
-      "OuterIndex": -1988,
+      "OuterIndex": -2000,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213929,7 +215051,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakHearthsPack_Hearth_E",
-      "OuterIndex": -1990,
+      "OuterIndex": -2002,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213947,7 +215069,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakHearthsPack_Hearth_F",
-      "OuterIndex": -1992,
+      "OuterIndex": -2004,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213965,7 +215087,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_Barrel_A",
-      "OuterIndex": -1994,
+      "OuterIndex": -2006,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -213983,7 +215105,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_ColumnTrimBase_A",
-      "OuterIndex": -1996,
+      "OuterIndex": -2008,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214001,7 +215123,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_CornerTrim_A",
-      "OuterIndex": -1998,
+      "OuterIndex": -2010,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214019,7 +215141,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_CornerTrim_B",
-      "OuterIndex": -2000,
+      "OuterIndex": -2012,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214037,7 +215159,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_DetailedBaseboard_A",
-      "OuterIndex": -2002,
+      "OuterIndex": -2014,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214055,7 +215177,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_FigureHead_A",
-      "OuterIndex": -2004,
+      "OuterIndex": -2016,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214073,7 +215195,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_FigureHead_B",
-      "OuterIndex": -2006,
+      "OuterIndex": -2018,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214091,7 +215213,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_FigureHead_C",
-      "OuterIndex": -2008,
+      "OuterIndex": -2020,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214109,7 +215231,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_GraniteWallBaseboard_A",
-      "OuterIndex": -2010,
+      "OuterIndex": -2022,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214127,7 +215249,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_LongShelves_A",
-      "OuterIndex": -2012,
+      "OuterIndex": -2024,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214145,7 +215267,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_MediumShelves_A",
-      "OuterIndex": -2014,
+      "OuterIndex": -2026,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214163,7 +215285,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_MessyWorkbench_A",
-      "OuterIndex": -2016,
+      "OuterIndex": -2028,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214181,7 +215303,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_NarrowArchwayPillar_A",
-      "OuterIndex": -2018,
+      "OuterIndex": -2030,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214199,7 +215321,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_NarrowGraniteWindow_A",
-      "OuterIndex": -2020,
+      "OuterIndex": -2032,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214217,7 +215339,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_NotchedArch_A",
-      "OuterIndex": -2022,
+      "OuterIndex": -2034,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214235,7 +215357,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_NotchedArchway_A",
-      "OuterIndex": -2024,
+      "OuterIndex": -2036,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214253,7 +215375,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_OrnateCeiling_A",
-      "OuterIndex": -2026,
+      "OuterIndex": -2038,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214271,7 +215393,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_Pedestal_A",
-      "OuterIndex": -2028,
+      "OuterIndex": -2040,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214289,7 +215411,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_Sack_A",
-      "OuterIndex": -2030,
+      "OuterIndex": -2042,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214307,7 +215429,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_ShortMemorialStatue_A",
-      "OuterIndex": -2032,
+      "OuterIndex": -2044,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214325,7 +215447,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_SmallMessyWorkbench_A",
-      "OuterIndex": -2034,
+      "OuterIndex": -2046,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214343,7 +215465,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_ThickDarkWoodFloor_A",
-      "OuterIndex": -2036,
+      "OuterIndex": -2048,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214361,7 +215483,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_ThinWoodCrown_A",
-      "OuterIndex": -2038,
+      "OuterIndex": -2050,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214379,7 +215501,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_ThinWoodDetail_A",
-      "OuterIndex": -2040,
+      "OuterIndex": -2052,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214397,7 +215519,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_UnderStairsArch_A",
-      "OuterIndex": -2042,
+      "OuterIndex": -2054,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214415,7 +215537,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MereakPack_WoodCrown_A",
-      "OuterIndex": -2044,
+      "OuterIndex": -2056,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214433,7 +215555,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_Archway_A",
-      "OuterIndex": -2046,
+      "OuterIndex": -2058,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214451,7 +215573,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_Fence_A",
-      "OuterIndex": -2048,
+      "OuterIndex": -2060,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214469,7 +215591,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_FoundationBlock_A",
-      "OuterIndex": -2050,
+      "OuterIndex": -2062,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214487,7 +215609,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_GardenFence_A",
-      "OuterIndex": -2052,
+      "OuterIndex": -2064,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214505,7 +215627,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_HorizontalBeam_A",
-      "OuterIndex": -2054,
+      "OuterIndex": -2066,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214523,7 +215645,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_NiceWoodFloor_A",
-      "OuterIndex": -2056,
+      "OuterIndex": -2068,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214541,7 +215663,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_OrnateDarkWoodFloor_A",
-      "OuterIndex": -2058,
+      "OuterIndex": -2070,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214559,7 +215681,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_RoofCornerShort_A",
-      "OuterIndex": -2060,
+      "OuterIndex": -2072,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214577,7 +215699,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_RoofShort_A",
-      "OuterIndex": -2062,
+      "OuterIndex": -2074,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214595,7 +215717,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_RoundBaseTrim_A",
-      "OuterIndex": -2064,
+      "OuterIndex": -2076,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214613,7 +215735,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_ThickRoof_A",
-      "OuterIndex": -2066,
+      "OuterIndex": -2078,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214631,7 +215753,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_ThinGraniteArch_A",
-      "OuterIndex": -2068,
+      "OuterIndex": -2080,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214649,7 +215771,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_Mereak_UpdatePack_WoodShopToolRack_A",
-      "OuterIndex": -2070,
+      "OuterIndex": -2082,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214667,7 +215789,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MithrilWallsPack_MithrilWall_A",
-      "OuterIndex": -2072,
+      "OuterIndex": -2084,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214685,7 +215807,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MithrilWallsPack_MithrilWall_B",
-      "OuterIndex": -2074,
+      "OuterIndex": -2086,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214703,7 +215825,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MithrilWallsPack_MithrilWall_C",
-      "OuterIndex": -2076,
+      "OuterIndex": -2088,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214721,7 +215843,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MithrilWallsPack_MithrilWall_D",
-      "OuterIndex": -2078,
+      "OuterIndex": -2090,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214739,7 +215861,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_MithrilWallsPack_MithrilWall_E",
-      "OuterIndex": -2080,
+      "OuterIndex": -2092,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214757,7 +215879,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Barrel_A",
-      "OuterIndex": -2082,
+      "OuterIndex": -2094,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214775,7 +215897,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Basin_A",
-      "OuterIndex": -2084,
+      "OuterIndex": -2096,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214793,7 +215915,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Bucket_A",
-      "OuterIndex": -2086,
+      "OuterIndex": -2098,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214811,7 +215933,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_LargeWinch_A",
-      "OuterIndex": -2088,
+      "OuterIndex": -2100,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214829,7 +215951,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Lift_A",
-      "OuterIndex": -2090,
+      "OuterIndex": -2102,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214847,7 +215969,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Lift_B",
-      "OuterIndex": -2092,
+      "OuterIndex": -2104,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214865,7 +215987,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_A",
-      "OuterIndex": -2094,
+      "OuterIndex": -2106,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214883,7 +216005,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_B",
-      "OuterIndex": -2096,
+      "OuterIndex": -2108,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214901,7 +216023,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_A",
-      "OuterIndex": -2098,
+      "OuterIndex": -2110,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214919,7 +216041,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_B",
-      "OuterIndex": -2100,
+      "OuterIndex": -2112,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214937,7 +216059,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Wagon_A",
-      "OuterIndex": -2102,
+      "OuterIndex": -2114,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214955,7 +216077,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Windlass_A",
-      "OuterIndex": -2104,
+      "OuterIndex": -2116,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214973,7 +216095,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_WoodenCrate_A",
-      "OuterIndex": -2106,
+      "OuterIndex": -2118,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -214991,7 +216113,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_WoodenCrate_B",
-      "OuterIndex": -2108,
+      "OuterIndex": -2120,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215009,7 +216131,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_RailingCorner_A",
-      "OuterIndex": -2110,
+      "OuterIndex": -2122,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215027,7 +216149,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_RailingCorner_RedRock_A",
-      "OuterIndex": -2112,
+      "OuterIndex": -2124,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215045,7 +216167,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_RailingCorner_WhiteMarble_A",
-      "OuterIndex": -2114,
+      "OuterIndex": -2126,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215063,7 +216185,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_A",
-      "OuterIndex": -2116,
+      "OuterIndex": -2128,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215081,7 +216203,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_B",
-      "OuterIndex": -2118,
+      "OuterIndex": -2130,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215099,7 +216221,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_RedRock_A",
-      "OuterIndex": -2120,
+      "OuterIndex": -2132,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215117,7 +216239,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_RedRock_B",
-      "OuterIndex": -2122,
+      "OuterIndex": -2134,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215135,7 +216257,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_A",
-      "OuterIndex": -2124,
+      "OuterIndex": -2136,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215153,7 +216275,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_B",
-      "OuterIndex": -2126,
+      "OuterIndex": -2138,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215171,7 +216293,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_DwellingCabinet_A",
-      "OuterIndex": -2128,
+      "OuterIndex": -2140,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215189,7 +216311,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_DwellingCabinet_B",
-      "OuterIndex": -2130,
+      "OuterIndex": -2142,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215207,7 +216329,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_DwellingCabinet_C",
-      "OuterIndex": -2132,
+      "OuterIndex": -2144,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215225,7 +216347,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_DwellingCabinet_D",
-      "OuterIndex": -2134,
+      "OuterIndex": -2146,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215243,7 +216365,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_GlassCabinet_A",
-      "OuterIndex": -2136,
+      "OuterIndex": -2148,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215261,7 +216383,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_KegStand_A",
-      "OuterIndex": -2138,
+      "OuterIndex": -2150,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215279,7 +216401,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_PotsRack_A",
-      "OuterIndex": -2140,
+      "OuterIndex": -2152,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215297,7 +216419,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_WoodPile_A",
-      "OuterIndex": -2142,
+      "OuterIndex": -2154,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215315,7 +216437,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_A",
-      "OuterIndex": -2144,
+      "OuterIndex": -2156,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215333,7 +216455,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_B",
-      "OuterIndex": -2146,
+      "OuterIndex": -2158,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215351,7 +216473,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_C",
-      "OuterIndex": -2148,
+      "OuterIndex": -2160,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215369,7 +216491,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_D",
-      "OuterIndex": -2150,
+      "OuterIndex": -2162,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215387,7 +216509,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_E",
-      "OuterIndex": -2152,
+      "OuterIndex": -2164,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215405,7 +216527,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_A",
-      "OuterIndex": -2154,
+      "OuterIndex": -2166,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215423,7 +216545,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_B",
-      "OuterIndex": -2156,
+      "OuterIndex": -2168,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215441,7 +216563,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_C",
-      "OuterIndex": -2158,
+      "OuterIndex": -2170,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215459,7 +216581,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_D",
-      "OuterIndex": -2160,
+      "OuterIndex": -2172,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215477,7 +216599,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_E",
-      "OuterIndex": -2162,
+      "OuterIndex": -2174,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215495,7 +216617,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_F",
-      "OuterIndex": -2164,
+      "OuterIndex": -2176,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215513,7 +216635,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnBase_A",
-      "OuterIndex": -2166,
+      "OuterIndex": -2178,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215531,7 +216653,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnBase_Moss_A",
-      "OuterIndex": -2168,
+      "OuterIndex": -2180,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215549,7 +216671,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnBase_Redrock_A",
-      "OuterIndex": -2170,
+      "OuterIndex": -2182,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215567,7 +216689,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnBase_Whitemarble_A",
-      "OuterIndex": -2172,
+      "OuterIndex": -2184,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215585,7 +216707,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnCapital_A",
-      "OuterIndex": -2174,
+      "OuterIndex": -2186,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215603,7 +216725,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnCapital_Moss_A",
-      "OuterIndex": -2176,
+      "OuterIndex": -2188,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215621,7 +216743,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnCapital_Redrock_A",
-      "OuterIndex": -2178,
+      "OuterIndex": -2190,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215639,7 +216761,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnCapital_Whitemarble_A",
-      "OuterIndex": -2180,
+      "OuterIndex": -2192,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215657,7 +216779,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnShaft_A",
-      "OuterIndex": -2182,
+      "OuterIndex": -2194,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215675,7 +216797,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnShaft_Moss_A",
-      "OuterIndex": -2184,
+      "OuterIndex": -2196,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215693,7 +216815,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnShaft_Redrock_A",
-      "OuterIndex": -2186,
+      "OuterIndex": -2198,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215711,7 +216833,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnShaft_Whitemarble_A",
-      "OuterIndex": -2188,
+      "OuterIndex": -2200,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215729,7 +216851,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_InlaidFloor_A",
-      "OuterIndex": -2190,
+      "OuterIndex": -2202,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215747,7 +216869,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_PatternedFloor_A",
-      "OuterIndex": -2192,
+      "OuterIndex": -2204,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215765,7 +216887,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_PatternedFloor_B",
-      "OuterIndex": -2194,
+      "OuterIndex": -2206,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215783,7 +216905,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_TiledFloor_A",
-      "OuterIndex": -2196,
+      "OuterIndex": -2208,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215801,7 +216923,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_TiledFloor_B",
-      "OuterIndex": -2198,
+      "OuterIndex": -2210,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215819,7 +216941,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_TiledFloor_C",
-      "OuterIndex": -2200,
+      "OuterIndex": -2212,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215837,7 +216959,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_AleKeg",
-      "OuterIndex": -2202,
+      "OuterIndex": -2214,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215855,7 +216977,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_BirdNest_A",
-      "OuterIndex": -2204,
+      "OuterIndex": -2216,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215873,7 +216995,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_BirdNest_B",
-      "OuterIndex": -2206,
+      "OuterIndex": -2218,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215891,7 +217013,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_Ceiling_Center",
-      "OuterIndex": -2208,
+      "OuterIndex": -2220,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215909,7 +217031,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_Ceiling_Corner",
-      "OuterIndex": -2210,
+      "OuterIndex": -2222,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215927,7 +217049,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_DecoratedArch_A",
-      "OuterIndex": -2212,
+      "OuterIndex": -2224,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215945,7 +217067,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_DecoratedArch_B",
-      "OuterIndex": -2214,
+      "OuterIndex": -2226,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215963,7 +217085,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_Floor_Wood_3x3_A",
-      "OuterIndex": -2216,
+      "OuterIndex": -2228,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215981,7 +217103,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_LargeBrazier",
-      "OuterIndex": -2218,
+      "OuterIndex": -2230,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -215999,7 +217121,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_UzbadPack_AngledWoodenFloor_A",
-      "OuterIndex": -2220,
+      "OuterIndex": -2232,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216017,7 +217139,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_UzbadPack_ChoppingBlock_A",
-      "OuterIndex": -2222,
+      "OuterIndex": -2234,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216035,7 +217157,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_UzbadPack_KitchenCauldron_A",
-      "OuterIndex": -2224,
+      "OuterIndex": -2236,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216053,7 +217175,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_UzbadPack_ThinWoodFloorTile_A",
-      "OuterIndex": -2226,
+      "OuterIndex": -2238,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216071,7 +217193,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_A",
-      "OuterIndex": -2228,
+      "OuterIndex": -2240,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216089,7 +217211,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_B",
-      "OuterIndex": -2230,
+      "OuterIndex": -2242,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216107,7 +217229,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_C",
-      "OuterIndex": -2232,
+      "OuterIndex": -2244,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216125,7 +217247,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_D",
-      "OuterIndex": -2234,
+      "OuterIndex": -2246,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216143,7 +217265,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_E",
-      "OuterIndex": -2236,
+      "OuterIndex": -2248,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216161,7 +217283,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_F",
-      "OuterIndex": -2238,
+      "OuterIndex": -2250,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216179,7 +217301,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_G",
-      "OuterIndex": -2240,
+      "OuterIndex": -2252,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216197,7 +217319,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_H",
-      "OuterIndex": -2242,
+      "OuterIndex": -2254,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216215,7 +217337,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteBarrier_A",
-      "OuterIndex": -2244,
+      "OuterIndex": -2256,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216233,7 +217355,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteColumnBase_A",
-      "OuterIndex": -2246,
+      "OuterIndex": -2258,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216251,7 +217373,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteColumnCapital_A",
-      "OuterIndex": -2248,
+      "OuterIndex": -2260,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216269,7 +217391,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteColumnShaft_A",
-      "OuterIndex": -2250,
+      "OuterIndex": -2262,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216287,7 +217409,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteDoor_A",
-      "OuterIndex": -2252,
+      "OuterIndex": -2264,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216305,7 +217427,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteFloor_A",
-      "OuterIndex": -2254,
+      "OuterIndex": -2266,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216323,7 +217445,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteStairs_A",
-      "OuterIndex": -2256,
+      "OuterIndex": -2268,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216341,7 +217463,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteTrimedBarrier_A",
-      "OuterIndex": -2258,
+      "OuterIndex": -2270,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216359,7 +217481,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteWall_A",
-      "OuterIndex": -2260,
+      "OuterIndex": -2272,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216377,7 +217499,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteWindow_A",
-      "OuterIndex": -2262,
+      "OuterIndex": -2274,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -216395,7 +217517,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "ST_Mod_Architecture",
-      "OuterIndex": -2264,
+      "OuterIndex": -2276,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
       "PackageName": null,
@@ -216413,7 +217535,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "ST_Mod_Interactables",
-      "OuterIndex": -2266,
+      "OuterIndex": -2278,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
       "PackageName": null,
