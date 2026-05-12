@@ -5,7 +5,7 @@
     "/Game/Items/BP_Category_Weapon",
     "/Game/Items/Holdables/EQ_2H_Base",
     "/Game/Items/Holdables/EQ_2H_Sword_Base",
-    "/Game/Mods/LegendaryWeaponsPack/Items/Weapons/BrokenVersions/EQ_Glamdring_Sword_2h_Broken",
+    "/Game/Mods/LegendaryWeaponsPack/Items/Weapons/EQ_Glamdring_Sword_2h_Broken",
     "/Game/Mods/LegendaryWeaponsPack/Items/Weapons/EQ_Glamdring_Sword_2h",
     "/Game/Mods/LegendaryWeaponsPack/Items/Weapons/Meshes/D_Glamdring",
     "/Game/Items/Weapons/Models/Dwarf_Weapons/Materials/D_Weapon_Mithril_GreatSword2h/MI_D_Weapon_Mithril_GreatSword2h_Rune",
@@ -2230,7 +2230,7 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__EQ_Glamdring_Sword_2h_Broken_C",
       "OuterIndex": -47,
-      "ClassPackage": "/Game/Mods/LegendaryWeaponsPack/Items/Weapons/BrokenVersions/EQ_Glamdring_Sword_2h_Broken",
+      "ClassPackage": "/Game/Mods/LegendaryWeaponsPack/Items/Weapons/EQ_Glamdring_Sword_2h_Broken",
       "ClassName": "EQ_Glamdring_Sword_2h_Broken_C",
       "PackageName": null,
       "bImportOptional": false
@@ -2435,7 +2435,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/LegendaryWeaponsPack/Items/Weapons/BrokenVersions/EQ_Glamdring_Sword_2h_Broken",
+      "ObjectName": "/Game/Mods/LegendaryWeaponsPack/Items/Weapons/EQ_Glamdring_Sword_2h_Broken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
