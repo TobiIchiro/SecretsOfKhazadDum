@@ -44,6 +44,7 @@ for dirpath, _, filenames in os.walk(ROOT_JSON):
         tasks.append((source, dest))
 
 errors = []
+success_count = 0
 
 # Ejecutar en paralelo
 with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
@@ -53,6 +54,7 @@ with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         result = future.result()
 
         if result["success"]:
+            success_count += 1
             print(f"✔ Converted: {result['source']}")
         else:
             print(f"✖ Error: {result['source']}")
@@ -67,6 +69,7 @@ if errors:
             f.write(err["error"] or "No error message")
             f.write("\n" + "-"*50 + "\n")
 
+    print(f"\nArcvhivos convertidos: {success_count}/{len(tasks)}")
     print(f"\nSe encontraron {len(errors)} errores. Revisa: {ERROR_LOG}")
 else:
-    print("\nAll files have been converted successfully")
+    print(f"\nAll files have been converted successfully ({success_count})")
