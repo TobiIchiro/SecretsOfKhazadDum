@@ -5,11 +5,11 @@
     "/Game/Items/BP_Category_Weapon",
     "/Game/Items/Holdables/EQ_2H_Base",
     "/Game/Items/Holdables/EQ_2H_Halberd_Base",
-    "/Game/Items/Holdables/Weapons/BrokenVersions/EQ_Halberd_2h_t1_Broken",
-    "/Game/Items/Holdables/Weapons/EQ_Halberd_2h_t1",
-    "/Game/Items/Weapons/Models/Dwarf_Weapons/D_Weapon_Belegost_Halberd2h",
+    "/Game/Mods/BearGuildPack/Weapons/EQ_Ashen_Weapon_Broken",
+    "/Game/Mods/BearGuildPack/Weapons/EQ_Ashen_Weapon",
+    "/Game/Mods/BearGuildPack/Weapons/Meshes/D_Ashen_Weapon",
     "/Game/Items/Weapons/Models/Dwarf_Weapons/Materials/D_Weapon_Belegost_Halberd2h/MI_D_Weapon_Belegost_Halberd2h_Rune",
-    "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Weapon_Belegost_Halberd_2h",
+    "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_Ashen_Weapon",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/FGK",
@@ -35,14 +35,14 @@
     "ComponentOverrideRecord",
     "ComponentTemplate",
     "CookedComponentInstancingData",
-    "D_Weapon_Belegost_Halberd2h",
+    "D_Ashen_Weapon",
     "DecomposesInto",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Category_Weapon_C",
     "Default__EQ_2H_Base_C",
     "Default__EQ_2H_Halberd_Base_C",
-    "Default__EQ_Halberd_2h_t1_Broken_C",
-    "Default__EQ_Halberd_2h_t1_C",
+    "Default__EQ_Ashen_Weapon_Broken_C",
+    "Default__EQ_Ashen_Weapon_C",
     "Default__InheritableComponentHandler",
     "Default__SceneComponent",
     "Default__SCS_Node",
@@ -54,13 +54,13 @@
     "Engine",
     "EQ_2H_Base_C",
     "EQ_2H_Halberd_Base_C",
-    "EQ_Halberd_2h_t1_Broken_C",
-    "EQ_Halberd_2h_t1_C",
+    "EQ_Ashen_Weapon_Broken_C",
+    "EQ_Ashen_Weapon_C",
     "FGKAk_GEN_VARIABLE",
     "FGKAkComponent",
     "FloatProperty",
     "Guid",
-    "Halberd_2h_t1",
+    "Ashen_Weapon",
     "HitTransformLocator",
     "HitTransformLocator_GEN_VARIABLE",
     "IconTextureReference",
@@ -109,7 +109,7 @@
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_Weapon_Belegost_Halberd_2h",
+    "T_UI_Icon_Ashen_Weapon",
     "Texture2D",
     "TransformLocatorComponent",
     "VariableGuid",
@@ -121,7 +121,11 @@
     "WeaponVFX",
     "WeaponVFX_GEN_VARIABLE",
     "TimelineTemplate",
-    "GlowFade_Template"
+    "GlowFade_Template",
+    "StartingRuneEffect",
+    "MorRuneEffect",
+    "/Game/Mods/BearGuildPack/Rune/IE_Rune_Axbeard",
+    "IE_Rune_Axbeard"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -274,7 +278,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "EQ_Halberd_2h_t1_C",
+      "ObjectName": "EQ_Ashen_Weapon_C",
       "OuterIndex": 0,
       "ClassIndex": -12,
       "SuperIndex": -3,
@@ -437,7 +441,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Halberd_2h_t1"
+              "Value": "Ashen_Weapon"
             }
           ]
         },
@@ -449,6 +453,15 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -72
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "StartingRuneEffect",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -77
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -499,7 +512,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__EQ_Halberd_2h_t1_C",
+      "ObjectName": "Default__EQ_Ashen_Weapon_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -524,7 +537,8 @@
         -63,
         -31,
         -72,
-        -75
+        -75,
+        -77
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
@@ -2714,7 +2728,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "EQ_Halberd_2h_t1_Broken_C",
+      "ObjectName": "EQ_Ashen_Weapon_Broken_C",
       "OuterIndex": -47,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -2894,10 +2908,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__EQ_Halberd_2h_t1_Broken_C",
+      "ObjectName": "Default__EQ_Ashen_Weapon_Broken_C",
       "OuterIndex": -47,
-      "ClassPackage": "/Game/Items/Holdables/Weapons/BrokenVersions/EQ_Halberd_2h_t1_Broken",
-      "ClassName": "EQ_Halberd_2h_t1_Broken_C",
+      "ClassPackage": "/Game/Mods/BearGuildPack/Weapons/EQ_Ashen_Weapon_Broken",
+      "ClassName": "EQ_Ashen_Weapon_Broken_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -3101,7 +3115,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/Holdables/Weapons/BrokenVersions/EQ_Halberd_2h_t1_Broken",
+      "ObjectName": "/Game/Mods/BearGuildPack/Weapons/EQ_Ashen_Weapon_Broken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3119,7 +3133,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/Weapons/Models/Dwarf_Weapons/D_Weapon_Belegost_Halberd2h",
+      "ObjectName": "/Game/Mods/BearGuildPack/Weapons/Meshes/D_Ashen_Weapon",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3128,7 +3142,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Weapon_Belegost_Halberd_2h",
+      "ObjectName": "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_Ashen_Weapon",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3290,7 +3304,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "D_Weapon_Belegost_Halberd2h",
+      "ObjectName": "D_Ashen_Weapon",
       "OuterIndex": -49,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -3326,7 +3340,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_Weapon_Belegost_Halberd_2h",
+      "ObjectName": "T_UI_Icon_Ashen_Weapon",
       "OuterIndex": -50,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
@@ -3357,6 +3371,24 @@
       "OuterIndex": -1,
       "ClassPackage": "/Script/Engine",
       "ClassName": "TimelineTemplate",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/BearGuildPack/Rune/IE_Rune_Axbeard",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "IE_Rune_Axbeard",
+      "OuterIndex": -76,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "MorRuneEffect",
       "PackageName": null,
       "bImportOptional": false
     }
@@ -3410,7 +3442,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Holdables/Weapons/EQ_Halberd_2h_t1",
+  "FolderName": "/Game/Mods/BearGuildPack/Weapons/EQ_Ashen_Weapon",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
