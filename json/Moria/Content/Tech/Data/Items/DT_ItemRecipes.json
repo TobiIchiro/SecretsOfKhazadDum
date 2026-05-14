@@ -320832,7 +320832,7 @@
                             "IsZero": false,
                             "PropertyTagFlags": "None",
                             "PropertyTagExtensions": "NoExtension",
-                            "Value": "Consumable.TeaFlower"
+                            "Value": "Consumable.Cookies_Ration"
                           }
                         ]
                       },
@@ -321595,7 +321595,7 @@
                             "IsZero": false,
                             "PropertyTagFlags": "None",
                             "PropertyTagExtensions": "NoExtension",
-                            "Value": "Consumable.TeaFlower"
+                            "Value": "Consumable.Cookies_Ration"
                           }
                         ]
                       },
@@ -322358,7 +322358,7 @@
                             "IsZero": false,
                             "PropertyTagFlags": "None",
                             "PropertyTagExtensions": "NoExtension",
-                            "Value": "Consumable.TeaFlower"
+                            "Value": "Consumable.Cookies_Ration"
                           }
                         ]
                       },
