@@ -329022,7 +329022,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "EMorRecipeUnlockType::DiscoverDependencies"
+                    "Value": "EMorRecipeUnlockType::Manual"
                   },
                   {
                     "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",

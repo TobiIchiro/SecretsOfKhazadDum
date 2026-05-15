@@ -113,7 +113,13 @@
     "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat.BP_SaddleBags_Goat_C",
     "Item.GoatPack",
     "/Game/Mods/PorterGoat/Items/Meshes/SM_SaddleBags",
-    "SM_SaddleBags"
+    "SM_SaddleBags",
+    "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
+    "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings",
+    "ST_PorterGoatStrings",
+    "/Game/Mods/PorterGoat/Icons/T_PorterGoatSaddlebags.T_PorterGoatSaddlebags",
+    "/Game/Mods/PorterGoat/Icons/T_PorterGoatSaddlebags",
+    "T_PorterGoatSaddlebags"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -2247,7 +2253,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
+                "TableId": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -2268,7 +2274,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
+                "TableId": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -2297,7 +2303,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/HuntersLodgePack/Icons/T_UI_Icon_ElvenPack.T_UI_Icon_ElvenPack"
+                    "AssetName": "/Game/Mods/PorterGoat/Icons/T_PorterGoatSaddlebags.T_PorterGoatSaddlebags"
                   },
                   "SubPathString": null
                 }
@@ -2841,6 +2847,24 @@
       "OuterIndex": -22,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ST_PorterGoatStrings",
+      "OuterIndex": -24,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
       "PackageName": null,
       "bImportOptional": false
     }
