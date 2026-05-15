@@ -111,7 +111,9 @@
     "Goat_Saddlebags",
     "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat",
     "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat.BP_SaddleBags_Goat_C",
-    "Item.GoatPack"
+    "Item.GoatPack",
+    "/Game/Mods/PorterGoat/Items/Meshes/SM_SaddleBags",
+    "SM_SaddleBags"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -2324,7 +2326,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -21
+                "Value": -23
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -2616,6 +2618,7 @@
         -17,
         -19,
         -21,
+        -23,
         -1,
         -2
       ],
@@ -2818,6 +2821,24 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "GPI_Elven_Pack",
       "OuterIndex": -20,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMesh",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/PorterGoat/Items/Meshes/SM_SaddleBags",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SM_SaddleBags",
+      "OuterIndex": -22,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
       "PackageName": null,

@@ -3,8 +3,8 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat",
-    "/Game/Mods/PorterGoat/Items/Meshes/Saddle_Bags",
-    "/Game/Mods/PorterGoat/Items/Meshes/Materials/MI_Saddle_Bags_A",
+    "/Game/Mods/PorterGoat/Items/Meshes/SK_SaddleBags_Goat",
+    "/Game/Mods/HuntersLodgePack/Items/Packs/Meshes/Materials/MI_Elven_Pack_A",
     "/Game/Items/BP_Category_EpicPack",
     "/Game/Mods/PorterGoat/Icons/T_UI_Icon_SaddleBags",
     "/Script/ClothingSystemRuntimeNv",
@@ -40,7 +40,7 @@
     "DefaultSceneRoot",
     "DefaultSceneRoot_GEN_VARIABLE",
     "DefaultSceneRootNode",
-    "Saddle_Bags",
+    "SK_SaddleBags_Goat",
     "Engine",
     "EquipSocket",
     "Guid",
@@ -1141,7 +1141,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/PorterGoat/Items/Meshes/Materials/MI_Saddle_Bags_A",
+      "ObjectName": "/Game/Mods/HuntersLodgePack/Items/Packs/Meshes/Materials/MI_Elven_Pack_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1150,7 +1150,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/PorterGoat/Items/Meshes/Saddle_Bags",
+      "ObjectName": "/Game/Mods/PorterGoat/Items/Meshes/SK_SaddleBags_Goat",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1258,7 +1258,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Saddle_Bags",
+      "ObjectName": "SK_SaddleBags_Goat",
       "OuterIndex": -18,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SkeletalMesh",
