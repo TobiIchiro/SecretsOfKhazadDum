@@ -420,7 +420,11 @@
     "Building.CeibaPack_Wall_3X1M_C",
     "Building.CeibaPack_Wall_1X1M_A",
     "Building.CeibaPack_Wall_1X1M_B",
-    "Building.CeibaPack_Wall_1X1M_C"
+    "Building.CeibaPack_Wall_1X1M_C",
+    "PorterGoatBell_Bundle",
+    "Item.PorterGoatBell",
+    "PorterGoatSaddlebags_Bundle",
+    "Item.PorterGoatSaddlebags"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,

@@ -216,7 +216,11 @@
     "Cacao_Offer_Default",
     "Consumable.Tobi_Cacao",
     "Coffe_Offer_Default",
-    "Consumable.Tobi_Coffee"
+    "Consumable.Tobi_Coffee",
+    "PorterGoatBell_Offer_Default",
+    "PorterGoatBell_Bundle",
+    "PorterGoatSaddlebags_Offer_Default",
+    "PorterGoatSaddlebags_Bundle"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,

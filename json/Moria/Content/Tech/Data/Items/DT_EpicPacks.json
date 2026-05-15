@@ -110,7 +110,8 @@
     "Object",
     "Goat_Saddlebags",
     "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat",
-    "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat.BP_SaddleBags_Goat_C"
+    "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat.BP_SaddleBags_Goat_C",
+    "Item.GoatPack"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
