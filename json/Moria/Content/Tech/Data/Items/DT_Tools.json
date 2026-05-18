@@ -351,7 +351,15 @@
         "Default__GE_TobiHammer_C",
         "Crafting_TelcharHammer",
         "/Game/Mods/LegendaryWeaponsPack/Icons/T_UI_TelcharHammer.T_UI_TelcharHammer",
-        "/Game/Mods/LegendaryWeaponsPack/Items/Tools/EQ_TelcharHammer.EQ_TelcharHammer_C"
+        "/Game/Mods/LegendaryWeaponsPack/Items/Tools/EQ_TelcharHammer.EQ_TelcharHammer_C",
+        "BellGoat",
+        "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings",
+        "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
+        "ST_PorterGoatStrings",
+        "/Game/Mods/PorterGoat/Icons/T_PorterGoatBell.T_PorterGoatBell",
+        "/Game/Mods/PorterGoat/Items/EQ_GoatBell.EQ_GoatBell_C",
+        "UI.Tool.GoatBell",
+        "Item.GoatBell"
     ],
     "CustomSerializationFlags": "None",
     "UseSeparateBulkDataFiles": true,
@@ -23959,6 +23967,521 @@
                                 "Value": "ERowEnabledState::Disabled"
                             }
                         ]
+                    },
+                    {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorToolDefinition",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "BellGoat",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                                "Name": "Durability",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": 2000
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                                "Value": 0.0,
+                                "Name": "DurabilityDecayWhileEquipped",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                                "Value": 0.0,
+                                "Name": "StaminaCost",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                                "Value": 0.0,
+                                "Name": "EnergyCost",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "CompatibleToolTags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": []
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "ObjectProperty",
+                                "DummyStruct": null,
+                                "Name": "UseEffects",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": []
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                                "Value": [],
+                                "KeyType": "StructProperty",
+                                "ValueType": "FloatProperty",
+                                "KeysToRemove": [],
+                                "Name": "UseEffectTagMagnitudes",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "StructProperty",
+                                "Name": "InitialRepairCost",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                        "StructType": "MorRequiredRecipeMaterial",
+                                        "SerializeNone": true,
+                                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                        "SerializationControl": "NoExtension",
+                                        "Operation": "None",
+                                        "Name": "InitialRepairCost",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                                "StructType": "MorAnyItemRowHandle",
+                                                "SerializeNone": true,
+                                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                                "SerializationControl": "NoExtension",
+                                                "Operation": "None",
+                                                "Name": "MaterialHandle",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": [
+                                                    {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                                                        "Name": "RowName",
+                                                        "ArrayIndex": 0,
+                                                        "IsZero": false,
+                                                        "PropertyTagFlags": "None",
+                                                        "PropertyTagExtensions": "NoExtension",
+                                                        "Value": "Item.Scrap"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                                "StructType": "MorCategoryTagRowHandle",
+                                                "SerializeNone": true,
+                                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                                "SerializationControl": "NoExtension",
+                                                "Operation": "None",
+                                                "Name": "WildcardHandle",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": [
+                                                    {
+                                                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                                                        "Name": "RowName",
+                                                        "ArrayIndex": 0,
+                                                        "IsZero": false,
+                                                        "PropertyTagFlags": "None",
+                                                        "PropertyTagExtensions": "NoExtension",
+                                                        "Value": "None"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                                                "Name": "Count",
+                                                "ArrayIndex": 0,
+                                                "IsZero": false,
+                                                "PropertyTagFlags": "None",
+                                                "PropertyTagExtensions": "NoExtension",
+                                                "Value": 5
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "RepairCostCurve",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": -6
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                                "Name": "CarveHits",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": 1
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "DisplayName",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "Container.PorterGoatBell.Name"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                                "Flags": 0,
+                                "HistoryType": "StringTableEntry",
+                                "TableId": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
+                                "Namespace": null,
+                                "CultureInvariantString": null,
+                                "SourceFmt": null,
+                                "Arguments": null,
+                                "ArgumentsData": null,
+                                "TransformType": "ToLower",
+                                "SourceValue": null,
+                                "FormatOptions": null,
+                                "TargetCulture": null,
+                                "Name": "Description",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "Container.PorterGoatBell.Description"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Icon",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/PorterGoat/Icons/T_PorterGoatBell.T_PorterGoatBell"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                                "Name": "Actor",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": {
+                                    "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                                    "AssetPath": {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                                        "PackageName": null,
+                                        "AssetName": "/Game/Mods/PorterGoat/Items/EQ_GoatBell.EQ_GoatBell_C"
+                                    },
+                                    "SubPathString": null
+                                }
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                "Name": "DroppedItemMeshOverride",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": 0
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "Tags",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "Tags",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": [
+                                            "UI.Tool.GoatBell",
+                                            "Item.GoatBell"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "SkillsRequired",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "SkillsRequired",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": []
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "GameplayTagContainer",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "SkillsGranted",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                                        "Name": "SkillsGranted",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": []
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "ObjectProperty",
+                                "DummyStruct": null,
+                                "Name": "VisibleEffects",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": []
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                                "Value": [],
+                                "KeyType": "StructProperty",
+                                "ValueType": "FloatProperty",
+                                "KeysToRemove": [],
+                                "Name": "VisibleEffectTagMagnitudes",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "ObjectProperty",
+                                "Name": "EquipEffects",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": 0
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                                "Value": [],
+                                "KeyType": "StructProperty",
+                                "ValueType": "FloatProperty",
+                                "KeysToRemove": [],
+                                "Name": "EquipEffectTagMagnitudes",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                                "ArrayType": "ObjectProperty",
+                                "DummyStruct": null,
+                                "Name": "HolsterEffects",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": []
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
+                                "Value": [],
+                                "KeyType": "StructProperty",
+                                "ValueType": "FloatProperty",
+                                "KeysToRemove": [],
+                                "Name": "HolsterEffectTagMagnitudes",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "MorCosmeticConvertRowHandle",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "CosmeticConvertCost",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                                        "Name": "RowName",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": "None"
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                                "StructType": "MorItemSetRowHandle",
+                                "SerializeNone": true,
+                                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                                "SerializationControl": "NoExtension",
+                                "Operation": "None",
+                                "Name": "ItemSetRowHandle",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                                        "Name": "RowName",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": "None"
+                                    }
+                                ]
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "EItemPortability",
+                                "InnerType": "EItemPortability",
+                                "Name": "Portability",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "EItemPortability::Storable"
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                                "Name": "MaxStackSize",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": 1
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                                "Name": "SlotSize",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": 1
+                            },
+                            {
+                                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                                "EnumType": "ERowEnabledState",
+                                "InnerType": "ERowEnabledState",
+                                "Name": "EnabledState",
+                                "ArrayIndex": 0,
+                                "IsZero": false,
+                                "PropertyTagFlags": "None",
+                                "PropertyTagExtensions": "NoExtension",
+                                "Value": "ERowEnabledState::Disabled"
+                            }
+                        ]
                     }
                 ]
             },
@@ -24008,6 +24531,7 @@
                 -12,
                 -32,
                 -34,
+                -39,
                 -8,
                 -10,
                 -36
@@ -24357,6 +24881,24 @@
             "OuterIndex": 0,
             "ClassPackage": "/Script/CoreUObject",
             "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "ST_PorterGoatStrings",
+            "OuterIndex": -38,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "StringTable",
             "PackageName": null,
             "bImportOptional": false
         }
