@@ -2,6 +2,8 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
+    "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings",
+    "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
     "/Game/Tech/Data/Items/DT_Storage",
@@ -134,6 +136,7 @@
     "ScriptStruct",
     "SetProperty",
     "ST_Mod_Items",
+    "ST_PorterGoatStrings",
     "Storage_ArtisanStorage",
     "Storage_BlacksmithStorage",
     "Storage_BrewSack",
@@ -15296,7 +15299,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
+                "TableId": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -15311,13 +15314,13 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EpicPacks.AdventurersPack.Elven.Name"
+                "Value": "Container.PorterGoatSaddlebags.Name"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
+                "TableId": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -15332,7 +15335,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EpicPacks.AdventurersPack.Elven.Description"
+                "Value": "Container.PorterGoatSaddlebags.Description"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -15707,6 +15710,24 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "ST_Mod_Items",
       "OuterIndex": -12,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ST_PorterGoatStrings",
+      "OuterIndex": -14,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
       "PackageName": null,

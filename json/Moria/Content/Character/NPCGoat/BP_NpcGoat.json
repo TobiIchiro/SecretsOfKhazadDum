@@ -47,7 +47,7 @@
     "ActionsComp",
     "Actor",
     "Add_IntInt",
-    "AdventurersPack_Large",
+    "Goat.Slot.EpicPack",
     "AgentHeight",
     "AgentRadius",
     "AIControllerClass",
@@ -489,8 +489,14 @@
     "WorldStatic",
     "WidgetTree",
     "DefaultContainers",
-    "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_BodyInventory",
-    "BP_ContainerItem_Goat_BodyInventory_C",
+    "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_Slot_EpicPack",
+    "BP_ContainerItem_Goat_Slot_EpicPack_C",
+    "Default__BP_ContainerItem_Goat_Slot_EpicPack_C",
+    "Callout Data",
+    "CalloutDataComponent",
+    "RibbonTrails",
+    "NiagaraComponent",
+    "Root",
     "bIsRescued",
     "bRescueInteractionEnabled"
   ],
@@ -2367,7 +2373,8 @@
         -10,
         -100,
         -106,
-        -102
+        -102,
+        -201
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
@@ -8738,7 +8745,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "AdventurersPack_Large"
+              "Value": "Goat.Slot.EpicPack"
             }
           ]
         }
@@ -28825,7 +28832,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_BodyInventory",
+      "ObjectName": "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_Slot_EpicPack",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -28834,10 +28841,46 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "BP_ContainerItem_Goat_BodyInventory_C",
+      "ObjectName": "BP_ContainerItem_Goat_Slot_EpicPack_C",
       "OuterIndex": -196,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_ContainerItem_Goat_Slot_EpicPack_C",
+      "OuterIndex": -196,
+      "ClassPackage": "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_Slot_EpicPack",
+      "ClassName": "BP_ContainerItem_Goat_Slot_EpicPack_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Callout Data",
+      "OuterIndex": -198,
+      "ClassPackage": "/Script/Moria",
+      "ClassName": "CalloutDataComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "RibbonTrails",
+      "OuterIndex": -198,
+      "ClassPackage": "/Script/Niagara",
+      "ClassName": "NiagaraComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Root",
+      "OuterIndex": -198,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "SceneComponent",
       "PackageName": null,
       "bImportOptional": false
     }
