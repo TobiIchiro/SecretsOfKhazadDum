@@ -112,7 +112,7 @@
     "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat",
     "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat.BP_SaddleBags_Goat_C",
     "Item.GoatPack",
-    "/Game/Mods/PorterGoat/Items/Meshes/SM_SaddleBags",
+    "/Game/Mods/PorterGoat/Items/SM_SaddleBags",
     "SM_SaddleBags",
     "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
     "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings",
@@ -2268,7 +2268,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EpicPacks.SaddleBags.Goat.Name"
+                "Value": "Container.PorterGoatBell.Name"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -2289,7 +2289,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EpicPacks.SaddleBags.Goat.Description"
+                "Value": "Container.PorterGoatBell.Description"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -2834,7 +2834,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/PorterGoat/Items/Meshes/SM_SaddleBags",
+      "ObjectName": "/Game/Mods/PorterGoat/Items/SM_SaddleBags",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
