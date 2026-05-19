@@ -2268,7 +2268,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Container.PorterGoatBell.Name"
+                "Value": "Container.PorterGoatSaddlebags.Name"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -2289,7 +2289,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Container.PorterGoatBell.Description"
+                "Value": "Container.PorterGoatSaddlebags.Description"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
