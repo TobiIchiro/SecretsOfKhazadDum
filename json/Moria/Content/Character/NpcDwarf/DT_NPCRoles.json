@@ -259,7 +259,8 @@
     "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
     "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings",
     "Goat.Role.Porter",
-    "Porter Goat"
+    "Porter Goat",
+    "ST_PorterGoatStrings"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -5305,7 +5306,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/ST_NpcBehavior.ST_NpcBehavior",
+                "TableId": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -5320,7 +5321,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "RoleDescription.Porter"
+                "Value": "Goat.RoleDescription.Porter"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -8246,7 +8247,8 @@
         -281,
         -55,
         -66,
-        -79
+        -79,
+        -284
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -10798,6 +10800,24 @@
       "OuterIndex": -35,
       "ClassPackage": "/Script/Moria",
       "ClassName": "UMorActionEffect_Teleport",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ST_PorterGoatStrings",
+      "OuterIndex": -283,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
       "PackageName": null,
       "bImportOptional": false
     }
