@@ -1,68 +1,91 @@
-# Proximity menu — JSON-clone update (rev 2)
+# Proximity menu — JSON-clone (rev 3, final menu set)
 
-Follow-up to the earlier `PERSISTOR_CLONE_NOTES.md` in this same PR. My first pass concluded the menu architecture was delegate-only and couldn't be done via JSON surgery. **That was wrong.** A deeper look at the goat's `MorNPC_GEN_VARIABLE` component vs. the dwarf's revealed the menu entries are actually named `MorInteraction` struct properties on the component — pure data, perfectly clone-and-customizable.
+This commit lands the **final 6-entry porter-goat menu** plus context-only Revive. Three iterations got us here:
 
-This commit applies that finding to `BP_NpcGoat`.
+- **rev 1** (earlier in the same PR): concluded menu was delegate-only and not JSON-extensible — *wrong*
+- **rev 2**: discovered menu entries are named `MorInteraction` struct properties on `MorNPC_GEN_VARIABLE`; shipped 2-entry proof-of-concept (Open Inventory / Dismiss)
+- **rev 3 (this)**: expanded to John's full 6-entry spec with the right labels and defensive visibility flags
 
-## What I changed in `BP_NpcGoat`
+## The 6 menu entries
 
-Surgery on `MorNPC_GEN_VARIABLE` inside Tobi's existing `BP_NpcGoat` override (json + uasset + uexp updated):
+Listed in display order (controlled by `SortPriority` on each struct):
 
-1. **`ManageInteraction`** — renamed and prioritized
-   - `EnabledTextFormat.CultureInvariantString`: `"Manage Goat"` → `"Open Inventory"`
-   - `DisabledTextFormat.CultureInvariantString`: `"Manage Goat"` → `"Open Inventory"`
-   - Added `SortPriority = 1` (to put it first in the menu)
-   - Both text format GUIDs regenerated (avoids collisions with the original "Manage Goat" FText identity)
+| # | Label | Slot used | Default C++ behavior | UE4SS override |
+|---|---|---|---|---|
+| 1 | Follow | `TalkInteraction` | tries to start dialogue; goat has no `MorNPCConversationComponent` → no-op | hook OnTalkInteraction → set goat work behavior to follow |
+| 2 | Stay | `RecruitInteraction` | C++ recruit precondition check; goat won't satisfy → no-op or toast | hook OnRecruitInteraction → set goat work behavior to stay |
+| 3 | Saddlebags | `ManageInteraction` | opens NPC management UI (inventory) — close to what we want | hook OnManageInteraction → open `BP_ContainerItem_Goat_Slot_EpicPack` UI directly (cleaner than dwarf-default screen) |
+| 4 | Feed | `DeliverResearchInteraction` | requires player-has-research-item check → no-op | hook OnDeliverResearchInteraction → consume food from player inventory, raise goat stat |
+| 5 | Rename | `DetailsInteraction` | opens character details panel | hook OnDetailsInteraction → open rename text input UI |
+| 6 | Dismiss | `RescueInteraction` | NPC rescue transition — usually no-op when target isn't captive | hook OnRescueInteraction → destroy goat actor + persistor; persistor's sidecar data carries forward |
+| — | (Revive) | `ReviveInteraction` | revive downed NPC — *default behavior is what we want* | none needed |
 
-2. **`TalkInteraction`** — new entry added (mirror of dwarf's `TalkInteraction` struct shape)
-   - `SortPriority = 2`
-   - `EnabledTextFormat = "Dismiss"` (inline literal, `HistoryType: "Base"`, `TransformType: "ToLower"`)
-   - `DisabledTextFormat = "Dismiss"`
+**Why this slot mapping**: I picked the 6 `MorInteraction` property names from the dwarf's known-good 7-slot set (`Manage`, `Talk`, `Recruit`, `Revive`, `Rescue`, `DeliverResearch`, `Details`). Property names are hard-coded in C++ at runtime — we can't invent new names like `FollowInteraction` and expect them to show up in the menu. We CAN repurpose existing slots with any label we like.
 
-3. NameMap additions: `TalkInteraction`, `SortPriority` (required since the goat didn't reference these names previously).
+## Defensive visibility flags
 
-Existing `ReviveInteraction` and `RescueInteraction` are untouched.
-
-Round-trip validated: `tojson → fromjson → tojson` produces JSON with identical NameMap and all 87 exports preserved.
-
-## What the player will see in-game
-
-Walking up to the goat and opening the interaction menu:
+The goat already had `bRescueInteractionEnabled = True` — that's what made Rescue visible (now relabeled "Dismiss"). Following the same pattern, this commit adds five more bools to the goat's `MorNPC_GEN_VARIABLE`:
 
 ```
-open inventory   ← (existing ManageInteraction handler — already opens the inventory/management UI)
-dismiss          ← (existing TalkInteraction handler — fires the talk callback)
-revive           ← (only when goat is downed)
-rescue           ← (only in specific contexts)
+bManageInteractionEnabled = True
+bTalkInteractionEnabled = True
+bRecruitInteractionEnabled = True
+bDeliverResearchInteractionEnabled = True
+bDetailsInteractionEnabled = True
 ```
 
-The text appears lowercase because the inherited `TransformType: "ToLower"` matches dwarf-menu convention.
+These are defensive: if C++ reflects parallel `b*InteractionEnabled` flags for each interaction type (as the rescue pattern suggests), they force-show all our entries. If C++ doesn't have these flags, they're harmless data overhead.
 
-## Important: the callbacks
+Some entries (Recruit, DeliverResearch) have C++ preconditions that may still hide them despite the bool — if you test in-game and any entry doesn't show, that's the diagnostic to chase. The hide-on-precondition behavior is what we'd remove via UE4SS hooks anyway.
 
-The menu **labels** are pure data and now correct. The **callbacks** behind each entry are C++ behaviors tied to the property name:
+## What changed in BP_NpcGoat
 
-- `ManageInteraction` → fires the standard NPC "Manage" handler. For dwarves this opens an inventory/equipment/role UI. **For the goat this should already do something useful** — likely opens an inventory-style screen. If the screen has goat-inappropriate slots (helmet, weapon, etc.) we can address it at the inventory UI level later.
-- `TalkInteraction` → fires the standard NPC "Talk" handler. The goat has no `MorNPCConversationComponent`, so this will probably no-op gracefully or open an empty dialogue.
+Surgery on `MorNPC_GEN_VARIABLE` inside Tobi's existing `BP_NpcGoat` override:
 
-**This is fine for v1.** The runtime team (VS Claude) will hook the OnTalkInteraction delegate and dispatch it to the actual despawn logic — but the *visibility* of the "Dismiss" entry is baked into the BP, which is the reliable part. UE4SS-side hooks for default-always-appearing entries have been unreliable in past attempts; static BP-level entries are the right answer.
+- **Modified existing structs:**
+  - `ManageInteraction`: label "Manage Goat" → "Saddlebags", SortPriority=3
+  - `RescueInteraction`: label "Rescue" → "Dismiss", added SortPriority=6
+- **Added new structs** (mirroring dwarf shape):
+  - `TalkInteraction`: SortPriority=1, label "Follow"
+  - `RecruitInteraction`: SortPriority=2, label "Stay"
+  - `DeliverResearchInteraction`: SortPriority=4, label "Feed"
+  - `DetailsInteraction`: SortPriority=5, label "Rename"
+- **Added 5 visibility bools** (described above)
+- **NameMap additions**: `SortPriority`, `TalkInteraction`, `RecruitInteraction`, `DeliverResearchInteraction`, `DetailsInteraction`, plus the 5 enable bools
+- **Unchanged**: `ReviveInteraction` ("Revive", context-only)
 
-If "Open Inventory" doesn't open the right screen, we have two paths:
-- UE4SS runtime hook on `OnManageInteraction` for `BP_NpcGoat_C` that opens the saddlebag container UI (your existing `BP_ContainerItem_Goat_Slot_EpicPack` flow) instead of the dwarf-default screen
-- A different `MorInteraction` slot whose C++ handler happens to do the right thing (need empirical testing)
+All FText identity GUIDs regenerated where text changed (avoids collisions with the original FText cache keys).
 
-Either way the *menu entry is there*.
+Round-trip validated: `tojson → fromjson → tojson` produces JSON with NameMap byte-identical (507 entries both directions) and all 87 exports preserved.
 
-## Updated status
+## What the player sees in-game
+
+Walking up to the porter goat and opening the interaction wheel (text appears lowercase because the inherited `TransformType: "ToLower"` matches dwarf-menu convention):
+
+```
+follow
+stay
+saddlebags
+feed
+rename
+dismiss
+(revive)      ← only appears when goat is downed
+```
+
+## Caveats to acknowledge
+
+1. **Default callbacks** for repurposed slots may do unexpected things if UE4SS isn't loaded — e.g., clicking "Feed" without UE4SS might briefly attempt a "deliver research" check that fails silently. Probably benign. UE4SS hooks are the production behavior layer.
+
+2. **Empirical risk on Recruit/DeliverResearch visibility**: if C++ has hard-coded preconditions that override the `b*Enabled` bools, those entries might still hide. If "Stay" or "Feed" don't appear in-game testing, that's the diagnostic — and the fix is to either find the right gating flag or shift those labels to known-safe slots.
+
+3. **Slot reuse means the "Rescue" interaction kind is gone** from the goat — but only as a label. The underlying slot is repurposed as "Dismiss". John explicitly asked for "not rescue", and this satisfies that.
+
+## Updated status (everything goat-side that this PR delivers)
 
 | Item | Status |
 |------|--------|
-| **Persistor (#5)** | ✓ Delivered (BP_TimeManager clone, JSON-surgery) |
-| **Proximity menu (#6)** | ✓ Delivered (Manage→"Open Inventory" rename + new Talk→"Dismiss") |
+| Persistor (#5) | ✓ Delivered (BP_TimeManager clone) |
+| Proximity menu — 6 entries (#6) | ✓ Delivered (this commit) |
 | Saddlebag→bell text bug | ✓ You already fixed it in `b29f3e3b` |
 | `Goat.Role.Porter` ST key | You said you'd add it |
 | Bell visuals | You will do, no rush |
-
-So as of this PR there's nothing new on your plate beyond what you already said you'd do. 🎉
-
-If you find that "Open Inventory" doesn't open the right container UI in-game when you test it, that's a runtime issue for the VS Claude side to hook — not a BP problem.
