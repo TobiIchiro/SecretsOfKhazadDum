@@ -498,7 +498,9 @@
     "NiagaraComponent",
     "Root",
     "bIsRescued",
-    "bRescueInteractionEnabled"
+    "bRescueInteractionEnabled",
+    "TalkInteraction",
+    "SortPriority"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -8866,11 +8868,20 @@
           "PropertyTagExtensions": "NoExtension",
           "Value": [
             {
+              "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+              "Name": "SortPriority",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 1
+            },
+            {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Manage Goat",
+              "CultureInvariantString": "Open Inventory",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -8883,14 +8894,14 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "E7983DAB4F05AC5F16BB439D2635C9F8"
+              "Value": "AF542C6AA74A45C184835C614A1A0B4E"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Manage Goat",
+              "CultureInvariantString": "Open Inventory",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -8903,7 +8914,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "26763BD3404867B3F7DDF19D128369AC"
+              "Value": "89210D19E4044AC7B2671119C902D920"
             }
           ]
         },
@@ -9014,6 +9025,68 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": "3CDAED86429AA7A735983CBED36B9FB3"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "Name": "TalkInteraction",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "StructType": "MorInteraction",
+          "StructGUID": "00000000-0000-0000-0000-000000000000",
+          "SerializeNone": true,
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+              "Name": "SortPriority",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 2
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+              "Flags": 0,
+              "HistoryType": "Base",
+              "Namespace": "",
+              "CultureInvariantString": "Dismiss",
+              "SourceFmt": null,
+              "Arguments": null,
+              "ArgumentsData": null,
+              "TransformType": "ToLower",
+              "SourceValue": null,
+              "FormatOptions": null,
+              "TargetCulture": null,
+              "Name": "EnabledTextFormat",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "3513317104EF42A3B191C3CFB012E99F"
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+              "Flags": 0,
+              "HistoryType": "Base",
+              "Namespace": "",
+              "CultureInvariantString": "Dismiss",
+              "SourceFmt": null,
+              "Arguments": null,
+              "ArgumentsData": null,
+              "TransformType": "ToLower",
+              "SourceValue": null,
+              "FormatOptions": null,
+              "TargetCulture": null,
+              "Name": "DisabledTextFormat",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "9E14077308A84C30AB66DDB4EF3D4386"
             }
           ]
         },
