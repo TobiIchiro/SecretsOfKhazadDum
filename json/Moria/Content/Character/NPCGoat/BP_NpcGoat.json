@@ -498,7 +498,23 @@
     "NiagaraComponent",
     "Root",
     "bIsRescued",
-    "bRescueInteractionEnabled"
+    "bRescueInteractionEnabled",
+    "SortPriority",
+    "TalkInteraction",
+    "RecruitInteraction",
+    "DeliverResearchInteraction",
+    "DetailsInteraction",
+    "bManageInteractionEnabled",
+    "bTalkInteractionEnabled",
+    "bRecruitInteractionEnabled",
+    "bDeliverResearchInteractionEnabled",
+    "bDetailsInteractionEnabled",
+    "bManageInteractionRegister",
+    "bTalkInteractionRegister",
+    "bRecruitInteractionRegister",
+    "bDeliverResearchInteractionRegister",
+    "bDetailsInteractionRegister",
+    "bRescueInteractionRegister"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -8866,11 +8882,20 @@
           "PropertyTagExtensions": "NoExtension",
           "Value": [
             {
+              "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+              "Name": "SortPriority",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 3
+            },
+            {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Manage Goat",
+              "CultureInvariantString": "Saddlebags",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -8883,14 +8908,14 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "E7983DAB4F05AC5F16BB439D2635C9F8"
+              "Value": "B5069837399349F59772A066CCD09BBC"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Manage Goat",
+              "CultureInvariantString": "Saddlebags",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -8903,7 +8928,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "26763BD3404867B3F7DDF19D128369AC"
+              "Value": "82C6DADF4B2642978B6F53D3A2650731"
             }
           ]
         },
@@ -8976,11 +9001,20 @@
           "PropertyTagExtensions": "NoExtension",
           "Value": [
             {
+              "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+              "Name": "SortPriority",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 6
+            },
+            {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Rescue",
+              "CultureInvariantString": "Dismiss",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -8993,14 +9027,14 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "A976691A41AA0175E4CB8ABD98AAD0B2"
+              "Value": "B61177F5FD3C4F78B59A3D7DD8935090"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Rescue",
+              "CultureInvariantString": "Dismiss",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9013,7 +9047,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "3CDAED86429AA7A735983CBED36B9FB3"
+              "Value": "3D34A5B8A3264D9984B88BF66B458BD4"
             }
           ]
         },
@@ -9036,6 +9070,353 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTypeName": null,
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "Name": "TalkInteraction",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "StructType": "MorInteraction",
+          "StructGUID": "00000000-0000-0000-0000-000000000000",
+          "SerializeNone": true,
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+              "Name": "SortPriority",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 1
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+              "Flags": 0,
+              "HistoryType": "Base",
+              "Namespace": "",
+              "CultureInvariantString": "Follow",
+              "SourceFmt": null,
+              "Arguments": null,
+              "ArgumentsData": null,
+              "TransformType": "ToLower",
+              "SourceValue": null,
+              "FormatOptions": null,
+              "TargetCulture": null,
+              "Name": "EnabledTextFormat",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "601E532BF0F44DCF9FDAEE95CA3C60BE"
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+              "Flags": 0,
+              "HistoryType": "Base",
+              "Namespace": "",
+              "CultureInvariantString": "Follow",
+              "SourceFmt": null,
+              "Arguments": null,
+              "ArgumentsData": null,
+              "TransformType": "ToLower",
+              "SourceValue": null,
+              "FormatOptions": null,
+              "TargetCulture": null,
+              "Name": "DisabledTextFormat",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "1D88386F102244B2A403630EEA91B263"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "Name": "RecruitInteraction",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "StructType": "MorInteraction",
+          "StructGUID": "00000000-0000-0000-0000-000000000000",
+          "SerializeNone": true,
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+              "Name": "SortPriority",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 2
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+              "Flags": 0,
+              "HistoryType": "Base",
+              "Namespace": "",
+              "CultureInvariantString": "Stay",
+              "SourceFmt": null,
+              "Arguments": null,
+              "ArgumentsData": null,
+              "TransformType": "ToLower",
+              "SourceValue": null,
+              "FormatOptions": null,
+              "TargetCulture": null,
+              "Name": "EnabledTextFormat",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "D620148AF0444918B33801636215F05A"
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+              "Flags": 0,
+              "HistoryType": "Base",
+              "Namespace": "",
+              "CultureInvariantString": "Stay",
+              "SourceFmt": null,
+              "Arguments": null,
+              "ArgumentsData": null,
+              "TransformType": "ToLower",
+              "SourceValue": null,
+              "FormatOptions": null,
+              "TargetCulture": null,
+              "Name": "DisabledTextFormat",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "FE8C24AD8F354C45960A05C239126286"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "Name": "DeliverResearchInteraction",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "StructType": "MorInteraction",
+          "StructGUID": "00000000-0000-0000-0000-000000000000",
+          "SerializeNone": true,
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+              "Name": "SortPriority",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 4
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+              "Flags": 0,
+              "HistoryType": "Base",
+              "Namespace": "",
+              "CultureInvariantString": "Feed",
+              "SourceFmt": null,
+              "Arguments": null,
+              "ArgumentsData": null,
+              "TransformType": "ToLower",
+              "SourceValue": null,
+              "FormatOptions": null,
+              "TargetCulture": null,
+              "Name": "EnabledTextFormat",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "D2DF397D8E294786AB15CB611465A1D8"
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+              "Flags": 0,
+              "HistoryType": "Base",
+              "Namespace": "",
+              "CultureInvariantString": "Feed",
+              "SourceFmt": null,
+              "Arguments": null,
+              "ArgumentsData": null,
+              "TransformType": "ToLower",
+              "SourceValue": null,
+              "FormatOptions": null,
+              "TargetCulture": null,
+              "Name": "DisabledTextFormat",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "A627ABD66CF0492AB73BA8790903719B"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "Name": "DetailsInteraction",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "StructType": "MorInteraction",
+          "StructGUID": "00000000-0000-0000-0000-000000000000",
+          "SerializeNone": true,
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+              "Name": "SortPriority",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 5
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+              "Flags": 0,
+              "HistoryType": "Base",
+              "Namespace": "",
+              "CultureInvariantString": "Rename",
+              "SourceFmt": null,
+              "Arguments": null,
+              "ArgumentsData": null,
+              "TransformType": "ToLower",
+              "SourceValue": null,
+              "FormatOptions": null,
+              "TargetCulture": null,
+              "Name": "EnabledTextFormat",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "943FD9ACE07E4FF08E6F4C29F51BA3E8"
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+              "Flags": 0,
+              "HistoryType": "Base",
+              "Namespace": "",
+              "CultureInvariantString": "Rename",
+              "SourceFmt": null,
+              "Arguments": null,
+              "ArgumentsData": null,
+              "TransformType": "ToLower",
+              "SourceValue": null,
+              "FormatOptions": null,
+              "TargetCulture": null,
+              "Name": "DisabledTextFormat",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": "6CCD63A703DC4E7CAEC6F7D528F7EA51"
+            }
+          ]
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bManageInteractionEnabled",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bTalkInteractionEnabled",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bRecruitInteractionEnabled",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bDeliverResearchInteractionEnabled",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bDetailsInteractionEnabled",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bManageInteractionRegister",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bTalkInteractionRegister",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bRecruitInteractionRegister",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bDeliverResearchInteractionRegister",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bDetailsInteractionRegister",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bRescueInteractionRegister",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": true
         }
