@@ -3,7 +3,7 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Mods/PorterGoat/Items/SM_GoatBell",
-    "/Game/Character/Dwarf/Abilities/Attacks/GA_Hammer_A",
+    "/Game/Mods/PorterGoat/DwarfAbilities/GA_Bell",
     "/Game/Character/Dwarf/Abilities/Attacks/GA_Hammer_B",
     "/Game/Character/Dwarf/Abilities/Attacks/GA_Hammer_C",
     "/Game/Mods/PorterGoat/Items/EQ_GoatBell",
@@ -63,7 +63,7 @@
     "Default__EQ_GoatBell_C",
     "Default__EQ_Pick_Base_C",
     "Default__Function",
-    "Default__GA_Hammer_A_C",
+    "Default__GA_Bell_C",
     "Default__GA_Hammer_B_C",
     "Default__GA_Hammer_C_C",
     "Default__InheritableComponentHandler",
@@ -92,7 +92,7 @@
     "FloatProperty",
     "FloatTracks",
     "Function",
-    "GA_Hammer_A_C",
+    "GA_Bell_C",
     "GA_Hammer_B_C",
     "GA_Hammer_C_C",
     "GameplayTag",
@@ -1370,24 +1370,6 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": -1
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "1",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -2
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "2",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -3
             }
           ]
         },
@@ -2888,7 +2870,7 @@
   "Imports": [
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GA_Hammer_A_C",
+      "ObjectName": "GA_Bell_C",
       "OuterIndex": -38,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -3167,10 +3149,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__GA_Hammer_A_C",
+      "ObjectName": "Default__GA_Bell_C",
       "OuterIndex": -38,
-      "ClassPackage": "/Game/Character/Dwarf/Abilities/Attacks/GA_Hammer_A",
-      "ClassName": "GA_Hammer_A_C",
+      "ClassPackage": "/Game/Mods/PorterGoat/DwarfAbilities/GA_Bell",
+      "ClassName": "GA_Bell_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -3221,7 +3203,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Character/Dwarf/Abilities/Attacks/GA_Hammer_A",
+      "ObjectName": "/Game/Mods/PorterGoat/DwarfAbilities/GA_Bell",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
