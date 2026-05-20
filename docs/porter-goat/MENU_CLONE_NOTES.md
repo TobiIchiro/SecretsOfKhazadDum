@@ -12,8 +12,8 @@ Listed in display order (controlled by `SortPriority` on each struct):
 
 | # | Label | Slot used | Default C++ behavior | UE4SS override |
 |---|---|---|---|---|
-| 1 | Follow | `TalkInteraction` | tries to start dialogue; goat has no `MorNPCConversationComponent` → no-op | hook OnTalkInteraction → set goat work behavior to follow |
-| 2 | Stay | `RecruitInteraction` | C++ recruit precondition check; goat won't satisfy → no-op or toast | hook OnRecruitInteraction → set goat work behavior to stay |
+| 1 | Follow | `TalkInteraction` | tries to start dialogue; goat has no `MorNPCConversationComponent` → no-op | hook OnTalkInteraction → flip the goat AI controller's `DynamicBehaviors` map key to the existing "follow" behavior (FRG pre-wired this — `Bst_NPCGoatWorkPorter` already follows the player) |
+| 2 | Stay | `RecruitInteraction` | C++ recruit precondition check; goat won't satisfy → no-op | hook OnRecruitInteraction → flip the `DynamicBehaviors` map key to the existing "stay/idle" behavior (also pre-wired) |
 | 3 | Saddlebags | `ManageInteraction` | opens NPC management UI (inventory) — close to what we want | hook OnManageInteraction → open `BP_ContainerItem_Goat_Slot_EpicPack` UI directly (cleaner than dwarf-default screen) |
 | 4 | Feed | `DeliverResearchInteraction` | requires player-has-research-item check → no-op | hook OnDeliverResearchInteraction → consume food from player inventory, raise goat stat |
 | 5 | Rename | `DetailsInteraction` | opens character details panel | hook OnDetailsInteraction → open rename text input UI |
@@ -22,21 +22,27 @@ Listed in display order (controlled by `SortPriority` on each struct):
 
 **Why this slot mapping**: I picked the 6 `MorInteraction` property names from the dwarf's known-good 7-slot set (`Manage`, `Talk`, `Recruit`, `Revive`, `Rescue`, `DeliverResearch`, `Details`). Property names are hard-coded in C++ at runtime — we can't invent new names like `FollowInteraction` and expect them to show up in the menu. We CAN repurpose existing slots with any label we like.
 
-## Defensive visibility flags
+**About Follow/Stay specifically — FRG already wired the AI side**: the goat's `BP_NpcGoat_AIController` has a `DynamicBehaviors` map with 4 entries. `Bst_NPCGoatWorkPorter` (the porter work behavior tree FRG shipped, currently bound to the Porter role) already implements follow-the-player movement plus idle states (`BSt_Idle_C_3`, `BSt_Idle_C_6` visible in its exports). So UE4SS doesn't have to implement follow/stay from scratch — it just flips the active behavior in the existing map. The hardest piece was already done by FRG; the menu just needs to surface the toggle.
 
-The goat already had `bRescueInteractionEnabled = True` — that's what made Rescue visible (now relabeled "Dismiss"). Following the same pattern, this commit adds five more bools to the goat's `MorNPC_GEN_VARIABLE`:
+## Visibility flags (the full picture)
+
+There are **two parallel flag sets** per interaction kind, not one. The pattern became clear after inspecting `BP_NpcDwarf_Wanderer.uasset`, which explicitly sets ALL of them to `False` to opt out of the standard menu (the Wanderer uses its own `MorWanderer_GEN_VARIABLE` component for follower-style interactions):
+
+- `b<Name>InteractionEnabled` — entry is enabled vs disabled-but-shown
+- `b<Name>InteractionRegister` — entry is **registered in the menu at all** (the real visibility gate)
+
+Both must be `True` for an entry to appear and be clickable. This commit sets all 12 flags `True` on the goat's `MorNPC_GEN_VARIABLE`, mirroring the Wanderer pattern (just inverted from False→True since we want to opt IN, not OUT):
 
 ```
-bManageInteractionEnabled = True
-bTalkInteractionEnabled = True
-bRecruitInteractionEnabled = True
-bDeliverResearchInteractionEnabled = True
-bDetailsInteractionEnabled = True
+bManageInteractionRegister = True       bManageInteractionEnabled = True
+bTalkInteractionRegister = True         bTalkInteractionEnabled = True
+bRecruitInteractionRegister = True      bRecruitInteractionEnabled = True
+bDeliverResearchInteractionRegister=True bDeliverResearchInteractionEnabled=True
+bDetailsInteractionRegister = True      bDetailsInteractionEnabled = True
+bRescueInteractionRegister = True       bRescueInteractionEnabled = True (was already True)
 ```
 
-These are defensive: if C++ reflects parallel `b*InteractionEnabled` flags for each interaction type (as the rescue pattern suggests), they force-show all our entries. If C++ doesn't have these flags, they're harmless data overhead.
-
-Some entries (Recruit, DeliverResearch) have C++ preconditions that may still hide them despite the bool — if you test in-game and any entry doesn't show, that's the diagnostic to chase. The hide-on-precondition behavior is what we'd remove via UE4SS hooks anyway.
+With both flag sets set explicitly, all 6 slots should register and be clickable. The empirical risk on `Recruit` / `DeliverResearch` having additional C++ preconditions (player-state checks etc.) is now much lower.
 
 ## What changed in BP_NpcGoat
 
