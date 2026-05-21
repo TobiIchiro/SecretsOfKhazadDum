@@ -8895,7 +8895,7 @@
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Saddlebags",
+              "CultureInvariantString": "",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -8908,14 +8908,14 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "B5069837399349F59772A066CCD09BBC"
+              "Value": "BCABE2DA622940B59821CD257F037BC8"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Saddlebags",
+              "CultureInvariantString": "",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -8928,7 +8928,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "82C6DADF4B2642978B6F53D3A2650731"
+              "Value": "C36307D2665841019D1249B3C44BBADB"
             }
           ]
         },
@@ -9007,14 +9007,14 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": 6
+              "Value": 1
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Dismiss",
+              "CultureInvariantString": "Saddlebags",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9027,14 +9027,14 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "B61177F5FD3C4F78B59A3D7DD8935090"
+              "Value": "439C8C7DE7BA45CF8207A7EC20E46763"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Dismiss",
+              "CultureInvariantString": "Saddlebags",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9047,7 +9047,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "3D34A5B8A3264D9984B88BF66B458BD4"
+              "Value": "0FCE425685BB46F0B6604B134406AE95"
             }
           ]
         },
@@ -9098,7 +9098,7 @@
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Follow",
+              "CultureInvariantString": "",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9111,14 +9111,14 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "601E532BF0F44DCF9FDAEE95CA3C60BE"
+              "Value": "B42D80C546174EFBB59B3E71F15599A5"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Follow",
+              "CultureInvariantString": "",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9131,7 +9131,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "1D88386F102244B2A403630EEA91B263"
+              "Value": "4CD0CD8CA1284D85B8C1A7C38952EA35"
             }
           ]
         },
@@ -9160,7 +9160,7 @@
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Stay",
+              "CultureInvariantString": "",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9173,14 +9173,14 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "D620148AF0444918B33801636215F05A"
+              "Value": "ECF3670369C44BAA9BB4F5049612D71B"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Stay",
+              "CultureInvariantString": "",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9193,7 +9193,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "FE8C24AD8F354C45960A05C239126286"
+              "Value": "3FC88169DD904CF1B3062495C98DEC48"
             }
           ]
         },
@@ -9222,7 +9222,7 @@
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Feed",
+              "CultureInvariantString": "",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9235,14 +9235,14 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "D2DF397D8E294786AB15CB611465A1D8"
+              "Value": "780ED2C325C64966A0D426952A4741F0"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Feed",
+              "CultureInvariantString": "",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9255,7 +9255,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "A627ABD66CF0492AB73BA8790903719B"
+              "Value": "2174B74570F6413C90A2FBB65B43F57F"
             }
           ]
         },
@@ -9277,14 +9277,14 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": 5
+              "Value": 2
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Rename",
+              "CultureInvariantString": "Follow / Stay",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9297,14 +9297,14 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "943FD9ACE07E4FF08E6F4C29F51BA3E8"
+              "Value": "6D4AA331E489436EA0DD6DD096832D43"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
               "HistoryType": "Base",
               "Namespace": "",
-              "CultureInvariantString": "Rename",
+              "CultureInvariantString": "Follow / Stay",
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9317,7 +9317,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "6CCD63A703DC4E7CAEC6F7D528F7EA51"
+              "Value": "6D299D2D7C224365A41AB12B81A4B32C"
             }
           ]
         },
@@ -9409,7 +9409,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": false
+          "Value": true
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
@@ -9418,7 +9418,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": false
+          "Value": true
         }
       ],
       "ObjectGuid": null,
