@@ -7,21 +7,20 @@ If you want to get news of incomming updates and have a better support for bugs 
 
 If you like this mod or any of my mods please support me on [ko-fi](https://ko-fi.com/tobiichiro14)
 
-## Content Updates
-### Secrets Of Khazad-dûm
+## Secrets Of Khazad-dûm
 > “Reclaim Moria with the new uncover secrets beneath the mountain
 
-#### Overview
+### Overview
 **Secrets of Khazad-dûm** is a mod expansion for _The Lord of the Rings: Return to Moria_ that expands the depths of Khazad-dûm by restoring lost dwarven knowledge, unlocking forgotten forges, and empowering players with new ways to build, craft, and conquer the darkness beneath the mountain.
 
 This expansion focuses on **restored content**, **expanded construction**, and **new dwarven mastery**, seamlessly integrated into the main campaign and sandbox.
 
-#### Premise
+### Premise
 After the reclaiming of the deeper halls, dwarven scouts uncover sealed archives and abandoned forges once deemed too unstable to be revealed. With renewed mastery of stone and steel, the dwarves of Durin’s Folk begin the great work of rebuilding Khazad-dûm — stronger, richer, and more glorious than before.
 > This mod does not alter the main story outcome but enriches the journey through Moria
 
-#### Core Features
-##### Armor Expansion
+### Core Features
+#### Armor Expansion
 **Restored Dwarven Armor**
 - Craftable versions of armor sets previously available only as cosmetic items (**Need each DLC related to each Armor set**).
 
@@ -34,7 +33,7 @@ After the reclaiming of the deeper halls, dwarven scouts uncover sealed archives
 **BearKnuckle Brawlers Gloves**
 - 3 new gloves used by the BearKnuckle Brawlers
 
-##### Construction Expansion
+#### Construction Expansion
 **Restored Buildings Pieces**
 - Restored building pieces previously disabled in v1.2
 
@@ -43,7 +42,7 @@ After the reclaiming of the deeper halls, dwarven scouts uncover sealed archives
   - Internal building pieces never available to players.
   - Completely new building pieces.
 
-##### Weapons & Materials
+#### Weapons & Materials
 **Arms of the Dwarven Kings**
 - 3 new legendary dwarven weapons
 
@@ -56,7 +55,7 @@ After the reclaiming of the deeper halls, dwarven scouts uncover sealed archives
 **BearKnuckle Brawlers Shield**
 - A new shield that is awarded to every Knuckle Brawler when defeating it's first bear
 
-##### Farming Expansion
+#### Farming Expansion
 **Nests**
 - Poultry knowledge to farm **Eggs** and **Feathers**
 
@@ -68,25 +67,25 @@ After the reclaiming of the deeper halls, dwarven scouts uncover sealed archives
 
 ---
 
-### Expansion I – Kingdoms of Middle Earth
+## Expansion I – Kingdoms of Middle Earth
 > Continue your adventure in Moria with new items from the different kingdoms of middle earth
 
-#### Overview
+### Overview
 **Kingdoms of Middle Earth** is the first major content expansion for **Secrets of Khazad-dûm**, introducing new natural resources, new construction sets, an small expanded merchant options and faction-inspired decorative content from across Middle-earth.
 
-#### Premise
+### Premise
 As the halls of Moria grow once more, distant kingdoms begin to take notice. Trade routes reopen, rare materials emerge from forgotten lands, and the cultural influence of Men, Elves, and Dwarves spreads through the mountain.
 With new materials, new trade possibilities, and new construction sets, your halls can now reflect alliances beyond Khazad-dûm.
 
-#### Core Features
-##### Ceiba tree Expansión
+### Core Features
+#### Ceiba tree Expansión
 **A gift from Arnor**
 Introducing a new tree from the lands of Arnor, the **Ceiba Tree**
 - New Tree: **Ceiba**
 - New Item: **Ceiba Cutting**
 - New Material: **Ceiba Wood**
 
-##### Glittering Caves Expansion
+#### Glittering Caves Expansion
 **Refined Illumination from the Glittering Caves**
 - Glittering Caves Ore
     - **Pink Opal** available via Rohan Trader
@@ -95,13 +94,13 @@ Introducing a new tree from the lands of Arnor, the **Ceiba Tree**
 - **Garnet** Lamp Collection
     - 4-piece bundle available via Rohan Trader
 
-##### Viridescent Construction Set
+#### Viridescent Construction Set
 **Elven and Beorn Inspired set**
 - Over 30 new construction pieces
 - Built using **Ceiba Wood**
 - Available via **Rivendell** Trader
 
-##### Banners Expansión
+#### Banners Expansión
 **Bring the pride of the great alied realms into your halls**
 - **Gondor** Banner Set
 - **Rivendell** Banner Set
@@ -112,19 +111,19 @@ Introducing a new tree from the lands of Arnor, the **Ceiba Tree**
 
 ---
 
-### Expansion II – Dwarven Traditions
+## Expansion II – Dwarven Traditions
 > Rediscover the traditions that bring warmth and pride to the halls of Khazad-dûm.
 
-#### Overview
+### Overview
 **Dwarven Traditions** is the second major content expansion for **Secrets of Khazad-dûm**, introducing new cultivable plants, artisan brews, ancient dwarven craftsmanship, and secret decorative pieces.
 
-#### Premise
+### Premise
 As the dwarves restore the great halls beneath the mountain, attention turns not only to war and stonework, but to the traditions that once filled Khazad-dûm with life.
 
 Through craft, harvest, and celebration, the dwarves restore the traditions that made their kingdom great.
 
-#### Core Features
-##### Ithildin Door Set 
+### Core Features
+#### Ithildin Door Set 
 **Ancient Doors of Starlightr**
 Introducing a new set of Ithilding doors
 - Doors of Durin
@@ -132,13 +131,13 @@ Introducing a new set of Ithilding doors
 - Numenorean Door
 - At least 1 more planned
 
-##### New Cultivable Plants
+#### New Cultivable Plants
 **Cacao Tree**
 - New plantable crop
 - Produces **Cacao Beans**
 - Used for brewing recipes
 
-##### New Brews
+#### New Brews
 - **Anvil Cocoa**
     A rich, warming cocoa of melted chocolate and hot milk, a comfort beside the dwarf-forges.
 - **Brewed Niphredil Tea**
@@ -147,7 +146,7 @@ Introducing a new set of Ithilding doors
     Golden Elanor steeped with Elbereth's blessing, restoring vigor like the halls of Imladris.
 - **Secret Brews**
 
-##### New Weapons
+#### New Weapons
 **Weapons from the Company of Thorin Oakenshield**
 - Thorin's Axe
 - Balin's Sword
@@ -168,7 +167,7 @@ Introducing a new set of Ithilding doors
 **Mithril Spear variant**
 - Mithril Spear that doesn't have a rune and isn't an epic item.
  
-##### Secret Items
+#### Secret Items
 - 5 new secret items.
 <details>
   <summary>Spoiler warning</summary>
@@ -181,36 +180,38 @@ Introducing a new set of Ithilding doors
   
 </details>
 
-##### New Secret Decorative set
+#### New Secret Decorative set
 - 14 new secret decorations.
 
-##### New Banner set
+#### New Banner set
 - A banner set to commemorate our fellows dwarves.
 
-##### Firmaxe Clan Banner set
+#### Firmaxe Clan Banner set
 - A banner set from the Firmaxe Clan
 
-### Expansion III - Hunter's Lodge
+---
+
+## Expansion III - Hunter's Lodge
 > From legendary hunts to ancient relics, reclaim the wild traditions of the dwarves beneath the mountain.
 
-#### Overview
+### Overview
 **Hunter’s Lodge** is a multi-part expansion series for **Secrets of Khazad-dûm**, focused on legendary hunts, creature trophies, dwarven craftsmanship, and endgame progression.
 
 This expansion line introduces new elemental creatures, hunting materials, decorative trophy sets, architectural building pieces, artisan brews, and legendary weapons inspired by the ancient heroes and forgotten traditions of Middle-earth.
 
 Across its three chapters, Hunter’s Lodge expands both the survival and endgame experience of Moria through new enemies, construction pieces, crafting resources, and powerful relic weapons.
 
-#### Premise
+### Premise
 As the dwarves reclaim deeper regions of Khazad-dûm, hunters, craftsmen, and warriors begin restoring the forgotten traditions of the great hunting lodges once maintained beneath the mountain.
 
 New elemental drakes emerge from the depths, corrupted creatures roam the ancient halls, and legendary materials once thought lost return to dwarven hands. Meanwhile, ancient weapons of kings, heroes, and master smiths are rediscovered within abandoned vaults and ruined armories.
 
 Through hunting, crafting, and masterwork forging, the dwarves rebuild not only their kingdom, but also the warrior traditions that once made Khazad-dûm legendary.
 
-#### Part I - Elemental Drakes
+### Part I - Elemental Drakes
 Introduces four elemental drakes and new hunting materials.
 
-##### Core Features
+#### Core Features
 **New Enemies**
 - Fire Drake
 - Poison Drake
@@ -243,10 +244,10 @@ Introduces four elemental drakes and new hunting materials.
 </details>
 
 
-#### Part II - Hunter’s Lodge
+### Part II - Hunter’s Lodge
 Expands dwarven lodge construction and hunting-themed decoration.
 
-##### Core Features
+#### Core Features
 **New Round Doors Set**
 - Multiple material variants inspired in Shire's Architecture
 **New Round Windows Set**
@@ -258,10 +259,10 @@ Expands dwarven lodge construction and hunting-themed decoration.
 - Cave Bat Trophies
 - Snackrat Trophies
 
-#### Part III - Legendary Weapons
+### Part III - Legendary Weapons
 Introduces legendary Tier 7 weapons and masterwork forging.
 
-##### Core Features
+#### Core Features
 **New Blacksmith Hammer**
 - **Telchar Hammer**, capable of forging legendary weapons.
 **New Rune**
