@@ -9409,7 +9409,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": true
+          "Value": false
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
@@ -9418,7 +9418,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": true
+          "Value": false
         }
       ],
       "ObjectGuid": null,
