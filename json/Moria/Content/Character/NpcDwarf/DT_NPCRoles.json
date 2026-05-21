@@ -5284,10 +5284,10 @@
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
-                "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
-                "Namespace": null,
-                "CultureInvariantString": null,
+                "HistoryType": "Base",
+                "TableId": null,
+                "Namespace": "",
+                "CultureInvariantString": "Porter Goat",
                 "SourceFmt": null,
                 "Arguments": null,
                 "ArgumentsData": null,
@@ -5300,15 +5300,15 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Goat.Role.Porter"
+                "Value": "C2DD0F5FC4B34BF2AF439BFB401FBD9E"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
-                "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/PorterGoat/Strings/ST_PorterGoatStrings.ST_PorterGoatStrings",
-                "Namespace": null,
-                "CultureInvariantString": null,
+                "HistoryType": "Base",
+                "TableId": null,
+                "Namespace": "",
+                "CultureInvariantString": "A goat that carries supplies for the player.",
                 "SourceFmt": null,
                 "Arguments": null,
                 "ArgumentsData": null,
@@ -5321,7 +5321,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Goat.RoleDescription.Porter"
+                "Value": "DF173B9501B54EC2B26F4CFF2DE21C28"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
