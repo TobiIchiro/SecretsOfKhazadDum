@@ -1,7 +1,10 @@
 # Secrets Of Khazad-Dûm
 The Lord of the Rings: Return to Moria™ mod created by TobiIchiro
+
 Available in [Nexus Mods](https://www.nexusmods.com/thelordoftheringsreturntomoria/mods/75)
+
 If you want to get news of incomming updates and have a better support for bugs or problems related to mods join my [Discord](http://discord.gg/nmzgfpjfhr)
+
 If you like this mod or any of my mods please support me on [ko-fi](https://ko-fi.com/tobiichiro14)
 
 ## Content Updates
@@ -10,6 +13,7 @@ If you like this mod or any of my mods please support me on [ko-fi](https://ko-f
 
 #### Overview
 **Secrets of Khazad-dûm** is a mod expansion for _The Lord of the Rings: Return to Moria_ that expands the depths of Khazad-dûm by restoring lost dwarven knowledge, unlocking forgotten forges, and empowering players with new ways to build, craft, and conquer the darkness beneath the mountain.
+
 This expansion focuses on **restored content**, **expanded construction**, and **new dwarven mastery**, seamlessly integrated into the main campaign and sandbox.
 
 #### Premise
@@ -20,16 +24,20 @@ After the reclaiming of the deeper halls, dwarven scouts uncover sealed archives
 ##### Armor Expansion
 **Restored Dwarven Armor**
 - Craftable versions of armor sets previously available only as cosmetic items (**Need each DLC related to each Armor set**).
+
 **Restored Armor Variants**
 - Shayar, Masharuz, and Amzul armor variants recipes restored.
+
 **Campaign Unlocks**
 - Sandbox-exclusive objects are now obtainable in Campaign mode.
+
 **BearKnuckle Brawlers Gloves**
 - 3 new gloves used by the BearKnuckle Brawlers
 
 ##### Construction Expansion
 **Restored Buildings Pieces**
 - Restored building pieces previously disabled in v1.2
+
 **New Construction Set**
 - Over **100 new building pieces**, including:
   - Internal building pieces never available to players.
@@ -38,20 +46,27 @@ After the reclaiming of the deeper halls, dwarven scouts uncover sealed archives
 ##### Weapons & Materials
 **Arms of the Dwarven Kings**
 - 3 new legendary dwarven weapons
+
 **New Crimson Metal Ingot**
 - Intruducing a new high-tier dwarven alloy used in royal weapons
+
 **Firmaxe Clan Armory**
 - Legendary Battleaxe from Firmaxe Clan
+
 **BearKnuckle Brawlers Shield**
 - A new shield that is awarded to every Knuckle Brawler when defeating it's first bear
 
 ##### Farming Expansion
 **Nests**
 - Poultry knowledge to farm **Eggs** and **Feathers**
+
 **New Cuttings**
 - **2 new plantable** cuttings of the **Lower Deeps Flora**
+
 **Expanded Farming Options**
-Ancient knowledge to farm **Blazeshrooms** and **Sunken Moss**
+- Ancient knowledge to farm **Blazeshrooms** and **Sunken Moss**
+
+---
 
 ### Expansion I – Kingdoms of Middle Earth
 > Continue your adventure in Moria with new items from the different kingdoms of middle earth
@@ -95,6 +110,8 @@ Introducing a new tree from the lands of Arnor, the **Ceiba Tree**
 - **Keleariel** Banner Set
 > Each set includes a **Banner**, a **Flag** and a **Guard Post**
 
+---
+
 ### Expansion II – Dwarven Traditions
 > Rediscover the traditions that bring warmth and pride to the halls of Khazad-dûm.
 
@@ -103,6 +120,7 @@ Introducing a new tree from the lands of Arnor, the **Ceiba Tree**
 
 #### Premise
 As the dwarves restore the great halls beneath the mountain, attention turns not only to war and stonework, but to the traditions that once filled Khazad-dûm with life.
+
 Through craft, harvest, and celebration, the dwarves restore the traditions that made their kingdom great.
 
 #### Core Features
