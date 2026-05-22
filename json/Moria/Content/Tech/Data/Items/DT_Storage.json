@@ -449,8 +449,7 @@
                     "Value": [
                       "Item.Unstorable.HandsOnly",
                       "Item.Brew",
-                      "Item.EpicPack",
-                      "Item.GoatPack"
+                      "Item.EpicPack"
                     ]
                   }
                 ]
@@ -661,8 +660,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -917,8 +915,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -1363,8 +1360,7 @@
                     "Value": [
                       "Item.Unstorable.HandsOnly",
                       "Item.Brew",
-                      "Item.EpicPack",
-                      "Item.GoatPack"
+                      "Item.EpicPack"
                     ]
                   }
                 ]
@@ -1607,8 +1603,7 @@
                     "Value": [
                       "Item.Unstorable.HandsOnly",
                       "Item.Brew",
-                      "Item.EpicPack",
-                      "Item.GoatPack"
+                      "Item.EpicPack"
                     ]
                   }
                 ]
@@ -1829,8 +1824,7 @@
                     "Value": [
                       "Item.Unstorable.HandsOnly",
                       "Item.Brew",
-                      "Item.EpicPack",
-                      "Item.GoatPack"
+                      "Item.EpicPack"
                     ]
                   }
                 ]
@@ -2051,8 +2045,7 @@
                     "Value": [
                       "Item.Unstorable.HandsOnly",
                       "Item.Brew",
-                      "Item.EpicPack",
-                      "Item.GoatPack"
+                      "Item.EpicPack"
                     ]
                   }
                 ]
@@ -2273,8 +2266,7 @@
                     "Value": [
                       "Item.Unstorable.HandsOnly",
                       "Item.Brew",
-                      "Item.EpicPack",
-                      "Item.GoatPack"
+                      "Item.EpicPack"
                     ]
                   }
                 ]
@@ -2498,8 +2490,7 @@
                     "Value": [
                       "Item.Brew",
                       "Item.EpicItem",
-                      "Item.EpicPack",
-                      "Item.GoatPack"
+                      "Item.EpicPack"
                     ]
                   }
                 ]
@@ -2732,8 +2723,7 @@
                       "Item.Brew",
                       "Item.EpicItem",
                       "Item.EpicPack",
-                      "Item.Weapon.Ranged",
-                      "Item.GoatPack"
+                      "Item.Weapon.Ranged"
                     ]
                   }
                 ]
@@ -2968,8 +2958,7 @@
                     "Value": [
                       "Item.Brew",
                       "Item.EpicItem",
-                      "Item.EpicPack",
-                      "Item.GoatPack"
+                      "Item.EpicPack"
                     ]
                   }
                 ]
@@ -3190,8 +3179,7 @@
                     "Value": [
                       "Item.Brew",
                       "Item.EpicItem",
-                      "Item.EpicPack",
-                      "Item.GoatPack"
+                      "Item.EpicPack"
                     ]
                   }
                 ]
@@ -3841,8 +3829,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -4055,8 +4042,7 @@
                       "Item.EpicItem",
                       "Item.EpicPack",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -4269,8 +4255,7 @@
                       "Item.EpicItem",
                       "Item.EpicPack",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -4482,8 +4467,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -4739,8 +4723,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -4996,8 +4979,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -7523,8 +7505,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Weapon",
-                      "Item.Tool.Pickaxe",
-                      "Item.GoatPack"
+                      "Item.Tool.Pickaxe"
                     ]
                   }
                 ]
@@ -11941,8 +11922,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -12998,8 +12978,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -13213,8 +13192,7 @@
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
                       "Item.Brew",
-                      "UI.Trading",
-                      "Item.GoatPack"
+                      "UI.Trading"
                     ]
                   }
                 ]
@@ -13428,8 +13406,7 @@
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
                       "Item.Brew",
-                      "UI.Trading",
-                      "Item.GoatPack"
+                      "UI.Trading"
                     ]
                   }
                 ]
@@ -13643,8 +13620,7 @@
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
                       "Item.Brew",
-                      "UI.Trading",
-                      "Item.GoatPack"
+                      "UI.Trading"
                     ]
                   }
                 ]
@@ -13857,8 +13833,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -14071,8 +14046,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -14329,8 +14303,7 @@
                       "Item.EpicItem",
                       "Item.EpicPack",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -14967,8 +14940,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
@@ -15448,8 +15420,7 @@
                       "Item.EpicPack",
                       "Item.EpicItem",
                       "Item.Unstorable.HandsOnly",
-                      "Item.Brew",
-                      "Item.GoatPack"
+                      "Item.Brew"
                     ]
                   }
                 ]
