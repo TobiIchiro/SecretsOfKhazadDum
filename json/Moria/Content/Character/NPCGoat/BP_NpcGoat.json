@@ -17,7 +17,7 @@
     "/Game/Character/Creatures/Goat/ABP_Goat",
     "/Game/Character/Creatures/Goat/DA_Goat_AISettings",
     "/Game/Character/Creatures/Goat/DA_Goat_CharacterData",
-    "/Game/Character/Creatures/Goat/GE_Starting_Goat",
+    "/Game/Mods/PorterGoat/GE_Starting_Npc_Goat",
     "/Game/Character/NpcGoat/BP_NpcGoat",
     "/Game/Character/NpcGoat/BP_NpcGoat_AIController",
     "/Game/CharacterArt/Creatures/Goat/Materials/MI_Goat",
@@ -169,7 +169,7 @@
     "Default__GA_Reaction_Goat_Kill_C",
     "Default__GA_Reaction_Goat_L_C",
     "Default__GA_Reaction_Goat_R_C",
-    "Default__GE_Starting_Goat_C",
+    "Default__GE_Starting_Npc_Goat_C",
     "Default__InheritableComponentHandler",
     "Default__KismetArrayLibrary",
     "Default__MorInventoryComponent",
@@ -247,7 +247,7 @@
     "GameplayTagContainer",
     "GameStateBase",
     "Gandalfs_Hat",
-    "GE_Starting_Goat_C",
+    "GE_Starting_Npc_Goat_C",
     "GetGameState",
     "GetManager",
     "GetScreen",
@@ -514,7 +514,10 @@
     "bRecruitInteractionRegister",
     "bDeliverResearchInteractionRegister",
     "bDetailsInteractionRegister",
-    "bRescueInteractionRegister"
+    "bRescueInteractionRegister",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI.ST_Mod_UI",
+    "ST_Mod_UI"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -2390,7 +2393,8 @@
         -100,
         -106,
         -102,
-        -201
+        -201,
+        -202
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
@@ -4193,7 +4197,7 @@
           "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
           "ByteType": "Byte",
           "EnumType": "None",
-          "Value": 1,
+          "Value": 3,
           "Name": "Tier",
           "ArrayIndex": 0,
           "IsZero": false,
@@ -8893,9 +8897,10 @@
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
-              "HistoryType": "Base",
-              "Namespace": "",
-              "CultureInvariantString": "",
+              "HistoryType": "StringTableEntry",
+              "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI.ST_Mod_UI",
+              "Namespace": null,
+              "CultureInvariantString": null,
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -8908,14 +8913,15 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "BCABE2DA622940B59821CD257F037BC8"
+              "Value": "HUD.NPC.Interact"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
-              "HistoryType": "Base",
-              "Namespace": "",
-              "CultureInvariantString": "",
+              "HistoryType": "StringTableEntry",
+              "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI.ST_Mod_UI",
+              "Namespace": null,
+              "CultureInvariantString": null,
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -8928,11 +8934,11 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "C36307D2665841019D1249B3C44BBADB"
+              "Value": "HUD.NPC.Interact"
             }
           ]
         },
-        {
+       {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "MorInteraction",
           "SerializeNone": true,
@@ -8946,11 +8952,21 @@
           "PropertyTagExtensions": "NoExtension",
           "Value": [
             {
+              "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+              "Name": "SortPriority",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": 5
+            },
+            {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
-              "HistoryType": "Base",
-              "Namespace": "",
-              "CultureInvariantString": "Revive",
+              "HistoryType": "StringTableEntry",
+              "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI.ST_Mod_UI",
+              "Namespace": null,
+              "CultureInvariantString": null,
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -8963,14 +8979,15 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "48B407254717EA120967BD8E3C31DB0A"
+              "Value": "HUD.Text.ReviveOther"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
-              "HistoryType": "Base",
-              "Namespace": "",
-              "CultureInvariantString": "Revive",
+              "HistoryType": "StringTableEntry",
+              "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI.ST_Mod_UI",
+              "Namespace": null,
+              "CultureInvariantString": null,
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -8983,7 +9000,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "AF457CA04CEC4207C01DBEA674913229"
+              "Value": "HUD.Text.ReviveOther"
             }
           ]
         },
@@ -9282,9 +9299,10 @@
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
-              "HistoryType": "Base",
-              "Namespace": "",
-              "CultureInvariantString": "Follow / Stay",
+              "HistoryType": "StringTableEntry",
+              "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI.ST_Mod_UI",
+              "Namespace": null,
+              "CultureInvariantString": null,
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9297,14 +9315,15 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "6D4AA331E489436EA0DD6DD096832D43"
+              "Value": "HUD.NPC.Follow"
             },
             {
               "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
               "Flags": 0,
-              "HistoryType": "Base",
-              "Namespace": "",
-              "CultureInvariantString": "Follow / Stay",
+              "HistoryType": "StringTableEntry",
+              "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI.ST_Mod_UI",
+              "Namespace": null,
+              "CultureInvariantString": null,
               "SourceFmt": null,
               "Arguments": null,
               "ArgumentsData": null,
@@ -9317,7 +9336,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "6D299D2D7C224365A41AB12B81A4B32C"
+              "Value": "HUD.NPC.Follow"
             }
           ]
         },
@@ -27611,7 +27630,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GE_Starting_Goat_C",
+      "ObjectName": "GE_Starting_Npc_Goat_C",
       "OuterIndex": -137,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -28376,10 +28395,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__GE_Starting_Goat_C",
+      "ObjectName": "Default__GE_Starting_Npc_Goat_C",
       "OuterIndex": -137,
-      "ClassPackage": "/Game/Character/Creatures/Goat/GE_Starting_Goat",
-      "ClassName": "GE_Starting_Goat_C",
+      "ClassPackage": "/Game/Mods/PorterGoat/GE_Starting_Npc_Goat",
+      "ClassName": "GE_Starting_Npc_Goat_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -28682,7 +28701,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Character/Creatures/Goat/GE_Starting_Goat",
+      "ObjectName": "/Game/Mods/PorterGoat/GE_Starting_Npc_Goat",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -29262,6 +29281,24 @@
       "OuterIndex": -198,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SceneComponent",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ST_Mod_UI",
+      "OuterIndex": -202,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
       "PackageName": null,
       "bImportOptional": false
     }
