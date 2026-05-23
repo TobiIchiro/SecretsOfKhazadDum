@@ -21,7 +21,7 @@
     "/Game/Character/NpcGoat/BP_NpcGoat",
     "/Game/Character/NpcGoat/BP_NpcGoat_AIController",
     "/Game/CharacterArt/Creatures/Goat/Materials/MI_Goat",
-    "/Game/CharacterArt/Creatures/Goat/SK_Goat",
+    "/Game/Mods/PorterGoat/SK_Porter_Goat",
     "/Game/FX/CharacterDespawn/Niagara/NS_EnemyDespawnFX",
     "/Game/Items/BP_ReviveInteract",
     "/Game/Tech/Data/StringTables/ST_AiCharacters",
@@ -47,7 +47,7 @@
     "ActionsComp",
     "Actor",
     "Add_IntInt",
-    "Goat.Slot.EpicPack",
+    "Dwarf.Inventory",
     "AgentHeight",
     "AgentRadius",
     "AIControllerClass",
@@ -439,7 +439,7 @@
     "ShadowCapsuleComponentNames",
     "Show",
     "SimpleConstructionScript",
-    "SK_Goat",
+    "SK_Porter_Goat",
     "SkeletalMesh",
     "SkeletalMeshComponent",
     "Snout Capsule",
@@ -8765,7 +8765,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Goat.Slot.EpicPack"
+              "Value": "Dwarf.Inventory"
             }
           ]
         }
@@ -14278,9 +14278,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": -88.42291259765625,
-                "Y": -59.533226013183594,
-                "Z": 132.1985626220703
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
               }
             }
           ]
@@ -14307,9 +14307,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
-                "Pitch": 18.747270584106445,
-                "Yaw": 7.096421241760254,
-                "Roll": 31.173187255859375
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
               }
             }
           ]
@@ -14336,9 +14336,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 6.0,
-                "Y": 6.0,
-                "Z": 6.0
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
               }
             }
           ]
@@ -28782,7 +28782,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/CharacterArt/Creatures/Goat/SK_Goat",
+      "ObjectName": "/Game/Mods/PorterGoat/SK_Porter_Goat",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -29061,7 +29061,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SK_Goat",
+      "ObjectName": "SK_Porter_Goat",
       "OuterIndex": -146,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SkeletalMesh",
