@@ -29465,7 +29465,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "ChildActorComponent",
-      "OuterIndex": -145,
+      "OuterIndex": -155,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Class",
       "PackageName": null,
@@ -29474,7 +29474,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Default__ChildActorComponent",
-      "OuterIndex": -145,
+      "OuterIndex": -155,
       "ClassPackage": "/Script/Engine",
       "ClassName": "ChildActorComponent",
       "PackageName": null,
