@@ -65,7 +65,7 @@
     "EGameplayModEvaluationChannel::Channel0",
     "EGameplayModOp",
     "EGameplayModOp::Additive",
-    "EGameplayModOp::Multiplicitive",
+    "EnergyRegen",
     "Engine",
     "EnumProperty",
     "EvaluationChannelSettings",
@@ -126,7 +126,6 @@
     "ST_Effects",
     "StackingType",
     "StackLimitCount",
-    "StaminaRegenPeriod",
     "StringTable",
     "StrProperty",
     "StructProperty",
@@ -557,7 +556,7 @@
                       "Value": [
                         {
                           "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                          "Value": 15.0,
+                          "Value": 20.0,
                           "Name": "Value",
                           "ArrayIndex": 0,
                           "IsZero": false,
@@ -2806,7 +2805,7 @@
                       "IsZero": false,
                       "PropertyTagFlags": "None",
                       "PropertyTagExtensions": "NoExtension",
-                      "Value": "StaminaRegenPeriod"
+                      "Value": "EnergyRegen"
                     },
                     {
                       "$type": "UAssetAPI.PropertyTypes.Objects.FieldPathPropertyData, UAssetAPI",
@@ -2818,7 +2817,7 @@
                       "Value": {
                         "$type": "UAssetAPI.UnrealTypes.FFieldPath, UAssetAPI",
                         "Path": [
-                          "StaminaRegenPeriod"
+                          "EnergyRegen"
                         ],
                         "ResolvedOwner": -5
                       }
@@ -2838,7 +2837,7 @@
                   "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
                   "ByteType": "FName",
                   "EnumType": "EGameplayModOp",
-                  "EnumValue": "EGameplayModOp::Multiplicitive",
+                  "EnumValue": "EGameplayModOp::Additive",
                   "Name": "ModifierOp",
                   "ArrayIndex": 0,
                   "IsZero": false,
@@ -2965,7 +2964,7 @@
                       "Value": [
                         {
                           "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                          "Value": 0.699999988079071,
+                          "Value": 50.0,
                           "Name": "Value",
                           "ArrayIndex": 0,
                           "IsZero": false,
