@@ -517,7 +517,18 @@
     "bRescueInteractionRegister",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI.ST_Mod_UI",
-    "ST_Mod_UI"
+    "ST_Mod_UI",
+    "SceneRoot",
+    "ChildActor_SitSpot_GEN_VARIABLE_BP_SitSpot_RivendellChair_C_CAT",
+    "ChildActorClass",
+    "ChildActorTemplate",
+    "ChildActor_SitSpot_GEN_VARIABLE",
+    "ChildActorComponent",
+    "Default__ChildActorComponent",
+    "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat",
+    "BP_SaddleBags_Goat_C",
+    "Default__BP_SaddleBags_Goat_C",
+    "Root"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -27468,30 +27479,12 @@
       "Data": [
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-          "Name": "SitSpotTransformComponent",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": 10
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-          "Name": "InteractCollider",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": 3
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
           "Name": "SceneRoot",
           "ArrayIndex": 0,
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": 11
+          "Value": 90
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -27500,17 +27493,17 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": 11
+          "Value": 90
         }
       ],
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
       "ObjectName": "ChildActor_SitSpot_GEN_VARIABLE_BP_SitSpot_RivendellChair_C_CAT",
-      "OuterIndex": 6,
-      "ClassIndex": -4,
+      "OuterIndex": 89,
+      "ClassIndex": -207,
       "SuperIndex": 0,
-      "TemplateIndex": -10,
+      "TemplateIndex": -208,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
       "SerialSize": 128,
       "SerialOffset": 10484,
@@ -27526,15 +27519,15 @@
       "bIsAsset": false,
       "GeneratePublicHash": false,
       "SerializationBeforeSerializationDependencies": [
-        6
+        89
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -4,
-        -10
+        -207,
+        -208
       ],
       "CreateBeforeCreateDependencies": [
-        6
+        89
       ],
       "Extras": ""
     },
@@ -27548,7 +27541,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -4
+          "Value": -207
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -27557,46 +27550,17 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": 5
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-          "StructType": "Vector",
-          "SerializeNone": true,
-          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-          "SerializationControl": "NoExtension",
-          "Operation": "None",
-          "Name": "RelativeLocation",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
-              "Name": "RelativeLocation",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": {
-                "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": "+0",
-                "Y": "+0",
-                "Z": 60.0
-              }
-            }
-          ]
+          "Value": 88
         }
       ],
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
       "ObjectName": "ChildActor_SitSpot_GEN_VARIABLE",
-      "OuterIndex": 1,
-      "ClassIndex": -15,
+      "OuterIndex": 6,
+      "ClassIndex": -204,
       "SuperIndex": 0,
-      "TemplateIndex": -11,
+      "TemplateIndex": -205,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject",
       "SerialSize": 131,
       "SerialOffset": 10612,
@@ -27612,16 +27576,14 @@
       "bIsAsset": false,
       "GeneratePublicHash": false,
       "SerializationBeforeSerializationDependencies": [
-        4
       ],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -15,
-        -11
+        -204,
+        -205
       ],
       "CreateBeforeCreateDependencies": [
-        4,
-        1
+        6
       ],
       "Extras": ""
     },
@@ -27632,10 +27594,10 @@
       "SerializationControl": "NoExtension",
       "Operation": "None",
       "ObjectName": "ROOT",
-      "OuterIndex": 5,
-      "ClassIndex": -17,
+      "OuterIndex": 88,
+      "ClassIndex": -44,
       "SuperIndex": 0,
-      "TemplateIndex": -46,
+      "TemplateIndex": -208,
       "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
       "SerialSize": 12,
       "SerialOffset": 12369,
@@ -27650,17 +27612,14 @@
       "bNotAlwaysLoadedForEditorGame": false,
       "bIsAsset": false,
       "GeneratePublicHash": false,
-      "SerializationBeforeSerializationDependencies": [
-        10
-      ],
+      "SerializationBeforeSerializationDependencies": [],
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
-        -17,
-        -46
+        -44,
+        -208
       ],
       "CreateBeforeCreateDependencies": [
-        10,
-        5
+        88
       ],
       "Extras": ""
     }
@@ -29523,7 +29482,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/LevelDesign/Placeables/Interactables/Sitting/BP_SitSpot_RivendellChair",
+      "ObjectName": "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -29532,7 +29491,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "BP_SitSpot_RivendellChair_C",
+      "ObjectName": "BP_SaddleBags_Goat_C",
       "OuterIndex": -206,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -29541,10 +29500,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__BP_SitSpot_RivendellChair_C",
+      "ObjectName": "Default__BP_SaddleBags_Goat_C",
       "OuterIndex": -206,
-      "ClassPackage": "/Game/LevelDesign/Placeables/Interactables/Sitting/BP_SitSpot_RivendellChair",
-      "ClassName": "BP_SitSpot_RivendellChair_C",
+      "ClassPackage": "/Game/Mods/PorterGoat/Items/BP_SaddleBags_Goat",
+      "ClassName": "BP_SaddleBags_Goat_C",
       "PackageName": null,
       "bImportOptional": false
     },
