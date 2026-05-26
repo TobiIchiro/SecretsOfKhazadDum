@@ -1,0 +1,41 @@
+Class: GlobalHierarchicalInstancedStaticMeshComponent
+Name: Suburbs_Gate_A_Pillar_Base-MI_Suburbs_Trim_Sheet_ValleyOftheKings-BlockAll-dcl-L100_2147478035
+Display: Suburbs_Gate_A_Pillar_Base
+Path: Suburbs_Gate_A_Pillar_Base-MI_Suburbs_Trim_Sheet_ValleyOftheKings-BlockAll-dcl-L100
+Buildable: No
+Recipe: Pos: (152454, 109923, -13504) Item #16
+
+Class: GlobalHierarchicalInstancedStaticMeshComponent
+Name: Suburb_Stairs_Trim_Pillar_C-MI_Suburb_Stairs_Trim_Pillar_C-BlockAll-dcl-L100_2147478090
+Display: Suburb_Stairs_Trim_Pillar_C
+Path: Suburb_Stairs_Trim_Pillar_C-MI_Suburb_Stairs_Trim_Pillar_C-BlockAll-dcl-L100
+Buildable: No
+Recipe: Pos: (152556, 109819, -13540) Item #23
+
+Class: GlobalHierarchicalInstancedStaticMeshComponent
+Name: SM_AR_Floor_Stone_Polished_300x300x010_A-MI_Suburbs_Marble_Floor_A_MAT_NonDest-BlockAll-dcl-L100_2147478000
+Display: SM_AR_Floor_Stone_Polished_300x300x010_A
+Path: SM_AR_Floor_Stone_Polished_300x300x010_A-MI_Suburbs_Marble_Floor_A_MAT_NonDest-BlockAll-dcl-L100
+Buildable: No
+Recipe: Pos: (151700, 112850, -13500) Item #7
+
+Class: GlobalHierarchicalInstancedStaticMeshComponent
+Name: Suburbs_Gate_A_Pillar_Shaft-MI_Suburbs_Trim_Sheet_ValleyOftheKings-BlockAll-dcl-L100_2147478031
+Display: Suburbs_Gate_A_Pillar_Shaft
+Path: Suburbs_Gate_A_Pillar_Shaft-MI_Suburbs_Trim_Sheet_ValleyOftheKings-BlockAll-dcl-L100
+Buildable: No
+Recipe: Pos: (152454, 109923, -13204) Item #5
+
+Class: GlobalHierarchicalInstancedStaticMeshComponent
+Name: SM_AR_WallThin_3x3_A-MI_ValleyOfKings_Non_Destructible_triplanar-BlockAll-dcl-L100_2147478110
+Display: SM_AR_WallThin_3x3_A
+Path: SM_AR_WallThin_3x3_A-MI_ValleyOfKings_Non_Destructible_triplanar-BlockAll-dcl-L100
+Buildable: No
+Recipe: Pos: (153479, 109322, -12529) Item #214
+
+Class: GlobalHierarchicalInstancedStaticMeshComponent
+Name: SM_AR_Slope2_3x3_A-MI_ValleyOfKings_Non_Destructible_triplanar-BlockAll-dcl-L100_2147478120
+Display: SM_AR_Slope2_3x3_A
+Path: SM_AR_Slope2_3x3_A-MI_ValleyOfKings_Non_Destructible_triplanar-BlockAll-dcl-L100
+Buildable: No
+Recipe: Pos: (153762, 109817, -13404) Item #80
