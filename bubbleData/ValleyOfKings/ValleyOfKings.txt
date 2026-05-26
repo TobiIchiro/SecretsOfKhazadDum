@@ -39,3 +39,24 @@ Display: SM_AR_Slope2_3x3_A
 Path: SM_AR_Slope2_3x3_A-MI_ValleyOfKings_Non_Destructible_triplanar-BlockAll-dcl-L100
 Buildable: No
 Recipe: Pos: (153762, 109817, -13404) Item #80
+
+Class: GlobalHierarchicalInstancedStaticMeshComponent
+Name: SM_AR_Slope2_1x3_A-MI_ValleyOfKings_Non_Destructible_triplanar-BlockAll-dcl-L100_2147478113
+Display: SM_AR_Slope2_1x3_A
+Path: SM_AR_Slope2_1x3_A-MI_ValleyOfKings_Non_Destructible_triplanar-BlockAll-dcl-L100
+Buildable: No
+Recipe: Pos: (152914, 110453, -13404) Item #1
+
+Class: GlobalHierarchicalInstancedStaticMeshComponent
+Name: SM_AR_Suburbs_BaseTrim_050x300x100_A-MI_ValleyOfKings_Non_Destructible_triplanar-BlockAll-dcl-L100_2147477933
+Display: SM_AR_Suburbs_BaseTrim_050x300x100_A
+Path: SM_AR_Suburbs_BaseTrim_050x300x100_A-MI_ValleyOfKings_Non_Destructible_triplanar-BlockAll-dcl-L100
+Buildable: No
+Recipe: Pos: (153090, 110276, -13504) Item #7
+
+Class: GlobalHierarchicalInstancedStaticMeshComponent
+Name: SM_AR_Slope2_3x3_A-MI_ValleyOfKings_Non_Destructible_triplanar-BlockAll-dcl-L100_2147478112
+Display: SM_AR_Slope2_3x3_A
+Path: SM_AR_Slope2_3x3_A-MI_ValleyOfKings_Non_Destructible_triplanar-BlockAll-dcl-L100
+Buildable: No
+Recipe: Pos: (152454, 110206, -13404) Item #89
