@@ -267,7 +267,7 @@ position = 174
 floors = data_a["Exports"][0]["Data"][0]["Value"][0]["Value"][position]["Value"][1]["Value"]
 k = 0
 z = 800.0
-y = 8300.0
+y = 8300.0 - 187.5
 for i in range(0, 5):
     a = copy.deepcopy(FLOOR_TEMPLATE)
     a["Value"][0]["Value"] = f"SM_AR_Suburbs_BaseTrim_050x300x100_A{i+1}"
@@ -280,7 +280,7 @@ for i in range(0, 5):
 
     floors.append(a)
 
-y = 6900.0
+y = 6900.0 + 187.5
 for i in range(0, 5):
     a = copy.deepcopy(FLOOR_TEMPLATE_2)
     a["Value"][0]["Value"] = f"SM_AR_Suburbs_BaseTrim_050x300x100_A{i+7}"
