@@ -338,6 +338,7 @@
     "Chapter5.MithrilMineNexus",
     "Chapter6.DimrillGate",
     "Class",
+    "CloudyheadCity",
     "Colors",
     "ContainersPerCell",
     "CrystalDescent",
@@ -521,6 +522,7 @@
     "Moria-chapter-3",
     "Moria-chapter-4",
     "Moria-chapter-5",
+    "Moria-chapter-8",
     "Moria-DimrillDale",
     "Moria-DurinTower",
     "Moria-TradingPost",
@@ -1019,6 +1021,7 @@
     "World.Biome.Aftermath",
     "World.Biome.AngryCaverns",
     "World.Biome.BalrogsNest",
+    "World.Biome.CloudyCity",
     "World.Biome.CrystalDescent",
     "World.Biome.DarkestDeeps",
     "World.Biome.DeepOrc",
@@ -2496,7 +2499,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Moria-chapter-2"
+                    "Value": "Moria-chapter-8"
                   }
                 ]
               },
@@ -2644,7 +2647,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "World.Biome.WesternTown"
+                    "Value": "World.Biome.CloudyCity"
                   }
                 ]
               },
@@ -2867,9 +2870,9 @@
                             "PropertyTagExtensions": "NoExtension",
                             "Value": {
                               "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
-                              "R": 0.7681509852409363,
-                              "G": 0.7230550050735474,
-                              "B": 0.527114987373352,
+                              "R": 0.7490196078431373,
+                              "G": 0.3882352941176471,
+                              "B": 0.0745098039215686,
                               "A": 1.0
                             }
                           }
@@ -2912,9 +2915,9 @@
                             "PropertyTagExtensions": "NoExtension",
                             "Value": {
                               "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
-                              "R": 0.7681509852409363,
-                              "G": 0.7230550050735474,
-                              "B": 0.527114987373352,
+                              "R": 0.7490196078431373,
+                              "G": 0.3882352941176471,
+                              "B": 0.0745098039215686,
                               "A": 1.0
                             }
                           }
@@ -2957,9 +2960,9 @@
                             "PropertyTagExtensions": "NoExtension",
                             "Value": {
                               "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
-                              "R": 0.7681509852409363,
-                              "G": 0.7230550050735474,
-                              "B": 0.527114987373352,
+                              "R": 0.7490196078431373,
+                              "G": 0.3882352941176471,
+                              "B": 0.0745098039215686,
                               "A": 1.0
                             }
                           }

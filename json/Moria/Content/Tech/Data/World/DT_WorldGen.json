@@ -1,0 +1,2365 @@
+{
+  "$type": "UAssetAPI.UAsset, UAssetAPI",
+  "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
+  "NameMap": [
+    "/Game/Tech/Data/World/DT_WorldGen",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/GameplayTags",
+    "Class",
+    "DataTable",
+    "Default__DataTable",
+    "DevComment",
+    "DT_WorldGen",
+    "GameplayTagTableRow",
+    "NameProperty",
+    "NewRow",
+    "None",
+    "ObjectProperty",
+    "Package",
+    "RowStruct",
+    "ScriptStruct",
+    "StrProperty",
+    "Tag",
+    "Test.World.Landmark.Forge",
+    "Test.World.Landmark.Start",
+    "Test.World.Landmark.Zoo",
+    "World.Biome.Deeps",
+    "World.Biome.Default",
+    "World.Biome.Dwarven.Intact",
+    "World.Biome.Dwarven.Ruins",
+    "World.Biome.Elven",
+    "World.Biome.Orc",
+    "World.Landmark.AngryCaverns",
+    "World.Landmark.BalrogNest",
+    "World.Landmark.Bolgson",
+    "World.Landmark.Chasm",
+    "World.Landmark.CrystalCavern",
+    "World.Landmark.DarkestDeeps",
+    "World.Landmark.Domhil",
+    "World.Landmark.DurinTomb",
+    "World.Landmark.Dwarrowdelf",
+    "World.Landmark.EasternDefenses",
+    "World.Landmark.ElvenQuarter",
+    "World.Landmark.EntranceHall",
+    "World.Landmark.GrandOrgan",
+    "World.Landmark.Grotto",
+    "World.Landmark.Highway",
+    "World.Landmark.HollinGateCamp",
+    "World.Landmark.Mirrormere",
+    "World.Landmark.MithrilDeeps",
+    "World.Landmark.MushroomChamber",
+    "World.Landmark.NorthernMineTown",
+    "World.Landmark.RockGarden",
+    "World.Landmark.ShadowDrake",
+    "World.Landmark.UndergroundGlacier",
+    "World.Landmark.WesternMines",
+    "World.Landmark.WesternTown",
+    "World.Region.Barazinbar",
+    "World.Region.Downward",
+    "World.Region.Epilogue",
+    "World.Region.OnOurOwn",
+    "World.Region.Outsiders",
+    "World.Region.Prologue",
+    "World.Zone.AngryCaverns",
+    "World.Zone.CrystalDescent",
+    "World.Zone.DarkestDeeps",
+    "World.Zone.Dwarrowdelf1",
+    "World.Zone.Dwarrowdelf2",
+    "World.Zone.Dwarrowdelf3",
+    "World.Zone.Dwarrowdelf4",
+    "World.Zone.EasternDefenses",
+    "World.Zone.ElvenQuarter",
+    "World.Zone.FirstVault",
+    "World.Zone.FrozenGlacier",
+    "World.Zone.Grottos",
+    "World.Zone.Highway",
+    "World.Zone.HollinGate",
+    "World.Zone.MineTown",
+    "World.Zone.MithrilDeeps",
+    "World.Zone.OrcTownTest",
+    "World.Zone.RockGardens",
+    "World.Zone.ShadowDrake",
+    "World.Zone.WesternCity",
+    "World.Zone.WesternMines",
+    "Object"
+  ],
+  "CustomSerializationFlags": "None",
+  "UseSeparateBulkDataFiles": true,
+  "IsUnversioned": true,
+  "FileVersionLicenseeUE": 0,
+  "ObjectVersion": "VER_UE4_CORRECT_LICENSEE_FLAG",
+  "ObjectVersionUE5": "UNKNOWN",
+  "CustomVersionContainer": [
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{375EC13C-06E4-48FB-B500-84F0262A717E}",
+      "FriendlyName": "FCoreObjectVersion",
+      "Version": 4,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E4B068ED-F494-42E9-A231-DA0B2E46BB41}",
+      "FriendlyName": "FEditorObjectVersion",
+      "Version": 40,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{CFFC743F-43B0-4480-9391-14DF171D2073}",
+      "FriendlyName": "FFrameworkObjectVersion",
+      "Version": 37,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{7B5AE74C-D270-4C10-A958-57980B212A5A}",
+      "FriendlyName": "FSequencerObjectVersion",
+      "Version": 13,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{29E575DD-E0A3-4627-9D10-D276232CDCEA}",
+      "FriendlyName": "FAnimPhysObjectVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}",
+      "FriendlyName": "FFortniteMainBranchObjectVersion",
+      "Version": 47,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}",
+      "FriendlyName": "FNiagaraObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{717F9EE7-E9B0-493A-88B3-91321B388107}",
+      "FriendlyName": "FAssetRegistryVersion",
+      "Version": 17,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{9C54D522-A826-4FBE-9421-074661B482D0}",
+      "FriendlyName": "FReleaseObjectVersion",
+      "Version": 43,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{E7086368-6B23-4C58-8439-1B7016265E91}",
+      "FriendlyName": "FFortniteReleaseBranchCustomObjectVersion",
+      "Version": 1,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{D89B5E42-24BD-4D46-8412-ACA8DF641779}",
+      "FriendlyName": "FUE5ReleaseStreamObjectVersion",
+      "Version": 0,
+      "IsSerialized": false
+    },
+    {
+      "$type": "UAssetAPI.CustomVersion, UAssetAPI",
+      "Name": null,
+      "Key": "{FCF57AFA-5076-4283-B9A9-E658FFA02D32}",
+      "FriendlyName": "FNiagaraCustomVersion",
+      "Version": 68,
+      "IsSerialized": false
+    }
+  ],
+  "SoftObjectPathList": null,
+  "GatherableTextData": null,
+  "Exports": [
+    {
+      "$type": "UAssetAPI.ExportTypes.DataTableExport, UAssetAPI",
+      "Table": {
+        "$type": "UAssetAPI.ExportTypes.UDataTable, UAssetAPI",
+        "Data": [
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_3",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.Chasm"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "The great chasm of Fulthon"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_5",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.MushroomChamber"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_6",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.CrystalCavern"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_9",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.Domhil"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Statue of Dómhil"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_10",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.GrandOrgan"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.HollinGateCamp"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_12",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.EntranceHall"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_14",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.WesternTown"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_15",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.ElvenQuarter"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_16",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.WesternMines"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_17",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.Bolgson"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_18",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.Grotto"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_19",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.UndergroundGlacier"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_21",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.EasternDefenses"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_22",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.RockGarden"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_23",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.Dwarrowdelf"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_25",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.Highway"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_26",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.AngryCaverns"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_27",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.NorthernMineTown"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_28",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.MithrilDeeps"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_29",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.BalrogNest"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_31",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.Mirrormere"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_0",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.DurinTomb"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_1",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.ShadowDrake"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_2",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Landmark.DarkestDeeps"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_4",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Region.Prologue"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_7",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Region.OnOurOwn"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_8",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Region.Downward"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_11",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Region.Outsiders"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_13",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Region.Barazinbar"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_20",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Region.Epilogue"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_24",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Test.World.Landmark.Start"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_30",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Test.World.Landmark.Forge"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_32",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Biome.Default"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_33",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Biome.Elven"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_34",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Biome.Dwarven.Intact"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_35",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Biome.Dwarven.Ruins"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_36",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Biome.Deeps"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_37",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Biome.Orc"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_38",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.HollinGate"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_39",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.FirstVault"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_40",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.WesternCity"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_41",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.WesternMines"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_42",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.ElvenQuarter"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_43",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.CrystalDescent"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_44",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.FrozenGlacier"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_45",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.Grottos"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_46",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.DarkestDeeps"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_47",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.EasternDefenses"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_48",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.Dwarrowdelf1"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_49",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.Dwarrowdelf2"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_50",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.Dwarrowdelf3"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_51",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.Dwarrowdelf4"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_52",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.RockGardens"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_53",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.Highway"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_54",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.AngryCaverns"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_55",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.MithrilDeeps"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_56",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.MineTown"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_57",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.ShadowDrake"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_58",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Zone.OrcTownTest"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_59",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "Test.World.Landmark.Zoo"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          }
+        ]
+      },
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+          "Name": "RowStruct",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": -5
+        }
+      ],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "DT_WorldGen",
+      "OuterIndex": 0,
+      "ClassIndex": -1,
+      "SuperIndex": 0,
+      "TemplateIndex": -2,
+      "ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+      "SerialSize": 4864,
+      "SerialOffset": 2892,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": true,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [],
+      "CreateBeforeSerializationDependencies": [],
+      "SerializationBeforeCreateDependencies": [
+        -1,
+        -2
+      ],
+      "CreateBeforeCreateDependencies": [],
+      "Extras": ""
+    }
+  ],
+  "SearchableNames": null,
+  "Thumbnails": null,
+  "WorldTileInfo": null,
+  "AppendedNullBytes": 0,
+  "OtherAssetsFailedToAccess": [],
+  "LegacyFileVersion": -7,
+  "DataResourceVersion": "Invalid",
+  "DataResources": null,
+  "UsesEventDrivenLoader": true,
+  "WillSerializeNameHashes": true,
+  "Imports": [
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "DataTable",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Class",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__DataTable",
+      "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "DataTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/Engine",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Script/GameplayTags",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "GameplayTagTableRow",
+      "OuterIndex": -4,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Object",
+      "PackageName": null,
+      "bImportOptional": false
+    }
+  ],
+  "DependsMap": [
+    []
+  ],
+  "SoftPackageReferenceList": null,
+  "AssetRegistryData": "AAAAAA==",
+  "BulkData": "wYMqng==",
+  "ValorantGarbageData": null,
+  "SeaOfThievesGarbageData": null,
+  "Generations": [
+    {
+      "$type": "UAssetAPI.FGenerationInfo, UAssetAPI",
+      "ExportCount": 1,
+      "NameCount": 81
+    }
+  ],
+  "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+  "PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+  "RecordedEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "RecordedCompatibleWithEngineVersion": {
+    "$type": "UAssetAPI.FEngineVersion, UAssetAPI",
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 0,
+    "Changelist": 0,
+    "Branch": null
+  },
+  "ChunkIDs": [],
+  "PackageSource": 0,
+  "FolderName": "/Game/Tech/Data/World/DT_WorldGen",
+  "LocalizationId": null,
+  "SoftObjectPathsCount": 0,
+  "SoftObjectPathsOffset": 0,
+  "SearchableNamesOffset": 0,
+  "ThumbnailTableOffset": 0,
+  "CompressionFlags": 0,
+  "AdditionalPackagesToCook": [],
+  "NamesReferencedFromExportDataCount": 81,
+  "PayloadTocOffset": -1,
+  "DataResourceOffset": -1,
+  "doWeHaveAssetRegistryData": true,
+  "doWeHaveWorldTileInfo": false,
+  "PackageFlags": "PKG_FilterEditorOnly",
+  "HasUnversionedProperties": false,
+  "IsFilterEditorOnly": true
+}
