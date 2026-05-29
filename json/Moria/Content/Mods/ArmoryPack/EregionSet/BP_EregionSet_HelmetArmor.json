@@ -9,7 +9,7 @@
     "/Game/Items/BP_Category_Clothing",
     "/Game/Mods/ArmoryPack/EregionSet/BP_EregionSet_HelmetArmor",
     "/Game/Items/Clothing/GE_EreborSteel_TBDSet_HelmetArmor",
-    "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Erebor_Steel_Helmet",
+    "/Game/Mods/ArmoryPack/Icons/T_UI_Icon_Armor_Eregion_Helmet",
     "/Script/ClothingSystemRuntimeNv",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -100,7 +100,7 @@
     "SkeletalMesh_GEN_VARIABLE",
     "SkeletalMeshComponent",
     "StructProperty",
-    "T_UI_Icon_Armor_Erebor_Steel_Helmet",
+    "T_UI_Icon_Armor_Eregion_Helmet",
     "Texture2D",
     "VariableGuid"
   ],
@@ -1379,7 +1379,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Erebor_Steel_Helmet",
+      "ObjectName": "/Game/Mods/ArmoryPack/Icons/T_UI_Icon_Armor_Eregion_Helmet",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1505,7 +1505,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_Armor_Erebor_Steel_Helmet",
+      "ObjectName": "T_UI_Icon_Armor_Eregion_Helmet",
       "OuterIndex": -28,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
