@@ -368,7 +368,7 @@
     "IronHills_Set_HelmetArmor",
     "/Game/Mods/ArmoryPack/Items/BP_RecipeFragment_IronHills_Set_HelmetArmor.BP_RecipeFragment_IronHills_Set_HelmetArmor_C",
     "Eregion_Set_HelmetArmor",
-    "/Game/Items/BP_RecipeFragment_Eregion_Set_HelmetArmor.BP_RecipeFragment_Eregion_Set_HelmetArmor_C"
+    "/Game/Mods/ArmoryPack/Items/BP_RecipeFragment_Eregion_Set_HelmetArmor.BP_RecipeFragment_Eregion_Set_HelmetArmor_C"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -37628,7 +37628,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Items/BP_RecipeFragment_Eregion_Set_HelmetArmor.BP_RecipeFragment_Eregion_Set_HelmetArmor_C"
+                    "AssetName": "/Game/Mods/ArmoryPack/Items/BP_RecipeFragment_Eregion_Set_HelmetArmor.BP_RecipeFragment_Eregion_Set_HelmetArmor_C"
                   },
                   "SubPathString": null
                 }
@@ -37921,6 +37921,7 @@
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
         -7,
+        -8,
         -1,
         -2
       ],
@@ -37997,6 +37998,24 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "Items",
       "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ST_Mod_Items",
+      "OuterIndex": -8,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
       "PackageName": null,
