@@ -1027,7 +1027,14 @@
         "Default__GE_ShadowResist_DurinsAxe_Equipped_C",
         "/Game/Mods/BearGuildPack/GameplayEffects/GE_BearGuild_FaunaTrophy",
         "GE_BearGuild_FaunaTrophy_C",
-        "Default__GE_BearGuild_FaunaTrophy_C"
+        "Default__GE_BearGuild_FaunaTrophy_C",
+        "EregionSet_HelmetArmor",
+        "/Game/Mods/ArmoryPack/Icons/T_UI_Icon_Armor_Eregion_Helmet.T_UI_Icon_Armor_Eregion_Helmet",
+        "/Game/Mods/ArmoryPack/EregionSet/BP_EregionSet_HelmetArmor.BP_EregionSet_HelmetArmor_C",
+        "IronHillsSet_HelmetArmor",
+        "/Game/Mods/ArmoryPack/Icons/T_UI_Icon_Armor_IronHills_Helmet.T_UI_Icon_Armor_IronHills_Helmet",
+        "/Game/Mods/ArmoryPack/IronHillsSet/BP_IronHillsSet_HelmetArmor.BP_IronHillsSet_HelmetArmor_C"
+
     ],
     "CustomSerializationFlags": "None",
     "UseSeparateBulkDataFiles": true,

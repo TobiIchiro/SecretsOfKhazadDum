@@ -149,6 +149,7 @@
     "RecipeFragment.BowmansGloves",
     "RecipeFragment.Crossbow",
     "RecipeFragment.Durin_Set_Shield",
+    "RecipeFragment.Eregion_Set_HelmetArmor",
     "RecipeFragment.EreborSteel_APSet_BootsArmor",
     "RecipeFragment.EreborSteel_APSet_GlovesArmor",
     "RecipeFragment.EreborSteel_APSet_HelmetArmor",
@@ -158,6 +159,7 @@
     "RecipeFragment.Grand_Shield",
     "RecipeFragment.GrandHelm",
     "RecipeFragment.Hammer_2h_t1",
+    "RecipeFragment.IronHills_Set_HelmetArmor",
     "RecipeFragment.IronHills_APSet_GlovesArmor",
     "RecipeFragment.IronHills_APSet_Shield",
     "RecipeFragment.IronHills_APSet_TorsoArmor",
@@ -7141,6 +7143,41 @@
                           "IsZero": false,
                           "PropertyTagFlags": "None",
                           "PropertyTagExtensions": "NoExtension",
+                          "Value": "RecipeFragment.IronHills_Set_HelmetArmor"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 1
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "MorAnyItemRowHandle",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "RowName",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
                           "Value": "Item.KnowledgeScrollA"
                         }
                       ]
@@ -7532,6 +7569,41 @@
                       "PropertyTagFlags": "None",
                       "PropertyTagExtensions": "NoExtension",
                       "Value": 0
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "MorAnyItemRowHandle",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "RowName",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "RecipeFragment.Eregion_Set_HelmetArmor"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 1
                     }
                   ],
                   [
