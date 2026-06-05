@@ -1,6 +1,11 @@
 import json
 import copy
 
+"""
+SM_AR_Suburbs_BaseTrim_050x300x100_A = -32
+SM_AR_WallThin_3x3_A = 5
+"""
+
 PATH_FILE = "F:/RtoM/SecretsOfKhazadDum/json/Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Chapter3_ValleyOfKings.json"
 
 
