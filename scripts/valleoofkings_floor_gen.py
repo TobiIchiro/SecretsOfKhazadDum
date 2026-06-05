@@ -264,11 +264,11 @@ with open(PATH_FILE, "r", encoding="utf-8") as f:
 
 floors = data_a["Exports"][0]["Data"][0]["Value"][0]["Value"][-32]["Value"][1]["Value"]
 k = 0
-z = 900.0 + 200
+z = 900.0 + 200 + 300 + 100
 y = 8112.5 + 100
 for i in range(0, 5):
     a = copy.deepcopy(FLOOR_TEMPLATE)
-    a["Value"][0]["Value"] = f"SM_AR_Suburbs_BaseTrim_050x300x100_A{i+11}"
+    a["Value"][0]["Value"] = f"SM_AR_Suburbs_BaseTrim_050x300x100_A{i+21}"
     x = 1450 - 300 * i
 
 
@@ -281,7 +281,7 @@ for i in range(0, 5):
 y = 7087.5 - 100
 for i in range(0, 5):
     a = copy.deepcopy(FLOOR_TEMPLATE_2)
-    a["Value"][0]["Value"] = f"SM_AR_Suburbs_BaseTrim_050x300x100_A{i+16}"
+    a["Value"][0]["Value"] = f"SM_AR_Suburbs_BaseTrim_050x300x100_A{i+26}"
     x = 1450 - 300 * i
 
 
