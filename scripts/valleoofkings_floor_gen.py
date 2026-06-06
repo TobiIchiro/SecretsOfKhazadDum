@@ -3,7 +3,7 @@ import copy
 
 """
 SM_AR_Suburbs_BaseTrim_050x300x100_A = -32
-SM_AR_WallThin_3x3_A = 5
+SM_AR_WallThin_3x3_A = 5 SM_AR_Suburbs_WallThin_050x300x300_A
 """
 
 PATH_FILE = "F:/RtoM/SecretsOfKhazadDum/json/Moria/Content/Tech/Data/Bubbles/GameWorldCatalog/BD_BB_Chapter3_ValleyOfKings.json"
@@ -267,13 +267,13 @@ FLOOR_TEMPLATE_2 = {
 with open(PATH_FILE, "r", encoding="utf-8") as f:
     data_a = json.load(f)
 
-floors = data_a["Exports"][0]["Data"][0]["Value"][0]["Value"][-32]["Value"][1]["Value"]
+floors = data_a["Exports"][0]["Data"][0]["Value"][0]["Value"][5]["Value"][1]["Value"]
 k = 0
-z = 900.0 + 200 + 300 + 100
-y = 8112.5 + 100
+z = 900.0 + 200 + 300 + 100 + 100
+y = 8100 + 100
 for i in range(0, 5):
-    a = copy.deepcopy(FLOOR_TEMPLATE)
-    a["Value"][0]["Value"] = f"SM_AR_Suburbs_BaseTrim_050x300x100_A{i+21}"
+    a = copy.deepcopy(FLOOR_TEMPLATE_2)
+    a["Value"][0]["Value"] = f"SM_AR_Suburbs_WallThin_050x300x300_A{i+1}"
     x = 1450 - 300 * i
 
 
@@ -283,10 +283,10 @@ for i in range(0, 5):
 
     floors.append(a)
 
-y = 7087.5 - 100
+y = 7100 - 100
 for i in range(0, 5):
-    a = copy.deepcopy(FLOOR_TEMPLATE_2)
-    a["Value"][0]["Value"] = f"SM_AR_Suburbs_BaseTrim_050x300x100_A{i+26}"
+    a = copy.deepcopy(FLOOR_TEMPLATE)
+    a["Value"][0]["Value"] = f"SM_AR_Suburbs_BaseTrim_050x300x100_A{i+6}"
     x = 1450 - 300 * i
 
 
