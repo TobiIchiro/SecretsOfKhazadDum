@@ -39,7 +39,10 @@ for dirpath, _, filenames in os.walk(ROOT_JSON):
         rel_path = os.path.relpath(dirpath, ROOT_JSON)
         dest_dir = os.path.join(DEST_ROOT, rel_path)
         os.makedirs(dest_dir, exist_ok=True)
-        dest = os.path.join(dest_dir, os.path.splitext(file)[0] + ".uasset")
+        if file == "BB_Cloudyhead_Hall_A.json":
+            dest = os.path.join(dest_dir, os.path.splitext(file)[0] + ".umap")
+        else:
+            dest = os.path.join(dest_dir, os.path.splitext(file)[0] + ".uasset")
 
         tasks.append((source, dest))
 
