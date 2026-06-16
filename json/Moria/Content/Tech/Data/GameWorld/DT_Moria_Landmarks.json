@@ -252,7 +252,8 @@
     "Object",
     "Chapter8.FirstStair",
     "Chapter8.Hall",
-    "BB_Cloudyhead_Hall_A"
+    "BB_Cloudyhead_Hall_A",
+    "World.Landmark.Chapter8.Hall"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -53564,8 +53565,8 @@
                     "PropertyTagExtensions": "NoExtension",
                     "Value": {
                       "$type": "UAssetAPI.UnrealTypes.FIntVector, UAssetAPI",
-                      "X": 16,
-                      "Y": 11,
+                      "X": 25,
+                      "Y": 12,
                       "Z": 6
                     }
                   }
@@ -53591,7 +53592,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "World.Landmark.Sandbox.FirstStair"
+                    "Value": "World.Landmark.Chapter8.Hall"
                   }
                 ]
               },

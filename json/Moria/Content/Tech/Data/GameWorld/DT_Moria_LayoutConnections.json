@@ -29048,7 +29048,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EConnectionZoneRule::Shared"
+                "Value": "EConnectionZoneRule::BelongsToOrigin"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
