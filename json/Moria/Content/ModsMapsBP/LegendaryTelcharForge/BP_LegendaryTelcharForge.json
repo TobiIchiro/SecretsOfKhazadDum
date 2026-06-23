@@ -7,9 +7,9 @@
     "/Game/Animations/Dwarf/Dwa_UA_Stand_Int_CraftWorkst_Start_Montage",
     "/Game/Art/Assets/GPI/Destructible/DM_Fabric_Station_Destructible",
     "/Game/Art/Assets/GPI/Destructible/DM_Fabric_Station_Destructible.DM_Fabric_Station_Destructible",
-    "/Game/Mods/100BuildingsPack/Meshes/SM_TelcharForge",
+    "/Game/Mods/100BuildingsPack/Meshes/SM_Telchar_Anvil",
     "/Game/LevelDesign/Placeables/Interactables/Crafting/BP_CraftingStation",
-    "/Game/Mods/100BuildingsPack/BP_CraftingStation_TelcharForge",
+    "/Game/ModsMapsBP/LegendaryTelcharForge/BP_LegendaryTelcharForge",
     "/Game/Maps/BP_POIMarker_Component_Crafting",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables",
@@ -36,8 +36,9 @@
     "Box",
     "Box_GEN_VARIABLE",
     "BoxComponent",
+    "BoxExtent",
     "BP_CraftingStation_C",
-    "BP_CraftingStation_TelcharForge_C",
+    "BP_LegendaryTelcharForge_C",
     "BP_POIMarker_Component_Crafting",
     "BP_POIMarker_Component_Crafting_C",
     "BP_POIMarker_Component_Crafting_GEN_VARIABLE",
@@ -68,14 +69,14 @@
     "CraftingCompleteVFX",
     "CraftingCompleteVFX_GEN_VARIABLE",
     "CraftingComponent",
-    "100BuildingsPack_TelcharForge_A",
+    "CraftingStation_LegendaryTelcharForge",
     "CraftingStations",
     "DecorationBlocking",
     "DecorationBlockingComponent",
     "Default__BlueprintGeneratedClass",
     "Default__BoxComponent",
     "Default__BP_CraftingStation_C",
-    "Default__BP_CraftingStation_TelcharForge_C",
+    "Default__BP_LegendaryTelcharForge_C",
     "Default__BP_POIMarker_Component_Crafting_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableComponent",
@@ -108,7 +109,7 @@
     "Floating_InfoText_AndProgressBar",
     "Floating_InfoText_AndProgressBar_GEN_VARIABLE",
     "FSMComp",
-    "SM_TelcharForge",
+    "SM_Telchar_Anvil",
     "Guid",
     "InheritableComponentHandler",
     "InteractableFSMComp",
@@ -414,7 +415,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_CraftingStation_TelcharForge_C",
+      "ObjectName": "BP_LegendaryTelcharForge_C",
       "OuterIndex": 0,
       "ClassIndex": -14,
       "SuperIndex": -4,
@@ -487,7 +488,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "100BuildingsPack_TelcharForge_A"
+              "Value": "CraftingStation_LegendaryTelcharForge"
             }
           ]
         },
@@ -510,7 +511,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "100BuildingsPack_TelcharForge_A.Name"
+          "Value": "CraftingStation_LegendaryTelcharForge.Name"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -570,7 +571,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_CraftingStation_TelcharForge_C",
+      "ObjectName": "Default__BP_LegendaryTelcharForge_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -603,6 +604,35 @@
     {
       "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
       "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+          "StructType": "Vector",
+          "SerializeNone": true,
+          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+          "SerializationControl": "NoExtension",
+          "Operation": "None",
+          "Name": "BoxExtent",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+              "Name": "BoxExtent",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": {
+                "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+                "X": 300.0,
+                "Y": 300.0,
+                "Z": 100.0
+              }
+            }
+          ]
+        },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
           "Name": "AreaClass",
@@ -1015,9 +1045,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 2.25,
-                "Y": 2.25,
-                "Z": 2.75
+                "X": 0.6875,
+                "Y": 0.625,
+                "Z": 1.0
               }
             }
           ]
@@ -2209,7 +2239,7 @@
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
                 "Pitch": "+0",
-                "Yaw": -90.00011444091797,
+                "Yaw": 0.0,
                 "Roll": "+0"
               }
             }
@@ -3681,7 +3711,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/100BuildingsPack/Meshes/SM_TelcharForge",
+      "ObjectName": "/Game/Mods/100BuildingsPack/Meshes/SM_Telchar_Anvil",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3807,7 +3837,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_TelcharForge",
+      "ObjectName": "SM_Telchar_Anvil",
       "OuterIndex": -41,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -3944,7 +3974,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/100BuildingsPack/BP_CraftingStation_TelcharForge",
+  "FolderName": "/Game/ModsMapsBP/LegendaryTelcharForge/BP_LegendaryTelcharForge",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

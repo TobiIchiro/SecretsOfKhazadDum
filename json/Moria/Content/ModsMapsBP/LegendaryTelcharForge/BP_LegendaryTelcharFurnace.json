@@ -7,9 +7,9 @@
     "/Game/Animations/Dwarf/Dwa_UA_Stand_Int_CraftWorkst_Start_Montage",
     "/Game/Art/Assets/GPI/Destructible/DM_Fabric_Station_Destructible",
     "/Game/Art/Assets/GPI/Destructible/DM_Fabric_Station_Destructible.DM_Fabric_Station_Destructible",
-    "/Game/Mods/100BuildingsPack/Meshes/SM_TelcharForge",
+    "/Game/Mods/100BuildingsPack/Meshes/SM_Telchar_Furnace",
     "/Game/LevelDesign/Placeables/Interactables/Crafting/BP_CraftingStation",
-    "/Game/Mods/100BuildingsPack/BP_CraftingStation_TelcharForge",
+    "/Game/ModsMapsBP/LegendaryTelcharForge/BP_LegendaryTelcharFurnace",
     "/Game/Maps/BP_POIMarker_Component_Crafting",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables",
@@ -37,7 +37,7 @@
     "Box_GEN_VARIABLE",
     "BoxComponent",
     "BP_CraftingStation_C",
-    "BP_CraftingStation_TelcharForge_C",
+    "BP_LegendaryTelcharFurnace_C",
     "BP_POIMarker_Component_Crafting",
     "BP_POIMarker_Component_Crafting_C",
     "BP_POIMarker_Component_Crafting_GEN_VARIABLE",
@@ -68,14 +68,14 @@
     "CraftingCompleteVFX",
     "CraftingCompleteVFX_GEN_VARIABLE",
     "CraftingComponent",
-    "100BuildingsPack_TelcharForge_A",
+    "CraftingStation_LegendaryTelcharFurnace",
     "CraftingStations",
     "DecorationBlocking",
     "DecorationBlockingComponent",
     "Default__BlueprintGeneratedClass",
     "Default__BoxComponent",
     "Default__BP_CraftingStation_C",
-    "Default__BP_CraftingStation_TelcharForge_C",
+    "Default__BP_LegendaryTelcharFurnace_C",
     "Default__BP_POIMarker_Component_Crafting_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableComponent",
@@ -108,7 +108,7 @@
     "Floating_InfoText_AndProgressBar",
     "Floating_InfoText_AndProgressBar_GEN_VARIABLE",
     "FSMComp",
-    "SM_TelcharForge",
+    "SM_Telchar_Furnace",
     "Guid",
     "InheritableComponentHandler",
     "InteractableFSMComp",
@@ -414,7 +414,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_CraftingStation_TelcharForge_C",
+      "ObjectName": "BP_LegendaryTelcharFurnace_C",
       "OuterIndex": 0,
       "ClassIndex": -14,
       "SuperIndex": -4,
@@ -487,7 +487,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "100BuildingsPack_TelcharForge_A"
+              "Value": "CraftingStation_LegendaryTelcharFurnace"
             }
           ]
         },
@@ -510,7 +510,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "100BuildingsPack_TelcharForge_A.Name"
+          "Value": "CraftingStation_LegendaryTelcharFurnace.Name"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -570,7 +570,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_CraftingStation_TelcharForge_C",
+      "ObjectName": "Default__BP_LegendaryTelcharFurnace_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -2209,7 +2209,7 @@
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
                 "Pitch": "+0",
-                "Yaw": -90.00011444091797,
+                "Yaw": 0.0,
                 "Roll": "+0"
               }
             }
@@ -3681,7 +3681,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/100BuildingsPack/Meshes/SM_TelcharForge",
+      "ObjectName": "/Game/Mods/100BuildingsPack/Meshes/SM_Telchar_Furnace",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3807,7 +3807,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_TelcharForge",
+      "ObjectName": "SM_Telchar_Furnace",
       "OuterIndex": -41,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -3944,7 +3944,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/100BuildingsPack/BP_CraftingStation_TelcharForge",
+  "FolderName": "/Game/ModsMapsBP/LegendaryTelcharForge/BP_LegendaryTelcharFurnace",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
