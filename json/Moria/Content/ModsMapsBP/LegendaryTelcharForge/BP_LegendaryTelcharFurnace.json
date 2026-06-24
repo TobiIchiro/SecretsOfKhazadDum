@@ -176,7 +176,15 @@
     "WorldDynamic",
     "WorldStatic",
     "/Game/Character/Shared/AnimNotifies/AnimNotifyState_EquipOverride",
-    "AnimNotifyState_EquipOverride_C"
+    "AnimNotifyState_EquipOverride_C",
+    "ECraftingType",
+    "CraftingType",
+    "ECraftingType::Timed",
+    "DefaultMaxQueueCount",
+    "CraftMontage",
+    "bIgnoreConstructionRequirements",
+    "EnumProperty",
+    "IntProperty"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -2254,7 +2262,37 @@
     },
     {
       "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
-      "Data": [],
+      "Data": [
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+          "EnumType": "ECraftingType",
+          "InnerType": "ECraftingType",
+          "Name": "CraftingType",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": "ECraftingType::Timed"
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+          "Name": "DefaultMaxQueueCount",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": 9
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bIgnoreConstructionRequirements",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": true
+        }
+      ],
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
