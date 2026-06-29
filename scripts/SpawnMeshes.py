@@ -22,22 +22,6 @@ OFFSET_Y = 200.0
 
 # ─── HELPERS ──────────────────────────────────────────────────────────────────
 
-def quaternion_to_rotator(qx, qy, qz, qw):
-    """Convierte cuaternión → FRotator (Pitch, Yaw, Roll) en grados."""
-    sinr_cosp = 2.0 * (qw * qx + qy * qz)
-    cosr_cosp = 1.0 - 2.0 * (qx * qx + qy * qy)
-    roll = round(math.degrees(math.atan2(sinr_cosp, cosr_cosp)),0)
-
-    sinp = max(-1.0, min(1.0, 2.0 * (qw * qy - qz * qx)))
-    pitch = round(math.degrees(math.asin(sinp)),0)
-
-    siny_cosp = 2.0 * (qw * qz + qx * qy)
-    cosy_cosp = 1.0 - 2.0 * (qy * qy + qz * qz)
-    yaw = round(math.degrees(math.atan2(siny_cosp, cosy_cosp)),0)
-
-    return unreal.Rotator(roll, pitch, yaw)
-
-
 def find_base_actor(base_mesh_name):
     """
     Busca en el nivel un actor cuyo label contenga base_mesh_name.
@@ -109,12 +93,10 @@ def main():
                 skipped += 1
                 continue
 
-            # 5. Convertir cuaternión → Rotator
-            """rotator = quaternion_to_rotator(
-                rot["X"], rot["Y"], rot["Z"], rot["W"]
-            )"""
+            # 5. Convertir cuaternión → Rotator (redondeado al grado más cercano)
             quat = unreal.Quat(rot["X"], rot["Y"], rot["Z"], rot["W"])
-            rotator = quat.rotator()
+            r = quat.rotator()
+            rotator = unreal.Rotator(round(r.roll), round(r.pitch), round(r.yaw))
             location = unreal.Vector(new_x, new_y, new_z)
             scale    = unreal.Vector(sc["X"], sc["Y"], sc["Z"])
 
