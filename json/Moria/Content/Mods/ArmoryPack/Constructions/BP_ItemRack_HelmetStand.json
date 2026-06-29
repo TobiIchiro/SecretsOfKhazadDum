@@ -4,14 +4,14 @@
   "NameMap": [
     "/Game/Art/Assets/Kits/Deco/Urban/Shop/Destructible/DM_Urban_Shop_Mannequin_Female_Destructible",
     "/Game/Art/Assets/Kits/Deco/Urban/Shop/Destructible/DM_Urban_Shop_Mannequin_Female_Destructible.DM_Urban_Shop_Mannequin_Female_Destructible",
-    "/Game/Art/Assets/Kits/Deco/Urban/Shop/Urban_Shop_Mannequin_Female",
+    "/Game/Mods/ArmoryPack/Constructions/Meshes/SM_Helmet_Stand",
     "/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture",
     "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Boots",
     "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Gloves",
     "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Helmet",
     "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Torso",
     "/Game/LevelDesign/Placeables/Interactables/ItemRacks/BP_ItemRack_Abstract",
-    "/Game/LevelDesign/Placeables/Interactables/ItemRacks/BP_ItemRack_Mannequin",
+    "/Game/Mods/ArmoryPack/Constructions/BP_ItemRack_HelmetStand",
     "/Game/Tech/Data/StringTables/Interactables",
     "/Game/Tech/Data/StringTables/Interactables.Interactables",
     "/Script/CoreUObject",
@@ -53,7 +53,7 @@
     "BP_ContainerItem_Dwarf_Slot_Helmet_C",
     "BP_ContainerItem_Dwarf_Slot_Torso_C",
     "BP_ItemRack_Abstract_C",
-    "BP_ItemRack_Mannequin_C",
+    "BP_ItemRack_HelmetStand_C",
     "BP_OnBeforeEndPlay",
     "ByteProperty",
     "CallFunc_Add_IntInt_ReturnValue",
@@ -95,7 +95,7 @@
     "Default__BP_ContainerItem_Dwarf_Slot_Helmet_C",
     "Default__BP_ContainerItem_Dwarf_Slot_Torso_C",
     "Default__BP_ItemRack_Abstract_C",
-    "Default__BP_ItemRack_Mannequin_C",
+    "Default__BP_ItemRack_HelmetStand_C",
     "Default__Function",
     "Default__InheritableComponentHandler",
     "Default__KismetArrayLibrary",
@@ -115,7 +115,7 @@
     "DORM_DormantAll",
     "DropItem",
     "DropItemsOnDeath",
-    "Dwarf.Inventory",
+    "Dwarf.Slot.Helmet",
     "ECC_GameTraceChannel10",
     "ECollisionChannel",
     "ECollisionResponse",
@@ -128,7 +128,7 @@
     "ENetDormancy",
     "Engine",
     "EntryPoint",
-    "ExecuteUbergraph_BP_ItemRack_Mannequin",
+    "ExecuteUbergraph_BP_ItemRack_HelmetStand",
     "Function",
     "Furniture",
     "GetContents",
@@ -226,7 +226,7 @@
     "Trigger",
     "UberGraphFrame",
     "UberGraphFunction",
-    "Urban_Shop_Mannequin_Female",
+    "SM_Helmet_Stand",
     "VariableGuid",
     "Vector",
     "Vehicle",
@@ -411,7 +411,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "ExecuteUbergraph_BP_ItemRack_Mannequin",
+      "ObjectName": "ExecuteUbergraph_BP_ItemRack_HelmetStand",
       "OuterIndex": 5,
       "ClassIndex": -20,
       "SuperIndex": 0,
@@ -3560,7 +3560,7 @@
       "$type": "UAssetAPI.ExportTypes.ClassExport, UAssetAPI",
       "FuncMap": [
         [
-          "ExecuteUbergraph_BP_ItemRack_Mannequin",
+          "ExecuteUbergraph_BP_ItemRack_HelmetStand",
           1
         ],
         [
@@ -3841,7 +3841,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_ItemRack_Mannequin_C",
+      "ObjectName": "BP_ItemRack_HelmetStand_C",
       "OuterIndex": 0,
       "ClassIndex": -22,
       "SuperIndex": -6,
@@ -3993,7 +3993,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_ItemRack_Mannequin_C",
+      "ObjectName": "Default__BP_ItemRack_HelmetStand_C",
       "OuterIndex": 0,
       "ClassIndex": 5,
       "SuperIndex": 0,
@@ -5427,7 +5427,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Dwarf.Inventory"
+              "Value": "Dwarf.Slot.Helmet"
             }
           ]
         },
@@ -5448,33 +5448,6 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": -4
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "1",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -5
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "2",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -3
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "3",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -2
             }
           ]
         }
@@ -5542,7 +5515,7 @@
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
                 "X": "+0",
                 "Y": "+0",
-                "Z": 21.0
+                "Z": 0.0
               }
             }
           ]
@@ -7715,7 +7688,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/Kits/Deco/Urban/Shop/Urban_Shop_Mannequin_Female",
+      "ObjectName": "/Game/Mods/ArmoryPack/Constructions/Meshes/SM_Helmet_Stand",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -7913,7 +7886,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Urban_Shop_Mannequin_Female",
+      "ObjectName": "SM_Helmet_Stand",
       "OuterIndex": -74,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -8002,7 +7975,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Placeables/Interactables/ItemRacks/BP_ItemRack_Mannequin",
+  "FolderName": "/Game/Mods/ArmoryPack/Constructions/BP_ItemRack_HelmetStand",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
