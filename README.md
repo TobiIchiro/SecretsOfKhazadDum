@@ -265,16 +265,21 @@ Introduces legendary Tier 7 weapons and masterwork forging.
 #### Core Features
 **New Blacksmith Hammer**
 - **Telchar Hammer**, capable of forging legendary weapons.
+
 **New Rune**
 - Mark of Ullr.
+
 **New Ashen Ingot**
 - Introduce legendar**y Ashen Ingot**.
+
 **Reforged Weapons**
 - **Royal Dwarven Kings Weapon**s are now Tier 7.
 - **Firmaxe Clan Battleaxe** is now Tier 7.
 - **Thorin Sword** is now Tier 7.
+
 **Middle Earth Legendary Weapons**
 - Telchar's Blacksmith Knowledge to forge **Anduril**, **Glamdring** and **Orcrist**.
+
 **New Legendary Weapons**
 - Skeggja of Clan Axbeard
 - Nakbûr Khazâd
