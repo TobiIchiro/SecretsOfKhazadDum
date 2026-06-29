@@ -47,7 +47,7 @@
     "ActionsComp",
     "Actor",
     "Add_IntInt",
-    "Dwarf.Inventory",
+    "Goat.Slot.EpicPack",
     "AgentHeight",
     "AgentRadius",
     "AIControllerClass",
@@ -8765,7 +8765,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Dwarf.Inventory"
+              "Value": "Goat.Slot.EpicPack"
             }
           ]
         }
