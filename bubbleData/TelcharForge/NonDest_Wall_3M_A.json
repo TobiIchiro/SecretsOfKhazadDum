@@ -1,0 +1,77 @@
+{
+  "BaseMesh": "Suburbs_WallThin_6x6_Inset_A",
+  "Instances": [
+    {
+      "Name": "Suburbs_Wall_Thin_Arch_6x6m_A2",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.9999999,
+          "W": -1.1920929E-07,
+          "IsNormalized": true,
+          "Size": 0.9999999,
+          "SizeSquared": 0.99999976
+        },
+        "Translation": {
+          "X": 8500.0,
+          "Y": 5990.0,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.21875,
+          "Y": 1.21875,
+          "Z": 1.21875
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Wall_Thin_Arch_6x6m_A5",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -1.3315805E-06,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8500.002,
+          "Y": 419.9995,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.21875,
+          "Y": 1.21875,
+          "Z": 1.21875
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Wall_Thin_Arch_6x6m_A7",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -1.3315805E-06,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10720.002,
+          "Y": 419.9995,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.21875,
+          "Y": 1.21875,
+          "Z": 1.21875
+        }
+      }
+    }
+  ]
+}

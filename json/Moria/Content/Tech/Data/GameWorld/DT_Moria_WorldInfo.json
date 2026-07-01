@@ -24,6 +24,7 @@
     "World.Biome.AngryCaverns",
     "World.Biome.ArmoredTroll",
     "World.Biome.BalrogsNest",
+    "World.Biome.CloudyCity",
     "World.Biome.CrystalDescent",
     "World.Biome.DarkestDeeps",
     "World.Biome.DeepOrc",
@@ -143,7 +144,9 @@
     "World.Zone.UpperHalls",
     "World.Zone.WesternMines",
     "World.Zone.WesternTown",
-    "Object"
+    "Object",
+    "World.Biome.Elevator.Urban",
+    "World.Landmark.Sandbox.FirstStair"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -4271,6 +4274,72 @@
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
                 "Value": "World.Biome.MithrilLode"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_130",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Biome.CloudyCity"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",
+                "Name": "DevComment",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": null
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "GameplayTagTableRow",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "NewRow_131",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                "Name": "Tag",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "World.Biome.Elevator.Urban"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.StrPropertyData, UAssetAPI",

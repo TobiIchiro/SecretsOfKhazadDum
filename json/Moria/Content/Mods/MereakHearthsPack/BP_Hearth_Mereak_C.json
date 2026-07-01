@@ -116,7 +116,7 @@
     "CraftingCompleteVFX",
     "CraftingCompleteVFX_GEN_VARIABLE",
     "CraftingComponent",
-    "CraftingStation_Hearth_Farm",
+    "MereakHearthsPack_Hearth_C",
     "CraftingStations",
     "CustomVoiceLineTargetTags",
     "Deco1",
@@ -1261,7 +1261,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "CraftingStation_Hearth_Farm"
+              "Value": "MereakHearthsPack_Hearth_C"
             }
           ]
         },
