@@ -47,7 +47,7 @@
     "ActionsComp",
     "Actor",
     "Add_IntInt",
-    "Goat.Slot.EpicPack",
+    "Goat_Saddlebags",
     "AgentHeight",
     "AgentRadius",
     "AIControllerClass",
@@ -8765,7 +8765,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Goat.Slot.EpicPack"
+              "Value": "Goat_Saddlebags"
             }
           ]
         }
@@ -8808,29 +8808,7 @@
     },
     {
       "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
-      "Data": [
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "DummyStruct": null,
-          "Name": "DefaultContainers",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -197
-            }
-          ]
-        }
-      ],
+      "Data": [],
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
@@ -8938,7 +8916,7 @@
             }
           ]
         },
-       {
+        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "MorInteraction",
           "SerializeNone": true,
