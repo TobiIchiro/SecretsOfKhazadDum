@@ -18,6 +18,8 @@
     "/Game/Audio/Amb/DA_Amb_Shadow",
     "/Game/Audio/Amb/DA_Amb_Temp",
     "/Game/Audio/Amb/DA_Amb_TradingPost",
+    "/Game/Mods/Tech/Data/StringTables/ST_ModWorld",
+    "/Game/Mods/Tech/Data/StringTables/ST_ModWorld.ST_ModWorld",
     "/Game/Tech/Data/Deco/DA_DecoConfig_AngryCaverns",
     "/Game/Tech/Data/Deco/DA_DecoConfig_CrystalDescent",
     "/Game/Tech/Data/Deco/DA_DecoConfig_DarkestDeeps",
@@ -159,6 +161,7 @@
     "RowStruct",
     "ScriptStruct",
     "ShamblingTroll",
+    "ST_ModWorld",
     "Stair",
     "StringTable",
     "StructProperty",
@@ -604,7 +607,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "World.Biome.CloudyCity"
+                    "Value": "World.Biome.WesternTown"
                   }
                 ]
               },
@@ -4647,6 +4650,7 @@
         -8,
         -25,
         -103,
+        -104,
         -2,
         -34,
         -29,
@@ -5618,6 +5622,24 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "World",
       "OuterIndex": -97,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_ModWorld",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ST_ModWorld",
+      "OuterIndex": -104,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
       "PackageName": null,

@@ -2,6 +2,8 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
+    "/Game/Mods/Tech/Data/StringTables/ST_ModWorld",
+    "/Game/Mods/Tech/Data/StringTables/ST_ModWorld.ST_ModWorld",
     "/Game/Tech/Data/GameWorld/DT_Moria_Chapters",
     "/Game/Tech/Data/StringTables/World",
     "/Game/Tech/Data/StringTables/World.World",
@@ -60,6 +62,7 @@
     "SandboxSmall-chapter-7",
     "SandboxSmall-chapter-8",
     "ScriptStruct",
+    "ST_ModWorld",
     "StringTable",
     "TextProperty",
     "World",
@@ -2903,7 +2906,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Tech/Data/StringTables/World.World",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_ModWorld.ST_ModWorld",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -3017,6 +3020,7 @@
       "CreateBeforeSerializationDependencies": [],
       "SerializationBeforeCreateDependencies": [
         -7,
+        -9,
         -1,
         -2
       ],
@@ -3093,6 +3097,24 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "World",
       "OuterIndex": -3,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_ModWorld",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ST_ModWorld",
+      "OuterIndex": -8,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
       "PackageName": null,
