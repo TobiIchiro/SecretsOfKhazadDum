@@ -1,32 +1,776 @@
 {
-  "BaseMesh": "Suburbs_WallThin_6x6_Inset_A",
+  "BaseMesh": "Suburbs_Floor_Trim_A_3m",
   "Instances": [
     {
-      "Name": "Suburbs_Wall_Thin_Arch_6x6m_A2",
+      "Name": "Suburbs_Floor_Trim_A_3m_241",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071066,
+          "W": 0.70710695,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9450.0,
+          "Y": 2635.0005,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m10",
       "Transform": {
         "Rotation": {
           "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710224,
+          "W": 0.70711136,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 11600.005,
+          "Y": 4100.0,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m100",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071071,
+          "W": 0.7071065,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9103.435,
+          "Y": 384.953,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m101",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071071,
+          "W": 0.7071065,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8803.437,
+          "Y": 384.95456,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m102",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071071,
+          "W": 0.7071065,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8503.433,
+          "Y": 384.95078,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m103",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071071,
+          "W": 0.7071065,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8203.436,
+          "Y": 384.9519,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m11",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710224,
+          "W": 0.70711136,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 11300.005,
+          "Y": 4100.0,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m13_3",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.707103,
+          "W": 0.7071105,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8995.0,
+          "Y": 3635.0015,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0395359,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m15",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
           "Y": 0.0,
+          "Z": -0.7071075,
+          "W": 0.707106,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.9999999
+        },
+        "Translation": {
+          "X": 9450.0,
+          "Y": 400.0,
+          "Z": 805.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m16",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071103,
+          "W": 0.70710325,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8745.002,
+          "Y": 2749.0024,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m19",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071038,
+          "W": 0.7071098,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9750.606,
+          "Y": 5990.262,
+          "Z": 805.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m2",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071066,
+          "W": 0.70710695,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9150.002,
+          "Y": 2634.999,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m20",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710605,
+          "W": 0.7071075,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9749.997,
+          "Y": 2634.9993,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m21",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710605,
+          "W": 0.7071075,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10049.998,
+          "Y": 2635.0007,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m22",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710605,
+          "W": 0.7071075,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9450.0,
+          "Y": 2635.0005,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m29",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
           "Z": 0.9999999,
-          "W": -1.1920929E-07,
+          "W": 4.2915344E-06,
           "IsNormalized": true,
           "Size": 0.9999999,
           "SizeSquared": 0.99999976
         },
         "Translation": {
-          "X": 8500.0,
-          "Y": 5990.0,
-          "Z": 505.0
+          "X": 10275.004,
+          "Y": 4100.002,
+          "Z": 603.0
         },
         "Scale3D": {
-          "X": 1.21875,
-          "Y": 1.21875,
-          "Z": 1.21875
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
         }
       }
     },
     {
-      "Name": "Suburbs_Wall_Thin_Arch_6x6m_A5",
+      "Name": "Suburbs_Floor_Trim_A_3m33",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 1.0,
+          "W": 3.5762787E-07,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9585.0,
+          "Y": 3350.001,
+          "Z": 608.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m34",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -1.5978967E-06,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10490.0,
+          "Y": 3050.0,
+          "Z": 605.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m35",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 1.0,
+          "W": 4.7683716E-07,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10000.0,
+          "Y": 3350.002,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m36_68",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 1.4980282E-06,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10010.0,
+          "Y": 3050.0002,
+          "Z": 607.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m37",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -5.326322E-07,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9585.0,
+          "Y": 3050.001,
+          "Z": 606.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m38",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710707,
+          "W": 0.70710653,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 11000.0,
+          "Y": 3801.0,
+          "Z": 602.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m39",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710707,
+          "W": 0.70710653,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 11300.001,
+          "Y": 3801.001,
+          "Z": 602.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m4",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.99999994,
+          "W": 5.364418E-06,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.9999999
+        },
+        "Translation": {
+          "X": 8645.0,
+          "Y": 3650.0015,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m40",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071075,
+          "W": 0.707106,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.9999999
+        },
+        "Translation": {
+          "X": 11000.007,
+          "Y": 3948.9985,
+          "Z": 602.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m41",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071075,
+          "W": 0.707106,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.9999999
+        },
+        "Translation": {
+          "X": 10700.001,
+          "Y": 3949.0,
+          "Z": 602.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m42",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710707,
+          "W": 0.70710653,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 11000.0,
+          "Y": 2451.0005,
+          "Z": 602.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m43",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710707,
+          "W": 0.70710653,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 11300.0,
+          "Y": 2450.9985,
+          "Z": 602.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m44",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071075,
+          "W": 0.707106,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.9999999
+        },
+        "Translation": {
+          "X": 11000.007,
+          "Y": 2598.997,
+          "Z": 602.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m45",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071075,
+          "W": 0.707106,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.9999999
+        },
+        "Translation": {
+          "X": 10700.0,
+          "Y": 2599.0002,
+          "Z": 602.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m46",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 1.0,
+          "W": 4.7683716E-07,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9850.0,
+          "Y": 3050.0005,
+          "Z": 602.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m47",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -1.5978967E-06,
+          "W": 1.0,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9699.999,
+          "Y": 2750.001,
+          "Z": 602.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m48",
       "Transform": {
         "Rotation": {
           "X": -0.0,
@@ -38,38 +782,1214 @@
           "SizeSquared": 1.0
         },
         "Translation": {
-          "X": 8500.002,
-          "Y": 419.9995,
-          "Z": 505.0
+          "X": 9702.003,
+          "Y": 3360.0024,
+          "Z": 602.0
         },
         "Scale3D": {
-          "X": 1.21875,
-          "Y": 1.21875,
-          "Z": 1.21875
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
         }
       }
     },
     {
-      "Name": "Suburbs_Wall_Thin_Arch_6x6m_A7",
+      "Name": "Suburbs_Floor_Trim_A_3m49",
       "Transform": {
         "Rotation": {
           "X": -0.0,
           "Y": 0.0,
-          "Z": -1.3315805E-06,
+          "Z": -0.70710826,
+          "W": 0.7071053,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10705.0,
+          "Y": 1710.9993,
+          "Z": 802.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m5",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071066,
+          "W": 0.70710695,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9750.0,
+          "Y": 2635.001,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m51",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 1.0,
+          "W": 3.0994415E-06,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10695.0,
+          "Y": 2040.9993,
+          "Z": 802.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m52",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710826,
+          "W": 0.7071053,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 11155.0,
+          "Y": 1710.9993,
+          "Z": 802.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m55",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 1.0,
+          "W": 2.4437904E-06,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9852.001,
+          "Y": 3659.9985,
+          "Z": 602.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m56_217",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 1.0,
+          "W": 4.7683716E-07,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10490.0,
+          "Y": 3350.0005,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m57",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071043,
+          "W": 0.7071092,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10630.004,
+          "Y": 4099.9995,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m58",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710826,
+          "W": 0.7071053,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10320.0,
+          "Y": 2295.001,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.125,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m6",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.99999994,
+          "W": 5.364418E-06,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.9999999
+        },
+        "Translation": {
+          "X": 8645.002,
+          "Y": 3350.0024,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m61",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710564,
+          "W": 0.7071079,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8250.001,
+          "Y": 5975.002,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m62",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710564,
+          "W": 0.7071079,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8550.001,
+          "Y": 5975.001,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m63",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710564,
+          "W": 0.7071079,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8850.002,
+          "Y": 5975.002,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m64",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710564,
+          "W": 0.7071079,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9150.002,
+          "Y": 5975.001,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m65",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710564,
+          "W": 0.7071079,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 11300.002,
+          "Y": 5975.001,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m66",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710564,
+          "W": 0.7071079,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 11000.001,
+          "Y": 5975.0005,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m67",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710564,
+          "W": 0.7071079,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10765.001,
+          "Y": 5975.0,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m68",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710564,
+          "W": 0.7071079,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10400.002,
+          "Y": 5975.0,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m69",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710826,
+          "W": 0.7071053,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10953.437,
+          "Y": 384.94946,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m7",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710224,
+          "W": 0.70711136,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10034.005,
+          "Y": 3806.003,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m70",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710826,
+          "W": 0.7071053,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10653.436,
+          "Y": 384.94775,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m71",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710826,
+          "W": 0.7071053,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10353.435,
+          "Y": 384.94946,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m72",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710826,
+          "W": 0.7071053,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10053.437,
+          "Y": 384.94873,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m73",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710826,
+          "W": 0.7071053,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 7903.4365,
+          "Y": 384.95508,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m74",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710826,
+          "W": 0.7071053,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8203.436,
+          "Y": 384.9524,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m75",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710826,
+          "W": 0.7071053,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8503.4375,
+          "Y": 384.9541,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m76",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710826,
+          "W": 0.7071053,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8803.436,
+          "Y": 384.95264,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m77",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710415,
+          "W": 0.70710945,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10590.004,
+          "Y": 2027.001,
+          "Z": 402.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m79_219",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 1.0,
+          "W": 4.7683716E-07,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10200.0,
+          "Y": 3350.001,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m8",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710224,
+          "W": 0.70711136,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9734.005,
+          "Y": 3806.0107,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m80",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -2.396845E-06,
           "W": 1.0,
           "IsNormalized": true,
           "Size": 1.0,
           "SizeSquared": 1.0
         },
         "Translation": {
-          "X": 10720.002,
-          "Y": 419.9995,
+          "X": 10200.0,
+          "Y": 3049.9995,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m81",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071064,
+          "W": 0.7071071,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Translation": {
+          "X": 9300.0,
+          "Y": 3350.0015,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m82",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071074,
+          "W": 0.7071062,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9599.999,
+          "Y": 3050.0012,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m83_57",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071074,
+          "W": 0.7071062,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10200.0,
+          "Y": 3049.9995,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m84_59",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071074,
+          "W": 0.7071062,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10500.0,
+          "Y": 3050.0,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m85",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071064,
+          "W": 0.7071071,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Translation": {
+          "X": 9600.0,
+          "Y": 3350.001,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m86",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071064,
+          "W": 0.7071071,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Translation": {
+          "X": 9900.001,
+          "Y": 3350.001,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m87",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.7071064,
+          "W": 0.7071071,
+          "IsNormalized": true,
+          "Size": 0.99999994,
+          "SizeSquared": 0.99999994
+        },
+        "Translation": {
+          "X": 10200.0,
+          "Y": 3350.001,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m88",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710605,
+          "W": 0.70710754,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8850.001,
+          "Y": 5975.001,
           "Z": 505.0
         },
         "Scale3D": {
-          "X": 1.21875,
-          "Y": 1.21875,
-          "Z": 1.21875
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m89",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710605,
+          "W": 0.70710754,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8550.002,
+          "Y": 5975.001,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m9",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.70710224,
+          "W": 0.70711136,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 9434.006,
+          "Y": 3806.0107,
+          "Z": 603.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m90",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710605,
+          "W": 0.70710754,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 8250.001,
+          "Y": 5975.001,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m91",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710605,
+          "W": 0.70710754,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 7950.002,
+          "Y": 5975.001,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m92",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710605,
+          "W": 0.70710754,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10100.002,
+          "Y": 5974.994,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m93",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710605,
+          "W": 0.70710754,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10400.002,
+          "Y": 5974.997,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m94",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710605,
+          "W": 0.70710754,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10700.003,
+          "Y": 5975.0,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m95",
+      "Transform": {
+        "Rotation": {
+          "X": -0.0,
+          "Y": 0.0,
+          "Z": -0.70710605,
+          "W": 0.70710754,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 11000.002,
+          "Y": 5975.0,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m96",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071075,
+          "W": 0.7071061,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10353.436,
+          "Y": 384.94675,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m97",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071075,
+          "W": 0.7071061,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10653.4375,
+          "Y": 384.94815,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m98",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071075,
+          "W": 0.7071061,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 10953.4375,
+          "Y": 384.94904,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        }
+      }
+    },
+    {
+      "Name": "Suburbs_Floor_Trim_A_3m99",
+      "Transform": {
+        "Rotation": {
+          "X": 0.0,
+          "Y": -0.0,
+          "Z": 0.7071075,
+          "W": 0.7071061,
+          "IsNormalized": true,
+          "Size": 1.0,
+          "SizeSquared": 1.0
+        },
+        "Translation": {
+          "X": 11253.437,
+          "Y": 384.95096,
+          "Z": 505.0
+        },
+        "Scale3D": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
         }
       }
     }
