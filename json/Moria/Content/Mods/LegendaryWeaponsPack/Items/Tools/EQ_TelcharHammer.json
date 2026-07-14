@@ -114,7 +114,7 @@
     "MaterialInstanceConstant",
     "MaterialInterface",
     "MeshComponent",
-    "MI_WandererHammerIron",
+    "MI_Telchar_Hammer",
     "MorToolRowHandle",
     "Multiply_FloatFloat",
     "NameProperty",
@@ -2522,35 +2522,6 @@
           "Value": -60
         },
         {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "Name": "OverrideMaterials",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -36
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "1",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -36
-            }
-          ]
-        },
-        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "Rotator",
           "SerializeNone": true,
@@ -3203,7 +3174,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_WandererHammerIron",
+      "ObjectName": "MI_Telchar_Hammer",
       "OuterIndex": -42,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
