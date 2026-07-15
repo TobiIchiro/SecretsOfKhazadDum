@@ -8,7 +8,7 @@
     "/Game/Character/Dwarf/Abilities/Attacks/GA_Hammer_C",
     "/Game/Mods/LegendaryWeaponsPack/Items/Tools/EQ_TelcharHammer",
     "/Game/Items/Holdables/EQ_Pick_Base",
-    "/Game/Mods/HuntersLodgePack/Icons/T_UI_TelcharHammer",
+    "/Game/Mods/LegendaryWeaponsPack/Icons/T_UI_TelcharHammer",
     "/Game/Mods/LegendaryWeaponsPack/Items/Meshes/Materials/MI_Telchar_Hammer",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -3246,7 +3246,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/HuntersLodgePack/Icons/T_UI_TelcharHammer",
+      "ObjectName": "/Game/Mods/LegendaryWeaponsPack/Icons/T_UI_TelcharHammer",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
