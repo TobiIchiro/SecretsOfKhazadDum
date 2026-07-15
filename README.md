@@ -1,4 +1,4 @@
-# Secrets Of Khazad-Dûm
+# Secrets Of Khâzad-Dûm (Ir-Râruk Khazâd-dûm)
 The Lord of the Rings: Return to Moria™ mod created by TobiIchiro
 
 Available in [Nexus Mods](https://www.nexusmods.com/thelordoftheringsreturntomoria/mods/75)
@@ -7,16 +7,16 @@ If you want to get news of incomming updates and have a better support for bugs 
 
 If you like this mod or any of my mods please support me on [ko-fi](https://ko-fi.com/tobiichiro14)
 
-## Secrets Of Khazad-dûm
+## (Ir-Râruk Khâzad-dûm) Secrets Of Khazâd-dûm
 > “Reclaim Moria with the new uncover secrets beneath the mountain
 
 ### Overview
-**Secrets of Khazad-dûm** is a mod expansion for _The Lord of the Rings: Return to Moria_ that expands the depths of Khazad-dûm by restoring lost dwarven knowledge, unlocking forgotten forges, and empowering players with new ways to build, craft, and conquer the darkness beneath the mountain.
+**Secrets of Khazâd-dûm** is a mod expansion for _The Lord of the Rings: Return to Moria_ that expands the depths of Khazâd-dûm by restoring lost dwarven knowledge, unlocking forgotten forges, and empowering players with new ways to build, craft, and conquer the darkness beneath the mountain.
 
 This expansion focuses on **restored content**, **expanded construction**, and **new dwarven mastery**, seamlessly integrated into the main campaign and sandbox.
 
 ### Premise
-After the reclaiming of the deeper halls, dwarven scouts uncover sealed archives and abandoned forges once deemed too unstable to be revealed. With renewed mastery of stone and steel, the dwarves of Durin’s Folk begin the great work of rebuilding Khazad-dûm — stronger, richer, and more glorious than before.
+After the reclaiming of the deeper halls, dwarven scouts uncover sealed archives and abandoned forges once deemed too unstable to be revealed. With renewed mastery of stone and steel, the dwarves of Durin’s Folk begin the great work of rebuilding Khazâd-dûm — stronger, richer, and more glorious than before.
 > This mod does not alter the main story outcome but enriches the journey through Moria
 
 ### Core Features
@@ -67,15 +67,15 @@ After the reclaiming of the deeper halls, dwarven scouts uncover sealed archives
 
 ---
 
-## Expansion I – Kingdoms of Middle Earth
+## Expansion I – Kingdoms of Middle Earth (Zudûnu )
 > Continue your adventure in Moria with new items from the different kingdoms of middle earth
 
 ### Overview
-**Kingdoms of Middle Earth** is the first major content expansion for **Secrets of Khazad-dûm**, introducing new natural resources, new construction sets, an small expanded merchant options and faction-inspired decorative content from across Middle-earth.
+**Kingdoms of Middle Earth** is the first major content expansion for **Secrets of Khazâd-dûm**, introducing new natural resources, new construction sets, an small expanded merchant options and faction-inspired decorative content from across Middle-earth.
 
 ### Premise
 As the halls of Moria grow once more, distant kingdoms begin to take notice. Trade routes reopen, rare materials emerge from forgotten lands, and the cultural influence of Men, Elves, and Dwarves spreads through the mountain.
-With new materials, new trade possibilities, and new construction sets, your halls can now reflect alliances beyond Khazad-dûm.
+With new materials, new trade possibilities, and new construction sets, your halls can now reflect alliances beyond Khazâd-dûm.
 
 ### Core Features
 #### Ceiba tree Expansión
@@ -111,14 +111,14 @@ Introducing a new tree from the lands of Arnor, the **Ceiba Tree**
 
 ---
 
-## Expansion II – Dwarven Traditions
-> Rediscover the traditions that bring warmth and pride to the halls of Khazad-dûm.
+## Expansion II – Dwarven Traditions (Khazâd-afarân)
+> Rediscover the traditions that bring warmth and pride to the halls of Khazâd-dûm.
 
 ### Overview
-**Dwarven Traditions** is the second major content expansion for **Secrets of Khazad-dûm**, introducing new cultivable plants, artisan brews, ancient dwarven craftsmanship, and secret decorative pieces.
+**Dwarven Traditions** is the second major content expansion for **Secrets of Khazâd-dûm**, introducing new cultivable plants, artisan brews, ancient dwarven craftsmanship, and secret decorative pieces.
 
 ### Premise
-As the dwarves restore the great halls beneath the mountain, attention turns not only to war and stonework, but to the traditions that once filled Khazad-dûm with life.
+As the dwarves restore the great halls beneath the mountain, attention turns not only to war and stonework, but to the traditions that once filled Khazâd-dûm with life.
 
 Through craft, harvest, and celebration, the dwarves restore the traditions that made their kingdom great.
 
@@ -191,22 +191,22 @@ Introducing a new set of Ithilding doors
 
 ---
 
-## Expansion III - Hunter's Lodge
+## Expansion III - Hunter's Lodge (Utas-kharaf)
 > From legendary hunts to ancient relics, reclaim the wild traditions of the dwarves beneath the mountain.
 
 ### Overview
-**Hunter’s Lodge** is a multi-part expansion series for **Secrets of Khazad-dûm**, focused on legendary hunts, creature trophies, dwarven craftsmanship, and endgame progression.
+**Hunter’s Lodge** is a multi-part expansion series for **Secrets of Khazâd-dûm**, focused on legendary hunts, creature trophies, dwarven craftsmanship, and endgame progression.
 
 This expansion line introduces new elemental creatures, hunting materials, decorative trophy sets, architectural building pieces, artisan brews, and legendary weapons inspired by the ancient heroes and forgotten traditions of Middle-earth.
 
 Across its three chapters, Hunter’s Lodge expands both the survival and endgame experience of Moria through new enemies, construction pieces, crafting resources, and powerful relic weapons.
 
 ### Premise
-As the dwarves reclaim deeper regions of Khazad-dûm, hunters, craftsmen, and warriors begin restoring the forgotten traditions of the great hunting lodges once maintained beneath the mountain.
+As the dwarves reclaim deeper regions of Khazâd-dûm, hunters, craftsmen, and warriors begin restoring the forgotten traditions of the great hunting lodges once maintained beneath the mountain.
 
 New elemental drakes emerge from the depths, corrupted creatures roam the ancient halls, and legendary materials once thought lost return to dwarven hands. Meanwhile, ancient weapons of kings, heroes, and master smiths are rediscovered within abandoned vaults and ruined armories.
 
-Through hunting, crafting, and masterwork forging, the dwarves rebuild not only their kingdom, but also the warrior traditions that once made Khazad-dûm legendary.
+Through hunting, crafting, and masterwork forging, the dwarves rebuild not only their kingdom, but also the warrior traditions that once made Khazâd-dûm legendary.
 
 ### Part I - Elemental Drakes
 Introduces four elemental drakes and new hunting materials.
@@ -284,3 +284,8 @@ Introduces legendary Tier 7 weapons and masterwork forging.
 - Skeggja of Clan Axbeard
 - Nakbûr Khazâd
 - Bûrzul-khuzdâ
+
+---
+
+## Expansion IV - Porter Goat
+## Expansion V - Khazâd-mazzar (Dwarven Workshops)
