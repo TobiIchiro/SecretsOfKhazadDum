@@ -8,7 +8,7 @@
     "/Game/Character/Dwarf/Abilities/Attacks/GA_Hammer_C",
     "/Game/Mods/LegendaryWeaponsPack/Items/Tools/EQ_TelcharHammer",
     "/Game/Items/Holdables/EQ_Pick_Base",
-    "/Game/Mods/HuntersLodgePack/Icons/T_UI_TelcharHammer",
+    "/Game/Mods/LegendaryWeaponsPack/Icons/T_UI_TelcharHammer",
     "/Game/Mods/LegendaryWeaponsPack/Items/Meshes/Materials/MI_Telchar_Hammer",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -114,7 +114,7 @@
     "MaterialInstanceConstant",
     "MaterialInterface",
     "MeshComponent",
-    "MI_WandererHammerIron",
+    "MI_Telchar_Hammer",
     "MorToolRowHandle",
     "Multiply_FloatFloat",
     "NameProperty",
@@ -2522,35 +2522,6 @@
           "Value": -60
         },
         {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "Name": "OverrideMaterials",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -36
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "1",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -36
-            }
-          ]
-        },
-        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "Rotator",
           "SerializeNone": true,
@@ -3203,7 +3174,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_WandererHammerIron",
+      "ObjectName": "MI_Telchar_Hammer",
       "OuterIndex": -42,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
@@ -3275,7 +3246,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/HuntersLodgePack/Icons/T_UI_TelcharHammer",
+      "ObjectName": "/Game/Mods/LegendaryWeaponsPack/Icons/T_UI_TelcharHammer",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
