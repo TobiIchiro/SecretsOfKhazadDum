@@ -519,7 +519,7 @@
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI.ST_Mod_UI",
     "ST_Mod_UI",
     "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Helmet",
-    "BP_ContainerItem_Dwarf_Slot_Helmet",
+    "BP_ContainerItem_Dwarf_Slot_Helmet_C",
     "Default__BP_ContainerItem_Dwarf_Slot_Helmet_C",
     "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Gloves",
     "BP_ContainerItem_Dwarf_Slot_Gloves_C",
@@ -8834,7 +8834,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": -213
+              "Value": -214
             }
           ]
         }
@@ -8872,6 +8872,47 @@
       ],
       "CreateBeforeCreateDependencies": [
         6
+      ],
+      "Extras": ""
+    },
+    {
+      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+      "Data": [],
+      "ObjectGuid": null,
+      "SerializationControl": "NoExtension",
+      "Operation": "None",
+      "ObjectName": "InventoryComp",
+      "OuterIndex": 7,
+      "ClassIndex": -67,
+      "SuperIndex": 0,
+      "TemplateIndex": -118,
+      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
+      "SerialSize": 12,
+      "SerialOffset": 49338,
+      "ScriptSerializationStartOffset": 0,
+      "ScriptSerializationEndOffset": 0,
+      "bForcedExport": false,
+      "bNotForClient": false,
+      "bNotForServer": false,
+      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+      "IsInheritedInstance": false,
+      "PackageFlags": "PKG_None",
+      "bNotAlwaysLoadedForEditorGame": false,
+      "bIsAsset": false,
+      "GeneratePublicHash": false,
+      "SerializationBeforeSerializationDependencies": [
+        24
+      ],
+      "CreateBeforeSerializationDependencies": [
+        -197
+      ],
+      "SerializationBeforeCreateDependencies": [
+        25,
+        -67,
+        -118
+      ],
+      "CreateBeforeCreateDependencies": [
+        7
       ],
       "Extras": ""
     },
@@ -29331,7 +29372,7 @@
       "ObjectName": "Default__BP_ContainerItem_Dwarf_Slot_Helmet_C",
       "OuterIndex": -204,
       "ClassPackage": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Helmet",
-      "ClassName": "BP_ContainerItem_Dwarf_BodyInventoryNPC_C",
+      "ClassName": "BP_ContainerItem_Dwarf_Slot_Helmet_C",
       "PackageName": null,
       "bImportOptional": false
     },
