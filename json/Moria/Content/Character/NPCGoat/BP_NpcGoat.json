@@ -47,7 +47,7 @@
     "ActionsComp",
     "Actor",
     "Add_IntInt",
-    "Goat.Slot.EpicPack",
+    "Dwarf.Inventory",
     "AgentHeight",
     "AgentRadius",
     "AIControllerClass",
@@ -489,9 +489,9 @@
     "WorldStatic",
     "WidgetTree",
     "DefaultContainers",
-    "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_Slot_EpicPack",
-    "BP_ContainerItem_Goat_Slot_EpicPack_C",
-    "Default__BP_ContainerItem_Goat_Slot_EpicPack_C",
+    "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_BodyInventoryNPC",
+    "BP_ContainerItem_Dwarf_BodyInventoryNPC_C",
+    "Default__BP_ContainerItem_Dwarf_BodyInventoryNPC_C",
     "Callout Data",
     "CalloutDataComponent",
     "RibbonTrails",
@@ -517,7 +517,19 @@
     "bRescueInteractionRegister",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_UI.ST_Mod_UI",
-    "ST_Mod_UI"
+    "ST_Mod_UI",
+    "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Helmet",
+    "BP_ContainerItem_Dwarf_Slot_Helmet",
+    "Default__BP_ContainerItem_Dwarf_Slot_Helmet_C",
+    "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Gloves",
+    "BP_ContainerItem_Dwarf_Slot_Gloves_C",
+    "Default__BP_ContainerItem_Dwarf_Slot_Gloves_C",
+    "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Torso",
+    "BP_ContainerItem_Dwarf_Slot_Torso_C",
+    "Default__BP_ContainerItem_Dwarf_Slot_Torso_C",
+    "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Boots",
+    "BP_ContainerItem_Dwarf_Slot_Boots_C",
+    "Default__BP_ContainerItem_Dwarf_Slot_Boots_C"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -8765,7 +8777,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Goat.Slot.EpicPack"
+              "Value": "Dwarf.Inventory"
             }
           ]
         },
@@ -8787,6 +8799,42 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": -197
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -205
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "2",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -208
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "3",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -211
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "4",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -213
             }
           ]
         }
@@ -8824,93 +8872,6 @@
       ],
       "CreateBeforeCreateDependencies": [
         6
-      ],
-      "Extras": ""
-    },
-    {
-      "$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
-      "Data": [
-        {
-          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-          "StructType": "MorStorageRowHandle",
-          "SerializeNone": true,
-          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-          "SerializationControl": "NoExtension",
-          "Operation": "None",
-          "Name": "StorageHandle",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
-              "Name": "RowName",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": "Goat.Slot.EpicPack"
-            }
-          ]
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "DummyStruct": null,
-          "Name": "DefaultContainers",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -197
-            }
-          ]
-        }
-      ],
-      "ObjectGuid": null,
-      "SerializationControl": "NoExtension",
-      "Operation": "None",
-      "ObjectName": "InventoryComp",
-      "OuterIndex": 7,
-      "ClassIndex": -67,
-      "SuperIndex": 0,
-      "TemplateIndex": -118,
-      "ObjectFlags": "RF_Public, RF_Transactional, RF_ArchetypeObject, RF_DefaultSubObject",
-      "SerialSize": 12,
-      "SerialOffset": 49338,
-      "ScriptSerializationStartOffset": 0,
-      "ScriptSerializationEndOffset": 0,
-      "bForcedExport": false,
-      "bNotForClient": false,
-      "bNotForServer": false,
-      "PackageGuid": "{00000000-0000-0000-0000-000000000000}",
-      "IsInheritedInstance": false,
-      "PackageFlags": "PKG_None",
-      "bNotAlwaysLoadedForEditorGame": false,
-      "bIsAsset": false,
-      "GeneratePublicHash": false,
-      "SerializationBeforeSerializationDependencies": [
-        24
-      ],
-      "CreateBeforeSerializationDependencies": [
-        -197
-      ],
-      "SerializationBeforeCreateDependencies": [
-        25,
-        -67,
-        -118
-      ],
-      "CreateBeforeCreateDependencies": [
-        7
       ],
       "Extras": ""
     },
@@ -29277,7 +29238,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_Slot_EpicPack",
+      "ObjectName": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_BodyInventoryNPC",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -29286,7 +29247,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "BP_ContainerItem_Goat_Slot_EpicPack_C",
+      "ObjectName": "BP_ContainerItem_Dwarf_BodyInventoryNPC_C",
       "OuterIndex": -196,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -29295,10 +29256,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__BP_ContainerItem_Goat_Slot_EpicPack_C",
+      "ObjectName": "Default__BP_ContainerItem_Dwarf_BodyInventoryNPC_C",
       "OuterIndex": -196,
-      "ClassPackage": "/Game/Mods/PorterGoat/Items/BP_ContainerItem_Goat_Slot_EpicPack",
-      "ClassName": "BP_ContainerItem_Goat_Slot_EpicPack_C",
+      "ClassPackage": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_BodyInventoryNPC",
+      "ClassName": "BP_ContainerItem_Dwarf_BodyInventoryNPC_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -29344,6 +29305,114 @@
       "OuterIndex": -202,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Helmet",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_ContainerItem_Dwarf_Slot_Helmet_C",
+      "OuterIndex": -204,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_ContainerItem_Dwarf_Slot_Helmet_C",
+      "OuterIndex": -204,
+      "ClassPackage": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Helmet",
+      "ClassName": "BP_ContainerItem_Dwarf_BodyInventoryNPC_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Gloves",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_ContainerItem_Dwarf_Slot_Gloves_C",
+      "OuterIndex": -207,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_ContainerItem_Dwarf_Slot_Gloves_C",
+      "OuterIndex": -207,
+      "ClassPackage": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Gloves",
+      "ClassName": "BP_ContainerItem_Dwarf_Slot_Gloves_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Torso",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_ContainerItem_Dwarf_Slot_Torso_C",
+      "OuterIndex": -210,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_ContainerItem_Dwarf_Slot_Torso_C",
+      "OuterIndex": -210,
+      "ClassPackage": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Torso",
+      "ClassName": "BP_ContainerItem_Dwarf_Slot_Torso_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Boots",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_ContainerItem_Dwarf_Slot_Boots_C",
+      "OuterIndex": -213,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_ContainerItem_Dwarf_Slot_Boots_C",
+      "OuterIndex": -213,
+      "ClassPackage": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Boots",
+      "ClassName": "BP_ContainerItem_Dwarf_Slot_Boots_C",
       "PackageName": null,
       "bImportOptional": false
     }
