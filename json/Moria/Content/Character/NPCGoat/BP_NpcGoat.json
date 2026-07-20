@@ -529,7 +529,13 @@
     "Default__BP_ContainerItem_Dwarf_Slot_Torso_C",
     "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Boots",
     "BP_ContainerItem_Dwarf_Slot_Boots_C",
-    "Default__BP_ContainerItem_Dwarf_Slot_Boots_C"
+    "Default__BP_ContainerItem_Dwarf_Slot_Boots_C",
+    "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_MainHandNPC",
+    "BP_ContainerItem_Dwarf_Slot_MainHandNPC_C",
+    "Default__BP_ContainerItem_Dwarf_Slot_MainHandNPC_C",
+    "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_OffHandNPC",
+    "BP_ContainerItem_Dwarf_Slot_OffHandNPC_C",
+    "Default__BP_ContainerItem_Dwarf_Slot_OffHandNPC_C"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -8835,6 +8841,24 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": -214
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "5",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -217
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "5",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -220
             }
           ]
         }
@@ -29454,6 +29478,60 @@
       "OuterIndex": -213,
       "ClassPackage": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_Boots",
       "ClassName": "BP_ContainerItem_Dwarf_Slot_Boots_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_MainHandNPC",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_ContainerItem_Dwarf_Slot_MainHandNPC_C",
+      "OuterIndex": -216,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_ContainerItem_Dwarf_Slot_MainHandNPC_C",
+      "OuterIndex": -216,
+      "ClassPackage": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_MainHandNPC",
+      "ClassName": "BP_ContainerItem_Dwarf_Slot_MainHandNPC_C",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_OffHandNPC",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "BP_ContainerItem_Dwarf_Slot_OffHandNPC_C",
+      "OuterIndex": -219,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "BlueprintGeneratedClass",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "Default__BP_ContainerItem_Dwarf_Slot_OffHandNPC_C",
+      "OuterIndex": -219,
+      "ClassPackage": "/Game/Items/ContainerItems/BP_ContainerItem_Dwarf_Slot_OffHandNPC",
+      "ClassName": "BP_ContainerItem_Dwarf_Slot_OffHandNPC_C",
       "PackageName": null,
       "bImportOptional": false
     }
