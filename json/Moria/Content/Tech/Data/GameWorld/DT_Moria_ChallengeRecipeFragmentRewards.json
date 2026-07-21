@@ -170,6 +170,7 @@
     "RecipeFragment.Khazad_APSet_TorsoArmor",
     "RecipeFragment.Mattock_1h_t1",
     "RecipeFragment.Mattock_1h_t2",
+    "RecipeFragment.MinerSet_GlovesArmor",
     "RecipeFragment.MiningHelmet",
     "RecipeFragment.MithrilBoots",
     "RecipeFragment.MithrilGloves",
@@ -27065,6 +27066,41 @@
                           "PropertyTagFlags": "None",
                           "PropertyTagExtensions": "NoExtension",
                           "Value": "RecipeFragment.GrandHelm"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 1
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "MorAnyItemRowHandle",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "RowName",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "RecipeFragment.Eregion_Set_HelmetArmor"
                         }
                       ]
                     },
