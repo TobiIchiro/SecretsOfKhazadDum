@@ -2880,9 +2880,9 @@
                             "PropertyTagExtensions": "NoExtension",
                             "Value": {
                               "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
-                              "R": 0.7490196078431373,
-                              "G": 0.3882352941176471,
-                              "B": 0.0745098039215686,
+                              "R": 0.768151,
+                              "G": 0.723055,
+                              "B": 0.527115,
                               "A": 1.0
                             }
                           }
@@ -2925,9 +2925,9 @@
                             "PropertyTagExtensions": "NoExtension",
                             "Value": {
                               "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
-                              "R": 0.7490196078431373,
-                              "G": 0.3882352941176471,
-                              "B": 0.0745098039215686,
+                              "R": 0.768151,
+                              "G": 0.723055,
+                              "B": 0.527115,
                               "A": 1.0
                             }
                           }
@@ -2970,9 +2970,9 @@
                             "PropertyTagExtensions": "NoExtension",
                             "Value": {
                               "$type": "UAssetAPI.UnrealTypes.FLinearColor, UAssetAPI",
-                              "R": 0.7490196078431373,
-                              "G": 0.3882352941176471,
-                              "B": 0.0745098039215686,
+                              "R": 0.768151,
+                              "G": 0.723055,
+                              "B": 0.527115,
                               "A": 1.0
                             }
                           }
