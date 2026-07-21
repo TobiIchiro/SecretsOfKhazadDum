@@ -159,6 +159,7 @@
     "RecipeFragment.Grand_Shield",
     "RecipeFragment.GrandHelm",
     "RecipeFragment.Hammer_2h_t1",
+    "RecipeFragment.IronHills_Set_BootsArmor",
     "RecipeFragment.IronHills_Set_HelmetArmor",
     "RecipeFragment.IronHills_APSet_GlovesArmor",
     "RecipeFragment.IronHills_APSet_Shield",
@@ -7191,6 +7192,41 @@
                       "PropertyTagExtensions": "NoExtension",
                       "Value": 1
                     }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "MorAnyItemRowHandle",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "RowName",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "RecipeFragment.IronHills_Set_BootsArmor"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 1
+                    }
                   ]
                 ],
                 "KeysToRemove": [],
@@ -7831,6 +7867,111 @@
                           "IsZero": false,
                           "PropertyTagFlags": "None",
                           "PropertyTagExtensions": "NoExtension",
+                          "Value": "Item.BronzeIngot"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 5
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "MorAnyItemRowHandle",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "RowName",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "Ore.LapisLazuli"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 2
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "MorAnyItemRowHandle",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "RowName",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "Item.Coin"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 30
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "MorAnyItemRowHandle",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "RowName",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
                           "Value": "RecipeFragment.TauntingHelmet"
                         }
                       ]
@@ -7901,6 +8042,41 @@
                           "IsZero": false,
                           "PropertyTagFlags": "None",
                           "PropertyTagExtensions": "NoExtension",
+                          "Value": "Item.KnowledgeBookA"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 1
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "MorAnyItemRowHandle",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "RowName",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
                           "Value": "Item.KnowledgeScrollA"
                         }
                       ]
@@ -7936,7 +8112,7 @@
                           "IsZero": false,
                           "PropertyTagFlags": "None",
                           "PropertyTagExtensions": "NoExtension",
-                          "Value": "Item.KnowledgeBookA"
+                          "Value": "RecipeFragment.MinerSet_GlovesArmor"
                         }
                       ]
                     },
@@ -26439,6 +26615,76 @@
                       "PropertyTagExtensions": "NoExtension",
                       "Value": 0
                     }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "MorAnyItemRowHandle",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "RowName",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "RecipeFragment.IronHills_Set_HelmetArmor"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 1
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "MorAnyItemRowHandle",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "RowName",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "RecipeFragment.IronHills_Set_BootsArmor"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 1
+                    }
                   ]
                 ],
                 "KeysToRemove": [],
@@ -27375,6 +27621,41 @@
                           "PropertyTagFlags": "None",
                           "PropertyTagExtensions": "NoExtension",
                           "Value": "Item.KnowledgeScrollA"
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": 1
+                    }
+                  ],
+                  [
+                    {
+                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                      "StructType": "MorAnyItemRowHandle",
+                      "SerializeNone": true,
+                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                      "SerializationControl": "NoExtension",
+                      "Operation": "None",
+                      "Name": "Rewards",
+                      "ArrayIndex": 0,
+                      "IsZero": false,
+                      "PropertyTagFlags": "None",
+                      "PropertyTagExtensions": "NoExtension",
+                      "Value": [
+                        {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                          "Name": "RowName",
+                          "ArrayIndex": 0,
+                          "IsZero": false,
+                          "PropertyTagFlags": "None",
+                          "PropertyTagExtensions": "NoExtension",
+                          "Value": "RecipeFragment.MinerSet_GlovesArmor"
                         }
                       ]
                     },
