@@ -1033,8 +1033,16 @@
         "/Game/Mods/ArmoryPack/EregionSet/BP_EregionSet_HelmetArmor.BP_EregionSet_HelmetArmor_C",
         "IronHillsSet_HelmetArmor",
         "/Game/Mods/ArmoryPack/Icons/T_UI_Icon_Armor_IronHills_Helmet.T_UI_Icon_Armor_IronHills_Helmet",
-        "/Game/Mods/ArmoryPack/IronHillsSet/BP_IronHillsSet_HelmetArmor.BP_IronHillsSet_HelmetArmor_C"
-
+        "/Game/Mods/ArmoryPack/IronHillsSet/BP_IronHillsSet_HelmetArmor.BP_IronHillsSet_HelmetArmor_C",
+        "GE_MiningGloves_C",
+        "Default__GE_MiningGloves_C",
+        "/Game/Mods/ArmoryPack/GameplayEffects/GE_MiningGloves",
+        "GE_AntiSound_C",
+        "Default__GE_AntiSound_C",
+        "/Game/Mods/ArmoryPack/GameplayEffects/GE_AntiSound",
+        "GE_TauntHelmet_C",
+        "Default__GE_TauntHelmet_C",
+        "/Game/Mods/ArmoryPack/GameplayEffects/GE_TauntHelmet"
     ],
     "CustomSerializationFlags": "None",
     "UseSeparateBulkDataFiles": true,
@@ -13305,7 +13313,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": 40
+                                "Value":35
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
@@ -13318,7 +13326,7 @@
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                                "Value": 30.0,
+                                "Value": 25.0,
                                 "Name": "DamageProtection",
                                 "ArrayIndex": 0,
                                 "IsZero": false,
@@ -13700,7 +13708,17 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": []
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": -77
+                                    }
+                                ]
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
@@ -14539,7 +14557,7 @@
                                                 "IsZero": false,
                                                 "PropertyTagFlags": "None",
                                                 "PropertyTagExtensions": "NoExtension",
-                                                "Value": 5
+                                                "Value": 3
                                             }
                                         ]
                                     }
@@ -14615,7 +14633,7 @@
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                                 "Flags": 0,
                                 "HistoryType": "StringTableEntry",
-                                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
                                 "Namespace": null,
                                 "CultureInvariantString": null,
                                 "SourceFmt": null,
@@ -14630,13 +14648,13 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "Armor.Falling.Boots.Name"
+                                "Value": "Armor.IronHills.Boots.Name"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                                 "Flags": 0,
                                 "HistoryType": "StringTableEntry",
-                                "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+                                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
                                 "Namespace": null,
                                 "CultureInvariantString": null,
                                 "SourceFmt": null,
@@ -14651,7 +14669,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": "Armor.Falling.Boots.Description"
+                                "Value": "Armor.IronHills.Boots.Description"
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -14717,7 +14735,7 @@
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
-                                            "UI.Armor.Boots.Tier2"
+                                            "UI.Armor.Boots.Tier1"
                                         ]
                                     }
                                 ]
@@ -14801,17 +14819,7 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": [
-                                    {
-                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-                                        "Name": "0",
-                                        "ArrayIndex": 0,
-                                        "IsZero": false,
-                                        "PropertyTagFlags": "None",
-                                        "PropertyTagExtensions": "NoExtension",
-                                        "Value": -3
-                                    }
-                                ]
+                                "Value": []
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
@@ -14868,7 +14876,7 @@
                                         "IsZero": false,
                                         "PropertyTagFlags": "None",
                                         "PropertyTagExtensions": "NoExtension",
-                                        "Value": "UnlockInChapter3"
+                                        "Value": "UnlockInChapter2"
                                     }
                                 ]
                             },
@@ -15362,7 +15370,17 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": []
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": -80
+                                    }
+                                ]
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
@@ -23636,7 +23654,17 @@
                                 "IsZero": false,
                                 "PropertyTagFlags": "None",
                                 "PropertyTagExtensions": "NoExtension",
-                                "Value": []
+                                "Value": [
+                                    {
+                                        "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                                        "Name": "0",
+                                        "ArrayIndex": 0,
+                                        "IsZero": false,
+                                        "PropertyTagFlags": "None",
+                                        "PropertyTagExtensions": "NoExtension",
+                                        "Value": -83
+                                    }
+                                ]
                             },
                             {
                                 "$type": "UAssetAPI.PropertyTypes.Objects.MapPropertyData, UAssetAPI",
@@ -90621,7 +90649,9 @@
                 -67,
                 -70,
                 -73,
-                -76
+                -76,
+                -78,
+                -81
             ],
             "CreateBeforeCreateDependencies": [],
             "Extras": ""
@@ -91319,6 +91349,87 @@
             "OuterIndex": -75,
             "ClassPackage": "/Script/Engine",
             "ClassName": "StringTable",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "GE_MiningGloves_C",
+            "OuterIndex": -79,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "BlueprintGeneratedClass",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "Default__GE_MiningGloves_C",
+            "OuterIndex": -79,
+            "ClassPackage": "/Game/Mods/ArmoryPack/GameplayEffects/GE_MiningGloves",
+            "ClassName": "GE_MiningGloves_C",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/ArmoryPack/GameplayEffects/GE_MiningGloves",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "GE_AntiSound_C",
+            "OuterIndex": -82,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "BlueprintGeneratedClass",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "Default__GE_AntiSound_C",
+            "OuterIndex": -82,
+            "ClassPackage": "/Game/Mods/ArmoryPack/GameplayEffects/GE_AntiSound",
+            "ClassName": "GE_AntiSound_C",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/ArmoryPack/GameplayEffects/GE_AntiSound",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "GE_TauntHelmet_C",
+            "OuterIndex": -85,
+            "ClassPackage": "/Script/Engine",
+            "ClassName": "BlueprintGeneratedClass",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "Default__GE_TauntHelmet_C",
+            "OuterIndex": -85,
+            "ClassPackage": "/Game/Mods/ArmoryPack/GameplayEffects/GE_TauntHelmet",
+            "ClassName": "GE_TauntHelmet_C",
+            "PackageName": null,
+            "bImportOptional": false
+        },
+        {
+            "$type": "UAssetAPI.Import, UAssetAPI",
+            "ObjectName": "/Game/Mods/ArmoryPack/GameplayEffects/GE_TauntHelmet",
+            "OuterIndex": 0,
+            "ClassPackage": "/Script/CoreUObject",
+            "ClassName": "Package",
             "PackageName": null,
             "bImportOptional": false
         }
