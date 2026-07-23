@@ -4215,7 +4215,7 @@
           "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
           "ByteType": "Byte",
           "EnumType": "None",
-          "Value": 3,
+          "Value": 6,
           "Name": "Tier",
           "ArrayIndex": 0,
           "IsZero": false,
