@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Items/GE_HealthBrew",
+    "/Game/Mods/PorterGoat/Items/GE_HealthArmor",
     "/Game/Tech/Data/StringTables/ST_Effects",
     "/Game/Tech/Data/StringTables/ST_Effects.ST_Effects",
     "/Game/UI/Textures/_Icons/BuffIcons/T_UI_Icon_StatusBuff_Resilient",
@@ -46,7 +46,7 @@
     "DataTag",
     "Default__BlueprintGeneratedClass",
     "Default__GameplayEffect",
-    "Default__GE_HealthBrew_C",
+    "Default__GE_HealthArmor_C",
     "Default__MorGameplayEffectUIData",
     "Description",
     "DisplayName",
@@ -57,7 +57,7 @@
     "EGameplayEffectAttributeCaptureSource",
     "EGameplayEffectAttributeCaptureSource::Source",
     "EGameplayEffectDurationType",
-    "EGameplayEffectDurationType::HasDuration",
+    "EGameplayEffectDurationType::Infinite",
     "EGameplayEffectMagnitudeCalculation",
     "EGameplayEffectMagnitudeCalculation::ScalableFloat",
     "EGameplayEffectStackingType",
@@ -86,7 +86,7 @@
     "GameplayTag",
     "GameplayTagContainer",
     "GameplayTagRequirements",
-    "GE_HealthBrew_C",
+    "GE_HealthArmor_C",
     "Health",
     "Icon",
     "IgnoreTags",
@@ -272,7 +272,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "GE_HealthBrew_C",
+      "ObjectName": "GE_HealthArmor_C",
       "OuterIndex": 0,
       "ClassIndex": -3,
       "SuperIndex": -4,
@@ -316,70 +316,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "EGameplayEffectDurationType::HasDuration"
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-          "StructType": "GameplayEffectModifierMagnitude",
-          "SerializeNone": true,
-          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-          "SerializationControl": "NoExtension",
-          "Operation": "None",
-          "Name": "DurationMagnitude",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-              "StructType": "ScalableFloat",
-              "SerializeNone": true,
-              "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-              "SerializationControl": "NoExtension",
-              "Operation": "None",
-              "Name": "ScalableFloatMagnitude",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": [
-                {
-                  "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-                  "Value": 480.0,
-                  "Name": "Value",
-                  "ArrayIndex": 0,
-                  "IsZero": false,
-                  "PropertyTagFlags": "None",
-                  "PropertyTagExtensions": "NoExtension"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-          "StructType": "ScalableFloat",
-          "SerializeNone": true,
-          "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-          "SerializationControl": "NoExtension",
-          "Operation": "None",
-          "Name": "Period",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-              "Value": 1.0,
-              "Name": "Value",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension"
-            }
-          ]
+          "Value": "EGameplayEffectDurationType::Infinite"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
@@ -1974,7 +1911,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__GE_HealthBrew_C",
+      "ObjectName": "Default__GE_HealthArmor_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -2306,7 +2243,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/GE_HealthBrew",
+  "FolderName": "/Game/Mods/PorterGoat/Items/GE_HealthArmor",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

@@ -503,7 +503,7 @@
     "EpicPack.AdventurersPack_Krampus",
     "EpicPack.AdventurersPack_Large",
     "EpicPack.AdventurersPack_Small",
-    "EpicPack.Goat_Saddlebags",
+    "Armor.SaddleBags_Armor",
     "EreborIngot",
     "EreborSteel_APSet_Black_BootsArmor",
     "EreborSteel_APSet_Black_GlovesArmor",
@@ -329075,7 +329075,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "EpicPack.Goat_Saddlebags"
+                    "Value": "Armor.SaddleBags_Armor"
                   }
                 ]
               },
