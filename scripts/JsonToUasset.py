@@ -12,7 +12,7 @@ MAX_WORKERS = 6  # ajusta según pruebas
 
 def convert_file(source, dest):
     cmd = [UASSETGUI_PATH, "fromjson", source, dest, ENGINE_VERSION]
-    result = subprocess.run(cmd, capture_output=True, text=True)
+    result = subprocess.run(cmd, capture_output=True, text=True, check=False)
 
     if result.returncode != 0:
         return {
