@@ -7,7 +7,7 @@ If you want to get news of incomming updates and have a better support for bugs 
 
 If you like this mod or any of my mods please support me on [ko-fi](https://ko-fi.com/tobiichiro14)
 
-## (Ir-Râruk Khâzad-dûm) Secrets Of Khazâd-dûm
+## Secrets Of Khazâd-dûm (Ir-Râruk Khâzad-dûm)
 > “Reclaim Moria with the new uncover secrets beneath the mountain
 
 ### Overview
@@ -111,7 +111,7 @@ Introducing a new tree from the lands of Arnor, the **Ceiba Tree**
 
 ---
 
-## Expansion II – Dwarven Traditions (Khazâd-afarân)
+## Expansion II – Dwarven Traditions (Khazâd-Afarân)
 > Rediscover the traditions that bring warmth and pride to the halls of Khazâd-dûm.
 
 ### Overview
@@ -191,7 +191,7 @@ Introducing a new set of Ithilding doors
 
 ---
 
-## Expansion III - Hunter's Lodge (Utas-kharaf)
+## Expansion III - Hunter's Lodge (Utas-Kharaf)
 > From legendary hunts to ancient relics, reclaim the wild traditions of the dwarves beneath the mountain.
 
 ### Overview
@@ -287,5 +287,6 @@ Introduces legendary Tier 7 weapons and masterwork forging.
 
 ---
 
-## Expansion IV - Porter Goat
-## Expansion V - Khazâd-mazzar (Dwarven Workshops)
+## Expansion IV - Year of the Goat
+
+## Expansion V - Dwarven Workshops (Khazâd-mazzar)
