@@ -4,11 +4,11 @@
   "NameMap": [
     "/Game/Character/Creatures/BP_Fauna_Base",
     "/Game/Character/Creatures/Spider/BP_Monster_Spider",
-    "/Game/Character/Creatures/Spider/Cave/BP_Spider_Cave",
+    "/Game/ModsMapsBP/Enemies/Spider_Boss/BP_Spider_Boss",
     "/Game/Character/Shared/Effects/Stats/GE_Starting_Cave_Spider",
     "/Game/CharacterArt/Creatures/CaveSpider/MI_CaveSpider",
-    "/Game/Tech/Data/StringTables/ST_AiCharacters",
-    "/Game/Tech/Data/StringTables/ST_AiCharacters.ST_AiCharacters",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_AICharacters",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_AICharacters.ST_Mod_AICharacters",
     "/Script/AIModule",
     "/Script/AkAudio",
     "/Script/CoreUObject",
@@ -36,7 +36,7 @@
     "BoolProperty",
     "BP_Fauna_Base_C",
     "BP_Monster_Spider_C",
-    "BP_Spider_Cave_C",
+    "BP_Spider_Boss_C",
     "ByteProperty",
     "CapsuleComponent",
     "CapsuleRadius",
@@ -58,7 +58,7 @@
     "CookedComponentInstancingData",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Monster_Spider_C",
-    "Default__BP_Spider_Cave_C",
+    "Default__BP_Spider_Boss_C",
     "Default__GE_Starting_Cave_Spider_C",
     "Default__InheritableComponentHandler",
     "Default__SceneComponent",
@@ -178,7 +178,7 @@
     "SimpleConstructionScript",
     "SkeletalMeshComponent",
     "SoundComp",
-    "ST_AiCharacters",
+    "ST_Mod_AICharacters",
     "StartingAttributes",
     "StartingGameplayTags",
     "StaticMeshComponent",
@@ -350,7 +350,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Spider_Cave_C",
+      "ObjectName": "BP_Spider_Boss_C",
       "OuterIndex": 0,
       "ClassIndex": -14,
       "SuperIndex": -5,
@@ -518,7 +518,7 @@
           "$type": "UAssetAPI.PropertyTypes.Objects.BytePropertyData, UAssetAPI",
           "ByteType": "Byte",
           "EnumType": "None",
-          "Value": 2,
+          "Value": 6,
           "Name": "Tier",
           "ArrayIndex": 0,
           "IsZero": false,
@@ -529,7 +529,7 @@
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
           "Flags": 0,
           "HistoryType": "StringTableEntry",
-          "TableId": "/Game/Tech/Data/StringTables/ST_AiCharacters.ST_AiCharacters",
+          "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_AICharacters.ST_Mod_AICharacters",
           "Namespace": null,
           "CultureInvariantString": null,
           "SourceFmt": null,
@@ -544,7 +544,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "BP_Spider_Cave"
+          "Value": "BP_Spider_Boss"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -684,7 +684,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Spider_Cave_C",
+      "ObjectName": "Default__BP_Spider_Boss_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -1834,9 +1834,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 0.6000000238418579,
-                "Y": 0.6000000238418579,
-                "Z": 0.6000000238418579
+                "X": 3.4242,
+                "Y": 3.4242,
+                "Z": 3.4242
               }
             }
           ]
@@ -2504,7 +2504,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Tech/Data/StringTables/ST_AiCharacters",
+      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_AICharacters",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3089,7 +3089,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "ST_AiCharacters",
+      "ObjectName": "ST_Mod_AICharacters",
       "OuterIndex": -58,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
@@ -3193,7 +3193,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Character/Creatures/Spider/Cave/BP_Spider_Cave",
+  "FolderName": "/Game/ModsMapsBP/Enemies/Spider_Boss/BP_Spider_Boss",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
