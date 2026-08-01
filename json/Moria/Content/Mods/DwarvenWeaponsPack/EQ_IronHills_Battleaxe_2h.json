@@ -26,7 +26,7 @@
     "AttachParent",
     "Attacker",
     "AutoAttachSocketName",
-    "Battleaxe_2h_IronHills",
+    "IronHills_Battleaxe_2h",
     "bAutoActivate",
     "bHasValidCookedData",
     "bloodtrail",
@@ -1257,7 +1257,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Battleaxe_2h_IronHills"
+              "Value": "IronHills_Battleaxe_2h"
             }
           ]
         },

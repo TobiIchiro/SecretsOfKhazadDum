@@ -29,7 +29,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_Category_Weapon_C",
-    "Broken_Thorin_Axe",
+    "Broken_IronHills_WarAxe_1h",
     "ByteProperty",
     "Callout Data",
     "CalloutData",
@@ -336,7 +336,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Broken_Thorin_Axe"
+              "Value": "Broken_IronHills_WarAxe_1h"
             }
           ]
         },

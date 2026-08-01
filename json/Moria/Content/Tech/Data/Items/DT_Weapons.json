@@ -928,14 +928,14 @@
     "/Game/Mods/DwarvenWeaponsPack/BrokenVersions/EQ_IronHills_Battleaxe_2h_Broken.EQ_IronHills_Battleaxe_2h_Broken_C",
     "/Game/Mods/DwarvenWeaponsPack/BrokenVersions/EQ_IronHills_Battleaxe_2h_Broken",
     "EQ_IronHills_Battleaxe_2h_Broken",
-    "IronHills_WarAxe_2h",
-    "/Game/Mods/DwarvenWeaponsPack/EQ_IronHills_WarAxe_2h.EQ_IronHills_WarAxe_2h_C",
-    "/Game/Mods/DwarvenWeaponsPack/EQ_IronHills_WarAxe_2h",
-    "EQ_IronHills_WarAxe_2h",
-    "Broken_IronHills_WarAxe_2h",
-    "/Game/Mods/DwarvenWeaponsPack/BrokenVersions/EQ_IronHills_WarAxe_2h_Broken.EQ_IronHills_WarAxe_2h_Broken_C",
-    "/Game/Mods/DwarvenWeaponsPack/BrokenVersions/EQ_IronHills_WarAxe_2h_Broken",
-    "EQ_IronHills_WarAxe_2h_Broken"
+    "IronHills_WarAxe_1h",
+    "/Game/Mods/DwarvenWeaponsPack/EQ_IronHills_WarAxe_1h.EQ_IronHills_WarAxe_1h_C",
+    "/Game/Mods/DwarvenWeaponsPack/EQ_IronHills_WarAxe_1h",
+    "EQ_IronHills_WarAxe_1h",
+    "Broken_IronHills_WarAxe_1h",
+    "/Game/Mods/DwarvenWeaponsPack/BrokenVersions/EQ_IronHills_WarAxe_1h_Broken.EQ_IronHills_WarAxe_1h_Broken_C",
+    "/Game/Mods/DwarvenWeaponsPack/BrokenVersions/EQ_IronHills_WarAxe_1h_Broken",
+    "EQ_IronHills_WarAxe_1h_Broken"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -110511,7 +110511,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "IronHills_WarAxe_2h",
+            "Name": "IronHills_WarAxe_1h",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -110537,7 +110537,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Damage.Bludgeon.Hammer.2h"
+                    "Value": "Damage.Slashing.Axe.1h"
                   }
                 ]
               },
@@ -110784,7 +110784,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/DwarvenWeaponsPack/Icons/T_UI_Icon_IronHills_Hammer.T_UI_Icon_IronHills_Hammer"
+                    "AssetName": "/Game/Mods/DwarvenWeaponsPack/Icons/T_UI_Icon_IronHills_Axe.T_UI_Icon_IronHills_Axe"
                   },
                   "SubPathString": null
                 }
@@ -110801,7 +110801,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/DwarvenWeaponsPack/EQ_IronHills_WarAxe_2h.EQ_IronHills_WarAxe_2h_C"
+                    "AssetName": "/Game/Mods/DwarvenWeaponsPack/EQ_IronHills_WarAxe_1h.EQ_IronHills_WarAxe_1h_C"
                   },
                   "SubPathString": null
                 }
@@ -111077,7 +111077,7 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
-            "Name": "Broken_IronHills_WarAxe_2h",
+            "Name": "Broken_IronHills_WarAxe_1h",
             "ArrayIndex": 0,
             "IsZero": false,
             "PropertyTagFlags": "None",
@@ -111350,7 +111350,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/DwarvenWeaponsPack/Icons/T_UI_Icon_IronHills_Hammer.T_UI_Icon_IronHills_Hammer"
+                    "AssetName": "/Game/Mods/DwarvenWeaponsPack/Icons/T_UI_Icon_IronHills_Axe.T_UI_Icon_IronHills_Axe"
                   },
                   "SubPathString": null
                 }
@@ -111367,7 +111367,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/DwarvenWeaponsPack/BrokenVersions/EQ_IronHills_WarAxe_2h_Broken.EQ_IronHills_WarAxe_2h_Broken_C"
+                    "AssetName": "/Game/Mods/DwarvenWeaponsPack/BrokenVersions/EQ_IronHills_WarAxe_1h_Broken.EQ_IronHills_WarAxe_1h_Broken_C"
                   },
                   "SubPathString": null
                 }

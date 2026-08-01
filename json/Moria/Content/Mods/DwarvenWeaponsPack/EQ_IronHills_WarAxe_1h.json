@@ -116,7 +116,7 @@
     "TransformLocatorComponent",
     "VariableGuid",
     "Vector",
-    "IronHills_WarAxe",
+    "IronHills_WarAxe_1h",
     "WeaponParticleEffectArea",
     "WeaponVFX",
     "WeaponVFX_GEN_VARIABLE",
@@ -361,7 +361,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "IronHills_WarAxe"
+              "Value": "IronHills_WarAxe_1h"
             }
           ]
         },

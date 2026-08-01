@@ -39,7 +39,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_Category_Weapon_C",
-    "Broken_Battleaxe_2h_IronHills",
+    "Broken_IronHills_Battleaxe_2h",
     "ByteProperty",
     "Callout Data",
     "CalloutData",
@@ -1170,7 +1170,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Broken_Battleaxe_2h_IronHills"
+              "Value": "Broken_IronHills_Battleaxe_2h"
             }
           ]
         },
