@@ -1158,7 +1158,8 @@
     "Armor.EregionSet_HelmetArmor",
     "Eregion_Set_HelmetArmor",
     "CraftingStation_LegendaryTelcharFurnace",
-    "CraftingStation_LegendaryTelcharForge"
+    "CraftingStation_LegendaryTelcharForge",
+    "Goat_Bell_Fragment"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -330293,7 +330294,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "EMorRecipeUnlockType::Manual"
+                    "Value": "EMorRecipeUnlockType::CollectFragments"
                   },
                   {
                     "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
@@ -330307,26 +330308,37 @@
                   {
                     "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
                     "ArrayType": "StructProperty",
-                    "DummyStruct": {
-                      "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                      "StructType": "MorRecipeFragmentRowHandle",
-                      "SerializeNone": true,
-                      "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                      "SerializationControl": "NoExtension",
-                      "Operation": "None",
-                      "Name": "UnlockRequiredFragments",
-                      "ArrayIndex": 0,
-                      "IsZero": false,
-                      "PropertyTagFlags": "None",
-                      "PropertyTagExtensions": "NoExtension",
-                      "Value": []
-                    },
                     "Name": "UnlockRequiredFragments",
                     "ArrayIndex": 0,
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": []
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                        "StructType": "MorRecipeFragmentRowHandle",
+                        "SerializeNone": true,
+                        "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                        "SerializationControl": "NoExtension",
+                        "Operation": "None",
+                        "Name": "UnlockRequiredFragments",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": [
+                          {
+                            "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                            "Name": "RowName",
+                            "ArrayIndex": 0,
+                            "IsZero": false,
+                            "PropertyTagFlags": "None",
+                            "PropertyTagExtensions": "NoExtension",
+                            "Value": "Goat_Bell_Fragment"
+                          }
+                        ]
+                      }
+                    ]
                   },
                   {
                     "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
@@ -330381,7 +330393,7 @@
                             "IsZero": false,
                             "PropertyTagFlags": "None",
                             "PropertyTagExtensions": "NoExtension",
-                            "Value": "CraftingStation_FabricStation_Upgrade"
+                            "Value": "CraftingStation_BasicForge"
                           }
                         ]
                       }
