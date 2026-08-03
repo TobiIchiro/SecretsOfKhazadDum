@@ -3944,7 +3944,7 @@
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
                 "Pitch": "+0",
-                "Yaw": 90.0,
+                "Yaw": 0.0,
                 "Roll": "+0"
               }
             }
