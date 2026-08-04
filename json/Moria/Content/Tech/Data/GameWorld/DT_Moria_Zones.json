@@ -956,6 +956,9 @@
     "SandboxSmall-chapter-6",
     "SandboxSmall-chapter-7",
     "SandboxSmall-chapter-8",
+    "SandboxSmall-DimrillDale",
+    "SandboxSmall-DurinTower",
+    "SandboxSmall-TradingPost",
     "SceneComponent",
     "ScriptStruct",
     "SlideToZone",
@@ -147783,7 +147786,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Moria-DurinTower"
+                    "Value": "SandboxSmall-DurinTower"
                   }
                 ]
               },
@@ -149135,7 +149138,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Moria-TradingPost"
+                    "Value": "SandboxSmall-TradingPost"
                   }
                 ]
               },
@@ -150487,7 +150490,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Moria-DimrillDale"
+                    "Value": "SandboxSmall-DimrillDale"
                   }
                 ]
               },
