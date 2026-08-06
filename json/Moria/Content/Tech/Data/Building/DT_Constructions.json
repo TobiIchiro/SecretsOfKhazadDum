@@ -3074,6 +3074,9 @@
     "/Game/Mods/MithrilWallsPack/Constructions/Icons/T_UI_BuildIcon_MithrilWallsPack_MithrilWall_C",
     "/Game/Mods/MithrilWallsPack/Constructions/Icons/T_UI_BuildIcon_MithrilWallsPack_MithrilWall_D",
     "/Game/Mods/MithrilWallsPack/Constructions/Icons/T_UI_BuildIcon_MithrilWallsPack_MithrilWall_E",
+    "/Game/Mods/MoreCraftingStationsPack/BP_CraftingStation_ResearchPile",
+    "/Game/Mods/MoreCraftingStationsPack/BP_CraftingStation_ResearchPile.BP_CraftingStation_ResearchPile_C",
+    "/Game/Mods/MoreCraftingStationsPack/Constructions/Icons/T_UI_BuildIcon_MoreCraftingStationsPack_ResearchStation",
     "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Barrel_A",
     "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Basin_A",
     "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Bucket_A",
@@ -5056,6 +5059,7 @@
     "MithrilWallsPack_MithrilWall_D",
     "MithrilWallsPack_MithrilWall_E",
     "MorConstructionDefinition",
+    "MoreCraftingStationsPack_ResearchStation",
     "None",
     "Object",
     "ObjectProperty",
@@ -5787,6 +5791,7 @@
     "T_UI_BuildIcon_Monument_HeartOfTheMountain",
     "T_UI_BuildIcon_Monument_Pillar",
     "T_UI_BuildIcon_Monument_RingVault",
+    "T_UI_BuildIcon_MoreCraftingStationsPack_ResearchStation",
     "T_UI_BuildIcon_NarrowArchway",
     "T_UI_BuildIcon_NarrowArchwayCrown",
     "T_UI_BuildIcon_NarrowGoldAWall",
@@ -183782,6 +183787,170 @@
             "StructGUID": "{00000000-0000-0000-0000-000000000000}",
             "SerializationControl": "NoExtension",
             "Operation": "None",
+            "Name": "MoreCraftingStationsPack_ResearchStation",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "DisplayName",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "MoreCraftingStationsPack_ResearchStation.Name"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
+                "Flags": 0,
+                "HistoryType": "StringTableEntry",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables",
+                "Namespace": null,
+                "CultureInvariantString": null,
+                "SourceFmt": null,
+                "Arguments": null,
+                "ArgumentsData": null,
+                "TransformType": "ToLower",
+                "SourceValue": null,
+                "FormatOptions": null,
+                "TargetCulture": null,
+                "Name": "Description",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "MoreCraftingStationsPack_ResearchStation.Description"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+                "Name": "Icon",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": -2125
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
+                "Name": "Actor",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": {
+                  "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                  "AssetPath": {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                    "PackageName": null,
+                    "AssetName": "/Game/Mods/MoreCraftingStationsPack/BP_CraftingStation_ResearchPile.BP_CraftingStation_ResearchPile_C"
+                  },
+                  "SubPathString": null
+                }
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+                "ArrayType": "StructProperty",
+                "Name": "BackwardCompatibilityActors",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "SoftObjectPath",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "BackwardCompatibilityActors",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Structs.SoftObjectPathPropertyData, UAssetAPI",
+                        "Path": null,
+                        "Name": "BackwardCompatibilityActors",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": {
+                          "$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+                          "AssetPath": {
+                            "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+                            "PackageName": null,
+                            "AssetName": "/Game/Mods/MoreCraftingStationsPack/BP_CraftingStation_ResearchPile.BP_CraftingStation_ResearchPile_C"
+                          },
+                          "SubPathString": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "Tags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "Tags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "UI.Construction.Category.Base.Handycraft"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorConstructionDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
             "Name": "OlfahrPack_Barrel_A",
             "ArrayIndex": 0,
             "IsZero": false,
@@ -183837,7 +184006,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2125
+                "Value": -2127
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184001,7 +184170,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2127
+                "Value": -2129
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184165,7 +184334,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2129
+                "Value": -2131
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184329,7 +184498,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2131
+                "Value": -2133
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184493,7 +184662,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2133
+                "Value": -2135
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184657,7 +184826,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2135
+                "Value": -2137
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184821,7 +184990,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2137
+                "Value": -2139
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -184985,7 +185154,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2139
+                "Value": -2141
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185149,7 +185318,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2141
+                "Value": -2143
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185313,7 +185482,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2143
+                "Value": -2145
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185477,7 +185646,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2145
+                "Value": -2147
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185641,7 +185810,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2147
+                "Value": -2149
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185805,7 +185974,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2149
+                "Value": -2151
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -185969,7 +186138,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2151
+                "Value": -2153
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186133,7 +186302,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2153
+                "Value": -2155
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186297,7 +186466,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2155
+                "Value": -2157
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186461,7 +186630,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2157
+                "Value": -2159
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186625,7 +186794,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2159
+                "Value": -2161
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186789,7 +186958,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2161
+                "Value": -2163
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -186953,7 +187122,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2163
+                "Value": -2165
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187117,7 +187286,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2165
+                "Value": -2167
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187281,7 +187450,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2167
+                "Value": -2169
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187445,7 +187614,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2169
+                "Value": -2171
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187609,7 +187778,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2171
+                "Value": -2173
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187773,7 +187942,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2173
+                "Value": -2175
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -187937,7 +188106,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2175
+                "Value": -2177
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188101,7 +188270,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2177
+                "Value": -2179
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188265,7 +188434,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2179
+                "Value": -2181
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188429,7 +188598,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2181
+                "Value": -2183
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188593,7 +188762,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2183
+                "Value": -2185
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188757,7 +188926,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2185
+                "Value": -2187
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -188921,7 +189090,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2187
+                "Value": -2189
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189085,7 +189254,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2189
+                "Value": -2191
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189249,7 +189418,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2191
+                "Value": -2193
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189413,7 +189582,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2193
+                "Value": -2195
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189577,7 +189746,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2195
+                "Value": -2197
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189741,7 +189910,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2197
+                "Value": -2199
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -189905,7 +190074,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2199
+                "Value": -2201
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190069,7 +190238,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2201
+                "Value": -2203
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190233,7 +190402,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2203
+                "Value": -2205
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190397,7 +190566,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2205
+                "Value": -2207
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190561,7 +190730,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2207
+                "Value": -2209
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190725,7 +190894,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2209
+                "Value": -2211
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -190889,7 +191058,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2211
+                "Value": -2213
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191053,7 +191222,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2213
+                "Value": -2215
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191217,7 +191386,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2215
+                "Value": -2217
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191381,7 +191550,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2217
+                "Value": -2219
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191545,7 +191714,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2219
+                "Value": -2221
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191709,7 +191878,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2221
+                "Value": -2223
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -191873,7 +192042,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2223
+                "Value": -2225
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192037,7 +192206,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2225
+                "Value": -2227
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192201,7 +192370,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2227
+                "Value": -2229
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192365,7 +192534,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2229
+                "Value": -2231
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192529,7 +192698,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2231
+                "Value": -2233
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192693,7 +192862,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2233
+                "Value": -2235
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -192857,7 +193026,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2235
+                "Value": -2237
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193021,7 +193190,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2237
+                "Value": -2239
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193185,7 +193354,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2239
+                "Value": -2241
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193349,7 +193518,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2241
+                "Value": -2243
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193513,7 +193682,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2243
+                "Value": -2245
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193677,7 +193846,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2245
+                "Value": -2247
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -193841,7 +194010,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2247
+                "Value": -2249
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194005,7 +194174,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2249
+                "Value": -2251
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194169,7 +194338,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2251
+                "Value": -2253
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194333,7 +194502,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2253
+                "Value": -2255
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194497,7 +194666,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2255
+                "Value": -2257
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194661,7 +194830,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2257
+                "Value": -2259
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194825,7 +194994,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2259
+                "Value": -2261
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -194989,7 +195158,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2261
+                "Value": -2263
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -195153,7 +195322,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2263
+                "Value": -2265
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -195317,7 +195486,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2265
+                "Value": -2267
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -195481,7 +195650,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2267
+                "Value": -2269
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -195645,7 +195814,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2269
+                "Value": -2271
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -195809,7 +195978,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2271
+                "Value": -2273
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -195973,7 +196142,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2273
+                "Value": -2275
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -196137,7 +196306,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2275
+                "Value": -2277
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -196301,7 +196470,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2277
+                "Value": -2279
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -196465,7 +196634,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2279
+                "Value": -2281
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -196629,7 +196798,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2281
+                "Value": -2283
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -196793,7 +196962,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2283
+                "Value": -2285
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -196957,7 +197126,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2285
+                "Value": -2287
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -197121,7 +197290,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2287
+                "Value": -2289
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -197285,7 +197454,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2289
+                "Value": -2291
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -197449,7 +197618,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2291
+                "Value": -2293
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -197613,7 +197782,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2293
+                "Value": -2295
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -197777,7 +197946,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2295
+                "Value": -2297
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -197941,7 +198110,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2297
+                "Value": -2299
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -198105,7 +198274,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2299
+                "Value": -2301
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -198269,7 +198438,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2301
+                "Value": -2303
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -198433,7 +198602,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2303
+                "Value": -2305
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -198597,7 +198766,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2305
+                "Value": -2307
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -198761,7 +198930,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2307
+                "Value": -2309
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -200381,7 +200550,9 @@
         -2303,
         -2305,
         -2307,
-        -2309
+        -2309,
+        -2311,
+        -2313
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -219507,6 +219678,24 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/MoreCraftingStationsPack/Constructions/Icons/T_UI_BuildIcon_MoreCraftingStationsPack_ResearchStation",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_MoreCraftingStationsPack_ResearchStation",
+      "OuterIndex": -2124,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "/Game/Mods/OlfahrPack/Constructions/Icons/T_UI_BuildIcon_OlfahrPack_Barrel_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
@@ -219517,7 +219706,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Barrel_A",
-      "OuterIndex": -2124,
+      "OuterIndex": -2126,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219535,7 +219724,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Basin_A",
-      "OuterIndex": -2126,
+      "OuterIndex": -2128,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219553,7 +219742,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Bucket_A",
-      "OuterIndex": -2128,
+      "OuterIndex": -2130,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219571,7 +219760,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_LargeWinch_A",
-      "OuterIndex": -2130,
+      "OuterIndex": -2132,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219589,7 +219778,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Lift_A",
-      "OuterIndex": -2132,
+      "OuterIndex": -2134,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219607,7 +219796,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Lift_B",
-      "OuterIndex": -2134,
+      "OuterIndex": -2136,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219625,7 +219814,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_A",
-      "OuterIndex": -2136,
+      "OuterIndex": -2138,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219643,7 +219832,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_OpenWoodenCrate_B",
-      "OuterIndex": -2138,
+      "OuterIndex": -2140,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219661,7 +219850,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_A",
-      "OuterIndex": -2140,
+      "OuterIndex": -2142,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219679,7 +219868,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_OrnateWoodenCrate_B",
-      "OuterIndex": -2142,
+      "OuterIndex": -2144,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219697,7 +219886,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Wagon_A",
-      "OuterIndex": -2144,
+      "OuterIndex": -2146,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219715,7 +219904,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_Windlass_A",
-      "OuterIndex": -2146,
+      "OuterIndex": -2148,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219733,7 +219922,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_WoodenCrate_A",
-      "OuterIndex": -2148,
+      "OuterIndex": -2150,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219751,7 +219940,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_OlfahrPack_WoodenCrate_B",
-      "OuterIndex": -2150,
+      "OuterIndex": -2152,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219769,7 +219958,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_RailingCorner_A",
-      "OuterIndex": -2152,
+      "OuterIndex": -2154,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219787,7 +219976,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_RailingCorner_RedRock_A",
-      "OuterIndex": -2154,
+      "OuterIndex": -2156,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219805,7 +219994,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_RailingCorner_WhiteMarble_A",
-      "OuterIndex": -2156,
+      "OuterIndex": -2158,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219823,7 +220012,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_A",
-      "OuterIndex": -2158,
+      "OuterIndex": -2160,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219841,7 +220030,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_B",
-      "OuterIndex": -2160,
+      "OuterIndex": -2162,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219859,7 +220048,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_RedRock_A",
-      "OuterIndex": -2162,
+      "OuterIndex": -2164,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219877,7 +220066,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_RedRock_B",
-      "OuterIndex": -2164,
+      "OuterIndex": -2166,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219895,7 +220084,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_A",
-      "OuterIndex": -2166,
+      "OuterIndex": -2168,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219913,7 +220102,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_RailingsPack_Railing_WhiteMarble_B",
-      "OuterIndex": -2168,
+      "OuterIndex": -2170,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219931,7 +220120,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_DwellingCabinet_A",
-      "OuterIndex": -2170,
+      "OuterIndex": -2172,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219949,7 +220138,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_DwellingCabinet_B",
-      "OuterIndex": -2172,
+      "OuterIndex": -2174,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219967,7 +220156,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_DwellingCabinet_C",
-      "OuterIndex": -2174,
+      "OuterIndex": -2176,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -219985,7 +220174,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_DwellingCabinet_D",
-      "OuterIndex": -2176,
+      "OuterIndex": -2178,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220003,7 +220192,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_GlassCabinet_A",
-      "OuterIndex": -2178,
+      "OuterIndex": -2180,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220021,7 +220210,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_KegStand_A",
-      "OuterIndex": -2180,
+      "OuterIndex": -2182,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220039,7 +220228,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_PotsRack_A",
-      "OuterIndex": -2182,
+      "OuterIndex": -2184,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220057,7 +220246,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SeraniPack_WoodPile_A",
-      "OuterIndex": -2184,
+      "OuterIndex": -2186,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220075,7 +220264,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SignPack_BeornSign",
-      "OuterIndex": -2186,
+      "OuterIndex": -2188,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220093,7 +220282,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_A",
-      "OuterIndex": -2188,
+      "OuterIndex": -2190,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220111,7 +220300,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_B",
-      "OuterIndex": -2190,
+      "OuterIndex": -2192,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220129,7 +220318,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_C",
-      "OuterIndex": -2192,
+      "OuterIndex": -2194,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220147,7 +220336,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_D",
-      "OuterIndex": -2194,
+      "OuterIndex": -2196,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220165,7 +220354,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_SilverWallsPack_SilverWall_E",
-      "OuterIndex": -2196,
+      "OuterIndex": -2198,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220183,7 +220372,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_A",
-      "OuterIndex": -2198,
+      "OuterIndex": -2200,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220201,7 +220390,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_B",
-      "OuterIndex": -2200,
+      "OuterIndex": -2202,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220219,7 +220408,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_C",
-      "OuterIndex": -2202,
+      "OuterIndex": -2204,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220237,7 +220426,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_D",
-      "OuterIndex": -2204,
+      "OuterIndex": -2206,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220255,7 +220444,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_E",
-      "OuterIndex": -2206,
+      "OuterIndex": -2208,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220273,7 +220462,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_StreetLampPack_StreetLamp_F",
-      "OuterIndex": -2208,
+      "OuterIndex": -2210,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220291,7 +220480,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnBase_A",
-      "OuterIndex": -2210,
+      "OuterIndex": -2212,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220309,7 +220498,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnBase_Moss_A",
-      "OuterIndex": -2212,
+      "OuterIndex": -2214,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220327,7 +220516,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnBase_Redrock_A",
-      "OuterIndex": -2214,
+      "OuterIndex": -2216,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220345,7 +220534,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnBase_Whitemarble_A",
-      "OuterIndex": -2216,
+      "OuterIndex": -2218,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220363,7 +220552,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnCapital_A",
-      "OuterIndex": -2218,
+      "OuterIndex": -2220,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220381,7 +220570,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnCapital_Moss_A",
-      "OuterIndex": -2220,
+      "OuterIndex": -2222,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220399,7 +220588,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnCapital_Redrock_A",
-      "OuterIndex": -2222,
+      "OuterIndex": -2224,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220417,7 +220606,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnCapital_Whitemarble_A",
-      "OuterIndex": -2224,
+      "OuterIndex": -2226,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220435,7 +220624,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnShaft_A",
-      "OuterIndex": -2226,
+      "OuterIndex": -2228,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220453,7 +220642,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnShaft_Moss_A",
-      "OuterIndex": -2228,
+      "OuterIndex": -2230,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220471,7 +220660,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnShaft_Redrock_A",
-      "OuterIndex": -2230,
+      "OuterIndex": -2232,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220489,7 +220678,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiDurinPack_ColumnShaft_Whitemarble_A",
-      "OuterIndex": -2232,
+      "OuterIndex": -2234,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220507,7 +220696,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_InlaidFloor_A",
-      "OuterIndex": -2234,
+      "OuterIndex": -2236,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220525,7 +220714,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_PatternedFloor_A",
-      "OuterIndex": -2236,
+      "OuterIndex": -2238,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220543,7 +220732,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_PatternedFloor_B",
-      "OuterIndex": -2238,
+      "OuterIndex": -2240,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220561,7 +220750,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_TiledFloor_A",
-      "OuterIndex": -2240,
+      "OuterIndex": -2242,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220579,7 +220768,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_TiledFloor_B",
-      "OuterIndex": -2242,
+      "OuterIndex": -2244,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220597,7 +220786,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiFloorPack_TiledFloor_C",
-      "OuterIndex": -2244,
+      "OuterIndex": -2246,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220615,7 +220804,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_AleKeg",
-      "OuterIndex": -2246,
+      "OuterIndex": -2248,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220633,7 +220822,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_BirdNest_A",
-      "OuterIndex": -2248,
+      "OuterIndex": -2250,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220651,7 +220840,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_BirdNest_B",
-      "OuterIndex": -2250,
+      "OuterIndex": -2252,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220669,7 +220858,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_Ceiling_Center",
-      "OuterIndex": -2252,
+      "OuterIndex": -2254,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220687,7 +220876,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_Ceiling_Corner",
-      "OuterIndex": -2254,
+      "OuterIndex": -2256,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220705,7 +220894,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_DecoratedArch_A",
-      "OuterIndex": -2256,
+      "OuterIndex": -2258,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220723,7 +220912,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_DecoratedArch_B",
-      "OuterIndex": -2258,
+      "OuterIndex": -2260,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220741,7 +220930,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_Floor_Wood_3x3_A",
-      "OuterIndex": -2260,
+      "OuterIndex": -2262,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220759,7 +220948,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_TobiPack_LargeBrazier",
-      "OuterIndex": -2262,
+      "OuterIndex": -2264,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220777,7 +220966,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_UzbadPack_AngledWoodenFloor_A",
-      "OuterIndex": -2264,
+      "OuterIndex": -2266,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220795,7 +220984,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_UzbadPack_ChoppingBlock_A",
-      "OuterIndex": -2266,
+      "OuterIndex": -2268,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220813,7 +221002,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_UzbadPack_KitchenCauldron_A",
-      "OuterIndex": -2268,
+      "OuterIndex": -2270,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220831,7 +221020,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_UzbadPack_ThinWoodFloorTile_A",
-      "OuterIndex": -2270,
+      "OuterIndex": -2272,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220849,7 +221038,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_A",
-      "OuterIndex": -2272,
+      "OuterIndex": -2274,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220867,7 +221056,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_B",
-      "OuterIndex": -2274,
+      "OuterIndex": -2276,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220885,7 +221074,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_C",
-      "OuterIndex": -2276,
+      "OuterIndex": -2278,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220903,7 +221092,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_D",
-      "OuterIndex": -2278,
+      "OuterIndex": -2280,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220921,7 +221110,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_E",
-      "OuterIndex": -2280,
+      "OuterIndex": -2282,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220939,7 +221128,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_F",
-      "OuterIndex": -2282,
+      "OuterIndex": -2284,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220957,7 +221146,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_G",
-      "OuterIndex": -2284,
+      "OuterIndex": -2286,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220975,7 +221164,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_VasePack_Vase_H",
-      "OuterIndex": -2286,
+      "OuterIndex": -2288,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -220993,7 +221182,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteBarrier_A",
-      "OuterIndex": -2288,
+      "OuterIndex": -2290,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -221011,7 +221200,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteColumnBase_A",
-      "OuterIndex": -2290,
+      "OuterIndex": -2292,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -221029,7 +221218,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteColumnCapital_A",
-      "OuterIndex": -2292,
+      "OuterIndex": -2294,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -221047,7 +221236,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteColumnShaft_A",
-      "OuterIndex": -2294,
+      "OuterIndex": -2296,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -221065,7 +221254,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteDoor_A",
-      "OuterIndex": -2296,
+      "OuterIndex": -2298,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -221083,7 +221272,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteFloor_A",
-      "OuterIndex": -2298,
+      "OuterIndex": -2300,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -221101,7 +221290,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteStairs_A",
-      "OuterIndex": -2300,
+      "OuterIndex": -2302,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -221119,7 +221308,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteTrimedBarrier_A",
-      "OuterIndex": -2302,
+      "OuterIndex": -2304,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -221137,7 +221326,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteWall_A",
-      "OuterIndex": -2304,
+      "OuterIndex": -2306,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -221155,7 +221344,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_ZetaPack_WhiteGraniteWindow_A",
-      "OuterIndex": -2306,
+      "OuterIndex": -2308,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,
@@ -221173,7 +221362,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "ST_Mod_Architecture",
-      "OuterIndex": -2308,
+      "OuterIndex": -2310,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
       "PackageName": null,
@@ -221191,7 +221380,7 @@
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "ST_Mod_Interactables",
-      "OuterIndex": -2310,
+      "OuterIndex": -2312,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
       "PackageName": null,

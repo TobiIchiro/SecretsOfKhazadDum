@@ -374,7 +374,8 @@
     "MinerSet_GlovesArmor",
     "/Game/Mods/ArmoryPack/Items/BP_RecipeFragment_MinerSet_GlovesArmor.BP_RecipeFragment_MinerSet_GlovesArmor_C",
     "Goat_Bell_Fragment",
-    "/Game/Mods/PorterGoat/Items/BP_RecipeFragment_Goat_Bell.BP_RecipeFragment_Goat_Bell_C"
+    "/Game/Mods/PorterGoat/Items/BP_RecipeFragment_Goat_Bell.BP_RecipeFragment_Goat_Bell_C",
+    "UI.Fabric"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -37294,7 +37295,9 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": []
+                    "Value": [
+                      "UI.Fabric"
+                    ]
                   }
                 ]
               },
@@ -37668,7 +37671,9 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": []
+                    "Value": [
+                      "UI.Fabric"
+                    ]
                   }
                 ]
               },
@@ -38042,7 +38047,9 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": []
+                    "Value": [
+                      "UI.Fabric"
+                    ]
                   }
                 ]
               },
@@ -38416,7 +38423,9 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": []
+                    "Value": [
+                      "UI.Fabric"
+                    ]
                   }
                 ]
               },
@@ -38790,7 +38799,9 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": []
+                    "Value": [
+                      "UI.Fabric"
+                    ]
                   }
                 ]
               },
