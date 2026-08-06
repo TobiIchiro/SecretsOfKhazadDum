@@ -636,6 +636,7 @@
     "Item.Remedy_Ingredient",
     "Item.Scales",
     "Item.Scrap",
+    "Item.KnowledgeScrollA",
     "Item.SeaWax",
     "Item.Shell",
     "Item.Silk",
@@ -335767,7 +335768,7 @@
                             "IsZero": false,
                             "PropertyTagFlags": "None",
                             "PropertyTagExtensions": "NoExtension",
-                            "Value": "Item.Hide"
+                            "Value": "Item.KnowledgeScrollA"
                           }
                         ]
                       },
@@ -336303,7 +336304,7 @@
                             "IsZero": false,
                             "PropertyTagFlags": "None",
                             "PropertyTagExtensions": "NoExtension",
-                            "Value": "Item.Hide"
+                            "Value": "Item.KnowledgeScrollA"
                           }
                         ]
                       },
@@ -336839,7 +336840,7 @@
                             "IsZero": false,
                             "PropertyTagFlags": "None",
                             "PropertyTagExtensions": "NoExtension",
-                            "Value": "Item.Hide"
+                            "Value": "Item.KnowledgeScrollA"
                           }
                         ]
                       },
@@ -337375,7 +337376,7 @@
                             "IsZero": false,
                             "PropertyTagFlags": "None",
                             "PropertyTagExtensions": "NoExtension",
-                            "Value": "Item.Hide"
+                            "Value": "Item.KnowledgeScrollA"
                           }
                         ]
                       },
@@ -337911,7 +337912,7 @@
                             "IsZero": false,
                             "PropertyTagFlags": "None",
                             "PropertyTagExtensions": "NoExtension",
-                            "Value": "Item.Hide"
+                            "Value": "Item.KnowledgeScrollA"
                           }
                         ]
                       },
