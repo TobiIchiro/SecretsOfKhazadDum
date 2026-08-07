@@ -587,6 +587,8 @@
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_GreyMountains_AntiCold_Helmet.T_UI_Icon_Armor_GreyMountains_AntiCold_Helmet",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_GreyMountains_AntiCold_Torso",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_GreyMountains_AntiCold_Torso.T_UI_Icon_Armor_GreyMountains_AntiCold_Torso",
+        "/Game/UI/textures/_Icons/ItemRenders/T_UI_Icon_Armor_Grocer_Helmet",
+        "/Game/UI/textures/_Icons/ItemRenders/T_UI_Icon_Armor_Grocer_Helmet.T_UI_Icon_Armor_Grocer_Helmet",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Guard_Helmet",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Guard_Helmet.T_UI_Icon_Armor_Guard_Helmet",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_IronHills_AP_Gloves",
@@ -617,6 +619,8 @@
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_RedMountains_Miner_Gloves.T_UI_Icon_Armor_RedMountains_Miner_Gloves",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_RedMountains_Miner_Helmet",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_RedMountains_Miner_Helmet.T_UI_Icon_Armor_RedMountains_Miner_Helmet",
+        "/Game/UI/textures/_Icons/ItemRenders/T_UI_Icon_Armor_Researcher_Helmet",
+        "/Game/UI/textures/_Icons/ItemRenders/T_UI_Icon_Armor_Researcher_Helmet.T_UI_Icon_Armor_Researcher_Helmet",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Restorer_Helmet",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Restorer_Helmet.T_UI_Icon_Armor_Restorer_Helmet",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Shopkeeper_Torso",
@@ -627,6 +631,8 @@
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Taunting_Helmet.T_UI_Icon_Armor_Taunting_Helmet",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Tavern_Torso",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Tavern_Torso.T_UI_Icon_Armor_Tavern_Torso",
+        "/Game/UI/textures/_Icons/ItemRenders/T_UI_Icon_Armor_Tinker_Helmet",
+        "/Game/UI/textures/_Icons/ItemRenders/T_UI_Icon_Armor_Tinker_Helmet.T_UI_Icon_Armor_Tinker_Helmet",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Trader_Torso",
         "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Armor_Trader_Torso.T_UI_Icon_Armor_Trader_Torso",
         "/Game/UI/Textures/Cant_Craft",
@@ -74391,7 +74397,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/UI/Textures/Cant_Craft.Cant_Craft"
+                                        "AssetName": "/Game/UI/textures/_Icons/ItemRenders/T_UI_Icon_Armor_Grocer_Helmet.T_UI_Icon_Armor_Grocer_Helmet"
                                     },
                                     "SubPathString": null
                                 }
@@ -77111,7 +77117,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/UI/Textures/Cant_Craft.Cant_Craft"
+                                        "AssetName": "/Game/UI/textures/_Icons/ItemRenders/T_UI_Icon_Armor_Researcher_Helmet.T_UI_Icon_Armor_Researcher_Helmet"
                                     },
                                     "SubPathString": null
                                 }
@@ -78199,7 +78205,7 @@
                                     "AssetPath": {
                                         "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                                         "PackageName": null,
-                                        "AssetName": "/Game/UI/Textures/Cant_Craft.Cant_Craft"
+                                        "AssetName": "/Game/UI/textures/_Icons/ItemRenders/T_UI_Icon_Armor_Tinker_Helmet.T_UI_Icon_Armor_Tinker_Helmet"
                                     },
                                     "SubPathString": null
                                 }

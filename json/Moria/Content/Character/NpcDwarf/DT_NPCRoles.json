@@ -161,6 +161,7 @@
     "Item.Armor.MeatHat",
     "Item.BasicGather",
     "Item.Food",
+    "Item.Scroll",
     "Item.Tool.Basket",
     "Item.Tool.BlacksmithHammer",
     "Item.Tool.Chisel",
@@ -168,6 +169,8 @@
     "Item.Tool.GrocerStaff",
     "Item.Tool.Loupe",
     "Item.Tool.MashPaddle",
+    "Item.Tool.Scissors",
+    "Item.Tool.Spanner",
     "Item.Tool.RestorationHammer",
     "Item.Tool.Tong",
     "Mason",
@@ -6952,7 +6955,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Disabled"
+                "Value": "ERowEnabledState::Live"
               }
             ]
           },
@@ -7150,7 +7153,9 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": []
+                    "Value": [
+                      "Item.Scroll"
+                    ]
                   }
                 ]
               },
@@ -7259,7 +7264,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Disabled"
+                "Value": "ERowEnabledState::Live"
               }
             ]
           },
@@ -7458,7 +7463,9 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": []
+                    "Value": [
+                      "Item.Tool.Scissors"
+                    ]
                   }
                 ]
               },
@@ -7569,7 +7576,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Disabled"
+                "Value": "ERowEnabledState::Live"
               }
             ]
           },
@@ -7767,7 +7774,9 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": []
+                    "Value": [
+                      "Item.Tool.Spanner"
+                    ]
                   }
                 ]
               },
@@ -7878,7 +7887,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Disabled"
+                "Value": "ERowEnabledState::Live"
               }
             ]
           },
