@@ -31,7 +31,7 @@
     "DefaultSceneRoot_GEN_VARIABLE",
     "DefaultSceneRootNode",
     "Engine",
-    "BP_RecipeFragment_Goat_Bell",
+    "Goat_Bell_Fragment",
     "Guid",
     "InheritableComponentHandler",
     "InternalVariableName",
@@ -263,7 +263,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "BP_RecipeFragment_Goat_Bell"
+              "Value": "Goat_Bell_Fragment"
             }
           ]
         },
