@@ -11,6 +11,7 @@
     "ArnorOffers_Default",
     "ArrayProperty",
     "ArtisanHatRecipe_Offer_Default",
+    "Barley_Offer_Default",
     "BlacksmithHatRecipe_Offer_Default",
     "BlacksmithOutfitRecipe_Offer_Default",
     "BlueMountainOffers_Default",
@@ -50,6 +51,7 @@
     "GathererHatRecipe_Offer_Default",
     "GondorDecorationRecipe_Offer_Default",
     "GondorOffers_Default",
+    "GrocerHatRecipe_Offer_Default",
     "GuardHatRecipe_Offer_Default",
     "GundabadOffers_Default",
     "GundabadSlag_Offer_Default",
@@ -88,6 +90,7 @@
     "RedMountainsDecorationRecipe_Offer_Default",
     "RedRockBuildingSetRecipe_Offer_Default",
     "RedSandstone_Offer_Default",
+    "ResearcherHatRecipe_Offer_Default",
     "RivendellDecorationRecipe_Offer_Default",
     "RivendellOffers_Default",
     "RohanOffers_Default",
@@ -109,7 +112,9 @@
     "StructProperty",
     "SunkenMoss_Offer_Default",
     "SweetrootSeeds_Offer_Default",
+    "TailorHatRecipe_Offer_Default",
     "TavernOutfitRecipe_Offer_Default",
+    "TinkerHatRecipe_Offer_Default",
     "Thanazutsam_Offer_Default",
     "TraderOutfitRecipe_Offer_Default",
     "WhaleTallow_Offer_Default",
@@ -1749,6 +1754,30 @@
                         "Value": "GathererHatRecipe_Offer_Default"
                       }
                     ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorOfferTemplateRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Offers",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "TinkerHatRecipe_Offer_Default"
+                      }
+                    ]
                   }
                 ]
               },
@@ -2255,6 +2284,54 @@
                         "Value": "CeibaBuildingSet_Offer_Default"
                       }
                     ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorOfferTemplateRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Offers",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "TailorHatRecipe_Offer_Default"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorOfferTemplateRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Offers",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "ResearcherHatRecipe_Offer_Default"
+                      }
+                    ]
                   }
                 ]
               },
@@ -2410,6 +2487,30 @@
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
                         "Value": "SunkenMoss_Offer_Default"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorOfferTemplateRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Offers",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "Barley_Offer_Default"
                       }
                     ]
                   },
@@ -2903,6 +3004,30 @@
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
                         "Value": "PorterGoatSaddlebags_Offer_Default"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorOfferTemplateRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "Offers",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "GrocerHatRecipe_Offer_Default"
                       }
                     ]
                   }
