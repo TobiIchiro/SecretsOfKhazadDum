@@ -11,7 +11,7 @@
     "/Game/Character/Creatures/BP_Fauna_Base",
     "/Game/Character/Creatures/NakedRat/Abilities/GA_Reaction_NakedRat_Kill",
     "/Game/Character/Creatures/NakedRat/ABP_Rat",
-    "/Game/Character/Creatures/NakedRat/BP_Fauna_NakedRat",
+    "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/BP_Fauna_Chicken",
     "/Game/Character/Creatures/NakedRat/BP_Rat_AIController",
     "/Game/Character/Creatures/NakedRat/DA_NakedRat_CharacterData",
     "/Game/Character/Creatures/NakedRat/DA_Rat_AISettings",
@@ -19,8 +19,8 @@
     "/Game/Character/Creatures/NakedRat/PI_Fauna_NakedRat",
     "/Game/CharacterArt/Creatures/Rat/SK_Rat",
     "/Game/FX/CharacterDespawn/Niagara/NS_EnemyDespawnFX",
-    "/Game/Tech/Data/StringTables/ST_AiCharacters",
-    "/Game/Tech/Data/StringTables/ST_AiCharacters.ST_AiCharacters",
+    "/Game/Tech/Data/StringTables/ST_Mod_AICharacters",
+    "/Game/Tech/Data/StringTables/ST_Mod_AICharacters.ST_Mod_AICharacters",
     "/Game/Tech/Managers/BP_StoryManager",
     "/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Universal/Body_Dissolve/fx_npc_uni_body_dissolve_os_play",
     "/Script/AIModule",
@@ -86,7 +86,7 @@
     "BoolProperty",
     "bOverrideDistanceFieldSelfShadowBias",
     "BP_Fauna_Base_C",
-    "BP_Fauna_NakedRat_C",
+    "BP_Fauna_Chicken_C",
     "BP_Rat_AIController_C",
     "BP_StoryManager_C",
     "bReplicatePhysicsToAutonomousProxy",
@@ -136,7 +136,7 @@
     "Default__ABP_Rat_C",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Fauna_Base_C",
-    "Default__BP_Fauna_NakedRat_C",
+    "Default__BP_Fauna_Chicken_C",
     "Default__BP_Rat_AIController_C",
     "Default__BP_StoryManager_C",
     "Default__ComponentDelegateBinding",
@@ -184,9 +184,9 @@
     "ESpawnActorCollisionHandlingMethod",
     "ESpawnActorCollisionHandlingMethod::AlwaysSpawn",
     "ETickingGroup",
-    "ExecuteUbergraph_BP_Fauna_NakedRat",
+    "ExecuteUbergraph_BP_Fauna_Chicken",
     "ExtraLimbBones",
-    "Fauna.SmallAnimal.Rat",
+    "Fauna.SmallAnimal.Chicken",
     "FGKActorFSMComponent",
     "FGKAIPatrolComponent",
     "FGKAIPerceptionComponent",
@@ -295,6 +295,7 @@
     "ObjectProperty",
     "ObjectType",
     "OnViewed",
+    "OverrideMaterials",
     "Package",
     "ParentComponentOrVariableName",
     "ParkourComp",
@@ -376,7 +377,7 @@
     "Spine_01 Capsule",
     "Spine_01 Capsule_GEN_VARIABLE",
     "spine_1_JNT",
-    "ST_AiCharacters",
+    "ST_Mod_AICharacters",
     "StalkerVulnerability",
     "StartingAttributes",
     "StartingGameplayTags",
@@ -420,7 +421,10 @@
     "VoiceAk",
     "VoiceComponent",
     "WorldDynamic",
-    "WorldStatic"
+    "WorldStatic",
+    "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/Materials/MI_Chicken",
+    "MI_Chicken",
+    "MaterialInstanceConstant"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -1521,7 +1525,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "ExecuteUbergraph_BP_Fauna_NakedRat",
+      "ObjectName": "ExecuteUbergraph_BP_Fauna_Chicken",
       "OuterIndex": 3,
       "ClassIndex": -26,
       "SuperIndex": 0,
@@ -1671,7 +1675,7 @@
       "$type": "UAssetAPI.ExportTypes.ClassExport, UAssetAPI",
       "FuncMap": [
         [
-          "ExecuteUbergraph_BP_Fauna_NakedRat",
+          "ExecuteUbergraph_BP_Fauna_Chicken",
           1
         ],
         [
@@ -2319,7 +2323,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Fauna_NakedRat_C",
+      "ObjectName": "BP_Fauna_Chicken_C",
       "OuterIndex": 0,
       "ClassIndex": -30,
       "SuperIndex": -14,
@@ -2349,6 +2353,7 @@
         -84,
         -129,
         -141,
+        -149,
         -83,
         -133,
         -147,
@@ -3141,7 +3146,7 @@
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
           "Flags": 0,
           "HistoryType": "StringTableEntry",
-          "TableId": "/Game/Tech/Data/StringTables/ST_AiCharacters.ST_AiCharacters",
+          "TableId": "/Game/Tech/Data/StringTables/ST_Mod_AICharacters.ST_Mod_AICharacters",
           "Namespace": null,
           "CultureInvariantString": null,
           "SourceFmt": null,
@@ -3156,7 +3161,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "BP_Fauna_NakedRat"
+          "Value": "BP_Fauna_Chicken"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -3197,7 +3202,7 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": [
-                "Fauna.SmallAnimal.Rat"
+                "Fauna.SmallAnimal.Chicken"
               ]
             }
           ]
@@ -3370,7 +3375,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Fauna_NakedRat_C",
+      "ObjectName": "Default__BP_Fauna_Chicken_C",
       "OuterIndex": 0,
       "ClassIndex": 3,
       "SuperIndex": 0,
@@ -11177,6 +11182,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -141
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -149
+            }
+          ]
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
@@ -25811,7 +25836,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Tech/Data/StringTables/ST_AiCharacters",
+      "ObjectName": "/Game/Tech/Data/StringTables/ST_Mod_AICharacters",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -26036,7 +26061,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "ST_AiCharacters",
+      "ObjectName": "ST_Mod_AICharacters",
       "OuterIndex": -120,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
@@ -26058,6 +26083,24 @@
       "OuterIndex": -18,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SimpleConstructionScript",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/Materials/MI_Chicken",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Chicken",
+      "OuterIndex": -148,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }
@@ -26172,7 +26215,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Character/Creatures/NakedRat/BP_Fauna_NakedRat",
+  "FolderName": "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/BP_Fauna_Chicken",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
