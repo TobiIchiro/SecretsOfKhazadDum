@@ -9,18 +9,18 @@
     "/Game/Animations/Rat/Rat_G_TurnIP_R90_Montage",
     "/Game/Art/PhysMats/PM_flesh_mammal",
     "/Game/Character/Creatures/BP_Fauna_Base",
-    "/Game/Character/Creatures/NakedRat/Abilities/GA_Reaction_NakedRat_Kill",
+    "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/Abilities/GA_Reaction_Chicken_Kill",
     "/Game/Character/Creatures/NakedRat/ABP_Rat",
     "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/BP_Fauna_Chicken",
     "/Game/Character/Creatures/NakedRat/BP_Rat_AIController",
     "/Game/Character/Creatures/NakedRat/DA_NakedRat_CharacterData",
-    "/Game/Character/Creatures/NakedRat/DA_Rat_AISettings",
+    "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/DA_Chicken_AISettings",
     "/Game/Character/Creatures/NakedRat/GE_Starting_NakedRat",
-    "/Game/Character/Creatures/NakedRat/PI_Fauna_NakedRat",
-    "/Game/CharacterArt/Creatures/Rat/SK_Rat",
+    "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/PI_Fauna_Chicken",
+    "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/SK_Chicken",
     "/Game/FX/CharacterDespawn/Niagara/NS_EnemyDespawnFX",
-    "/Game/Tech/Data/StringTables/ST_Mod_AICharacters",
-    "/Game/Tech/Data/StringTables/ST_Mod_AICharacters.ST_Mod_AICharacters",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_AICharacters",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_AICharacters.ST_Mod_AICharacters",
     "/Game/Tech/Managers/BP_StoryManager",
     "/Game/WwiseAudio/Events/Default_Work_Unit/FX/NPC/Universal/Body_Dissolve/fx_npc_uni_body_dissolve_os_play",
     "/Script/AIModule",
@@ -54,7 +54,7 @@
     "AnimBlueprintGeneratedClass",
     "AnimClass",
     "AnimMontage",
-    "Appendix.Appendices_Creatures_GrubRats",
+    "Appendix.Appendices_Creatures_ElvenChicken",
     "ArcadeEditorSphere",
     "Array_Get",
     "Array_Length",
@@ -131,7 +131,7 @@
     "ComponentTemplate",
     "Current",
     "DA_NakedRat_CharacterData",
-    "DA_Rat_AISettings",
+    "DA_Chicken_AISettings",
     "DamageModifiers",
     "Default__ABP_Rat_C",
     "Default__BlueprintGeneratedClass",
@@ -141,7 +141,7 @@
     "Default__BP_StoryManager_C",
     "Default__ComponentDelegateBinding",
     "Default__Function",
-    "Default__GA_Reaction_NakedRat_Kill_C",
+    "Default__GA_Reaction_Chicken_Kill_C",
     "Default__GE_Starting_NakedRat_C",
     "Default__InheritableComponentHandler",
     "Default__KismetArrayLibrary",
@@ -201,7 +201,7 @@
     "Function",
     "FunctionNameToBind",
     "fx_npc_uni_body_dissolve_os_play",
-    "GA_Reaction_NakedRat_Kill_C",
+    "GA_Reaction_Chicken_Kill_C",
     "Game",
     "GameplayStatics",
     "GameplayTag",
@@ -312,7 +312,7 @@
     "PhysicalMaterial",
     "PhysicsBody",
     "PhysMaterialOverride",
-    "PI_Fauna_NakedRat",
+    "PI_Fauna_Chicken",
     "PiercingResistancePickaxeCombat",
     "PiercingSpearVulnerability",
     "PM_flesh_mammal",
@@ -368,7 +368,7 @@
     "SCS_Node",
     "ShadowCapsuleComponentNames",
     "SimpleConstructionScript",
-    "SK_Rat",
+    "SK_Chicken",
     "SkeletalMesh",
     "SkeletalMeshComponent",
     "SocketNames",
@@ -422,8 +422,8 @@
     "VoiceComponent",
     "WorldDynamic",
     "WorldStatic",
-    "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/Materials/MI_Chicken",
-    "MI_Chicken",
+    "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/Materials/MI_Chicken_Black",
+    "MI_Chicken_Black",
     "MaterialInstanceConstant"
   ],
   "CustomSerializationFlags": "None",
@@ -2420,7 +2420,7 @@
                   "IsZero": false,
                   "PropertyTagFlags": "None",
                   "PropertyTagExtensions": "NoExtension",
-                  "Value": "Appendix.Appendices_Creatures_GrubRats"
+                  "Value": "Appendix.Appendices_Creatures_ElvenChicken"
                 }
               ]
             }
@@ -3146,7 +3146,7 @@
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
           "Flags": 0,
           "HistoryType": "StringTableEntry",
-          "TableId": "/Game/Tech/Data/StringTables/ST_Mod_AICharacters.ST_Mod_AICharacters",
+          "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_AICharacters.ST_Mod_AICharacters",
           "Namespace": null,
           "CultureInvariantString": null,
           "SourceFmt": null,
@@ -3161,7 +3161,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "BP_Fauna_Chicken"
+          "Value": "BP_Fauna_Chicken_Elven"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -11296,9 +11296,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 0.6000000238418579,
-                "Y": 0.6000000238418579,
-                "Z": 0.6000000238418579
+                "X": 2.61,
+                "Y": 2.61,
+                "Z": 2.61
               }
             }
           ]
@@ -24891,7 +24891,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GA_Reaction_NakedRat_Kill_C",
+      "ObjectName": "GA_Reaction_Chicken_Kill_C",
       "OuterIndex": -110,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -25503,10 +25503,10 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__GA_Reaction_NakedRat_Kill_C",
+      "ObjectName": "Default__GA_Reaction_Chicken_Kill_C",
       "OuterIndex": -110,
-      "ClassPackage": "/Game/Character/Creatures/NakedRat/Abilities/GA_Reaction_NakedRat_Kill",
-      "ClassName": "GA_Reaction_NakedRat_Kill_C",
+      "ClassPackage": "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/Abilities/GA_Reaction_Chicken_Kill",
+      "ClassName": "GA_Reaction_Chicken_Kill_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -25548,7 +25548,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "DA_Rat_AISettings",
+      "ObjectName": "DA_Chicken_AISettings",
       "OuterIndex": -114,
       "ClassPackage": "/Script/Moria",
       "ClassName": "MorAISettings",
@@ -25746,7 +25746,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Character/Creatures/NakedRat/Abilities/GA_Reaction_NakedRat_Kill",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/Abilities/GA_Reaction_Chicken_Kill",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -25782,7 +25782,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Character/Creatures/NakedRat/DA_Rat_AISettings",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/DA_Chicken_AISettings",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -25800,7 +25800,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Character/Creatures/NakedRat/PI_Fauna_NakedRat",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/PI_Fauna_Chicken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -25818,7 +25818,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/CharacterArt/Creatures/Rat/SK_Rat",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/SK_Chicken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -25836,7 +25836,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Tech/Data/StringTables/ST_Mod_AICharacters",
+      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_AICharacters",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -25917,7 +25917,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "PI_Fauna_NakedRat",
+      "ObjectName": "PI_Fauna_Chicken",
       "OuterIndex": -116,
       "ClassPackage": "/Script/Moria",
       "ClassName": "PersonalityInfo",
@@ -26025,7 +26025,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SK_Rat",
+      "ObjectName": "SK_Chicken",
       "OuterIndex": -118,
       "ClassPackage": "/Script/Engine",
       "ClassName": "SkeletalMesh",
@@ -26088,7 +26088,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/Materials/MI_Chicken",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/Materials/MI_Chicken_Black",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -26097,7 +26097,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "MI_Chicken",
+      "ObjectName": "MI_Chicken_Black",
       "OuterIndex": -148,
       "ClassPackage": "/Script/Engine",
       "ClassName": "MaterialInstanceConstant",
