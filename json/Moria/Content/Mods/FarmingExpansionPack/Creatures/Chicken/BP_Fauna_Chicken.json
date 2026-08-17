@@ -10,7 +10,7 @@
     "/Game/Art/PhysMats/PM_flesh_mammal",
     "/Game/Character/Creatures/BP_Fauna_Base",
     "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/Abilities/GA_Reaction_Chicken_Kill",
-    "/Game/Character/Creatures/NakedRat/ABP_Rat",
+    "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/ABP_Chicken",
     "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/BP_Fauna_Chicken",
     "/Game/Character/Creatures/NakedRat/BP_Rat_AIController",
     "/Game/Character/Creatures/NakedRat/DA_NakedRat_CharacterData",
@@ -33,7 +33,7 @@
     "/Script/Niagara",
     "/Script/PhysicsCore",
     "AbilitySystem",
-    "ABP_Rat_C",
+    "ABP_Chicken_C",
     "ActionsComp",
     "Actor",
     "ActorComponentTickFunction",
@@ -133,7 +133,7 @@
     "DA_NakedRat_CharacterData",
     "DA_Chicken_AISettings",
     "DamageModifiers",
-    "Default__ABP_Rat_C",
+    "Default__ABP_Chicken_C",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Fauna_Base_C",
     "Default__BP_Fauna_Chicken_C",
@@ -280,7 +280,7 @@
     "MorViewTrigger_GEN_VARIABLE",
     "MostRecentArrayReplicationKey",
     "MoveComp",
-    "Naked_Rat_Spine02",
+    "Chicken_Spine02",
     "NameProperty",
     "NavAgentProperties",
     "NavAgentProps",
@@ -3811,7 +3811,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Naked_Rat_Spine02"
+              "Value": "Chicken_Spine02"
             }
           ]
         },
@@ -24765,10 +24765,10 @@
   "Imports": [
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__ABP_Rat_C",
+      "ObjectName": "Default__ABP_Chicken_C",
       "OuterIndex": -102,
-      "ClassPackage": "/Game/Character/Creatures/NakedRat/ABP_Rat",
-      "ClassName": "ABP_Rat_C",
+      "ClassPackage": "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/ABP_Chicken",
+      "ClassName": "ABP_Chicken_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -24837,7 +24837,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "ABP_Rat_C",
+      "ObjectName": "ABP_Chicken_C",
       "OuterIndex": -102,
       "ClassPackage": "/Script/Engine",
       "ClassName": "AnimBlueprintGeneratedClass",
@@ -25674,7 +25674,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Character/Creatures/NakedRat/ABP_Rat",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Creatures/Chicken/ABP_Chicken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
