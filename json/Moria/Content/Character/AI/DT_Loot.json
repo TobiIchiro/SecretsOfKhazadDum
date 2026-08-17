@@ -807,7 +807,11 @@
     "AshenRune_Bat_Wings",
     "Mod_Rat_Tail",
     "Item.ModRatTail",
-    "AshenRune_Rat_Tail"
+    "AshenRune_Rat_Tail",
+    "Mod_Raw_Chicken_meat",
+    "Fauna.SmallAnimal.Chicken",
+    "Consumable.ModRawChicken",
+    "Mod_Raw_Chicken_feathers"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -61915,6 +61919,260 @@
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
                 "Value": 2
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorDifficultySettingRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DropChanceModifyingDifficultySetting",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLootRowDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Mod_Raw_Chicken_meat",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "RequiredTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "RequiredTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "Fauna.SmallAnimal.Chicken"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorAnyItemRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Consumable.ModRawChicken"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "DropChance",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 1
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorDifficultySettingRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "DropChanceModifyingDifficultySetting",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "None"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
+                "EnumType": "ERowEnabledState",
+                "InnerType": "ERowEnabledState",
+                "Name": "EnabledState",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": "ERowEnabledState::Live"
+              }
+            ]
+          },
+          {
+            "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+            "StructType": "MorLootRowDefinition",
+            "SerializeNone": true,
+            "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+            "SerializationControl": "NoExtension",
+            "Operation": "None",
+            "Name": "Mod_Raw_Chicken_feathers",
+            "ArrayIndex": 0,
+            "IsZero": false,
+            "PropertyTagFlags": "None",
+            "PropertyTagExtensions": "NoExtension",
+            "Value": [
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "GameplayTagContainer",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "RequiredTags",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.GameplayTagContainerPropertyData, UAssetAPI",
+                    "Name": "RequiredTags",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      "Fauna.SmallAnimal.Chicken"
+                    ]
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                "StructType": "MorAnyItemRowHandle",
+                "SerializeNone": true,
+                "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                "SerializationControl": "NoExtension",
+                "Operation": "None",
+                "Name": "ItemHandle",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                    "Name": "RowName",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": "Item.Feathers"
+                  }
+                ]
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
+                "Value": 1.0,
+                "Name": "DropChance",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension"
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MinQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 4
+              },
+              {
+                "$type": "UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI",
+                "Name": "MaxQuantity",
+                "ArrayIndex": 0,
+                "IsZero": false,
+                "PropertyTagFlags": "None",
+                "PropertyTagExtensions": "NoExtension",
+                "Value": 6
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
