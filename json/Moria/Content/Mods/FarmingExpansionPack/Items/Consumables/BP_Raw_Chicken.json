@@ -3,12 +3,12 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Art/Assets/GPI/FoodStoreroom/Materials/Sausage_M",
-    "/Game/Art/Assets/GPI/FoodStoreroom/Meshes/Meat_SausageBacon_SM",
+    "/Game/Mods/FarmingExpansionPack/Items/Consumables/Meshes/SM_Raw_Chicken",
     "/Game/Character/Dwarf/Abilities/GA_UseFoodItem",
     "/Game/Items/BP_Category_Food",
-    "/Game/Items/Consumables/BP_Meat",
+    "/Game/Mods/FarmingExpansionPack/Items/Consumables/BP_Raw_Chicken",
     "/Game/Items/GE_Meat",
-    "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Meat2",
+    "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_RawChicken.",
     "/Game/WwiseAudio/Events/Default_Work_Unit/VX_Temp/Dwarf_1/Player_Callouts/vx_plr_calloutmushroom_01_play",
     "/Script/AkAudio",
     "/Script/CoreUObject",
@@ -27,7 +27,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_Category_Food_C",
-    "BP_Meat_C",
+    "BP_Raw_Chicken_C",
     "Callout Data",
     "CalloutData",
     "CalloutDataComponent",
@@ -37,7 +37,7 @@
     "CustomVoiceLine",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Category_Food_C",
-    "Default__BP_Meat_C",
+    "Default__BP_Raw_Chicken_C",
     "Default__GA_UseFoodItem_C",
     "Default__GE_Meat_C",
     "Default__SceneComponent",
@@ -54,9 +54,9 @@
     "IconTextureReference",
     "InternalVariableName",
     "MaterialInstanceConstant",
-    "Meat",
+    "ModRawChicken",
     "Meat_GEN_VARIABLE",
-    "Meat_SausageBacon_SM",
+    "SM_Raw_Chicken",
     "MorConsumableRowHandle",
     "MorGameplayEffectUIData",
     "MoriaGameplayEffectUIData",
@@ -83,7 +83,7 @@
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_Meat2",
+    "T_UI_Icon_RawChicken.",
     "Texture2D",
     "UseEffects",
     "VariableGuid",
@@ -228,7 +228,7 @@
             "SoftClassProperty": "SoftObjectProperty"
           },
           "SerializedType": "ObjectProperty",
-          "Name": "Meat",
+          "Name": "ModRawChicken",
           "Flags": "RF_Public, RF_LoadCompleted",
           "MetaDataMap": null
         }
@@ -254,7 +254,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Meat_C",
+      "ObjectName": "BP_Raw_Chicken_C",
       "OuterIndex": 0,
       "ClassIndex": -9,
       "SuperIndex": -3,
@@ -315,7 +315,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Meat"
+              "Value": "ModRawChicken"
             }
           ]
         },
@@ -417,7 +417,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Meat_C",
+      "ObjectName": "Default__BP_Raw_Chicken_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -808,7 +808,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Meat"
+          "Value": "ModRawChicken"
         }
       ],
       "ObjectGuid": null,
@@ -1244,7 +1244,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/GPI/FoodStoreroom/Meshes/Meat_SausageBacon_SM",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Items/Consumables/Meshes/SM_Raw_Chicken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1253,7 +1253,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/UI/Textures/_Icons/ItemRenders/T_UI_Icon_Meat2",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_RawChicken.",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1343,7 +1343,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Meat_SausageBacon_SM",
+      "ObjectName": "SM_Raw_Chicken",
       "OuterIndex": -26,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -1361,7 +1361,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_Meat2",
+      "ObjectName": "T_UI_Icon_RawChicken.",
       "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
@@ -1413,7 +1413,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Consumables/BP_Meat",
+  "FolderName": "/Game/Mods/FarmingExpansionPack/Items/Consumables/BP_Raw_Chicken",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
