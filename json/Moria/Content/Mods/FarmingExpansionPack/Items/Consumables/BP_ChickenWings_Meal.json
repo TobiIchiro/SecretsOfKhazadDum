@@ -2,7 +2,7 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Art/Assets/GPI/Meals/Meshes/SM_MashedPotatoes_Meal",
+    "/Game/Mods/FarmingExpansionPack/Items/Consumables/Meshes/SM_ChickenWings_Meal",
     "/Game/Character/Dwarf/Abilities/GA_UseFoodItem",
     "/Game/Items/BP_Category_Food",
     "/Game/Mods/FarmingExpansionPack/Items/Consumables/BP_ChickenWings_Meal",
@@ -79,8 +79,8 @@
     "SceneComponent",
     "SCS_Node",
     "SimpleConstructionScript",
-    "SM_MashedPotatoes_Meal",
-    "SM_MashedPotatoes_Meal_GEN_VARIABLE",
+    "SM_ChickenWings_Meal",
+    "SM_ChickenWings_Meal_GEN_VARIABLE",
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
@@ -230,7 +230,7 @@
             "SoftClassProperty": "SoftObjectProperty"
           },
           "SerializedType": "ObjectProperty",
-          "Name": "SM_MashedPotatoes_Meal",
+          "Name": "SM_ChickenWings_Meal",
           "Flags": "RF_Public, RF_LoadCompleted",
           "MetaDataMap": null
         },
@@ -841,7 +841,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "SM_MashedPotatoes_Meal"
+          "Value": "SM_ChickenWings_Meal"
         }
       ],
       "ObjectGuid": null,
@@ -1112,7 +1112,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "SM_MashedPotatoes_Meal_GEN_VARIABLE",
+      "ObjectName": "SM_ChickenWings_Meal_GEN_VARIABLE",
       "OuterIndex": 1,
       "ClassIndex": -13,
       "SuperIndex": 0,
@@ -1531,7 +1531,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/GPI/Meals/Meshes/SM_MashedPotatoes_Meal",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Items/Consumables/Meshes/SM_ChickenWings_Meal",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1630,7 +1630,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_MashedPotatoes_Meal",
+      "ObjectName": "SM_ChickenWings_Meal",
       "OuterIndex": -25,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",

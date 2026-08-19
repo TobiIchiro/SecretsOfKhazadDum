@@ -54631,7 +54631,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_ChickenWings.T_UI_Icon_ChickenWings"
+                    "AssetName": "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_RawChicken.T_UI_Icon_RawChicken"
                   },
                   "SubPathString": null
                 }
@@ -55074,7 +55074,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_RawChicken.T_UI_Icon_RawChicken"
+                    "AssetName": "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_ChickenWings.T_UI_Icon_ChickenWings"
                   },
                   "SubPathString": null
                 }
