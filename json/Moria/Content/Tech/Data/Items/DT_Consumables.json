@@ -341,6 +341,7 @@
     "/Game/Mods/FarmingExpansionPack/Items/Consumables/BP_FellowshipFest_Meal.BP_FellowshipFest_Meal_C",
     "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_ChickenWings.T_UI_Icon_ChickenWings",
     "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_RawChicken.T_UI_Icon_RawChicken",
+    "/Game/Mods/FarmingExpansionPack/Items/Consumables/Meshes/SM_ChickenWings_Meal",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Items.ST_Mod_Items",
     "/Game/Tech/Data/Items/DT_Consumables",
@@ -803,6 +804,7 @@
     "SM_BangersandMash_Meal",
     "SM_Beorn_Meal",
     "SM_cheese_Ration",
+    "SM_ChickenWings_Meal",
     "SM_Cookies_Ration",
     "SM_Cram_Ration",
     "SM_Cranachan_Meal",
@@ -55103,7 +55105,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -235
+                "Value": -275
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -55515,7 +55517,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/UI/Textures/Food/FireRoastedStew.FireRoastedStew"
+                    "AssetName": "/Game/UI/Textures/Food/MashedpotatoMeal.MashedpotatoMeal"
                   },
                   "SubPathString": null
                 }
@@ -55544,7 +55546,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -228
+                "Value": -235
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -55921,7 +55923,8 @@
         -107,
         -42,
         -43,
-        -272
+        -273,
+        -275
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -58392,6 +58395,24 @@
       "OuterIndex": -272,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Items/Consumables/Meshes/SM_ChickenWings_Meal",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "SM_ChickenWings_Meal",
+      "OuterIndex": -274,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StaticMesh",
       "PackageName": null,
       "bImportOptional": false
     }
