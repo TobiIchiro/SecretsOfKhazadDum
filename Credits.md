@@ -10,7 +10,7 @@
 
 # Paid Assets
 [The Armory Collection](https://www.patreon.com/collection/1294745?view=expanded) from [Louis Lux](https://www.patreon.com/cw/louislux).
-[Spear and Glaive A06](https://assetstore.unity.com/packages/3d/props/weapons/spear-and-glaive-a06-191868) [from Don_Falcone](https://assetstore.unity.com/publishers/23737).
+[Spear and Glaive A06](https://assetstore.unity.com/packages/3d/props/weapons/spear-and-glaive-a06-191868) from [Don_Falcone](https://assetstore.unity.com/publishers/23737).
 
 
 # Assets from other mods

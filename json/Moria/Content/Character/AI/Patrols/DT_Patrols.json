@@ -73166,7 +73166,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EMorAIPatrolTimeOfDay::Day"
+                "Value": "EMorAIPatrolTimeOfDay::Both"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
@@ -73433,7 +73433,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "EMorAIPatrolTimeOfDay::Day"
+                "Value": "EMorAIPatrolTimeOfDay::Both"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.EnumPropertyData, UAssetAPI",
