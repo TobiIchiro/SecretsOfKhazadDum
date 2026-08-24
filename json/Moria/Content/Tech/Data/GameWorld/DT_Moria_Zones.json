@@ -1076,7 +1076,11 @@
     "WesternMines_Chickens_Medium",
     "LowerDeeps_Chicken",
     "LowerDeeps_Chickens_Small",
-    "LowerDeeps_Chickens_Medium"
+    "LowerDeeps_Chickens_Medium",
+    "LowerDeeps_PoisonDrake",
+    "Dwarrowdelf_FrostDrake",
+    "Desolation_FireDrake",
+    "AngryCaverns_ShadowtDrake"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -14350,6 +14354,30 @@
                         "Value": "LowerDeeps_Chickens_Medium"
                       }
                     ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorAIPatrolRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "AiPatrols",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "LowerDeeps_PoisonDrake"
+                      }
+                    ]
                   }
                 ]
               },
@@ -24803,6 +24831,30 @@
                         "Value": "RingHunter_OrcPatrol_B_Small"
                       }
                     ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorAIPatrolRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "AiPatrols",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "Dwarrowdelf_FrostDrake"
+                      }
+                    ]
                   }
                 ]
               },
@@ -27419,6 +27471,30 @@
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
                         "Value": "RingHunter_OrcPatrol_C_Large"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorAIPatrolRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "AiPatrols",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "Desolation_FireDrake"
                       }
                     ]
                   }
@@ -34211,6 +34287,30 @@
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
                         "Value": "RingHunter_OrcPatrol_C_Large"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorAIPatrolRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "AiPatrols",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "AngryCaverns_ShadowtDrake"
                       }
                     ]
                   }
