@@ -359,7 +359,6 @@
         -32,
         -30,
         -37,
-        -39,
         -7,
         -3
       ],
@@ -744,7 +743,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -39
+          "Value": -37
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
