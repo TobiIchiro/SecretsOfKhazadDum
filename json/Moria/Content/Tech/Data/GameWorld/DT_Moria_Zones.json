@@ -79041,7 +79041,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "WesternMines_Chickens_Small"
+                        "Value": "LowerDeeps_Chickens_Small"
                       }
                     ]
                   },
@@ -79065,7 +79065,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "WesternMines_Chickens_Medium"
+                        "Value": "LowerDeeps_Chickens_Medium"
                       }
                     ]
                   },
@@ -81170,7 +81170,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "WesternMines_Chickens_Small"
+                        "Value": "LowerDeeps_Chickens_Small"
                       }
                     ]
                   },
@@ -81194,7 +81194,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "WesternMines_Chickens_Medium"
+                        "Value": "LowerDeeps_Chickens_Medium"
                       }
                     ]
                   },
@@ -83358,7 +83358,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "WesternMines_Chickens_Small"
+                        "Value": "LowerDeeps_Chickens_Small"
                       }
                     ]
                   },
@@ -83378,11 +83378,11 @@
                       {
                         "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
                         "Name": "RowName",
-                        "ArrayIndex": 0,
+                        "ArrayIndex": 0,  
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": "WesternMines_Chickens_Medium"
+                        "Value": "LowerDeeps_Chickens_Medium"
                       }
                     ]
                   },
