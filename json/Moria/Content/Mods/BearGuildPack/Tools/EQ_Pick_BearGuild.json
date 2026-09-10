@@ -2,12 +2,12 @@
   "$type": "UAssetAPI.UAsset, UAssetAPI",
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
-    "/Game/Character/Dwarf/Abilities/GA_Pick_Ironwood",
+    "/Game/Mods/BearGuildPack/Tools/Abilities/GA_Pick_Ashen",
     "/Game/Items/Holdables/EQ_Pick_Base",
-    "/Game/Items/Holdables/EQ_Pick_Ironwood",
-    "/Game/Items/Holdables/EQ_Pick_Ironwood_Broken",
+    "/Game/Mods/BearGuildPack/Tools/EQ_Pick_BearGuild",
+    "/Game/Mods/BearGuildPack/Tools/BrokenVerions/EQ_Pick_BearGuild_Broken",
     "/Game/Items/Weapons/Models/Dwarf_Weapons/D_Pickaxe_Ironwood_1h",
-    "/Game/UI/Textures/_Icons/ItemRenders/Tools/T_UI_Icon_Tools_Ironwood_Pickaxe_1h",
+    "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_Ashen_Pickaxe",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/GameplayTags",
@@ -17,6 +17,7 @@
     "ArrayProperty",
     "AssociatedGuid",
     "AttachParent",
+    "bExpireAtZeroDurability",
     "bHasValidCookedData",
     "BlueprintComponentChangedPropertyInfo",
     "BlueprintCookedComponentInstancingData",
@@ -46,9 +47,9 @@
     "DecomposesInto",
     "Default__BlueprintGeneratedClass",
     "Default__EQ_Pick_Base_C",
-    "Default__EQ_Pick_Ironwood_Broken_C",
-    "Default__EQ_Pick_Ironwood_C",
-    "Default__GA_Pick_Ironwood_C",
+    "Default__EQ_Pick_BearGuild_Broken_C",
+    "Default__EQ_Pick_BearGuild_C",
+    "Default__GA_Pick_Ashen_C",
     "Default__InheritableComponentHandler",
     "Default__SceneComponent",
     "Default__SCS_Node",
@@ -58,9 +59,9 @@
     "DefaultSceneRootNode",
     "Engine",
     "EQ_Pick_Base_C",
-    "EQ_Pick_Ironwood_Broken_C",
-    "EQ_Pick_Ironwood_C",
-    "GA_Pick_Ironwood_C",
+    "EQ_Pick_BearGuild_Broken_C",
+    "EQ_Pick_BearGuild_C",
+    "GA_Pick_Ashen_C",
     "GameplayTag",
     "GameplayTagContainer",
     "Guid",
@@ -71,6 +72,7 @@
     "InternalVariableName",
     "IronPickAxe_Mesh",
     "IronPickAxe_Mesh_GEN_VARIABLE",
+    "MaterialInstanceConstant",
     "MorToolRowHandle",
     "NameProperty",
     "NiagaraComponent",
@@ -78,10 +80,11 @@
     "None",
     "Object",
     "ObjectProperty",
+    "OverrideMaterials",
     "OverrideParameters",
     "OwnerClass",
     "Package",
-    "Pickaxe_1h_t4",
+    "Pickaxe_BearGuild",
     "Records",
     "RelativeLocation",
     "RelativeScale3D",
@@ -98,12 +101,19 @@
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_Tools_Ironwood_Pickaxe_1h",
+    "T_UI_Icon_Ashen_Pickaxe",
     "TagsToApplyWhileEquipped",
     "Texture2D",
     "TransformLocatorComponent",
     "VariableGuid",
-    "Vector"
+    "Vector",
+    "/Game/Mods/BearGuildPack/Tools/Materials/MI_BearPickaxe_Body",
+    "MI_BearPickaxe_Body",
+    "/Game/Mods/BearGuildPack/Tools/Materials/MI_BearPickaxe_Pick",
+    "MI_BearPickaxe_Pick",
+    "Damage.Piercing.Pickaxe.Durin",
+    "Clearing.Durins",
+    "Clearing.Magic"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -256,7 +266,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "EQ_Pick_Ironwood_C",
+      "ObjectName": "EQ_Pick_BearGuild_C",
       "OuterIndex": 0,
       "ClassIndex": -8,
       "SuperIndex": -2,
@@ -283,6 +293,8 @@
         -33,
         -44,
         -47,
+        -49,
+        -51,
         -2
       ],
       "CreateBeforeSerializationDependencies": [],
@@ -317,7 +329,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Pickaxe_1h_t4"
+              "Value": "Pickaxe_BearGuild"
             }
           ]
         },
@@ -349,13 +361,13 @@
           "Value": 5
         },
         {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-          "Name": "DecomposesInto",
+          "$type": "UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI",
+          "Name": "bExpireAtZeroDurability",
           "ArrayIndex": 0,
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": -3
+          "Value": false
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
@@ -407,7 +419,10 @@
                 "Clearing.Ironwood",
                 "Damage.Piercing.Pickaxe.Ironwood",
                 "Damage.Piercing.Pickaxe.Steel",
-                "Damage.Piercing.Pickaxe.FirstAge"
+                "Damage.Piercing.Pickaxe.FirstAge",
+                "Damage.Piercing.Pickaxe.Durin",
+                "Clearing.Durins",
+                "Clearing.Magic"
               ]
             }
           ]
@@ -425,7 +440,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__EQ_Pick_Ironwood_C",
+      "ObjectName": "Default__EQ_Pick_BearGuild_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -1110,6 +1125,35 @@
           "Value": -41
         },
         {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -49
+            },
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "1",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -51
+            }
+          ]
+        },
+        {
           "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
           "StructType": "Vector",
           "SerializeNone": true,
@@ -1287,7 +1331,7 @@
   "Imports": [
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GA_Pick_Ironwood_C",
+      "ObjectName": "GA_Pick_Ashen_C",
       "OuterIndex": -23,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -1305,7 +1349,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "EQ_Pick_Ironwood_Broken_C",
+      "ObjectName": "EQ_Pick_BearGuild_Broken_C",
       "OuterIndex": -25,
       "ClassPackage": "/Script/Engine",
       "ClassName": "BlueprintGeneratedClass",
@@ -1440,19 +1484,19 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__EQ_Pick_Ironwood_Broken_C",
+      "ObjectName": "Default__EQ_Pick_BearGuild_Broken_C",
       "OuterIndex": -25,
-      "ClassPackage": "/Game/Items/Holdables/EQ_Pick_Ironwood_Broken",
-      "ClassName": "EQ_Pick_Ironwood_Broken_C",
+      "ClassPackage": "/Game/Mods/BearGuildPack/Tools/BrokenVerions/EQ_Pick_BearGuild_Broken",
+      "ClassName": "EQ_Pick_BearGuild_Broken_C",
       "PackageName": null,
       "bImportOptional": false
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Default__GA_Pick_Ironwood_C",
+      "ObjectName": "Default__GA_Pick_Ashen_C",
       "OuterIndex": -23,
-      "ClassPackage": "/Game/Character/Dwarf/Abilities/GA_Pick_Ironwood",
-      "ClassName": "GA_Pick_Ironwood_C",
+      "ClassPackage": "/Game/Mods/BearGuildPack/Tools/Abilities/GA_Pick_Ashen",
+      "ClassName": "GA_Pick_Ashen_C",
       "PackageName": null,
       "bImportOptional": false
     },
@@ -1485,7 +1529,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Character/Dwarf/Abilities/GA_Pick_Ironwood",
+      "ObjectName": "/Game/Mods/BearGuildPack/Tools/Abilities/GA_Pick_Ashen",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1503,7 +1547,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/Holdables/EQ_Pick_Ironwood_Broken",
+      "ObjectName": "/Game/Mods/BearGuildPack/Tools/BrokenVerions/EQ_Pick_BearGuild_Broken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1521,7 +1565,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/UI/Textures/_Icons/ItemRenders/Tools/T_UI_Icon_Tools_Ironwood_Pickaxe_1h",
+      "ObjectName": "/Game/Mods/BearGuildPack/Icons/T_UI_Icon_Ashen_Pickaxe",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1674,7 +1718,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_Tools_Ironwood_Pickaxe_1h",
+      "ObjectName": "T_UI_Icon_Ashen_Pickaxe",
       "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
@@ -1705,6 +1749,42 @@
       "OuterIndex": -3,
       "ClassPackage": "/Script/Engine",
       "ClassName": "InheritableComponentHandler",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/BearGuildPack/Tools/Materials/MI_BearPickaxe_Body",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_BearPickaxe_Body",
+      "OuterIndex": -48,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/BearGuildPack/Tools/Materials/MI_BearPickaxe_Pick",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_BearPickaxe_Pick",
+      "OuterIndex": -50,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
       "PackageName": null,
       "bImportOptional": false
     }
@@ -1754,7 +1834,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Holdables/EQ_Pick_Ironwood",
+  "FolderName": "/Game/Mods/BearGuildPack/Tools/EQ_Pick_BearGuild",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
