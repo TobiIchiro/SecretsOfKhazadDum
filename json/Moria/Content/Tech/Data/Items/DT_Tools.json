@@ -24802,7 +24802,7 @@
                                         "PropertyTagExtensions": "NoExtension",
                                         "Value": [
                                             "UI.Tool.Pickaxe.Tier6",
-                                            "Item.Tool.Pickaxe",
+                                            "Item.Tool.Pickaxe.Dev",
                                             "Damage.Piercing.Pickaxe.Durin"
                                         ]
                                     }
