@@ -229,7 +229,7 @@
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-          "Value": 300.0,
+          "Value": 10.0,
           "Name": "MinCarveDepth",
           "ArrayIndex": 0,
           "IsZero": false,
@@ -238,7 +238,7 @@
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-          "Value": 10.0,
+          "Value": 125.0,
           "Name": "MaxCarveDepth",
           "ArrayIndex": 0,
           "IsZero": false,
