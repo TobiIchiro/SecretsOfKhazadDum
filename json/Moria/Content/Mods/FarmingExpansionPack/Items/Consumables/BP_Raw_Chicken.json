@@ -8,7 +8,7 @@
     "/Game/Items/BP_Category_Food",
     "/Game/Mods/FarmingExpansionPack/Items/Consumables/BP_Raw_Chicken",
     "/Game/Items/GE_Meat",
-    "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_RawChicken.",
+    "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_RawChicken",
     "/Game/WwiseAudio/Events/Default_Work_Unit/VX_Temp/Dwarf_1/Player_Callouts/vx_plr_calloutmushroom_01_play",
     "/Script/AkAudio",
     "/Script/CoreUObject",
@@ -83,7 +83,7 @@
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_RawChicken.",
+    "T_UI_Icon_RawChicken",
     "Texture2D",
     "UseEffects",
     "VariableGuid",
@@ -947,26 +947,6 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -37
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "Name": "OverrideMaterials",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -18
-            }
-          ]
         }
       ],
       "ObjectGuid": null,
@@ -1253,7 +1233,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_RawChicken.",
+      "ObjectName": "/Game/Mods/FarmingExpansionPack/Items/Icons/T_UI_Icon_RawChicken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1361,7 +1341,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_RawChicken.",
+      "ObjectName": "T_UI_Icon_RawChicken",
       "OuterIndex": -27,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
