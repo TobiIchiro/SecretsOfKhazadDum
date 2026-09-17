@@ -347,7 +347,8 @@
     "/Game/Mods/DwarvenTraditionsPack/Plantables/BP_Flora_CacaoReceptacle_Plantable.BP_Flora_CacaoReceptacle_Plantable_C",
     "Cacao_Planted",
     "Flora.Plantable.TobiCacao",
-    "Crab"
+    "Crab",
+    "Consumable.ModRawCrab"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -38260,7 +38261,7 @@
                     "IsZero": false,
                     "PropertyTagFlags": "None",
                     "PropertyTagExtensions": "NoExtension",
-                    "Value": "Consumable.CaveHoney"
+                    "Value": "Consumable.ModRawCrab"
                   }
                 ]
               },
