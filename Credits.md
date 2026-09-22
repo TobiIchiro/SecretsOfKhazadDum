@@ -24,6 +24,8 @@
 # Paid Assets
 [The Armory Collection](https://www.patreon.com/collection/1294745?view=expanded) from [Louis Lux](https://www.patreon.com/cw/louislux).
 [Spear and Glaive A06](https://assetstore.unity.com/packages/3d/props/weapons/spear-and-glaive-a06-191868) from [Don_Falcone](https://assetstore.unity.com/publishers/23737).
+[Lizard](https://www.fab.com/listings/a9d0ab47-4f54-43a3-b758-b81535a59290) was given from Mereak Firmaxe created by [3DRT-stock](https://www.fab.com/sellers/3DRT-stock)
+[Chicken Basic Version](https://www.fab.com/listings/dcc84430-8d72-401f-b06d-fbfdf2d563c8) was bought by Axbeard and created by [RifatBilalov](https://www.fab.com/sellers/RifatBilalov)
 ---
 # Assets from other mods
 Eregion Helmet was ported from [Tales from the Age of Men](https://www.nexusmods.com/mountandblade2bannerlord/mods/7748) by [mikewilli222](https://www.nexusmods.com/profile/mikewilli222).
