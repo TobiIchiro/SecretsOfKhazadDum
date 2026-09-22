@@ -290,3 +290,48 @@ Introduces legendary Tier 7 weapons and masterwork forging.
 ## Expansion IV - Year of the Goat
 
 ## Expansion V - Dwarven Workshops (Khazâd-mazzar)
+
+---
+
+## Expansion VI - Coastal Fishing 
+> Learn new fishing techniques from your felow dwarves of the Coastal Mountains
+
+### Overview
+**Coastal Fishing** is an expansion for **Secrets of Khazâd-dûm**, focused on fishing, resource gathering, and the traditions of the dwarves of the Coastal Mountains.
+
+This expansion introduces fishing resources, specialized traps, a new fishing minigame, and a variety of recipes using the bounty of the waters. Dwarves can now learn to fish, set traps, and make use of creatures found in the water biomes across Khazâd-dûm.
+
+From crabs and shrimp to lobsters, octopuses, and fish, the waters inside the Khazâd-dûm provide new sources of food and materials for those willing to master the art of coastal fishing.
+
+Through new gathering methods and culinary recipes, Coastal Fishing expands the survival experience of Moria while introducing a new way for dwarves to make use of the natural world inside the mountain halls.
+### Premise
+As the dwarves lightened the beacon in Durin's Tower, they their distant kin from the **Coastal Mountains** started to return to Khazâd-dûm to share their knowledge.
+
+Among these traditions is the art of fishing, a craft developed by dwarves who learned to make their living from the waters surrounding their mountain settlements. Their knowledge of nets, traps, bait, and fishing techniques allowed them to gather food from places where traditional hunting and foraging could not reach.
+
+Now, these techniques are brought back to Khazâd-dûm.
+
+The waters of Khazâd-dûm hold more life than the dwarves once imagined. Crabs hide beneath the shallows, shrimp and lobsters inhabit deeper waters, while fish and other creatures move beneath the surface. With the right tools and knowledge, these creatures can become a valuable source of food for the returning dwarves.
+
+By learning the traditions of the Coastal Mountains, the dwarves can once again make use of the waters around their settlements. Fishing, trapping, and cooking become new parts of dwarven life as the reclaimed kingdom grows beyond its ancient halls.
+
+### Core features
+#### Fishing
+**New Minigame to fish aquatic animals and gather new resources** (in progress)
+#### Water Animals
+**Added 5 new resources from aquatic animals**
+- Crab Meat
+- Raw Shrimp
+- Lobster Tail
+- Octopus Tentacle
+- Raw Fish Slice (in progress)
+#### Traps
+**6 New Traps for hasrvesting aquatic animals**
+- Crab Trap
+- Shrimp Trap (in progress)
+- Lobster Trap (in progress)
+- Crab Trap (in progress)
+- Octopus Trap (in progress)
+- General Trap (in progress)
+#### Food
+**New food recipes from the Coastal Mountains** (in progress)
