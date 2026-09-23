@@ -3,7 +3,7 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Art/Assets/GPI/FoodStoreroom/Materials/Sausage_M",
-    "/Game/Mods/FishingExpansionPack/Items/Consumables/Meshes/SM_Crab_Meat",
+    "/Game/Mods/FishingExpansionPack/Items/Consumables/Meshes/SM_Fish_Meat",
     "/Game/Character/Dwarf/Abilities/GA_UseFoodItem",
     "/Game/Items/BP_Category_Food",
     "/Game/Mods/FishingExpansionPack/Items/Consumables/BP_Raw_Fish_Meat",
@@ -54,9 +54,9 @@
     "IconTextureReference",
     "InternalVariableName",
     "MaterialInstanceConstant",
-    "ModRawCrab",
+    "ModRawFish",
     "Meat_GEN_VARIABLE",
-    "SM_Crab_Meat",
+    "SM_Fish_Meat",
     "MorConsumableRowHandle",
     "MorGameplayEffectUIData",
     "MoriaGameplayEffectUIData",
@@ -228,7 +228,7 @@
             "SoftClassProperty": "SoftObjectProperty"
           },
           "SerializedType": "ObjectProperty",
-          "Name": "ModRawCrab",
+          "Name": "ModRawFish",
           "Flags": "RF_Public, RF_LoadCompleted",
           "MetaDataMap": null
         }
@@ -315,7 +315,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "ModRawCrab"
+              "Value": "ModRawFish"
             }
           ]
         },
@@ -808,7 +808,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "ModRawCrab"
+          "Value": "ModRawFish"
         }
       ],
       "ObjectGuid": null,
@@ -1224,7 +1224,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/FishingExpansionPack/Items/Consumables/Meshes/SM_Crab_Meat",
+      "ObjectName": "/Game/Mods/FishingExpansionPack/Items/Consumables/Meshes/SM_Fish_Meat",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1323,7 +1323,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_Crab_Meat",
+      "ObjectName": "SM_Fish_Meat",
       "OuterIndex": -26,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",

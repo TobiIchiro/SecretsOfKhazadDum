@@ -54,7 +54,7 @@
     "IconTextureReference",
     "InternalVariableName",
     "MaterialInstanceConstant",
-    "ModRawCrab",
+    "ModRawLobster",
     "Meat_GEN_VARIABLE",
     "SM_Lobster_Meat",
     "MorConsumableRowHandle",
@@ -228,7 +228,7 @@
             "SoftClassProperty": "SoftObjectProperty"
           },
           "SerializedType": "ObjectProperty",
-          "Name": "ModRawCrab",
+          "Name": "ModRawLobster",
           "Flags": "RF_Public, RF_LoadCompleted",
           "MetaDataMap": null
         }
@@ -315,7 +315,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "ModRawCrab"
+              "Value": "ModRawLobster"
             }
           ]
         },
@@ -808,7 +808,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "ModRawCrab"
+          "Value": "ModRawLobster"
         }
       ],
       "ObjectGuid": null,
