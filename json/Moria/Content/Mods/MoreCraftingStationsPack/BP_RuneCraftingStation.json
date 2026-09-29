@@ -30,15 +30,15 @@
     "/Game/Items/Effects/RuneEffects/IE_Rune_AntiOrc",
     "/Game/Items/Effects/RuneEffects/IE_Rune_AntiShadow",
     "/Game/Items/Effects/RuneEffects/IE_Rune_Cold",
-    "/Game/Items/Effects/RuneEffects/IE_Rune_Fire",
+    "/Game/Mods/BearGuildPack/Rune/IE_Rune_TrophyBearGuild",
     "/Game/Items/Effects/RuneEffects/IE_Rune_Hunters",
     "/Game/Items/Effects/RuneEffects/IE_Rune_Ironwood",
-    "/Game/Items/Effects/RuneEffects/IE_Rune_Thunder",
+    "/Game/Mods/BearGuildPack/Rune/IE_Rune_Axbeard",
     "/Game/Items/Effects/RuneEffects/IE_Rune_Whisperwood",
     "/Game/Mods/MoreCraftingStationsPack/BP_RuneCraftingStation",
     "/Game/LevelDesign/Placeables/Interactables/States/InSt_RuneCraftingStation__Root",
-    "/Game/Tech/Data/StringTables/Interactables",
-    "/Game/Tech/Data/StringTables/Interactables.Interactables",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables",
+    "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables",
     "/Game/UI/Stations/UI_WBP_Runecrafting_Screen_v2",
     "/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Objects/Workstations/Rune_Table/fx_env_obj_runetable_finished_play",
     "/Game/WwiseAudio/Events/Default_Work_Unit/FX/Environment/Objects/Workstations/Rune_Table/fx_env_obj_runetable_idle_lp_play",
@@ -263,15 +263,15 @@
     "IE_Rune_AntiOrc",
     "IE_Rune_AntiShadow",
     "IE_Rune_Cold",
-    "IE_Rune_Fire",
+    "IE_Rune_TrophyBearGuild",
     "IE_Rune_Hunters",
     "IE_Rune_Ironwood",
-    "IE_Rune_Thunder",
+    "IE_Rune_Axbeard",
     "IE_Rune_TrophyHunter",
     "IE_Rune_Whisperwood",
     "InSt_RuneCraftingStation__Root_C",
     "InteractableFSMComp",
-    "Interactables",
+    "ST_Mod_Interactables",
     "InteractAnim_Collect",
     "InteractAnim_Start",
     "InteractCollider",
@@ -8264,87 +8264,6 @@
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
               "Value": -114
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "2",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -109
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "3",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -108
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "4",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -110
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "5",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -106
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "6",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -113
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "7",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -112
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "8",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -115
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "9",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -105
-            },
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "10",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -107
             }
           ]
         },
@@ -8361,7 +8280,7 @@
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
           "Flags": 0,
           "HistoryType": "StringTableEntry",
-          "TableId": "/Game/Tech/Data/StringTables/Interactables.Interactables",
+          "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables",
           "Namespace": null,
           "CultureInvariantString": null,
           "SourceFmt": null,
@@ -8376,13 +8295,13 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Interactables.RuneCraftingStation.Name"
+          "Value": "MoreCraftingStationsPack_AdvancedRune.Name"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
           "Flags": 0,
           "HistoryType": "StringTableEntry",
-          "TableId": "/Game/Tech/Data/StringTables/Interactables.Interactables",
+          "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables.ST_Mod_Interactables",
           "Namespace": null,
           "CultureInvariantString": null,
           "SourceFmt": null,
@@ -8397,7 +8316,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Interactables.RuneCraftingStation.Name"
+          "Value": "MoreCraftingStationsPack_AdvancedRune.Name"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -15144,7 +15063,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "IE_Rune_Fire",
+      "ObjectName": "IE_Rune_TrophyBearGuild",
       "OuterIndex": -145,
       "ClassPackage": "/Script/Moria",
       "ClassName": "MorRuneEffect",
@@ -15171,7 +15090,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "IE_Rune_Thunder",
+      "ObjectName": "IE_Rune_Axbeard",
       "OuterIndex": -148,
       "ClassPackage": "/Script/Moria",
       "ClassName": "MorRuneEffect",
@@ -15450,7 +15369,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/Effects/RuneEffects/IE_Rune_Fire",
+      "ObjectName": "/Game/Mods/BearGuildPack/Rune/IE_Rune_TrophyBearGuild",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -15477,7 +15396,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Items/Effects/RuneEffects/IE_Rune_Thunder",
+      "ObjectName": "/Game/Mods/BearGuildPack/Rune/IE_Rune_Axbeard",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -15612,7 +15531,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Tech/Data/StringTables/Interactables",
+      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -15855,7 +15774,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Interactables",
+      "ObjectName": "ST_Mod_Interactables",
       "OuterIndex": -163,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
