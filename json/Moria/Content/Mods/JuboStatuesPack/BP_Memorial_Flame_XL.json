@@ -7,7 +7,7 @@
     "/Game/Mods/JuboStatuesPack/Meshes/SM_Statue",
     "/Game/Items/Breakables/BP_BaseBreakable",
     "/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Medium_Parent_Breakable",
-    "/Game/Mods/JuboStatuesPack/BP_Guard_Statue_XL",
+    "/Game/Mods/JuboStatuesPack/BP_Memorial_Flame_XL",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
@@ -26,7 +26,7 @@
     "BodyInstance",
     "BoolProperty",
     "BP_BaseBreakable_C",
-    "BP_Guard_Statue_XL_C",
+    "BP_Memorial_Flame_XL_C",
     "BP_DM_Scrap_Medium_Parent_Breakable_C",
     "Breakable",
     "Breakable Effects_GEN_VARIABLE",
@@ -46,7 +46,7 @@
     "CookedComponentInstancingData",
     "Default__BlueprintGeneratedClass",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_Guard_Statue_XL_C",
+    "Default__BP_Memorial_Flame_XL_C",
     "Default__BP_DM_Scrap_Medium_Parent_Breakable_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
@@ -287,7 +287,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Guard_Statue_XL_C",
+      "ObjectName": "BP_Memorial_Flame_XL_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -2,
@@ -346,7 +346,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Guard_Statue_XL_C",
+      "ObjectName": "Default__BP_Memorial_Flame_XL_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -859,9 +859,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 3.25,
-                "Y": 3.25,
-                "Z": 3.25
+                "X": 5.0432,
+                "Y": 5.0432,
+                "Z": 5.0432
               }
             }
           ]
@@ -1953,7 +1953,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/JuboStatuesPack/BP_Guard_Statue_XL",
+  "FolderName": "/Game/Mods/JuboStatuesPack/BP_Memorial_Flame_XL",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

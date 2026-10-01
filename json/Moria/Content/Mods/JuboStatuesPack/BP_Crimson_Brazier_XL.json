@@ -4,10 +4,10 @@
   "NameMap": [
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible",
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible.DM_GPI_Dwarf_Memorial_A_Destructible",
-    "/Game/Mods/JuboStatuesPack/Meshes/SM_Statue",
+    "/Game/Art/Assets/GPI/Tools/SM_RedMountainDeco",
     "/Game/Items/Breakables/BP_BaseBreakable",
     "/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Medium_Parent_Breakable",
-    "/Game/Mods/JuboStatuesPack/BP_Guard_Statue_XL",
+    "/Game/Mods/JuboStatuesPack/BP_Crimson_Brazier_XL",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
@@ -26,7 +26,7 @@
     "BodyInstance",
     "BoolProperty",
     "BP_BaseBreakable_C",
-    "BP_Guard_Statue_XL_C",
+    "BP_Crimson_Brazier_XL_C",
     "BP_DM_Scrap_Medium_Parent_Breakable_C",
     "Breakable",
     "Breakable Effects_GEN_VARIABLE",
@@ -46,7 +46,7 @@
     "CookedComponentInstancingData",
     "Default__BlueprintGeneratedClass",
     "Default__BP_BaseBreakable_C",
-    "Default__BP_Guard_Statue_XL_C",
+    "Default__BP_Crimson_Brazier_XL_C",
     "Default__BP_DM_Scrap_Medium_Parent_Breakable_C",
     "Default__InheritableComponentHandler",
     "Default__MorBreakableMeshPiece",
@@ -68,7 +68,7 @@
     "Engine",
     "FloatProperty",
     "GameplayTagContainer",
-    "SM_Statue",
+    "SM_RedMountainDeco",
     "GPI_Dwarf_Memorial_A1",
     "GPI_Dwarf_Memorial_A1_GEN_VARIABLE",
     "Guid",
@@ -287,7 +287,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Guard_Statue_XL_C",
+      "ObjectName": "BP_Crimson_Brazier_XL_C",
       "OuterIndex": 0,
       "ClassIndex": -7,
       "SuperIndex": -2,
@@ -346,7 +346,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Guard_Statue_XL_C",
+      "ObjectName": "Default__BP_Crimson_Brazier_XL_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -859,9 +859,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 3.25,
-                "Y": 3.25,
-                "Z": 3.25
+                "X": 10.7715,
+                "Y": 10.7715,
+                "Z": 10.7715
               }
             }
           ]
@@ -1792,7 +1792,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/JuboStatuesPack/Meshes/SM_Statue",
+      "ObjectName": "/Game/Art/Assets/GPI/Tools/SM_RedMountainDeco",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1891,7 +1891,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_Statue",
+      "ObjectName": "SM_RedMountainDeco",
       "OuterIndex": -22,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -1953,7 +1953,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/JuboStatuesPack/BP_Guard_Statue_XL",
+  "FolderName": "/Game/Mods/JuboStatuesPack/BP_Crimson_Brazier_XL",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,

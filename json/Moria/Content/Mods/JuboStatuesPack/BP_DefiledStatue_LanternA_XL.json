@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Art/Assets/Kits/Deco/Defiled/Defiled_Statues_A_XL",
     "/Game/Art/Assets/Landmarks/CrystalDescent/Cavern_Crystal_B",
-    "/Game/FX/CrystalFX/BP_DefiledStatue_LanternA_XL",
+    "/Game/Mods/JuboStatuesPack/BP_DefiledStatue_LanternA_XL",
     "/Game/FX/CrystalFX/MI_Moonstone_ClusterLarge",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -3193,7 +3193,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/FX/CrystalFX/BP_DefiledStatue_LanternA_XL",
+  "FolderName": "/Game/Mods/JuboStatuesPack/BP_DefiledStatue_LanternA_XL",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
