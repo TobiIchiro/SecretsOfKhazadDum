@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible",
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible.DM_GPI_Dwarf_Memorial_A_Destructible",
-    "/Game/Mods/JuboStatuesPack/Meshes/SM_Statue",
+    "/Moria/Art/Assets/GPI/CBP/GPI_Dwarf_Memorial_F_Statue",
     "/Game/Items/Breakables/BP_BaseBreakable",
     "/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Medium_Parent_Breakable",
     "/Game/Mods/JuboStatuesPack/BP_Memorial_Flame_XL",
@@ -68,7 +68,7 @@
     "Engine",
     "FloatProperty",
     "GameplayTagContainer",
-    "SM_Statue",
+    "GPI_Dwarf_Memorial_F_Statue",
     "GPI_Dwarf_Memorial_A1",
     "GPI_Dwarf_Memorial_A1_GEN_VARIABLE",
     "Guid",
@@ -859,9 +859,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 5.0432,
-                "Y": 5.0432,
-                "Z": 5.0432
+                "X": 31.6442,
+                "Y": 31.6442,
+                "Z": 31.6442
               }
             }
           ]
@@ -1792,7 +1792,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/JuboStatuesPack/Meshes/SM_Statue",
+      "ObjectName": "/Moria/Art/Assets/GPI/CBP/GPI_Dwarf_Memorial_F_Statue",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1891,7 +1891,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_Statue",
+      "ObjectName": "GPI_Dwarf_Memorial_F_Statue",
       "OuterIndex": -22,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
