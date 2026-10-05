@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible",
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible.DM_GPI_Dwarf_Memorial_A_Destructible",
-    "/Moria/Art/Assets/Landmarks/ValleyOfDeadKings/Tomb_of_DurinVI",
+    "/Game/Art/Assets/Landmarks/ValleyOfDeadKings/Tomb_of_DurinVI",
     "/Game/Items/Breakables/BP_BaseBreakable",
     "/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Medium_Parent_Breakable",
     "/Game/Mods/JuboStatuesPack/BP_Durin_VI_XL",
@@ -1792,7 +1792,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Moria/Art/Assets/Landmarks/ValleyOfDeadKings/Tomb_of_DurinVI",
+      "ObjectName": "/Game/Art/Assets/Landmarks/ValleyOfDeadKings/Tomb_of_DurinVI",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",

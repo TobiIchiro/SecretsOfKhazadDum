@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible",
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible.DM_GPI_Dwarf_Memorial_A_Destructible",
-    "/Moria/Art/Assets/GPI/CBP/GPI_Dwarf_Memorial_F_Statue",
+    "/Game/Art/Assets/GPI/CBP/GPI_Dwarf_Memorial_F_Statue",
     "/Game/Items/Breakables/BP_BaseBreakable",
     "/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Medium_Parent_Breakable",
     "/Game/Mods/JuboStatuesPack/BP_Memorial_Flame_XL",
@@ -1792,7 +1792,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Moria/Art/Assets/GPI/CBP/GPI_Dwarf_Memorial_F_Statue",
+      "ObjectName": "/Game/Art/Assets/GPI/CBP/GPI_Dwarf_Memorial_F_Statue",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
