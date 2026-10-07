@@ -202480,7 +202480,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/JuboStatuesPack/BP_Memorial_Flame_XL.BP_Memorial_Flame_XL_C"
+                    "AssetName": "/Game/Mods/JuboStatuesPack/BP_DefiledStatue_LanternB_XL.BP_DefiledStatue_LanternB_XL_C"
                   },
                   "SubPathString": null
                 }
@@ -202520,7 +202520,7 @@
                           "AssetPath": {
                             "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                             "PackageName": null,
-                            "AssetName": "/Game/Mods/JuboStatuesPack/BP_Memorial_Flame_XL.BP_Memorial_Flame_XL_C"
+                            "AssetName": "/Game/Mods/JuboStatuesPack/BP_DefiledStatue_LanternB_XL.BP_DefiledStatue_LanternB_XL_C"
                           },
                           "SubPathString": null
                         }
