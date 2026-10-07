@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible",
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible.DM_GPI_Dwarf_Memorial_A_Destructible",
-    "/Game/Art/Assets/GPI/Tools/SM_RedMountainDeco",
+    "/Game/Mods/Water/Meshes/SM_CrimsonStatue",
     "/Game/Items/Breakables/BP_BaseBreakable",
     "/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Medium_Parent_Breakable",
     "/Game/Mods/JuboStatuesPack/BP_Crimson_Brazier_XL",
@@ -68,7 +68,7 @@
     "Engine",
     "FloatProperty",
     "GameplayTagContainer",
-    "SM_RedMountainDeco",
+    "SM_CrimsonStatue",
     "GPI_Dwarf_Memorial_A1",
     "GPI_Dwarf_Memorial_A1_GEN_VARIABLE",
     "Guid",
@@ -859,9 +859,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 10.7715,
-                "Y": 10.7715,
-                "Z": 10.7715
+                "X": 6.0,
+                "Y": 6.0,
+                "Z": 6.0
               }
             }
           ]
@@ -1792,7 +1792,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/GPI/Tools/SM_RedMountainDeco",
+      "ObjectName": "/Game/Mods/Water/Meshes/SM_CrimsonStatue",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1891,7 +1891,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_RedMountainDeco",
+      "ObjectName": "SM_CrimsonStatue",
       "OuterIndex": -22,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
