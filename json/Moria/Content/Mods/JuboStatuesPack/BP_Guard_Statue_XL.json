@@ -4,7 +4,7 @@
   "NameMap": [
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible",
     "/Game/Art/Assets/GPI/CBP/Destructible/DM_GPI_Dwarf_Memorial_A_Destructible.DM_GPI_Dwarf_Memorial_A_Destructible",
-    "/Game/Mods/JuboStatuesPack/Meshes/SM_Statue",
+    "/Game/Mods/100BuildingsPack/Meshes/SM_Statue",
     "/Game/Items/Breakables/BP_BaseBreakable",
     "/Game/LevelDesign/Deco/Breakable_parents/BP_DM_Scrap_Medium_Parent_Breakable",
     "/Game/Mods/JuboStatuesPack/BP_Guard_Statue_XL",
@@ -1792,7 +1792,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/JuboStatuesPack/Meshes/SM_Statue",
+      "ObjectName": "/Game/Mods/100BuildingsPack/Meshes/SM_Statue",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
