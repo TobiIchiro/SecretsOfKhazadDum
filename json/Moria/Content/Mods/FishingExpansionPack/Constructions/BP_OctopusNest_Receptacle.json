@@ -11,8 +11,8 @@
     "/Game/Environments/RockMaterials/MI_Decal_WetnessDamp",
     "/Game/Mods/FishingExpansionPack/Constructions/BP_OctopusNest_Receptacle",
     "/Game/LevelDesign/Placeables/Containers/Flora/BP_Flora_ReceptacleBase",
-    "/Game/Tech/Data/StringTables/Items",
-    "/Game/Tech/Data/StringTables/Items.Items",
+    "/Game/Mods/FishingExpansionPack/StringTables/ST_Mod_Fishing",
+    "/Game/Mods/FishingExpansionPack/StringTables/ST_Mod_Fishing.ST_Mod_Fishing",
     "/Game/Mods/FishingExpansionPack/Constructions/Meshes/SM_CrabTrap",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -99,7 +99,7 @@
     "InternalVariableName",
     "Inventory",
     "InventoryComponent",
-    "Items",
+    "ST_Mod_Fishing",
     "MaterialInstanceConstant",
     "Mesh",
     "Mesh1",
@@ -449,7 +449,7 @@
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
           "Flags": 0,
           "HistoryType": "StringTableEntry",
-          "TableId": "/Game/Tech/Data/StringTables/Items.Items",
+          "TableId": "/Game/Mods/FishingExpansionPack/StringTables/ST_Mod_Fishing.ST_Mod_Fishing",
           "Namespace": null,
           "CultureInvariantString": null,
           "SourceFmt": null,
@@ -464,7 +464,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Items.Consumables.Mushroom.Name"
+          "Value": "Fishing.Reward.Octopus"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -4648,7 +4648,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Tech/Data/StringTables/Items",
+      "ObjectName": "/Game/Mods/FishingExpansionPack/StringTables/ST_Mod_Fishing",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -4819,7 +4819,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Items",
+      "ObjectName": "ST_Mod_Fishing",
       "OuterIndex": -42,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
