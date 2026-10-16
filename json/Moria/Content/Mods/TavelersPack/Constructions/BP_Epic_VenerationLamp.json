@@ -6,12 +6,12 @@
     "/Game/Art/Assets/GPI/Light/DM_GPI_Constructed_Beacon_Crystal_Destructible.DM_GPI_Constructed_Beacon_Crystal_Destructible",
     "/Game/Art/Assets/GPI/Light/DM_GPI_Constructed_Beacon_Destructible",
     "/Game/Art/Assets/GPI/Light/DM_GPI_Constructed_Beacon_Destructible.DM_GPI_Constructed_Beacon_Destructible",
-    "/Game/Art/Assets/GPI/Light/GPI_Constructed_Beacon",
-    "/Game/Art/Assets/GPI/Light/GPI_Constructed_Beacon_Crystal",
+    "/Game/Mods/TavelersPack/Constructions/Meshes/GPI_Landmark_Beacon_Build",
+    "/Game/Art/Assets/GPI/Light/GPI_Landmark_Beacon_Crystal",
     "/Game/Art/Assets/GPI/Materials/GPI_Crystal_Lamp_Great/MI_Crystal_VenerationConstruction",
     "/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture",
     "/Game/LevelDesign/Placeables/Interactables/Veneration/BP_VenerationLamp",
-    "/Game/LevelDesign/Placeables/Interactables/Veneration/BP_VenerationLamp_Breakable",
+    "/Game/Mods/TravelersPack/Constructions/BP_Epic_VenerationLamp",
     "/Game/LevelDesign/Placeables/Interactables/Veneration/BP_VenerationSource",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -41,7 +41,7 @@
     "Box_NavAreaFurniture_GEN_VARIABLE",
     "BoxComponent",
     "BoxExtent",
-    "BP_VenerationLamp_Breakable_C",
+    "BP_Epic_VenerationLamp_C",
     "BP_VenerationLamp_C",
     "BP_VenerationSource_C",
     "Breakable",
@@ -87,7 +87,7 @@
     "CrystalLight Brightness Start",
     "Default__BlueprintGeneratedClass",
     "Default__BoxComponent",
-    "Default__BP_VenerationLamp_Breakable_C",
+    "Default__BP_Epic_VenerationLamp_C",
     "Default__BP_VenerationLamp_C",
     "Default__BP_VenerationSource_C",
     "Default__Function",
@@ -125,8 +125,8 @@
     "Function",
     "Furniture",
     "GhostLocatorRoot_GEN_VARIABLE",
-    "GPI_Constructed_Beacon",
-    "GPI_Constructed_Beacon_Crystal",
+    "GPI_Landmark_Beacon_Build",
+    "GPI_Landmark_Beacon_Crystal",
     "GPI_Constructed_Beacon_Crystal_GEN_VARIABLE",
     "GPI_Landmark_Beacon_Top",
     "GPI_Landmark_Beacon_Top_GEN_VARIABLE",
@@ -1056,7 +1056,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_VenerationLamp_Breakable_C",
+      "ObjectName": "BP_Epic_VenerationLamp_C",
       "OuterIndex": 0,
       "ClassIndex": -14,
       "SuperIndex": -2,
@@ -1122,7 +1122,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_VenerationLamp_Breakable_C",
+      "ObjectName": "Default__BP_Epic_VenerationLamp_C",
       "OuterIndex": 0,
       "ClassIndex": 2,
       "SuperIndex": 0,
@@ -2144,7 +2144,7 @@
                       "IsZero": false,
                       "PropertyTagFlags": "None",
                       "PropertyTagExtensions": "NoExtension",
-                      "Value": "GPI_Constructed_Beacon_Crystal"
+                      "Value": "GPI_Landmark_Beacon_Crystal"
                     },
                     {
                       "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
@@ -3744,8 +3744,8 @@
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
                 "X": "+0",
-                "Y": -0.0003509521484375,
-                "Z": 86.41238403320312
+                "Y": 9.1552734E-05,
+                "Z": -162.20422
               }
             }
           ]
@@ -4121,7 +4121,7 @@
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
                 "X": "+0",
                 "Y": 9.999999974752427E-07,
-                "Z": 174.65997314453125
+                "Z": 846.2052
               }
             }
           ]
@@ -6476,7 +6476,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/GPI/Light/GPI_Constructed_Beacon",
+      "ObjectName": "/Game/Mods/TavelersPack/Constructions/Meshes/GPI_Landmark_Beacon_Build",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -6485,7 +6485,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Art/Assets/GPI/Light/GPI_Constructed_Beacon_Crystal",
+      "ObjectName": "/Game/Art/Assets/GPI/Light/GPI_Landmark_Beacon_Crystal",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -6665,7 +6665,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GPI_Constructed_Beacon",
+      "ObjectName": "GPI_Landmark_Beacon_Build",
       "OuterIndex": -56,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -6674,7 +6674,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GPI_Constructed_Beacon_Crystal",
+      "ObjectName": "GPI_Landmark_Beacon_Crystal",
       "OuterIndex": -57,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -6817,7 +6817,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/LevelDesign/Placeables/Interactables/Veneration/BP_VenerationLamp_Breakable",
+  "FolderName": "/Game/Mods/TravelersPack/Constructions/BP_Epic_VenerationLamp",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
