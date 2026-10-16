@@ -116352,7 +116352,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Weapons.Hammer.Durin.Name"
+                "Value": "Weapons.Hammer.Magnolia.Name"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
@@ -116373,7 +116373,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "Weapons.Hammer.Durin.Description"
+                "Value": "Weapons.Hammer.Magnolia.Description"
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
