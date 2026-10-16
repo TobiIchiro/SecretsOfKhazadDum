@@ -10,7 +10,7 @@
     "/Game/Mods/TravelersPack/Items/Weapons/BrokenVersions/EQ_Magnolia_Hammer_2h_Broken",
     "/Game/Mods/TravelersPack/Items/Weapons/EQ_Magnolia_Hammer_2h",
     "/Game/Mods/TavelersPack/Items/Weapons/Meshes/SM_Magnolia_Weapon_Broken",
-    "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Balin_Battleaxe",
+    "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Magnolia_Weapon",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/FGK",
@@ -39,7 +39,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_Category_Weapon_C",
-    "Broken_Balin_Battleaxe",
+    "Broken_Magnolia_Hammer_2h",
     "ByteProperty",
     "Callout Data",
     "CalloutData",
@@ -162,7 +162,7 @@
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_Balin_Battleaxe",
+    "T_UI_Icon_Magnolia_Weapon",
     "Texture2D",
     "TransformLocatorComponent",
     "UberGraphFrame",
@@ -1164,7 +1164,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Broken_Magnolia_Hammer"
+              "Value": "Broken_Magnolia_Hammer_2h"
             }
           ]
         },
@@ -3438,7 +3438,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Balin_Battleaxe",
+      "ObjectName": "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Magnolia_Weapon",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -3663,7 +3663,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_Balin_Battleaxe",
+      "ObjectName": "T_UI_Icon_Magnolia_Weapon",
       "OuterIndex": -64,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",

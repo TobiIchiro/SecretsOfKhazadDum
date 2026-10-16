@@ -11,7 +11,7 @@
     "/Game/Mods/TravelersPack/Items/Weapons/EQ_Magnolia_Hammer_2h",
     "/Game/Mods/TravelersPack/Items/Weapons/Meshes/SM_Magnolia_Weapon",
     "/Game/Items/Weapons/Models/Dwarf_Weapons/Materials/D_Weapon_Mithril_BattleAxe2h/MI_D_Weapon_Mithril_BattleAxe2h_Rune",
-    "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Balin_Battleaxe",
+    "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Magnolia_Weapon",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/FGK",
@@ -26,7 +26,7 @@
     "AttachParent",
     "Attacker",
     "AutoAttachSocketName",
-    "Balin_Battleaxe",
+    "Magnolia_Hammer_2h",
     "bAutoActivate",
     "bHasValidCookedData",
     "bloodtrail",
@@ -154,7 +154,7 @@
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_Balin_Battleaxe",
+    "T_UI_Icon_Magnolia_Weapon",
     "Texture2D",
     "TransformLocatorComponent",
     "UberGraphFrame",
@@ -1264,7 +1264,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Magnolia_Hammer"
+              "Value": "Magnolia_Hammer_2h"
             }
           ]
         },
@@ -4620,7 +4620,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Balin_Battleaxe",
+      "ObjectName": "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Magnolia_Weapon",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -4845,7 +4845,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_Balin_Battleaxe",
+      "ObjectName": "T_UI_Icon_Magnolia_Weapon",
       "OuterIndex": -63,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
