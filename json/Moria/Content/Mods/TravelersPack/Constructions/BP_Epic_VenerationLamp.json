@@ -3292,9 +3292,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 1.6900006532669067,
-                "Y": 1.690000057220459,
-                "Z": 1.6900001764297485
+                "X": 2.0,
+                "Y": 2.0,
+                "Z": 2.0
               }
             }
           ]
@@ -3656,9 +3656,9 @@
               "PropertyTagExtensions": "NoExtension",
               "Value": {
                 "$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
-                "X": 1.690000057220459,
-                "Y": 1.6899995803833008,
-                "Z": 1.6899996995925903
+                "X": 2.0,
+                "Y": 2.0,
+                "Z": 2.0
               }
             }
           ]
