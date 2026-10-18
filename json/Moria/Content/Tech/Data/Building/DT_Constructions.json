@@ -203805,7 +203805,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1
+                "Value": -2337
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -203969,7 +203969,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1
+                "Value": -2337
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -204133,7 +204133,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -1
+                "Value": -2339
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -205438,7 +205438,9 @@
         -2329,
         -2331,
         -2333,
-        -2335
+        -2335,
+        -2337,
+        -2337
       ],
       "CreateBeforeCreateDependencies": [],
       "Extras": ""
@@ -226465,6 +226467,42 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "T_UI_BuildIcon_FountainsPack_Fountain_D",
       "OuterIndex": -2334,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/TravelersPackPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_VenerationLamp_A",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_TravelersPack_VenerationLamp_A",
+      "OuterIndex": -2336,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "Texture2D",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/TravelersPackPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_TravelersCamp_A",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "T_UI_BuildIcon_TravelersPack_TravelersCamp_A",
+      "OuterIndex": -2338,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
       "PackageName": null,

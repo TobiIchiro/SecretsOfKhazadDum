@@ -3,9 +3,9 @@
   "Info": "Serialized with UAssetAPI 1.0.2.0 (39a20ea)",
   "NameMap": [
     "/Game/Unshippable/ThirdParty/Medhue_Bat/Material/MI_Bat",
-    "/Game/Mods/HuntersLodgePack/Icons/T_UI_Icon_ModBatWings",
-    "/Game/Mods/HuntersLodgePack/Items/Resources/BP_ModBatWings",
-    "/Game/Mods/HuntersLodgePack/Items/Resources/GPI_BatWings",
+    "/Game/Mods/TravelersPack/Icons/T_UI_Icon_TravelersToken",
+    "/Game/Mods/TravelersPack/Items/Resources/BP_TravelersToken",
+    "/Game/Mods/TravelersPack/Items/Resources/GPI_Travelers_Token",
     "/Game/Items/BP_Category_Resource",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -19,7 +19,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_Category_Resource_C",
-    "BP_ModBatWings_C",
+    "BP_TravelersToken_C",
     "Callout Data",
     "CalloutData",
     "CalloutDataComponent",
@@ -28,7 +28,7 @@
     "ComponentTemplate",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Category_Resource_C",
-    "Default__BP_ModBatWings_C",
+    "Default__BP_TravelersToken_C",
     "Default__SceneComponent",
     "Default__SCS_Node",
     "Default__SimpleConstructionScript",
@@ -36,9 +36,9 @@
     "DefaultSceneRoot",
     "DefaultSceneRoot_GEN_VARIABLE",
     "DefaultSceneRootNode",
-    "ModBatWings",
+    "TravelersToken_A",
     "Engine",
-    "GPI_BatWings",
+    "GPI_Travelers_Token",
     "Guid",
     "IconTextureReference",
     "InternalVariableName",
@@ -70,7 +70,7 @@
     "StaticMesh_GEN_VARIABLE",
     "StaticMeshComponent",
     "StructProperty",
-    "T_UI_Icon_ModBatWings",
+    "T_UI_Icon_TravelersToken",
     "Texture2D",
     "VariableGuid"
   ],
@@ -238,7 +238,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_ModBatWings_C",
+      "ObjectName": "BP_TravelersToken_C",
       "OuterIndex": 0,
       "ClassIndex": -6,
       "SuperIndex": -1,
@@ -296,7 +296,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "ModBatWings"
+              "Value": "TravelersToken_A"
             }
           ]
         },
@@ -349,7 +349,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_ModBatWings_C",
+      "ObjectName": "Default__BP_TravelersToken_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -854,26 +854,6 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -26
-        },
-        {
-          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
-          "ArrayType": "ObjectProperty",
-          "Name": "OverrideMaterials",
-          "ArrayIndex": 0,
-          "IsZero": false,
-          "PropertyTagFlags": "None",
-          "PropertyTagExtensions": "NoExtension",
-          "Value": [
-            {
-              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
-              "Name": "0",
-              "ArrayIndex": 0,
-              "IsZero": false,
-              "PropertyTagFlags": "None",
-              "PropertyTagExtensions": "NoExtension",
-              "Value": -30
-            }
-          ]
         }
       ],
       "ObjectGuid": null,
@@ -1052,7 +1032,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/HuntersLodgePack/Items/Resources/GPI_BatWings",
+      "ObjectName": "/Game/Mods/TravelersPack/Items/Resources/GPI_Travelers_Token",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1061,7 +1041,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/HuntersLodgePack/Icons/T_UI_Icon_ModBatWings",
+      "ObjectName": "/Game/Mods/TravelersPack/Icons/T_UI_Icon_TravelersToken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1151,7 +1131,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "GPI_BatWings",
+      "ObjectName": "GPI_Travelers_Token",
       "OuterIndex": -15,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -1169,7 +1149,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "T_UI_Icon_ModBatWings",
+      "ObjectName": "T_UI_Icon_TravelersToken",
       "OuterIndex": -16,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
@@ -1239,7 +1219,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/HuntersLodgePack/Items/Resources/BP_ModBatWings",
+  "FolderName": "/Game/Mods/TravelersPack/Items/Resources/BP_TravelersToken",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
