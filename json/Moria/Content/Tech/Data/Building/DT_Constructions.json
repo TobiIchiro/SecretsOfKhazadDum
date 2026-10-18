@@ -3226,8 +3226,8 @@
     "/Game/Mods/StreetLampPack/Constructions/Icons/T_UI_BuildIcon_StreetLampPack_StreetLamp_D",
     "/Game/Mods/StreetLampPack/Constructions/Icons/T_UI_BuildIcon_StreetLampPack_StreetLamp_E",
     "/Game/Mods/StreetLampPack/Constructions/Icons/T_UI_BuildIcon_StreetLampPack_StreetLamp_F",
-    "/Game/Mods/TavelersPack/Constructions/BP_Travelers_Camp",
-    "/Game/Mods/TavelersPack/Constructions/BP_Travelers_Camp.BP_Travelers_Camp_C",
+    "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp",
+    "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp.BP_Travelers_Camp_C",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables",
@@ -3305,9 +3305,9 @@
     "/Game/Mods/TravelersPack/Constructions/BP_Epic_VenerationLamp.BP_Epic_VenerationLamp_C",
     "/Game/Mods/TravelersPack/Constructions/BP_Grand_VenerationLamp",
     "/Game/Mods/TravelersPack/Constructions/BP_Grand_VenerationLamp.BP_Grand_VenerationLamp_C",
-    "/Game/Mods/TravelersPackPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_TravelersCamp_A",
-    "/Game/Mods/TravelersPackPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_VenerationLamp_A",
-    "/Game/Mods/TravelersPackPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_VenerationLamp_B",
+    "/Game/Mods/TravelersPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_TravelersCamp_A",
+    "/Game/Mods/TravelersPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_VenerationLamp_A",
+    "/Game/Mods/TravelersPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_VenerationLamp_B",
     "/Game/Mods/UzbadPack/Constructions/Icons/T_UI_BuildIcon_UzbadPack_AngledWoodenFloor_A",
     "/Game/Mods/UzbadPack/Constructions/Icons/T_UI_BuildIcon_UzbadPack_ChoppingBlock_A",
     "/Game/Mods/UzbadPack/Constructions/Icons/T_UI_BuildIcon_UzbadPack_KitchenCauldron_A",
@@ -204642,7 +204642,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2337
+                "Value": -2339
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -204806,7 +204806,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2337
+                "Value": -2339
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -204970,7 +204970,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -2339
+                "Value": -2341
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.SoftObjectPropertyData, UAssetAPI",
@@ -204984,7 +204984,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/TavelersPack/Constructions/BP_Travelers_Camp.BP_Travelers_Camp_C"
+                    "AssetName": "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp.BP_Travelers_Camp_C"
                   },
                   "SubPathString": null
                 }
@@ -205024,7 +205024,7 @@
                           "AssetPath": {
                             "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                             "PackageName": null,
-                            "AssetName": "/Game/Mods/TavelersPack/Constructions/BP_Travelers_Camp.BP_Travelers_Camp_C"
+                            "AssetName": "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp.BP_Travelers_Camp_C"
                           },
                           "SubPathString": null
                         }
@@ -227329,7 +227329,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/TravelersPackPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_VenerationLamp_A",
+      "ObjectName": "/Game/Mods/TravelersPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_VenerationLamp_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -227347,7 +227347,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/TravelersPackPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_TravelersCamp_A",
+      "ObjectName": "/Game/Mods/TravelersPack/Constructions/Icons/T_UI_BuildIcon_TravelersPack_TravelersCamp_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",

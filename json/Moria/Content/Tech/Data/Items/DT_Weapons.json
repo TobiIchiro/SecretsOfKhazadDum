@@ -961,19 +961,19 @@
     "/Game/Mods/PyroPack/Items/Weapons/BrokenVersions/EQ_Pyro_Sword_1h_B_Broken.EQ_Pyro_Sword_1h_B_Broken_C",
     "/Game/Mods/PyroPack/Items/Weapons/BrokenVersions/EQ_Pyro_Sword_1h_B_Broken",
     "Magnolia_Hammer_2h",
-    "/Game/Mods/TavelersPack/Icons/T_UI_Icon_Magnolia_Weapon.T_UI_Icon_Magnolia_Weapon",
+    "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Magnolia_Weapon.T_UI_Icon_Magnolia_Weapon",
     "/Game/Mods/TravelersPack/Items/Weapons/EQ_Magnolia_Hammer_2h.EQ_Magnolia_Hammer_2h_C",
     "/Game/Mods/TravelersPack/Items/Weapons/EQ_Magnolia_Hammer_2h",
     "Broken_Magnolia_Hammer_2h",
     "/Game/Mods/TravelersPack/Items/Weapons/BrokenVersions/EQ_Magnolia_Hammer_2h_Broken.EQ_Magnolia_Hammer_2h_Broken_C",
     "/Game/Mods/TravelersPack/Items/Weapons/BrokenVersions/EQ_Magnolia_Hammer_2h_Broken",
     "Spoon_Hammer",
-    "/Game/Mods/TavelersPack/Icons/T_UI_Icon_Soon_Hammer.T_UI_Icon_Soon_Hammer",
-    "/Game/Mods/TavelersPack/Items/Weapons/EQ_Spoon_Hammer_1h.EQ_Spoon_Hammer_1h_C",
-    "/Game/Mods/TavelersPack/Items/Weapons/EQ_Spoon_Hammer_1h",
+    "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Soon_Hammer.T_UI_Icon_Soon_Hammer",
+    "/Game/Mods/TravelersPack/Items/Weapons/EQ_Spoon_Hammer_1h.EQ_Spoon_Hammer_1h_C",
+    "/Game/Mods/TravelersPack/Items/Weapons/EQ_Spoon_Hammer_1h",
     "Broken_Spoon_Hammer",
-    "/Game/Mods/TavelersPack/Items/Weapons/BrokenVersions/EQ_Spoon_Hammer_1h_Broken.EQ_Spoon_Hammer_1h_Broken_C",
-    "/Game/Mods/TavelersPack/Items/Weapons/BrokenVersions/EQ_Spoon_Hammer_1h_Broken"
+    "/Game/Mods/TravelersPack/Items/Weapons/BrokenVersions/EQ_Spoon_Hammer_1h_Broken.EQ_Spoon_Hammer_1h_Broken_C",
+    "/Game/Mods/TravelersPack/Items/Weapons/BrokenVersions/EQ_Spoon_Hammer_1h_Broken"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -116387,7 +116387,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/TavelersPack/Icons/T_UI_Icon_Magnolia_Weapon.T_UI_Icon_Magnolia_Weapon"
+                    "AssetName": "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Magnolia_Weapon.T_UI_Icon_Magnolia_Weapon"
                   },
                   "SubPathString": null
                 }
@@ -116953,7 +116953,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/TavelersPack/Icons/T_UI_Icon_Magnolia_Weapon.T_UI_Icon_Magnolia_Weapon"
+                    "AssetName": "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Magnolia_Weapon.T_UI_Icon_Magnolia_Weapon"
                   },
                   "SubPathString": null
                 }
@@ -117506,7 +117506,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/TavelersPack/Icons/T_UI_Icon_Soon_Hammer.T_UI_Icon_Soon_Hammer"
+                    "AssetName": "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Soon_Hammer.T_UI_Icon_Soon_Hammer"
                   },
                   "SubPathString": null
                 }
@@ -117523,7 +117523,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/TavelersPack/Items/Weapons/EQ_Spoon_Hammer_1h.EQ_Spoon_Hammer_1h_C"
+                    "AssetName": "/Game/Mods/TravelersPack/Items/Weapons/EQ_Spoon_Hammer_1h.EQ_Spoon_Hammer_1h_C"
                   },
                   "SubPathString": null
                 }
@@ -118062,7 +118062,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/TavelersPack/Icons/T_UI_Icon_Soon_Hammer.T_UI_Icon_Soon_Hammer"
+                    "AssetName": "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Soon_Hammer.T_UI_Icon_Soon_Hammer"
                   },
                   "SubPathString": null
                 }
@@ -118079,7 +118079,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/TavelersPack/Items/Weapons/BrokenVersions/EQ_Spoon_Hammer_1h_Broken.EQ_Spoon_Hammer_1h_Broken_C"
+                    "AssetName": "/Game/Mods/TravelersPack/Items/Weapons/BrokenVersions/EQ_Spoon_Hammer_1h_Broken.EQ_Spoon_Hammer_1h_Broken_C"
                   },
                   "SubPathString": null
                 }
