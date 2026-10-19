@@ -346,9 +346,9 @@
     "/Game/Mods/FishingExpansionPack/Items/Consumables/BP_Raw_Crab_Meat.BP_Raw_Crab_Meat_C",
     "/Game/Mods/FishingExpansionPack/Items/Icons/T_UI_Icon_RawFish.T_UI_Icon_RawFish",
     "/Game/Mods/FishingExpansionPack/Items/Consumables/BP_Raw_Fish_Meat.BP_Raw_Fish_Meat_C",
-    "/Game/Mods/FishingExpansionPack/Items/Icons/T_UI_Icon_RawLobster.T_UI_Icon_RawLobster",
+    "/Game/Mods/FishingExpansionPack/Items/Icons/T_UI_Icon_LobsterTail.T_UI_Icon_LobsterTail",
     "/Game/Mods/FishingExpansionPack/Items/Consumables/BP_Lobster_Tail.BP_Lobster_Tail_C",
-    "/Game/Mods/FishingExpansionPack/Items/Icons/T_UI_Icon_RawOctopus.T_UI_Icon_RawOctopus",
+    "/Game/Mods/FishingExpansionPack/Items/Icons/T_UI_Icon_OctopusTentacle.T_UI_Icon_OctopusTentacle",
     "/Game/Mods/FishingExpansionPack/Items/Consumables/BP_Octopus_Tentacle.BP_Octopus_Tentacle_C",
     "/Game/Mods/FishingExpansionPack/Items/Icons/T_UI_Icon_RawShrimp.T_UI_Icon_RawShrimp",
     "/Game/Mods/FishingExpansionPack/Items/Consumables/BP_Raw_Shrimp.BP_Raw_Shrimp_C",
@@ -56859,7 +56859,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/FishingExpansionPack/Items/Icons/T_UI_Icon_RawLobster.T_UI_Icon_RawLobster"
+                    "AssetName": "/Game/Mods/FishingExpansionPack/Items/Icons/T_UI_Icon_LobsterTail.T_UI_Icon_LobsterTail"
                   },
                   "SubPathString": null
                 }
@@ -57302,7 +57302,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/FishingExpansionPack/Items/Icons/T_UI_Icon_RawOctopus.T_UI_Icon_RawOctopus"
+                    "AssetName": "/Game/Mods/FishingExpansionPack/Items/Icons/T_UI_Icon_OctopusTentacle.T_UI_Icon_OctopusTentacle"
                   },
                   "SubPathString": null
                 }
