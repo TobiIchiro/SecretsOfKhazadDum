@@ -9,7 +9,7 @@
     "/Game/Items/Holdables/GE_Steel_Battleaxe",
     "/Game/Mods/TravelersPack/Items/Weapons/BrokenVersions/EQ_Magnolia_Hammer_2h_Broken",
     "/Game/Mods/TravelersPack/Items/Weapons/EQ_Magnolia_Hammer_2h",
-    "/Game/Mods/TavelersPack/Items/Weapons/Meshes/SM_Magnolia_Weapon_Broken",
+    "/Game/Mods/TravelersPack/Items/Weapons/Meshes/SM_Magnolia_Weapon_Broken",
     "/Game/Mods/TravelersPack/Icons/T_UI_Icon_Magnolia_Weapon",
     "/Script/CoreUObject",
     "/Script/Engine",
@@ -3429,7 +3429,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/TavelersPack/Items/Weapons/Meshes/SM_Magnolia_Weapon_Broken",
+      "ObjectName": "/Game/Mods/TravelersPack/Items/Weapons/Meshes/SM_Magnolia_Weapon_Broken",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
