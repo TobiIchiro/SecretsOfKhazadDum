@@ -6,7 +6,7 @@
     "/Game/Art/Assets/GPI/Light/DM_GPI_Constructed_Beacon_Crystal_Destructible.DM_GPI_Constructed_Beacon_Crystal_Destructible",
     "/Game/Art/Assets/GPI/Light/DM_GPI_Constructed_Beacon_Destructible",
     "/Game/Art/Assets/GPI/Light/DM_GPI_Constructed_Beacon_Destructible.DM_GPI_Constructed_Beacon_Destructible",
-    "/Game/Mods/TavelersPack/Constructions/Meshes/GPI_Landmark_Beacon_Build",
+    "/Game/Mods/TravelersPack/Constructions/Meshes/GPI_Landmark_Beacon_Build",
     "/Game/Art/Assets/GPI/Light/GPI_Landmark_Beacon_Crystal",
     "/Game/Art/Assets/GPI/Materials/GPI_Crystal_Lamp_Great/MI_Crystal_VenerationConstruction",
     "/Game/Character/Shared/Navigation/NavArea_InteractableArchitecture",
@@ -6476,7 +6476,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Mods/TavelersPack/Constructions/Meshes/GPI_Landmark_Beacon_Build",
+      "ObjectName": "/Game/Mods/TravelersPack/Constructions/Meshes/GPI_Landmark_Beacon_Build",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
