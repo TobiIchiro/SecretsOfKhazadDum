@@ -629583,7 +629583,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": true
+                "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -629872,7 +629872,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": 1
+                        "Value": 4
                       }
                     ]
                   }
@@ -630291,7 +630291,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": true
+                "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -630580,7 +630580,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": 1
+                        "Value": 4
                       }
                     ]
                   }
@@ -630999,7 +630999,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": true
+                "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -631288,7 +631288,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": 1
+                        "Value": 4
                       }
                     ]
                   }
@@ -631707,7 +631707,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": true
+                "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -631996,7 +631996,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": 1
+                        "Value": 4
                       }
                     ]
                   }
@@ -632415,7 +632415,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": true
+                "Value": false
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -632704,7 +632704,7 @@
                         "IsZero": false,
                         "PropertyTagFlags": "None",
                         "PropertyTagExtensions": "NoExtension",
-                        "Value": 1
+                        "Value": 4
                       }
                     ]
                   }
@@ -811752,7 +811752,7 @@
                             "IsZero": false,
                             "PropertyTagFlags": "None",
                             "PropertyTagExtensions": "NoExtension",
-                            "Value": "Ore.Granite"
+                            "Value": "Item.AncientWood"
                           }
                         ]
                       }
@@ -812388,7 +812388,7 @@
                             "IsZero": false,
                             "PropertyTagFlags": "None",
                             "PropertyTagExtensions": "NoExtension",
-                            "Value": "Ore.Granite"
+                            "Value": "Item.Ironwood"
                           }
                         ]
                       }
