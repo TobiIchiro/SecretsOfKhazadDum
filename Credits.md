@@ -13,7 +13,7 @@
 [Tentacle](https://skfb.ly/6W6HF) by • Less • is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 [Octopus](https://skfb.ly/oD8BW) by rayleighsyafiq is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 [King Crab](https://skfb.ly/PGZT) by Auckland Museum is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
-[Shrimp:)](https://skfb.ly/pvEKH) by oneserori is licensed under [CC Attribution-NonCommercial-ShareAlike](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+[Salmon](https://skfb.ly/oHLWK) by all of life is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 [Shrimp](https://skfb.ly/oErqZ) by farizulazman is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 [Cooked Shrimp Low poly](https://skfb.ly/oQ7nC) by cptoey is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
 [Lobster 3d Modle Free](https://skfb.ly/pMOUw) by iRahulRajput is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/).
