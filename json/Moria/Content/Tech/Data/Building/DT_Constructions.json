@@ -3226,8 +3226,8 @@
     "/Game/Mods/StreetLampPack/Constructions/Icons/T_UI_BuildIcon_StreetLampPack_StreetLamp_D",
     "/Game/Mods/StreetLampPack/Constructions/Icons/T_UI_BuildIcon_StreetLampPack_StreetLamp_E",
     "/Game/Mods/StreetLampPack/Constructions/Icons/T_UI_BuildIcon_StreetLampPack_StreetLamp_F",
-    "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp",
-    "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp.BP_Travelers_Camp_C",
+    "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp_B",
+    "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp_B.BP_Travelers_Camp_B_C",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Architecture.ST_Mod_Architecture",
     "/Game/Mods/Tech/Data/StringTables/ST_Mod_Interactables",
@@ -204984,7 +204984,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp.BP_Travelers_Camp_C"
+                    "AssetName": "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp_B.BP_Travelers_Camp_B_C"
                   },
                   "SubPathString": null
                 }
@@ -205024,7 +205024,7 @@
                           "AssetPath": {
                             "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                             "PackageName": null,
-                            "AssetName": "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp.BP_Travelers_Camp_C"
+                            "AssetName": "/Game/Mods/TravelersPack/Constructions/BP_Travelers_Camp_B.BP_Travelers_Camp_B_C"
                           },
                           "SubPathString": null
                         }
