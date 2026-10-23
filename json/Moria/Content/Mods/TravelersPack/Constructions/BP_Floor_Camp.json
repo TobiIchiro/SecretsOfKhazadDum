@@ -18,14 +18,14 @@
     "/Game/Art/Assets/Kits/Deco/Urban/Workshop/Scatter/Workshop_Scatter_Sandbags_B",
     "/Game/Art/Assets/Kits/Deco/Urban/Workshop/Scatter/Workshop_Scatter_Sandbags_C",
     "/Game/Art/Assets/Kits/Misc/Dirt_Mounds/Suburbs_Dirt_Mound_C",
-    "/Game/Unshippable/ThirdParty/DwarvenStatues/Meshes/Statues_Obelisk_3_SM",
+    "/Game/Art/Assets/Kits/Architecture/City/City_Floor_3x3m_A",
     "/Game/DLC/EntPack/Constructions/Meshes/EntPack_Ivy_FarmHearth",
     "/Game/DLC/EntPack/Constructions/Meshes/EntPack_Scarecrow",
     "/Game/LevelDesign/Placeables/Interactables/Constructions/BP_BaseBoundingRegion",
     "/Game/LevelDesign/Placeables/Interactables/Crafting/BP_CraftingStation",
     "/Game/LevelDesign/Placeables/Interactables/Crafting/BP_CraftingStation_ToOtherDestination",
     "/Game/LevelDesign/Placeables/Interactables/CraftStations/BP_Hearth_Base",
-    "/Game/Mods/MereakHearthsPack/BP_Hearth_Mereak_A",
+    "/Game/Mods/TravelersPack/Constructions/BP_Floor_Camp",
     "/Game/Maps/BP_POIMarker_Component_Crafting",
     "/Game/Tech/Data/StringTables/Interactables",
     "/Game/Tech/Data/StringTables/Interactables.Interactables",
@@ -75,7 +75,7 @@
     "BP_CraftingStation_C",
     "BP_CraftingStation_ToOtherDestination_C",
     "BP_Hearth_Base_C",
-    "BP_Hearth_Mereak_A_C",
+    "BP_Floor_Camp_C",
     "BP_POIMarker_Component_Crafting",
     "BP_POIMarker_Component_Crafting_C",
     "BP_POIMarker_Component_Crafting_GEN_VARIABLE",
@@ -136,7 +136,7 @@
     "Default__BP_CraftingStation_C",
     "Default__BP_CraftingStation_ToOtherDestination_C",
     "Default__BP_Hearth_Base_C",
-    "Default__BP_Hearth_Mereak_A_C",
+    "Default__BP_Floor_Camp_C",
     "Default__BP_POIMarker_Component_Crafting_C",
     "Default__ComponentDelegateBinding",
     "Default__Function",
@@ -164,11 +164,11 @@
     "ECR_Overlap",
     "EffectToApply",
     "Engine",
-    "Statues_Obelisk_3_SM",
+    "City_Floor_3x3m_A",
     "EntPack_Ivy_FarmHearth",
     "EntPack_Scarecrow",
     "EntryPoint",
-    "ExecuteUbergraph_BP_Hearth_Mereak_A",
+    "ExecuteUbergraph_BP_Floor_Camp",
     "FGKActorFSMComponent",
     "FGKAkComponent",
     "Floating_InfoText_AndProgressBar_GEN_VARIABLE",
@@ -292,9 +292,13 @@
     "Workshop_Scatter_Sandbags_C",
     "EMorConstructionPermitSize",
     "PermitSize",
-    "EMorConstructionPermitSize::Large",
+    "EMorConstructionPermitSize::Campfire",
     "SphereRadius",
-    "EnumProperty"
+    "EnumProperty",
+    "/Game/Mods/TravelersPack/Constructions/Meshes/Materials/MI_Travelers_Floor",
+    "MI_Travelers_Floor",
+    "OverrideMaterials",
+    "MaterialInstanceConstant"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -589,7 +593,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "ExecuteUbergraph_BP_Hearth_Mereak_A",
+      "ObjectName": "ExecuteUbergraph_BP_Floor_Camp",
       "OuterIndex": 4,
       "ClassIndex": -23,
       "SuperIndex": 0,
@@ -814,7 +818,7 @@
       "$type": "UAssetAPI.ExportTypes.ClassExport, UAssetAPI",
       "FuncMap": [
         [
-          "ExecuteUbergraph_BP_Hearth_Mereak_A",
+          "ExecuteUbergraph_BP_Floor_Camp",
           1
         ],
         [
@@ -1174,7 +1178,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Hearth_Mereak_A_C",
+      "ObjectName": "BP_Floor_Camp_C",
       "OuterIndex": 0,
       "ClassIndex": -26,
       "SuperIndex": -7,
@@ -1317,7 +1321,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Hearth_Mereak_A_C",
+      "ObjectName": "Default__BP_Floor_Camp_C",
       "OuterIndex": 0,
       "ClassIndex": 4,
       "SuperIndex": 0,
@@ -1361,7 +1365,7 @@
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-          "Value": 2500.0,
+          "Value": 600.0,
           "Name": "CapsuleHalfHeight",
           "ArrayIndex": 0,
           "IsZero": false,
@@ -1370,7 +1374,7 @@
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-          "Value": 2500.0,
+          "Value": 600.0,
           "Name": "CapsuleRadius",
           "ArrayIndex": 0,
           "IsZero": false,
@@ -1436,6 +1440,7 @@
         -131,
         -105,
         -121,
+        -135,
         -127,
         -115,
         -118,
@@ -4347,6 +4352,26 @@
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
           "Value": -121
+        },
+        {
+          "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+          "ArrayType": "ObjectProperty",
+          "Name": "OverrideMaterials",
+          "ArrayIndex": 0,
+          "IsZero": false,
+          "PropertyTagFlags": "None",
+          "PropertyTagExtensions": "NoExtension",
+          "Value": [
+            {
+              "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
+              "Name": "0",
+              "ArrayIndex": 0,
+              "IsZero": false,
+              "PropertyTagFlags": "None",
+              "PropertyTagExtensions": "NoExtension",
+              "Value": -135
+            }
+          ]
         }
       ],
       "ObjectGuid": null,
@@ -4439,7 +4464,7 @@
       "Data": [
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-          "Value": 3500.0,
+          "Value": 250.0,
           "Name": "PermitRadius",
           "ArrayIndex": 0,
           "IsZero": false,
@@ -4455,7 +4480,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "EMorConstructionPermitSize::Large"
+          "Value": "EMorConstructionPermitSize::Campfire"
         }
       ],
       "ObjectGuid": null,
@@ -4547,7 +4572,7 @@
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI",
-          "Value": 4000.0,
+          "Value": 1000.0,
           "Name": "SphereRadius",
           "ArrayIndex": 0,
           "IsZero": false,
@@ -9727,7 +9752,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Unshippable/ThirdParty/DwarvenStatues/Meshes/Statues_Obelisk_3_SM",
+      "ObjectName": "/Game/Art/Assets/Kits/Architecture/City/City_Floor_3x3m_A",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -10006,7 +10031,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Statues_Obelisk_3_SM",
+      "ObjectName": "City_Floor_3x3m_A",
       "OuterIndex": -90,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -10120,6 +10145,24 @@
       "ClassName": "SimpleConstructionScript",
       "PackageName": null,
       "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/TravelersPack/Constructions/Meshes/Materials/MI_Travelers_Floor",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "MI_Travelers_Floor",
+      "OuterIndex": -134,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "MaterialInstanceConstant",
+      "PackageName": null,
+      "bImportOptional": false
     }
   ],
   "DependsMap": [
@@ -10208,7 +10251,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Mods/MereakHearthsPack/BP_Hearth_Mereak_A",
+  "FolderName": "/Game/Mods/TravelersPack/Constructions/BP_Floor_Camp",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
