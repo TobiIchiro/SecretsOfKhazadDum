@@ -27,8 +27,8 @@
     "/Game/LevelDesign/Placeables/Interactables/CraftStations/BP_Hearth_Base",
     "/Game/Mods/MereakHearthsPack/BP_Hearth_Mereak_D",
     "/Game/Maps/BP_POIMarker_Component_Crafting",
-    "/Game/Tech/Data/StringTables/Interactables",
-    "/Game/Tech/Data/StringTables/Interactables.Interactables",
+    "/Game/Tech/Data/StringTables/ST_Mod_Architecture",
+    "/Game/Tech/Data/StringTables/Interactables.ST_Mod_Architecture",
     "/Game/UI/Textures/_Icons/Status/FRG_Moria_Icon_FarmLight",
     "/Script/AkAudio",
     "/Script/CoreUObject",
@@ -187,7 +187,7 @@
     "InheritableComponentHandler",
     "Intensity",
     "InteractableFSMComp",
-    "Interactables",
+    "ST_Mod_Architecture",
     "InteractCollider",
     "InternalVariableName",
     "IntProperty",
@@ -1269,7 +1269,7 @@
           "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
           "Flags": 0,
           "HistoryType": "StringTableEntry",
-          "TableId": "/Game/Tech/Data/StringTables/Interactables.Interactables",
+          "TableId": "/Game/Tech/Data/StringTables/Interactables.ST_Mod_Architecture",
           "Namespace": null,
           "CultureInvariantString": null,
           "SourceFmt": null,
@@ -1284,7 +1284,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "Constructions.Hearth_Small.name"
+          "Value": "MereakHearthsPack_Hearth_D.Name"
         },
         {
           "$type": "UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI",
@@ -9754,7 +9754,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Tech/Data/StringTables/Interactables",
+      "ObjectName": "/Game/Tech/Data/StringTables/ST_Mod_Architecture",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -10051,7 +10051,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Interactables",
+      "ObjectName": "ST_Mod_Architecture",
       "OuterIndex": -93,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
