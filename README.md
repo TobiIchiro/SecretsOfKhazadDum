@@ -359,7 +359,7 @@ For the dwarves of the Coastal Mountains, death does not erase one's place among
 - Cloth Garlands
 - Long Cloth Garlands
 - Offering Altars
-- 
+- Lihom Njâm path
 #### Ration
 **A traditional bread prepared for the festival**
 - Memorial Bread
