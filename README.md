@@ -335,3 +335,34 @@ By learning the traditions of the Coastal Mountains, the dwarves can once again 
 - General Trap (in progress)
 #### Food
 **New food recipes from the Coastal Mountains** (in progress)
+
+## Expansion VII - Day of the Dead: Nurtu id-marâd
+> A dwarven festival of remembrance honoring the ancestors, preserving the memory of the departed, and celebrating the bonds between generations.
+
+### Overview
+**Day of the Dead: Nurtu id-marâd** is a cultural update for **Secrets Of Khâzad-Dûm**, inspired by the traditions of the dwarves of the Coastal Mountains.
+
+This update introduces a unique dwarven festival dedicated to remembering those who have passed away. Through decorated altars, traditional foods, **Lihom Njâm** flowers, sugar skulls, and colorful cloth garlands, the dwarves honor the lives, achievements, and memories of their departed kin.
+
+### Premise
+Among the dwarves of the Coastal Mountains, the memory of the departed has always been held sacred. The names of ancestors are preserved, their deeds are recounted, and their craftsmanship lives on in the halls they helped build.
+
+Once every year, on the first full moon after the Dwarven New Year, families gather to celebrate **Nurtu id-marâd**, the Day of the Dead. Homes and halls are adorned with colorful cloth garlands and golden flowers, while carefully arranged altars hold sugar skulls, **memorial bread**, and the favorite foods of those being remembered. Weapons, armor, and portraits are placed among the offerings, serving as reminders of the lives once lived and the legacies left behind.
+
+According to an ancient tradition, the spirits of the departed return during the night to visit their loved ones and partake in the offerings prepared in their honor. Whether this return is a spiritual truth or a cherished belief passed down through generations, the dwarves welcome their ancestors with open hearts and keep their memories alive through celebration.
+
+For the dwarves of the Coastal Mountains, death does not erase one's place among the clan. So long as their names are spoken and their deeds remembered, the departed are never truly forgotten.
+
+### Core Features
+#### Building Pieces
+**New decorative building pieces**
+- Cloth Garlands
+- Long Cloth Garlands
+- Offering Altars
+- 
+#### Ration
+**A traditional bread prepared for the festival**
+- Memorial Bread
+#### Farming
+**A traditional flower associated with remembrance**
+- Lihom Njâm
