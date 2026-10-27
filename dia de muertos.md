@@ -7,5 +7,8 @@ Cuenta la leyenda que las almas de los enanos difuntos, regresan al mundo de los
 # Day of the Dead Nurtu Id-marâd
 
 This festival is held on the first full moon after the Dwarf New Year, when the dwarves commemorate and honour those dwarves who have passed away.
-On this day, the dwarves set up altars decorated with Lihom Njâm flowers, sugar skulls, pan de muerto and the food their loved ones used to enjoy, as well as the weapons and armour the dwarves wore during their lifetime. Sometimes, portraits of the dwarves being remembered on that day are also displayed.
-Legend has it that the souls of the deceased dwarves return to the world of the living at night to spend time with their loved ones and partake of the offerings placed on the altar.
+
+On this day, dwarves set up altars decorated with Lihom Njâm flowers, sugar skulls, pan de muerto, and the food their loved ones enjoyed, and the weapons and armour they wore in life. Sometimes, portraits of the dwarves being remembered on that day are also displayed.
+
+Legend has it that the souls of deceased dwarves return to the world of the living at night to spend time with their loved ones and partake of the offerings placed on the altar.
+
