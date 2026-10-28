@@ -938,7 +938,8 @@
     "WhiteBeans",
     "Memorial_Bread_Ration",
     "/Game/Mods/DiaDeMuertos/Items/Consumables/BP_Memorial_Bread_Ration.BP_Memorial_Bread_Ration_C",
-    "/Game/Mods/DiaDeMuertos/Icons/T_UI_Icon_MemorialBread.T_UI_Icon_MemorialBread"
+    "/Game/Mods/DiaDeMuertos/Icons/T_UI_Icon_MemorialBread.T_UI_Icon_MemorialBread",
+    "UI.Materials"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -58239,7 +58240,8 @@
                     "Value": [
                       "Item.Food.Veg",
                       "Item.BrewIngredient",
-                      "Item.BasicGather"
+                      "Item.BasicGather",
+                      "UI.Materials"
                     ]
                   }
                 ]
@@ -58657,7 +58659,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": -268
+                "Value": 0
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
