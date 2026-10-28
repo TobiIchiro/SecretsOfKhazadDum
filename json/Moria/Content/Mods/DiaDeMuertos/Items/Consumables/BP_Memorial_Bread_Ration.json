@@ -4,10 +4,10 @@
   "NameMap": [
     "/Game/Character/Dwarf/Abilities/GA_UseFoodItem",
     "/Game/Items/BP_Category_Food",
-    "/Game/Items/Consumables/BP_Lembas_Ration",
+    "/Game/Mods/DiaDeMuertos/Items/Consumables/BP_Memorial_Bread_Ration",
     "/Game/Items/GE_Lembas_Effect",
-    "/Game/UI/Textures/Food/Lembas",
-    "/Game/Unshippable/ThirdParty/FantasyFoodPack/Meshes/Rations/SM_Lembas_Ration",
+    "/Game/Mods/DiaDeMuertos/Icons/T_UI_Icon_MemorialBread",
+    "/Game/Mods/DiaDeMuertos/Items/Meshes/GPI_Memorial_Bread",
     "/Script/CoreUObject",
     "/Script/Engine",
     "/Script/Moria",
@@ -23,7 +23,7 @@
     "BlueprintGeneratedClass",
     "BoolProperty",
     "BP_Category_Food_C",
-    "BP_Lembas_Ration_C",
+    "BP_Memorial_Bread_Ration_C",
     "Callout Data",
     "CalloutData",
     "CalloutDataComponent",
@@ -32,7 +32,7 @@
     "ComponentTemplate",
     "Default__BlueprintGeneratedClass",
     "Default__BP_Category_Food_C",
-    "Default__BP_Lembas_Ration_C",
+    "Default__BP_Memorial_Bread_Ration_C",
     "Default__GA_UseFoodItem_C",
     "Default__GE_Lembas_Effect_C",
     "Default__SceneComponent",
@@ -49,8 +49,8 @@
     "Guid",
     "IconTextureReference",
     "InternalVariableName",
-    "Lembas",
-    "Lembas_Ration",
+    "T_UI_Icon_MemorialBread",
+    "Memorial_Bread_Ration",
     "MorConsumableRowHandle",
     "MorGameplayEffectUIData",
     "MoriaGameplayEffectUIData",
@@ -78,8 +78,8 @@
     "SceneComponent",
     "SCS_Node",
     "SimpleConstructionScript",
-    "SM_Lembas_Ration",
-    "SM_Lembas_Ration_GEN_VARIABLE",
+    "GPI_Memorial_Bread",
+    "GPI_Memorial_Bread_GEN_VARIABLE",
     "StaticMesh",
     "StaticMeshComponent",
     "StructProperty",
@@ -229,7 +229,7 @@
             "SoftClassProperty": "SoftObjectProperty"
           },
           "SerializedType": "ObjectProperty",
-          "Name": "SM_Lembas_Ration",
+          "Name": "GPI_Memorial_Bread",
           "Flags": "RF_Public, RF_LoadCompleted",
           "MetaDataMap": null
         },
@@ -276,7 +276,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "BP_Lembas_Ration_C",
+      "ObjectName": "BP_Memorial_Bread_Ration_C",
       "OuterIndex": 0,
       "ClassIndex": -8,
       "SuperIndex": -2,
@@ -335,7 +335,7 @@
               "IsZero": false,
               "PropertyTagFlags": "None",
               "PropertyTagExtensions": "NoExtension",
-              "Value": "Lembas_Ration"
+              "Value": "Memorial_Bread_Ration"
             }
           ]
         },
@@ -437,7 +437,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "Default__BP_Lembas_Ration_C",
+      "ObjectName": "Default__BP_Memorial_Bread_Ration_C",
       "OuterIndex": 0,
       "ClassIndex": 1,
       "SuperIndex": 0,
@@ -803,7 +803,7 @@
           "IsZero": false,
           "PropertyTagFlags": "None",
           "PropertyTagExtensions": "NoExtension",
-          "Value": "SM_Lembas_Ration"
+          "Value": "GPI_Memorial_Bread"
         }
       ],
       "ObjectGuid": null,
@@ -1074,7 +1074,7 @@
       "ObjectGuid": null,
       "SerializationControl": "NoExtension",
       "Operation": "None",
-      "ObjectName": "SM_Lembas_Ration_GEN_VARIABLE",
+      "ObjectName": "GPI_Memorial_Bread_GEN_VARIABLE",
       "OuterIndex": 1,
       "ClassIndex": -12,
       "SuperIndex": 0,
@@ -1475,7 +1475,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/Unshippable/ThirdParty/FantasyFoodPack/Meshes/Rations/SM_Lembas_Ration",
+      "ObjectName": "/Game/Mods/DiaDeMuertos/Items/Meshes/GPI_Memorial_Bread",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1484,7 +1484,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "/Game/UI/Textures/Food/Lembas",
+      "ObjectName": "/Game/Mods/DiaDeMuertos/Icons/T_UI_Icon_MemorialBread",
       "OuterIndex": 0,
       "ClassPackage": "/Script/CoreUObject",
       "ClassName": "Package",
@@ -1574,7 +1574,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "SM_Lembas_Ration",
+      "ObjectName": "GPI_Memorial_Bread",
       "OuterIndex": -23,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StaticMesh",
@@ -1601,7 +1601,7 @@
     },
     {
       "$type": "UAssetAPI.Import, UAssetAPI",
-      "ObjectName": "Lembas",
+      "ObjectName": "T_UI_Icon_MemorialBread",
       "OuterIndex": -24,
       "ClassPackage": "/Script/Engine",
       "ClassName": "Texture2D",
@@ -1655,7 +1655,7 @@
   },
   "ChunkIDs": [],
   "PackageSource": 0,
-  "FolderName": "/Game/Items/Consumables/BP_Lembas_Ration",
+  "FolderName": "/Game/Mods/DiaDeMuertos/Items/Consumables/BP_Memorial_Bread_Ration",
   "LocalizationId": null,
   "SoftObjectPathsCount": 0,
   "SoftObjectPathsOffset": 0,
