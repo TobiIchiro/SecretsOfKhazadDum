@@ -360,7 +360,7 @@
     "Cempasuchil",
     "Consumable.Cempasuchil",
     "Cempasuchil_Planted",
-    "/Game/Mods/DwarvenTraditionsPack/Plantables/BP_Flora_Cempasuchil_Plantable.BP_Flora_Cempasuchil_Plantable_C"
+    "/Game/Mods/DiaDeMuertos/Items/Plantables/BP_Flora_Cempasuchil_Plantable.BP_Flora_Cempasuchil_Plantable_C"
   ],
   "CustomSerializationFlags": "None",
   "UseSeparateBulkDataFiles": true,
@@ -40612,7 +40612,7 @@
                   "AssetPath": {
                     "$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
                     "PackageName": null,
-                    "AssetName": "/Game/Mods/DwarvenTraditionsPack/Plantables/BP_Flora_Cempasuchil_Plantable.BP_Flora_Cempasuchil_Plantable_C"
+                    "AssetName": "/Game/Mods/DiaDeMuertos/Items/Plantables/BP_Flora_Cempasuchil_Plantable.BP_Flora_Cempasuchil_Plantable_C"
                   },
                   "SubPathString": null
                 }
