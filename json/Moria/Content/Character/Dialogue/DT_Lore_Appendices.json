@@ -132,6 +132,10 @@
     "7-Mystery_Khazadstone",
     "AcceptableGameModes",
     "ActivateConversation",
+    "AntiColdBoots",
+    "AntiColdGloves",
+    "AntiColdHelm",
+    "AntiColdTorso",
     "AntiDarknessBrew_Brew_Massive",
     "AntiDarknessBrew_Brew_Medium",
     "AntiDarknessBrew_Brew_Small",
@@ -159,6 +163,9 @@
     "Appendices_Creatures_CaveTrolls",
     "Appendices_Creatures_DemonWargs",
     "Appendices_Creatures_Drakes",
+    "Appendices_Creatures_PoisonDrakes",
+    "Appendices_Creatures_FireDrakes",
+    "Appendices_Creatures_ShadowDrakes",
     "Appendices_Creatures_GiantMoth",
     "Appendices_Creatures_Graevling",
     "Appendices_Creatures_GreatSpiders",
@@ -169,6 +176,10 @@
     "Appendices_Creatures_WhiteDeer",
     "Appendices_Creatures_WildCaveWolves",
     "Appendices_Creatures_WildMountainGoats",
+    "Appendices_Creatures_WestChicken",
+    "Appendices_Creatures_ElvenChicken",
+    "Appendices_Creatures_MinesChicken",
+    "Appendices_Creatures_DeepChicken",
     "Appendices_DwarvenCraft_Brewery",
     "Appendices_DwarvenCraft_BuildLoreBookcase",
     "Appendices_DwarvenCraft_BuildLoreScrollshelf",
@@ -5495,7 +5506,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendice.ST_Mod_LoreEntry_Appendice",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendices.ST_Mod_LoreEntry_Appendices",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -5850,7 +5861,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendice.ST_Mod_LoreEntry_Appendice",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendices.ST_Mod_LoreEntry_Appendices",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -6205,7 +6216,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendice.ST_Mod_LoreEntry_Appendice",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendices.ST_Mod_LoreEntry_Appendices",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -6560,7 +6571,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendice.ST_Mod_LoreEntry_Appendice",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendices.ST_Mod_LoreEntry_Appendices",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -11134,7 +11145,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendice.ST_Mod_LoreEntry_Appendice",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendices.ST_Mod_LoreEntry_Appendices",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -11489,7 +11500,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendice.ST_Mod_LoreEntry_Appendice",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendices.ST_Mod_LoreEntry_Appendices",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -11844,7 +11855,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendice.ST_Mod_LoreEntry_Appendice",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendices.ST_Mod_LoreEntry_Appendices",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -12199,7 +12210,7 @@
                 "$type": "UAssetAPI.PropertyTypes.Objects.TextPropertyData, UAssetAPI",
                 "Flags": 0,
                 "HistoryType": "StringTableEntry",
-                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendice.ST_Mod_LoreEntry_Appendice",
+                "TableId": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendices.ST_Mod_LoreEntry_Appendices",
                 "Namespace": null,
                 "CultureInvariantString": null,
                 "SourceFmt": null,
@@ -14797,26 +14808,109 @@
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
                 "ArrayType": "StructProperty",
-                "DummyStruct": {
-                  "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
-                  "StructType": "MorItemRecipeRowHandle",
-                  "SerializeNone": true,
-                  "StructGUID": "{00000000-0000-0000-0000-000000000000}",
-                  "SerializationControl": "NoExtension",
-                  "Operation": "None",
-                  "Name": "UnlockRequiredItemRecipes",
-                  "ArrayIndex": 0,
-                  "IsZero": false,
-                  "PropertyTagFlags": "None",
-                  "PropertyTagExtensions": "NoExtension",
-                  "Value": []
-                },
                 "Name": "UnlockRequiredItemRecipes",
                 "ArrayIndex": 0,
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": []
+                "Value": [
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorItemRecipeRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "UnlockRequiredItemRecipes",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "AntiColdTorso"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorItemRecipeRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "UnlockRequiredItemRecipes",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "AntiColdBoots"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorItemRecipeRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "UnlockRequiredItemRecipes",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "AntiColdGloves"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+                    "StructType": "MorItemRecipeRowHandle",
+                    "SerializeNone": true,
+                    "StructGUID": "{00000000-0000-0000-0000-000000000000}",
+                    "SerializationControl": "NoExtension",
+                    "Operation": "None",
+                    "Name": "UnlockRequiredItemRecipes",
+                    "ArrayIndex": 0,
+                    "IsZero": false,
+                    "PropertyTagFlags": "None",
+                    "PropertyTagExtensions": "NoExtension",
+                    "Value": [
+                      {
+                        "$type": "UAssetAPI.PropertyTypes.Objects.NamePropertyData, UAssetAPI",
+                        "Name": "RowName",
+                        "ArrayIndex": 0,
+                        "IsZero": false,
+                        "PropertyTagFlags": "None",
+                        "PropertyTagExtensions": "NoExtension",
+                        "Value": "AntiColdHelm"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
@@ -14862,7 +14956,7 @@
                 "IsZero": false,
                 "PropertyTagFlags": "None",
                 "PropertyTagExtensions": "NoExtension",
-                "Value": "ERowEnabledState::Disabled"
+                "Value": "ERowEnabledState::Live"
               }
             ]
           },
@@ -79250,6 +79344,7 @@
         -28,
         -3,
         -29,
+        -31,
         -6,
         -7,
         -4,
@@ -79527,6 +79622,24 @@
       "$type": "UAssetAPI.Import, UAssetAPI",
       "ObjectName": "ST_LoreEntry_Appendices",
       "OuterIndex": -22,
+      "ClassPackage": "/Script/Engine",
+      "ClassName": "StringTable",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "/Game/Mods/Tech/Data/StringTables/ST_Mod_LoreEntry_Appendices",
+      "OuterIndex": 0,
+      "ClassPackage": "/Script/CoreUObject",
+      "ClassName": "Package",
+      "PackageName": null,
+      "bImportOptional": false
+    },
+    {
+      "$type": "UAssetAPI.Import, UAssetAPI",
+      "ObjectName": "ST_Mod_LoreEntry_Appendices",
+      "OuterIndex": -30,
       "ClassPackage": "/Script/Engine",
       "ClassName": "StringTable",
       "PackageName": null,
