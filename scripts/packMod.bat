@@ -1,0 +1,1 @@
+"F:\RtoM\retoc-x86_64-pc-windows-msvc\retoc.exe" to-zen --version UE4_27 "F:\RtoM\SecretsOfKhazadDum\uasset" "F:\RtoM\SecretsOfKhazadDum\Pack\SecretsOfKhazadDum_P.utoc"
